@@ -17,24 +17,11 @@ nltk.download('stopwords')
 lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open('intents.json').read())
-#Ivan addition
 #Lower case
-# Function to convert strings in a dictionary to lowercase
-def convert_to_lowercase(data):
-    if isinstance(data, dict):
-        for key, value in data.items():
-            if isinstance(value, str):
-                data[key] = value.lower()
-            elif isinstance(value, (list, dict)):
-                convert_to_lowercase(value)
-    elif isinstance(data, list):
-        for index, item in enumerate(data):
-            if isinstance(item, str):
-                data[index] = item.lower()
-            elif isinstance(item, (list, dict)):
-                convert_to_lowercase(item)
-# Convert the intents to lowercase
-convert_to_lowercase(intents)
+#Ivan addition 1
+for intent in intents["intents"]:
+    intent["patterns"] = [pattern.lower() for pattern in intent["patterns"]]
+#end of Ivan addition 1
 
 def find_and_create_replacements(data):
     replacements = {}

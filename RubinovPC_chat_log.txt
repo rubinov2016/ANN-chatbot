@@ -338,3 +338,27 @@
 {"timestamp": "2023-12-18 12:04:03", "input_message": "hi", "output_response": "hello! how can i help you today;"}
 {"timestamp": "2023-12-18 12:04:08", "input_message": "goup a", "output_response": "group standing for group d : 1. france, 2. australia, 3. tunisia, 4. denmark"}
 {"timestamp": "2023-12-18 12:04:15", "input_message": "group_a", "output_response": "group standing for group a: 1. netherlands, 2. senegal, 3. ecuador, 4. qatar"}
+{"timestamp": "2023-12-18 12:24:55", "input_message": "world cup", "output_response": "the 2022 fifa world cup was the 22nd fifa world cup, the world championship for national football teams organized by fifa. it took place in qatar from 20 november to 18 december 2022, after the country was awarded the hosting rights in 2010. it was the first world cup to be held in the arab world and muslim world, and the second held entirely in asia after the 2002 tournament in south korea and japan"}
+{"timestamp": "2023-12-18 12:29:30", "input_message": "hi", "output_response": "Hello! How can I help you today;"}
+{"timestamp": "2023-12-18 12:29:37", "input_message": "group_a", "output_response": "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"}
+{"timestamp": "2023-12-18 12:29:42", "input_message": "grop b", "output_response": "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"}
+{"timestamp": "2023-12-18 12:29:46", "input_message": "group_b", "output_response": "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"}
+{"timestamp": "2023-12-18 12:29:52", "input_message": "b group", "output_response": "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"}
+{"timestamp": "2023-12-18 14:56:41", "input_message": "group_a", "output_response": "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"}
+{"timestamp": "2023-12-18 14:56:46", "input_message": "asian teams", "output_response": "The qualified countries from the continent of Asia: Qatar, Iran, South Korea, Saudi Arabia, Japan, Australia"}
+{"timestamp": "2023-12-18 14:56:54", "input_message": "netherlands", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2023-12-18 14:57:04", "input_message": "netherlands standing", "output_response": "Group A: Senegal Netherlands 0-2; Ecuador Netherlands 1-1; Netherlands Qatar 2-0. Knockout stage: Netherlands USA 3-1, Netherlands Argentina 2-2 (3-4)"}
+{"timestamp": "2023-12-18 14:57:12", "input_message": "qatar standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"}
+{"timestamp": "2023-12-18 14:57:23", "input_message": "japan standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"}
+{"timestamp": "2023-12-18 14:58:45", "input_message": "costa rica standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"}
+{"timestamp": "2023-12-18 14:58:59", "input_message": "qatar standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"}
+{"timestamp": "2023-12-18 14:59:18", "input_message": "germany results", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"}
+{"timestamp": "2023-12-18 15:00:04", "input_message": "germany standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"}
+{"timestamp": "2023-12-18 15:04:51", "input_message": "qatar standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"}
+{"timestamp": "2023-12-18 15:05:01", "input_message": "group_a", "output_response": "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"}
+{"timestamp": "2023-12-18 15:14:30", "input_message": "hi", "output_response": "Hello! How can I help you today;[{\"intent\": \"greet\", \"probability\": \"0.99983764\"}]"}
+{"timestamp": "2023-12-18 15:14:36", "input_message": "japan standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica[{\"intent\": \"group_e\", \"probability\": \"0.9982181\"}]"}
+{"timestamp": "2023-12-18 15:15:24", "input_message": "qatar standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica[{\"intent\": \"group_e\", \"probability\": \"0.40030456\"}]"}
+{"timestamp": "2023-12-18 15:15:47", "input_message": "hi", "output_response": "Hello! How can I help you today;          [{\"intent\": \"greet\", \"probability\": \"0.99983764\"}]"}
+{"timestamp": "2023-12-18 15:15:51", "input_message": "qatar standing", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica          [{\"intent\": \"group_e\", \"probability\": \"0.40030456\"}]"}
+{"timestamp": "2023-12-18 15:16:00", "input_message": "standing qatar", "output_response": "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica          [{\"intent\": \"group_e\", \"probability\": \"0.40030456\"}]"}

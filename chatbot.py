@@ -10,22 +10,9 @@ lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 
 #Ivan addition 1
-def convert_to_lowercase(data):
-    if isinstance(data, dict):
-        for key, value in data.items():
-            if isinstance(value, str):
-                data[key] = value.lower()
-            elif isinstance(value, (list, dict)):
-                convert_to_lowercase(value)
-    elif isinstance(data, list):
-        for index, item in enumerate(data):
-            if isinstance(item, str):
-                data[index] = item.lower()
-            elif isinstance(item, (list, dict)):
-                convert_to_lowercase(item)
-# Convert the intents to lowercase
-convert_to_lowercase(intents)
-
+#Lower case
+for intent in intents["intents"]:
+    intent["patterns"] = [pattern.lower() for pattern in intent["patterns"]]
 #end of Ivan addition 1
 
 words = pickle.load(open('words.pkl', 'rb'))
@@ -54,17 +41,12 @@ def predict_class(sentence):
     bow = bag_of_words(sentence) #bow: Bag Of Words, feed the data into the neural network
     res = model.predict(np.array([bow]))[0] #res: result. [0] as index 0
     # ERROR_THRESHOLD = 0.25
-    #print(sentence)
-    #print(bow)
-    #print(res)
     # Ivan addition 2
     ERROR_THRESHOLD = 0.5
     results = [[i,r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     while results == [] and ERROR_THRESHOLD > 0.1:
-        print(ERROR_THRESHOLD)
         ERROR_THRESHOLD -= 0.01
         results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-
     # end of Ivan addition 2
 
     results.sort(key=lambda x: x[1], reverse=True)
@@ -102,55 +84,16 @@ json_file = 'replacements.json'
 with open(json_file, 'r') as file:
     replacements = json.load(file)
 
-
-
-# replacements = {'group a': 'group_a',
-#                 'group b': 'group_b',
-#                 'group c': 'group_c',
-#                 'group d': 'group_d',
-#                 'group e': 'group_e',
-#                 'group f': 'group_f',
-#                 'group g': 'group_g',
-#                 'group h': 'group_h',
-#                 'a group': 'group_a',
-#                 'b group': 'group_b',
-#                 'c group': 'group_c',
-#                 'd group': 'group_d',
-#                 'e group': 'group_e',
-#                 'f group': 'group_f',
-#                 'g group': 'group_g',
-#                 'h group': 'group_h',
-#                 'south america': 'south_america',
-#                 'south american': 'south_american',
-#                 'north america': 'north_america',
-#                 'north american': 'north_american',
-#                 'South America': 'south_america',
-#                 'South American': 'south_american',
-#                 'North America': 'north_america',
-#                 'North American': 'north_american'
-# }
-
-# def replace_words(text, replacements):
-#     for key, value in replacements.items():
-#         pattern = re.compile(r'\b' + re.escape(key) + r'\b')
-#         text = pattern.sub(value, text)
-#     return text
 def replace_words(text, replacements):
     for key, value in replacements.items():
         pattern = r'\b' + re.escape(key) + r'\b'
         text = re.sub(pattern, value, text)
     return text
-#
-# replacements = {'group a': 'group_a', 'group b': 'group_b'}
-# def preprocess_pattern(pattern):
-#     # Replace specific phrases with a single word
-#     for key, value in replacements.items():
-#         pattern = pattern.replace(key, value)
-#     return pattern
-
 # end of Ivan addition 3
 
+
 while True:
+    ints =[]
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     message = input("You: ")
     #Ivan addition 4
@@ -160,9 +103,9 @@ while True:
     num_words = len(message.split())
     if num_words >= 2 or message in ["hello", "hi", "hey"]:
         message = replace_words(message, replacements)
-        print(message)
         ints = predict_class(message)
         res = get_response(ints, intents)
+        res = res + "          " + json.dumps(ints)
         # print(ints)
         # print(intents)
     else:
