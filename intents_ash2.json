@@ -1,0 +1,406 @@
+{
+  "intents": [
+    {
+      "tag": "group_a",
+      "patterns": [
+        "group a standing, postion of a table"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "group b standing, postion of b table"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "group c standing, position of c table"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "group d standing, position of d table"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "group e standing,  position of e table"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "group f standing, position of f table"
+      ],
+      "responses": [
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "group g standing, position of g table"
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "group h standing, position of f table"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "hello, hi, hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today;"
+      ]
+    },
+    {
+      "tag": "winner",
+      "patterns": [
+        "won world cup qatar 2022, who came first, crown the champion"
+      ],
+      "responses": [
+        "it was an event in Qatar 2022 where  Argentina held the first position"
+      ]
+    },
+    {
+      "tag": "host",
+      "patterns": [
+        "who held   world cup 2022,which country organised world cup qatar, country hosted event world cup 2022"
+      ],
+      "responses": [
+        "World Cup 2022 was hosted by Qatar"
+      ]
+    },
+    {
+      "tag": "stadium_names",
+      "patterns": [
+        "names of the stadium world cup 2022, stadium names that hosted the football match qatar world cup"
+      ],
+      "responses": [
+        "There are 8 stadium used for world cup 2022 qatar. These are the stadium that hosted the football matches: Al-Bayt Stadium, AI-Daayen Stadium, Al-Khalifa International Stadium, Al-Rayyan Stadium, Al-Thumama Stadium, Education City Stadium, Lusail Iconic Stadium (Final venue), Ras Abu Aboud Stadium"
+      ]
+    },
+    {
+      "tag": "practicipation",
+      "patterns": [
+        "amount of teams participated on world cup 2022, number of the participating team qatar world cup"
+      ],
+      "responses": [
+        "There are 32 team participated on world cup 2022"
+      ]
+    },
+    {
+      "tag": "asia",
+      "patterns": [
+        "teams from asia,  team qualified from asian continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Asia: Qatar, Iran, south korea, saudi arabia, japan, australia"
+      ]
+    },
+    {
+      "tag": "africa",
+      "patterns": [
+        "teams from africa,qualified from African continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon"
+      ]
+    },
+    {
+      "tag": "Europe",
+      "patterns": [
+        "teams from europe,team qualified european continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Crotia, Spain, serbia, england, netherland, switzerland, portugal, poland, wales"
+      ]
+    },
+    {
+      "tag": "south_america",
+      "patterns": [
+        "teams from south America, team qualified south american continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay,"
+      ]
+    },
+    {
+      "tag": "north_america",
+      "patterns": [
+        "teams from north america, qualified north american continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "scoreline of final of world cup 2022, the result of the final"
+      ],
+      "responses": [
+        "The winner of the wold cup is Argentina, Argentina 3-3 France-- ( Argentina win 4-2 on penalties)"
+      ]
+    },
+    {
+      "tag": "man_of_the _match",
+      "patterns": [
+        "best player of tournament",
+        "man of the match,who is the Player of tournament, messi"
+      ],
+      "responses": [
+        "Messi (Argentina)won the man of the match, and won the golden ball and names FIFAs men best player of the Tournament."
+      ]
+    },
+    {
+      "tag": "golden_boot",
+      "patterns": [
+        "achieved top goal scorer of tournament,golden boot,  highest goals scored, Kylian mbappe"
+      ],
+      "responses": [
+        "Kylian Mbappe (France) won the 2022 FiFA World cup Golden boot scoring the total of eight (8) goals."
+      ]
+    },
+    {
+      "tag": "golden_gloves",
+      "patterns": [
+        "won the golden gloves winner,won best keeper "
+      ],
+      "responses": [
+        "Emiliano Martinez (Argentina) has been awarded the Golden Glove after helping Argentina win the 2022 FIFA World Cup in Qatar. He saved penalty kicks "
+      ]
+    },
+    {
+      "tag": "eucodor_qatar",
+      "patterns": [
+        " result for ecuador, result for qatar"
+      ],
+      "responses": [
+        "This team played the group stage of 'group A', please type ' group a' to see standing  "
+      ]
+    },
+    {
+      "tag": "iran_wales",
+      "patterns": [
+        "  result for iran",
+        " result for wales, "
+      ],
+      "responses": [
+        "This team played the group stage of 'group B', please type ' group b' to see standing  "
+      ]
+    },
+    {
+      "tag": "mexico_saudi",
+      "patterns": [
+        " result for mexico, result for saudi arabia"
+      ],
+      "responses": [
+        "This team played the group stage of 'group C', please type 'group c' to see standing  "
+      ]
+    },
+    {
+      "tag": "tunisia_denmark",
+      "patterns": [
+        " result for tunisia, result for denmark"
+      ],
+      "responses": [
+        "This team played the group stage of 'group D', please type 'group d' to see standing  "
+      ]
+    },
+    {
+      "tag": "germany_costarica",
+      "patterns": [
+        " result for germany, result for costa rica"
+      ],
+      "responses": [
+        "This team played the group stage of 'group E', please type ' group e' to see standing  "
+      ]
+    },
+    {
+      "tag": "belgium_canada",
+      "patterns": [
+        "result for belgium, result for canada"
+      ],
+      "responses": [
+        "This team played the group stage of 'group F', please type ' group f ' to see standing  "
+      ]
+    },
+    {
+      "tag": "cameroon_serbia",
+      "patterns": [
+        "result for cameroon, result for serbia"
+      ],
+      "responses": [
+        "This team played the group stage of 'group G', please type ' group g'to see standing  "
+      ]
+    },
+    {
+      "tag": "uruguay_ghana",
+      "patterns": [
+        "result for uruguay, result for ghana"
+      ],
+      "responses": [
+        "This team played the group stage of 'group H', please type ' group h' to see standing  "
+      ]
+    },
+    {
+      "tag": "last_16_teams",
+      "patterns": [
+        "result for usa, result for germany, result for switzerland, result for poland, result for  senegal",
+        " result for japan, result for south korea"
+      ],
+      "responses": [
+        "This team played the round of Last 16 (16 team) World cup 2022 after getting qualification from their respective Group. Only Top 2 qualify from Group"
+      ]
+    },
+    {
+      "tag": "quatar_final_teams",
+      "patterns": [
+        "results for brazil, result of netherland, placement of england,result diplay portugal"
+      ],
+      "responses": [
+        "This team played the Quatar final (8 team) of  the World cup 2022 after beating their opponents from Last 16."
+      ]
+    },
+    {
+      "tag": "semi_final_teams",
+      "patterns": [
+        "results for croatia, result for morocco"
+      ],
+      "responses": [
+        "This team played the semi final (4 team) of the World cup 2022 after beating their team in Quatar final"
+      ]
+    },
+    {
+      "tag": "final_runnerup",
+      "patterns": [
+        "result for france",
+        " result for finalist, teams played final, silver medal medalist"
+      ],
+      "responses": [
+        "Argentina played France in final. France came close to winning however the defending champion was deafeated and became runner up."
+      ]
+    },
+    {
+      "tag": "final_winner",
+      "patterns": [
+        "result for argentina, champion of world, gold medal medalist,"
+      ],
+      "responses": [
+        "This team beating the finalist crown the raining champion of World cup 2022 Qatar after deafeating the tough opponent in France created most exciting Final."
+      ]
+    },
+    {
+      "tag": "format",
+      "patterns": [
+        "format of world cup, how does it work, tell me ways to qualify, knock out starts"
+      ],
+      "responses": [
+        "8 groups plays in their respective Groups, top 2 qualify, then Knockout round starts of last-16. 16 team plays and winner head to Quatar final and winner goes to Semi final and winner plays Final and Winner is Crown champion of the world. if want to know point system, please type 'point system.'"
+      ]
+    },
+    {
+      "tag": "point_system",
+      "patterns": [
+        "how points work, point system works, calculate point"
+      ],
+      "responses": [
+        "Win = 3 point, Draw = 1 point, Loss = 0 point."
+      ]
+    },
+    {
+      "tag": "last_16",
+      "patterns": [
+        "result for last 16"
+      ],
+      "responses": [
+        "USA, Germany, Switzerland, Poland, Senegal",
+        " Japan,South korea,Brazil, Netherland, England, Portugal, Morroco, Croatia, Argentina and France. These teams participated in Last 16."
+      ]
+    },
+    {
+      "tag": "quatar_final",
+      "patterns": [
+        "result for quatar final"
+      ],
+      "responses": [
+        "Brazil, Netherland, England, Portugal, Morroco, Croatia,Argentina and France. These teams participated in Quatar Final"
+      ]
+    },
+    {
+      "tag": "semi_final",
+      "patterns": [
+        "result for semi final"
+      ],
+      "responses": [
+        "Morroco, Croatia,Argentina and France. These team played on Semi final"
+      ]
+    },
+    {
+      "tag": "third_place",
+      "patterns": [
+        "who came third result of 3rd,"
+      ],
+      "responses": [
+        "The third place play off was between Croatia and Moroco, the third placed was clinched by Croatian side with Croatia 2- 1 Morocco."
+      ]
+    },
+    {
+      "tag": "young_player",
+      "patterns": [
+        " young player of tournament"
+      ],
+      "responses": [
+        "Enzo Fernardez won the Yong Player of the Tournament held in Qatar World cup 2022."
+      ]
+    },
+    {
+      "tag": "world_cup",
+      "patterns": [
+        "what is world cup 2022"
+      ],
+      "responses": [
+        "It was a football event where around world country participated that has been selected from their respective continent to compete"
+      ]
+    },
+    {
+      "tag": "Fun_fact",
+      "patterns": [
+        "fun fact world cup"
+      ],
+      "responses": [
+        "World Cup 2022 was the first Winter world cup for Northern hemisphere",
+        " Generally it happens on Juneand July. First world cup hosted in Middle east. Morocco became the first african nation to be reperesented on Semi final of World cup History from the Continent of Africa."
+      ]
+    }
+  ]
+}

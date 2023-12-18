@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "group_a",
+      "patterns": [
+        "group_a", "standing netherlands senegal ecuador qatar"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+      ]
+    },
+    {
+      "tag": "senegal",
+      "patterns": [
+        "senegal results", "senegal games"
+      ],
+      "responses": [
+        "Group A: Netherlands Senegal 2-0; Qatar Senegal 1-3; Ecuador Senegal 1-2. Knockout stage: England Senegal 3-0"
+      ]
+    },
+    {
+      "tag": "Netherlands",
+      "patterns": [
+        "Netherlands results", "Netherlands games"
+      ],
+      "responses": [
+        "Group A: Senegal Netherlands 0-2; Ecuador Netherlands 1-1; Netherlands Qatar 2-0. Knockout stage: Netherlands USA 3-1, Netherlands Argentina 2-2 (3-4)"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "group_b", "standing england,usa,ir iran,wales"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "group_c", "standing argentina poland mexico saudi arabia"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "group_d standing France  australia tunisia denmark"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "group_e standing japan spain germany costa rica"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "group_f standing teams morocco croatia belgium canada"
+      ],
+      "responses": [
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "group_g standing Brazil Switzerland Cameroon Serbia"
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "group_h standing portugal korea republic uruguay ghana"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "hello", "hi", "hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today;"
+      ]
+    },
+    {
+      "tag": "good_bye",
+      "patterns": [
+        "exit,bye"
+      ],
+      "responses": [
+        "bye"
+      ]
+    }
+  ]
+}

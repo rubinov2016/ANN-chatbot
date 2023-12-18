@@ -1,0 +1,326 @@
+{
+  "intents": [
+    {
+      "tag": "greet 1",
+      "patterns": [
+        "who won world cup qatar 2022",
+        " winner of world cup 2022",
+        " who came first ",
+        " which team went all way through to summon cup",
+        " hastag # 1, raining champion world cup 2022"
+      ],
+      "responses": [
+        "winner was Argentina, In Qatar 2022 Argention held first position"
+      ]
+    },
+    {
+      "tag": "greet 2",
+      "patterns": [
+        "who held world cup 2022, which country organised world cup 2022, which country hosted event"
+      ],
+      "responses": [
+        "World Cup 2022 was hosted by Qatar"
+      ]
+    },
+    {
+      "tag": "greet 3",
+      "patterns": [
+        "how many stadium were used during world cup 2022",
+        ",number of studium held games",
+        ",amount of stadium hosted football match on qatar"
+      ],
+      "responses": [
+        "there are 8 stadium used for world cup 2022 qatar"
+      ]
+    },
+    {
+      "tag": "greet 4",
+      "patterns": [
+        " names of stadium world cup 2022",
+        ", stadium names that hosted football match qatar world cup "
+      ],
+      "responses": [
+        "There are 8 stadium used for world cup 2022 qatar. These are stadium that hosted football matches: Al-Bayt Stadium, AI-Daayen Stadium, Al-Khalifa International Stadium, Al-Rayyan Stadium, Al-Thumama Stadium, Education City Stadium, Lusail Iconic Stadium (Final venue), Ras Abu Aboud Stadium"
+      ]
+    },
+    {
+      "tag": "greet 5",
+      "patterns": [
+        "how many team participated on world cup 2022",
+        " Number of participating team qatar world cup"
+      ],
+      "responses": [
+        "There are 32 team participated on world cup 2022"
+      ]
+    },
+    {
+      "tag": "greet 6",
+      "patterns": [
+        " highest Attendance statatics (stats) for world cup 2022",
+        ", how many stadium were used during world cup 2022",
+        ",number of studium held games",
+        ",amount of stadium hosted football match on qatar"
+      ],
+      "responses": [
+        "information about stadium used : Lusail Iconic Stadium: capacity - 88,966, Attendance  875.338 , Al-Bayt Stadium: capacity - 68,895, Attendance -202,298, Al-Khalifa International Stadium: capacity: capacity - 45,857, Attendance -349,114, Ahmad bin Ali Stadium: capacity - 45,032 Attendance -299,517, Education City stadium: capacity - 46,667 Attendance -349,114, Al-Thumama Stadium: Capacity - 44,400, Attendance: 337,685, Al- Janoubn Stadium: capacity  44,325, Attendance  288,774, Stadium 974  capacity  44,089, Attendance  297,850"
+      ]
+    },
+    {
+      "tag": "greet 7",
+      "patterns": [
+        "team from Asia",
+        "Asian team",
+        "team qualified for Asia (Asian) continent"
+      ],
+      "responses": [
+        "qualified countries from continent of Asia: Qatar, Iran, south korea, saudi arabia, japan, australia"
+      ]
+    },
+    {
+      "tag": "greet 8",
+      "patterns": [
+        " team from Africa",
+        " Which team qualified for Africa (African) continent"
+      ],
+      "responses": [
+        "qualified countries from continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon"
+      ]
+    },
+    {
+      "tag": "greet 9",
+      "patterns": [
+        " team from Europe",
+        " Which team qualified for Europe (European) continent"
+      ],
+      "responses": [
+        "qualified countries from continent of Europe: Germany, Denmark, France, Belgium, Crotia, Spain, serbia, england, netherland, switzerland, portugal, poland, wales"
+      ]
+    },
+    {
+      "tag": "greet 10",
+      "patterns": [
+        " team from South America",
+        " Which team qualified for South America (South American) continent"
+      ],
+      "responses": [
+        "qualified countries from continent of South America: Brazil, Argentina, Ecuador, Uruguay,"
+      ]
+    },
+    {
+      "tag": "greet 11",
+      "patterns": [
+        " team from North America",
+        " Which team qualified for North America(North American) continent"
+      ],
+      "responses": [
+        "qualified countries from continent of North America: Canada, USA, Mexico, Costa Rica"
+      ]
+    },
+    {
+      "tag": "greet 12",
+      "patterns": [
+        " Group A standing",
+        " Whats are team position Netherlands, Senegal, Ecuador, Qatar postion in their group"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+      ]
+    },
+    {
+      "tag": "greet 13",
+      "patterns": [
+        " Group B standing",
+        "  team position England, USA,IR Iran,Wales position in their group"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+      ]
+    },
+    {
+      "tag": "greet 14",
+      "patterns": [
+        " Group C standing",
+        " team position Argentina, Poland, Mexico, Saudi Arabia in their group"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "greet 15",
+      "patterns": [
+        " Group D standing",
+        ",  teams France, Australia, Tunisia, Denmark in their group"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+      ]
+    },
+    {
+      "tag": "greet 16",
+      "patterns": [
+        " Group E standing",
+        ",  teams Japan, Spain, Germany, Costa Rica in their group"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, Spain, Germany, Costa Rica"
+      ]
+    },
+    {
+      "tag": "greet 17",
+      "patterns": [
+        " Group F standing",
+        ",  teams Morocco, Croatia, Belgium, Canada in their group"
+      ],
+      "responses": [
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+      ]
+    },
+    {
+      "tag": "greet 18",
+      "patterns": [
+        " Group G standing",
+        "  teams Brazil, Switzerland, Cameroon, Serbia in their group"
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+      ]
+    },
+    {
+      "tag": "greet 19",
+      "patterns": [
+        " Group H standing",
+        " teams Portugal, Korea Republic, Uruguay, Ghana in this group"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
+      ]
+    },
+    {
+      "tag": "greet 20",
+      "patterns": [
+        " result for last 16 World cup 2022",
+        "score line for last 16 Qatar 2022"
+      ],
+      "responses": [
+        "World cup last  16 results are : Netherlands 3 - 1 USA, Argentina 2-1 Australia, France 3 - 1 Poland, England 3 - 0 Senegal, Japan 1 - 1 Croatia- Croatia win 3 - 1 on penalties, Brazil 4 - 1 South Korea, Portugal 6  1 Switzerland"
+      ]
+    },
+    {
+      "tag": "greet 21",
+      "patterns": [
+        " score line of quarter final of world cup 2022",
+        ", result for quarter final Qatar 2022"
+      ],
+      "responses": [
+        "World cup quarter-final results: Croatia 1  1 Brazil -- Croatia win 4  2 on penalties , Netherlands 2  2 Argentina  Argentina win 4  3 on penalties"
+      ]
+    },
+    {
+      "tag": "greet 22",
+      "patterns": [
+        " scoreline of semi final world cup 2022l",
+        "  results of semi final matches Qatar 2022",
+        ", who qualifed from Semi final",
+        " Who are semi finalist"
+      ],
+      "responses": [
+        "results of Semi-final World Cup 2022 are: Argentina 3  0 Croatia, France 2  0 Morocco."
+      ]
+    },
+    {
+      "tag": "greet 23",
+      "patterns": [
+        " third place result",
+        " Who won third 3rd (third) position in world cup 2023 Qatar",
+        ", Coratia vs Morocco"
+      ],
+      "responses": [
+        "Result for Third place play  off world cup 2022: Croatia 2  1 Morocco"
+      ]
+    },
+    {
+      "tag": "greet 24",
+      "patterns": [
+        "was scoreline of final of world cup 2022",
+        ", was result of final, Argentina vs France"
+      ],
+      "responses": [
+        "winner of wold cup is Argentina, Argentina 3-3 France-- ( Argentina win 4-2 on penalties)"
+      ]
+    },
+    {
+      "tag": "messi",
+      "patterns": [
+        "who is most man of match for world cup 2022 qatar",
+        "who won man of match",
+        "who is Player of tournament ",
+        "Messi player",
+        "Messi striker"
+      ],
+      "responses": [
+        "Messi won man of match, and won golden ball and names FIFAs men best player of Tournament."
+      ]
+    },
+    {
+      "tag": "messi2",
+      "patterns": [
+        "How many goals did score Messi",
+        "How many goals Messi scored",
+        "a number of goals scored by Messi",
+        "a number of goals striked by Messi"
+      ],
+      "responses": [
+        "Lionel Messi has scored 13 goals in 26 matches at the football World Cup. He scored seven goals at Qatar 2022."
+      ]
+    },
+    {
+      "tag": "mbappe2",
+      "patterns": [
+        "How many goals did score mbappe",
+        "How many goals mbappe scored",
+        "a number of goals scored by mbappe",
+        "a number of goals striked by mbappe",
+        "How many goals did score Kylian Mbappe",
+        "How many goals Kylian Mbappe scored",
+        "a number of goals scored by Kylian Mbappe",
+        "a number of goals striked by Kylian Mbappe"
+      ],
+      "responses": [
+        "Kylian Mbappe finished with eight goals at the 2022 World Cup Qatar."
+      ]
+    },
+    {
+      "tag": "Mbappe",
+      "patterns": [
+        "achieved Top Goal scorer",
+        "golden boot",
+        "winner of highest goals scored at world cup 2022, Qatar",
+        "Kylian Mbappe striker",
+        "Kylian Mbappe player"
+      ],
+      "responses": [
+        "Kylian Mbappe won 2022 FiFA World cup Golden boot scoring total of eight (8) goals."
+      ]
+    },
+    {
+      "tag": "greet 27",
+      "patterns": [
+        "who won Golden gloves winner",
+        ", who won best keeper of world cup 2022"
+      ],
+      "responses": [
+        "Emiliano Martinez has been awarded Golden Glove after helping Argentina win 2022 FIFA World Cup in Qatar."
+      ]
+    },
+    {
+      "tag": "greet 28 ",
+      "patterns": [
+        "hello, hi, hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today"
+      ]
+    }
+  ]
+}

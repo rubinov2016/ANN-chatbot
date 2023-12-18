@@ -1,0 +1,380 @@
+{
+  "intents": [
+    {
+      "tag": "group_a",
+      "patterns": [
+        "group_a", "The standing, Netherlands, Senegal, Ecuador, Qatar"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+      ]
+    },
+    {
+      "tag": "Senegal",
+      "patterns": [
+        "the Senegal results", "the Senegal games"
+      ],
+      "responses": [
+        "Group A: Netherlands Senegal 2-0; Qatar Senegal 1-3; Ecuador Senegal 1-2. Knockout stage: England Senegal 3-0"
+      ]
+    },
+    {
+      "tag": "Netherlands",
+      "patterns": [
+        "the Netherlands results", "Netherlands games"
+      ],
+      "responses": [
+        "Group A: Senegal Netherlands 0-2; Ecuador Netherlands 1-1; Netherlands Qatar 2-0. Knockout stage: Netherlands USA 3-1, Netherlands Argentina 2-2 (3-4)"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "group_b", "the standing", "England", "USA", "Iran", "Wales"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "group_c", "the standing", "Argentina", "Poland", "Mexico", "Saudi Arabia"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "group_d", "the standing", "France", "Australia", "Tunisia", "Denmark"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "group_e", "the standing", "Japan", "Spain",  "Germany", "Costa Rica"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "group_f","the standing", "teams", "Morocco", "Croatia", "Belgium", "Canada"
+      ],
+      "responses": [
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "group_g", "the standing", "Brazil", "Switzerland", "Cameroon Serbia"
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "group_h", "the standing","Portugal", "Korea","Korea republic", "Uruguay", "Ghana"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "hello", "hi", "hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today;"
+      ]
+    },
+    {
+      "tag": "winner",
+      "patterns": [
+        "who won the world cup qatar 2022, the winner of world cup 2022,who came first,which team went all the way through",
+        " who summon world cup cup,hastag  1,raining champion world cup 2022"
+      ],
+      "responses": [
+        "The winner was Argentina, In Qatar 2022 Argention held the first position"
+      ]
+    },
+    {
+      "tag": "host",
+      "patterns": [
+        "who held   world cup 2022,which country organised world cup qatar, country hosted event world cup 2022"
+      ],
+      "responses": [
+        "World Cup 2022 was hosted by Qatar"
+      ]
+    },
+    {
+      "tag": "stadium_num",
+      "patterns": [
+        "stadiums used during world cup 2022,number of studium held the games,amount of stadium hosted football match on qatar"
+      ],
+      "responses": [
+        "there are 8 stadium used for world cup 2022 qatar"
+      ]
+    },
+    {
+      "tag": "stadium_names",
+      "patterns": [
+        "names of the stadium world cup 2022, stadium names that hosted the football match qatar world cup"
+      ],
+      "responses": [
+        "There are 8 stadium used for world cup 2022 qatar. These are the stadium that hosted the football matches: Al-Bayt Stadium, AI-Daayen Stadium, Al-Khalifa International Stadium, Al-Rayyan Stadium, Al-Thumama Stadium, Education City Stadium, Lusail Iconic Stadium (Final venue), Ras Abu Aboud Stadium"
+      ]
+    },
+    {
+      "tag": "practicipation",
+      "patterns": [
+        "amount of teams participated on world cup 2022, Number of the participating team qatar world cup"
+      ],
+      "responses": [
+        "There are 32 team participated on world cup 2022"
+      ]
+    },
+    {
+      "tag": "asia",
+      "patterns": [
+        "the Asian team",
+        "the Asian teams",
+        "the Asia country",
+        "the Asian countries",
+        "the team from Asia",
+        "the teams from Asia",
+        "the country from Asia",
+        "the countries from Asia",
+        "the team from Asian continent",
+        "the country from Asian continent",
+        "the qualified countries from Asia",
+        "the qualified Asian countries",
+        "the qualified countries from Asian continent",
+        "Asian team",
+        "Asian teams",
+        "Asia country",
+        "Asian countries",
+        "team from Asia",
+        "teams from Asia",
+        "country from Asia",
+        "countries from Asia",
+        "team from Asian continent",
+        "country from Asian continent",
+        "qualified countries from Asia",
+        "qualified Asian countries",
+        "qualified countries from Asian continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Asia: Qatar, Iran, South Korea, Saudi Arabia, Japan, Australia"
+      ]
+    },
+    {
+      "tag": "africa",
+      "patterns": [
+        "the African team",
+        "the African teams",
+        "the Africa country",
+        "the African countries",
+        "the team from Africa",
+        "the teams from Africa",
+        "the country from Africa",
+        "the countries from Africa",
+        "the team from African continent",
+        "the country from African continent",
+        "the qualified countries from Africa",
+        "the qualified African countries",
+        "the qualified countries from African continent",
+        "African team",
+        "African teams",
+        "Africa country",
+        "African countries",
+        "team from Africa",
+        "teams from Africa",
+        "country from Africa",
+        "countries from Africa",
+        "team from African continent",
+        "country from African continent",
+        "qualified countries from Africa",
+        "qualified African countries",
+        "qualified countries from African continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon"
+      ]
+    },
+    {
+      "tag": "Europe",
+      "patterns": [
+        "the European team",
+        "the European teams",
+        "the European country",
+        "the European countries",
+        "the team from Europe",
+        "the teams from Europe",
+        "the country from Europe",
+        "the countries from Europe",
+        "the team from European continent",
+        "the country from European continent",
+        "the qualified countries from Europe",
+        "the qualified European countries",
+        "the qualified countries from European continent",
+        "European team",
+        "European teams",
+        "Europe country",
+        "European countries",
+        "team from Europe",
+        "teams from Europe",
+        "country from Europe",
+        "countries from Europe",
+        "team from European continent",
+        "country from European continent",
+        "qualified countries from Europe",
+        "qualified European countries",
+        "qualified countries from European continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Croatia, Spain, serbia, england, netherland, switzerland, portugal, poland, wales"
+      ]
+    },
+    {
+      "tag": "south america",
+      "patterns": [
+        "the South American team",
+        "the South American teams",
+        "the South America country",
+        "the South American countries",
+        "the team from South America",
+        "the teams from South America",
+        "the country from South America",
+        "the countries from South America",
+        "the team from South American continent",
+        "the country from South American continent",
+        "the qualified countries from South America",
+        "the qualified South American countries",
+        "the qualified countries from South American continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay,"
+      ]
+    },
+    {
+      "tag": "North america",
+      "patterns": [
+        "the North American team",
+        "the North American teams",
+        "the North America country",
+        "the North American countries",
+        "the team from North America",
+        "the teams from North America",
+        "the country from North America",
+        "the countries from North America",
+        "the team from North American continent",
+        "the country from North American continent",
+        "the qualified countries from North America",
+        "the qualified North American countries",
+        "the qualified countries from North American continent",
+        "North American team",
+        "North American teams",
+        "North America country",
+        "North American countries",
+        "team from North America",
+        "teams from North America",
+        "country from North America",
+        "countries from North America",
+        "team from North American continent",
+        "country from North American continent",
+        "qualified countries from North America",
+        "qualified North American countries",
+        "qualified countries from North American continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "scoreline of final of world cup 2022", "the result of the final", "Argentina vs France"
+      ],
+      "responses": [
+        "The winner of the wold cup is Argentina, Argentina 3-3 France-- ( Argentina win 4-2 on penalties)"
+      ]
+    },
+    {
+      "tag": "man_of_the _match",
+      "patterns": [
+        "most man of the match for world",
+        "man of the match,who is the Player of tournament for",
+        "lionel messi,messi"
+      ],
+      "responses": [
+        "Messi won the man of the match, and won the golden ball and names FIFAs men best player of the Tournament."
+      ]
+    },
+    {
+      "tag": "golden_boot",
+      "patterns": [
+        "who achieved top goal scorer,won golden boot, winner of the highest goals scored,kylian mbappe\""
+      ],
+      "responses": [
+        "Kylian Mbappe won the 2022 FiFA World cup Golden boot scoring the total of eight (8) goals."
+      ]
+    },
+    {
+      "tag": "golden_gloves",
+      "patterns": [
+        "who won the golden gloves winner,won best keeper of "
+      ],
+      "responses": [
+        "Emiliano Martinez has been awarded the Golden Glove after helping Argentina win the 2022 FIFA World Cup in Qatar."
+      ]
+    },
+    {
+      "tag": "good_bye",
+      "patterns": [
+        "exit,bye"
+      ],
+      "responses": [
+        "bye"
+      ]
+    },
+    {
+      "tag": "senegal",
+      "patterns": [
+        "senegal results", "senegal games"
+      ],
+      "responses": [
+        "Group A: Netherlands Senegal 2-0; Qatar Senegal 1-3; Ecuador Senegal 1-2. Knockout stage: England Senegal 3-0"
+      ]
+    },
+    {
+      "tag": "Netherlands",
+      "patterns": [
+        "Netherlands results", "Netherlands games"
+      ],
+      "responses": [
+        "Group A: Senegal Netherlands 0-2; Ecuador Netherlands 1-1; Netherlands Qatar 2-0. Knockout stage: Netherlands USA 3-1, Netherlands Argentina 2-2 (3-4)"
+      ]
+    },
+    {
+      "tag": "good_bye",
+      "patterns": [
+        "exit,bye"
+      ],
+      "responses": [
+        "bye"
+      ]
+    }
+  ]
+}

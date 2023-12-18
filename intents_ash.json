@@ -1,0 +1,223 @@
+{
+  "intents": [
+    {
+      "tag": "group_a",
+      "patterns": [
+        "group a standing, netherlands senegal ecuador qatar"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "group b standing, england,usa,ir iran,wales"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "group c standing, argentina poland mexico saudi arabia"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "group d standing, France  australia tunisia denmark"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "group e standing,  japan spain germany costa rica"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "group f standing, teams morocco croatia belgium canada"
+      ],
+      "responses": [
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "group g standing, Brazil Switzerland Cameroon Serbia"
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "group h standing, portugal korea republic uruguay ghana"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "hello, hi, hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today;"
+      ]
+    },
+    {
+      "tag": "winner",
+      "patterns": [
+        "who won the world cup qatar 2022, the winner of world cup 2022,who came first,which team went all the way through",
+        " who summon world cup cup,hastag  1,raining champion world cup 2022"
+      ],
+      "responses": [
+        "The winner was Argentina, In Qatar 2022 Argention held the first position"
+      ]
+    },
+    {
+      "tag": "host",
+      "patterns": [
+        "who held   world cup 2022,which country organised world cup qatar, country hosted event world cup 2022"
+      ],
+      "responses": [
+        "World Cup 2022 was hosted by Qatar"
+      ]
+    },
+    {
+      "tag": "stadium_num",
+      "patterns": [
+        "stadiums used during world cup 2022,number of studium held the games,amount of stadium hosted football match on qatar"
+      ],
+      "responses": [
+        "there are 8 stadium used for world cup 2022 qatar"
+      ]
+    },
+    {
+      "tag": "stadium_names",
+      "patterns": [
+        "names of the stadium world cup 2022, stadium names that hosted the football match qatar world cup"
+      ],
+      "responses": [
+        "There are 8 stadium used for world cup 2022 qatar. These are the stadium that hosted the football matches: Al-Bayt Stadium, AI-Daayen Stadium, Al-Khalifa International Stadium, Al-Rayyan Stadium, Al-Thumama Stadium, Education City Stadium, Lusail Iconic Stadium (Final venue), Ras Abu Aboud Stadium"
+      ]
+    },
+    {
+      "tag": "practicipation",
+      "patterns": [
+        "amount of teams participated on world cup 2022, Number of the participating team qatar world cup"
+      ],
+      "responses": [
+        "There are 32 team participated on world cup 2022"
+      ]
+    },
+    {
+      "tag": "asia",
+      "patterns": [
+        "teams from Asia,  team qualified from asian continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Asia: Qatar, Iran, south korea, saudi arabia, japan, australia"
+      ]
+    },
+    {
+      "tag": "africa",
+      "patterns": [
+        "teams from Africa,qualified from African continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon"
+      ]
+    },
+    {
+      "tag": "Europe",
+      "patterns": [
+        "teams from Europe,team qualified European continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Crotia, Spain, serbia, england, netherland, switzerland, portugal, poland, wales"
+      ]
+    },
+    {
+      "tag": "south_america",
+      "patterns": [
+        "teams from South America, team qualified South American continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay,"
+      ]
+    },
+    {
+      "tag": "North_america",
+      "patterns": [
+        "teams from North America, qualified North American continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "scoreline of final of world cup 2022, the result of the final, Argentina vs France"
+      ],
+      "responses": [
+        "The winner of the wold cup is Argentina, Argentina 3-3 France-- ( Argentina win 4-2 on penalties)"
+      ]
+    },
+    {
+      "tag": "man_of_the _match",
+      "patterns": [
+        "most man of the match for world",
+        "man of the match,who is the Player of tournament for",
+        "lionel messi,messi"
+      ],
+      "responses": [
+        "Messi won the man of the match, and won the golden ball and names FIFAs men best player of the Tournament."
+      ]
+    },
+    {
+      "tag": "golden_boot",
+      "patterns": [
+        "who achieved top goal scorer,won golden boot, winner of the highest goals scored,kylian mbappe\""
+      ],
+      "responses": [
+        "Kylian Mbappe won the 2022 FiFA World cup Golden boot scoring the total of eight (8) goals."
+      ]
+    },
+    {
+      "tag": "golden_gloves",
+      "patterns": [
+        "who won the golden gloves winner,won best keeper of "
+      ],
+      "responses": [
+        "Emiliano Martinez has been awarded the Golden Glove after helping Argentina win the 2022 FIFA World Cup in Qatar."
+      ]
+    },
+    {
+      "tag": "good_bye",
+      "patterns": [
+        "exit,bye"
+      ],
+      "responses": [
+        "bye"
+      ]
+    }
+  ]
+}
