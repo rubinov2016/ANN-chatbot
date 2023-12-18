@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+      "tag": "Date",
+      "patterns": [
+        "When was the 2022 FIFA World Cup held?"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup was held from the 20th of November to the 18th of December in 2022."
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "Where was the 2022 FIFA World Cup held?"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup was held in Qatar."
+      ]
+    },
+    {
+      "tag": "Significance",
+      "patterns": [
+        "What was significant about the location of the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup was significant for being the first World Cup to be held in the Arab and Muslim world, and it was the second World Cup held entirely in Asia."
+      ]
+    },
+    {
+      "tag": "Teams",
+      "patterns": [
+        "How many teams participated in the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "A total of 32 teams participated in the 2022 FIFA World Cup."
+      ]
+    },
+    {
+      "tag": "Winner",
+      "patterns": [
+        "Who won the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "Argentina won the 2022 FIFA World Cup."
+      ]
+    },
+    {
+      "tag": "Final Match",
+      "patterns": [
+        "Who did Argentina defeat in the final of the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "Argentina defeated France in the final of the 2022 FIFA World Cup."
+      ]
+    },
+    {
+      "tag": "Final Score",
+      "patterns": [
+        "What was the score in the final match of the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "The final match of the 2022 FIFA World Cup ended in a 3-3 draw after extra time, with Argentina winning 4\u20132 on penalties against France."
+      ]
+    },
+    {
+      "tag": "Argentina's Titles",
+      "patterns": [
+        "How many World Cup titles has Argentina won as of 2022?"
+      ],
+      "responses": [
+        "As of 2022, Argentina has won three World Cup titles."
+      ]
+    },
+    {
+      "tag": "Historic Achievement",
+      "patterns": [
+        "Who was the first player to score a hat-trick in a World Cup final since 1966?"
+      ],
+      "responses": [
+        "Kylian Mbapp\u00e9 was the first player to score a hat-trick in a World Cup final since Geoff Hurst in 1966."
+      ]
+    },
+    {
+      "tag": "Golden Boot",
+      "patterns": [
+        "Who won the Golden Boot in the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "Kylian Mbapp\u00e9 won the Golden Boot in the 2022 FIFA World Cup."
+      ]
+    },
+    {
+      "tag": "Best Player",
+      "patterns": [
+        "Who was voted as the best player of the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "Lionel Messi was voted as the best player of the 2022 FIFA World Cup, winning the Golden Ball award."
+      ]
+    },
+    {
+      "tag": "Goal Record",
+      "patterns": [
+        "What record was set in terms of goals during the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup set a record for the highest number of goals scored in the 32-team format, with a total of 172 goals."
+      ]
+    },
+    {
+      "tag": "Controversies",
+      "patterns": [
+        "What criticisms were raised against hosting the World Cup in Qatar?"
+      ],
+      "responses": [
+        "The choice to host the World Cup in Qatar attracted significant criticism due to concerns over the country's treatment of migrant workers, women, and members of the LGBT community, as well as issues related to Qatar's climate, lack of a strong football culture, scheduling changes, and allegations of bribery and corruption."
+      ]
+    },
+    {
+      "tag": "Format",
+      "patterns": [
+        "How was the 2022 FIFA World Cup format structured?"
+      ],
+      "responses": [
+        "The format of the 2022 FIFA World Cup consisted of eight round-robin groups followed by a knockout round for the final 16 teams."
+      ]
+    },
+    {
+      "tag": "Defending Champions",
+      "patterns": [
+        "Who were the defending champions in the 2022 FIFA World Cup?"
+      ],
+      "responses": [
+        "The defending champions in the 2022 FIFA World Cup were France, who had won the 2018 FIFA World Cup."
+      ]
+    }
+  ]
+}

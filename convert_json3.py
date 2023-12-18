@@ -10,7 +10,7 @@ gc = gspread.authorize(credentials)
 
 # Open the Google Sheet by title or key
 sheet_name = 'ChatbotSolent'
-worksheet_name = 'Rules'  # Replace with the actual worksheet name
+worksheet_name = 'Rules3'  # Replace with the actual worksheet name
 worksheet = gc.open(sheet_name).worksheet(worksheet_name)
 
 # Get all values from the worksheet
@@ -29,7 +29,7 @@ for row in data[1:]:
     json_data["intents"].append(intent)
 
 # Write JSON data to a file
-with open('intents.json', 'w') as json_file:
+with open('Test_json_files/intents2.json', 'w') as json_file:
     json.dump(json_data, json_file, indent=2)
 
 print("Data successfully converted to JSON. Check 'intents.json'.")
