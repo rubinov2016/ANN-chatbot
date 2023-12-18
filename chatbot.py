@@ -106,8 +106,6 @@ while True:
         ints = predict_class(message)
         res = get_response(ints, intents)
         res = res + "          " + json.dumps(ints)
-        # print(ints)
-        # print(intents)
     else:
         res = "Your question is too short, can you restate it?"
     log_data = {
