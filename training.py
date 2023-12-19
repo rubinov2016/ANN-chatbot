@@ -91,11 +91,11 @@ for document in documents:
     output_row = list(output_empty)
     output_row[classes.index(document[1])] = 1
     training.append([bag, output_row])
-    print(document)
-    print(word_patterns)
-    print(bag)
-    print(output_row)
-print(training)
+    # print(document)
+    # print(word_patterns)
+    # print(bag)
+    # print(output_row)
+# print(training)
 
 random.shuffle(training)
 training = np.array(training, dtype=object)
