@@ -48,7 +48,8 @@
     {
       "tag": "group_f",
       "patterns": [
-        "group_f","the standing", "teams", "Morocco", "Croatia", "Belgium", "Canada"
+        "group_f","the standing", "teams", "Morocco", "Croatia", "Belgium", "Canada",
+        "standing"
       ],
       "responses": [
         "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
@@ -268,7 +269,9 @@
      {
       "tag": "Date",
       "patterns": [
-        "When was the 2022 FIFA World Cup held?"
+        "When was the 2022 FIFA World Cup held?",
+        "From which date was 2022 FIFA World Cup held?",
+        "Which dates 2022 FIFA World Cup held?"
       ],
       "responses": [
         "The 2022 FIFA World Cup was held from the 20th of November to the 18th of December in 2022."
@@ -277,10 +280,13 @@
     {
       "tag": "Location",
       "patterns": [
-        "Where was the 2022 FIFA World Cup held?","Location", "Located", "Home country"
+        "Where was the 2022 FIFA World Cup held?",
+        "Location",
+        "Located",
+        "Home country"
       ],
       "responses": [
-        "The 2022 FIFA World Cup was held in Qatar."
+        "The 2022 FIFA World Cup was held in Qatar"
       ]
     },
     {
@@ -1542,14 +1548,17 @@
         "France vs Poland"
       ],
       "responses": [
-        "France won 3-1 against Poland. Goals were scored by Giroud at 44' and Mbapp\u00e9 at 74' and 90+1' for France Lewandowski at 90+9' (penalty) for Poland."
+        "France won 3-1 against Poland. Goals were scored by Giroud at 44' and Mbappe at 74' and 90+1' for France Lewandowski at 90+9' (penalty) for Poland."
       ]
     },
     {
       "tag": "Round of 16 - England vs Senegal",
       "patterns": [
         "What was the result and who scored in the England vs Senegal match?",
-        "England vs Senegal"
+        "England vs Senegal",
+        "England against Senegal",
+        "Senegal vs England",
+        "Senegal against England"
       ],
       "responses": [
         "England won 3-0 against Senegal. Goals were scored by Henderson at 38', Kane at 45+3', and Saka at 57' for England."
@@ -1699,7 +1708,9 @@
         "Who was the top goal scorer",
         "8 goals",
         "eight goals",
-        "Kylian Mbappe", "goals"
+        "Kylian Mbappe", "goals",
+        "Mpappe player",
+        "Kylian Mbappe player"
       ],
       "responses": [
         "Kylian Mbappe of France was the top goal scorer with 8 goals."

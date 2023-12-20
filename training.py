@@ -47,8 +47,6 @@ with open(output_file, 'w') as file:
     json.dump(replacements, file, indent=4)
 
 #end of Ivan addition
-#intents = {key.lower(): value.lower() if isinstance(value, str) else value for key, value in intents.items()}
-
 
 words = []
 classes = []

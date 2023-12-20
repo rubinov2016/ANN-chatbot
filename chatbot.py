@@ -101,7 +101,7 @@ while True:
     if message == 'exit':
         break
     num_words = len(message.split())
-    if num_words >= 2 or message in ["hello", "hi", "hey"]:
+    if num_words >= 3 or message in ["hello", "hi", "hey"]:
         message = replace_words(message, replacements)
         ints = predict_class(message)
         res = get_response(ints, intents)
