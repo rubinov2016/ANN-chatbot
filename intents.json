@@ -686,7 +686,10 @@
     {
       "tag": "2022 Contention",
       "patterns": [
-        "Why were UEFA members no longer in contention to host the 2022 FIFA World Cup?"
+        "Why were UEFA members no longer in contention to host the 2022 FIFA World Cup?",
+        "UEFA members no contention",
+        "2022 Contention",
+        "2022 Competition"
       ],
       "responses": [
         "After UEFA was guaranteed to host the 2018 event, members of UEFA were no longer in contention to host the 2022 FIFA World Cup."
@@ -695,7 +698,10 @@
     {
       "tag": "2022 Bids",
       "patterns": [
-        "Which countries remained in contention to host the 2022 FIFA World Cup?"
+        "Which countries remained in contention to host the 2022 FIFA World Cup?",
+        "Which countries contention to host",
+        "Australia, Japan, Qatar, South Korea, and the United States",
+        "Australia, Japan, Qatar, South Korea, and the USA"
       ],
       "responses": [
         "The countries remaining in contention to host the 2022 FIFA World Cup were Australia, Japan, Qatar, South Korea, and the United States."
@@ -704,7 +710,10 @@
     {
       "tag": "Host Selection Date",
       "patterns": [
-        "When did the FIFA Executive Committee vote to select the hosts of the 2018 and 2022 World Cups?"
+        "When did the FIFA Executive Committee vote to select the hosts of the 2018 and 2022 World Cups?",
+        "When did the FIFA Executive Committee vote to select the hosts?",
+        "Host Selection Date",
+        "Selection Date"
       ],
       "responses": [
         "The 22-member FIFA Executive Committee convened on 2 December 2010 to vote to select the hosts of both tournaments."
@@ -713,7 +722,9 @@
     {
       "tag": "Suspended Members",
       "patterns": [
-        "Why were two FIFA executive committee members suspended before the vote?"
+        "Why were two FIFA executive committee members suspended before the vote?",
+        "Suspended Members",
+        "two FIFA executive committee members suspended"
       ],
       "responses": [
         "Two FIFA executive committee members were suspended before the vote in relation to allegations of corruption regarding their votes."
@@ -722,7 +733,10 @@
     {
       "tag": "Criticism of Qatar Hosting",
       "patterns": [
-        "Why was the decision to host the 2022 World Cup in Qatar criticized?"
+        "Why was the decision to host the 2022 World Cup in Qatar criticized?",
+        "Criticism of Qatar Hosting",
+        "Criticism of Qatar",
+        "Criticism of Hosting"
       ],
       "responses": [
         "The decision to host the 2022 World Cup in Qatar was criticized due to it being graded as having high operational risk and being part of the FIFA corruption scandals."
@@ -731,7 +745,11 @@
     {
       "tag": "Voting Patterns",
       "patterns": [
-        "What were the voting patterns for the 2022 FIFA World Cup bidding?"
+        "What were the voting patterns for the 2022 FIFA World Cup bidding?",
+        "2022 FIFA World Cup bidding?",
+        "World Cup bidding?",
+        "World Cup voting?",
+        "Qatar voting?"
       ],
       "responses": [
         "In the 2022 FIFA World Cup bidding, Qatar received 11 votes in the first round, 10 in the second, 11 in the third, and 14 in the fourth, winning the bid. The United States, South Korea, Japan, and Australia received various numbers of votes across the rounds, with Qatar ultimately being selected."
@@ -740,15 +758,9 @@
     {
       "tag": "Hosting Cost",
       "patterns": [
-        "What was the estimated cost of hosting the World Cup?"
-      ],
-      "responses": [
-        "Qatari officials, including the organizing CEO Nasser Al Khater, disputed the estimated cost of over $220 billion, stating that the true cost was around $8 billion."
-      ]
-    },
-    {
-      "tag": "Cost Dispute",
-      "patterns": [
+        "What was the estimated cost of hosting the World Cup?",
+        "Price of the World Cup?",
+        "Cost Dispute",
         "Who disputed the estimated cost of the World Cup and what was their claim?"
       ],
       "responses": [
@@ -758,25 +770,20 @@
     {
       "tag": "New Venues",
       "patterns": [
-        "How many new stadiums were built specifically for the 2022 FIFA World Cup?"
+        "How many new stadiums were built specifically for the 2022 FIFA World Cup?",
+        "How many new stadiums were built",
+        "new stadiums",
+        "Number of new stadiums"
       ],
       "responses": [
         "Six of the eight venues, including the Lusail Stadium which hosted the final, were new stadiums built specifically for the 2022 FIFA World Cup."
       ]
     },
     {
-      "tag": "Initial Venue Proposal",
-      "patterns": [
-        "When were the first five proposed venues for the World Cup unveiled?"
-      ],
-      "responses": [
-        "The first five proposed venues for the World Cup were unveiled at the beginning of March 2010."
-      ]
-    },
-    {
       "tag": "Stadium Design Criteria",
       "patterns": [
-        "What criteria were the World Cup stadiums intended to meet?"
+        "What criteria were the World Cup stadiums intended to meet?",
+        "Stadium Design Criteria"
       ],
       "responses": [
         "The World Cup stadiums in Qatar were intended to reflect the country's history and culture, with designs meeting criteria of legacy, comfort, accessibility, and sustainability."
@@ -785,7 +792,10 @@
     {
       "tag": "Cooling Systems",
       "patterns": [
-        "What feature did the stadiums have to combat heat?"
+        "What feature did the stadiums have to combat heat?",
+        "combat heat",
+        "Cooling Systems",
+        "reducing temperatures"
       ],
       "responses": [
         "The stadiums were equipped with cooling systems aimed at reducing temperatures within the stadium by up to 20 \u00b0C (36 \u00b0F)."
@@ -794,7 +804,9 @@
     {
       "tag": "Sustainability Features",
       "patterns": [
-        "How did Qatar market the sustainability of the stadiums?"
+        "How did Qatar market the sustainability of the stadiums?",
+        "sustainability of the stadiums",
+        "Sustainability Features"
       ],
       "responses": [
         "The stadiums were marketed as zero waste, with plans for the upper tiers to be disassembled after the World Cup and donated to countries with less developed sports infrastructure."
@@ -803,7 +815,11 @@
     {
       "tag": "Stadium Architects",
       "patterns": [
-        "Who designed the five initial stadium projects?"
+        "Who designed the five initial stadium projects?",
+        "Stadium Architects",
+        "Stadium designers",
+        "Albert Speer & Partners",
+        "German architectural firm"
       ],
       "responses": [
         "All of the five initial stadium projects were designed by the German architectural firm Albert Speer & Partners."
@@ -812,7 +828,11 @@
     {
       "tag": "Indoor Stadiums",
       "patterns": [
-        "Which were the indoor stadiums used in the World Cup?"
+        "Which were the indoor stadiums used in the World Cup?",
+        "Which were the indoor stadiums?",
+        "Indoor Stadiums",
+        "Al_Bayt",
+        "Al_Wakrah"
       ],
       "responses": [
         "The Al Bayt and Al Wakrah stadiums were the only indoor stadiums among the eight used for the World Cup."
@@ -821,7 +841,9 @@
     {
       "tag": "Venue Reduction Proposal",
       "patterns": [
-        "What did Qatar request regarding the number of stadiums in 2013?"
+        "What did Qatar request regarding the number of stadiums in 2013?",
+        "Venue Reduction Proposal",
+        "Reduced number of stadiums"
       ],
       "responses": [
         "In 2013, Qatar requested FIFA approve a smaller number of stadiums due to growing costs, proposing to cut the number to eight or nine from the twelve originally planned."
@@ -830,7 +852,9 @@
     {
       "tag": "Final Number of Stadiums",
       "patterns": [
-        "How many stadiums were ultimately used for the World Cup?"
+        "How many stadiums were ultimately used for the World Cup?",
+        "How many stadiums were used?",
+        "Final Number of Stadiums"
       ],
       "responses": [
         "Eight stadiums were ultimately used for the World Cup, all located in or near Doha with the exception of Al Khor."
@@ -839,7 +863,14 @@
     {
       "tag": "Stadium 974",
       "patterns": [
-        "What is unique about Stadium 974?"
+        "What is unique about Stadium 974?",
+        "Stadium_974",
+        "974 Stadium",
+        "974",
+        "Ras Abu Aboud",
+        "temporary stadium",
+        "constructed using shipping containers",
+        "using shipping containers"
       ],
       "responses": [
         "Stadium 974, formerly known as the Ras Abu Aboud Stadium, was the first temporary stadium ever used for a FIFA World Cup, constructed using shipping containers and intended to be completely dismantled after the tournament."
@@ -848,7 +879,10 @@
     {
       "tag": "Capacity Reduction",
       "patterns": [
-        "Which stadium had its capacity reduced after the tournament?"
+        "Which stadium had its capacity reduced after the tournament?",
+        "Capacity Reduction",
+        "Capacity reduced",
+        "Al_Bayt Stadium"
       ],
       "responses": [
         "The Al Bayt Stadium had its upper tier of seating removed to reduce capacity after the tournament."
@@ -857,7 +891,17 @@
     {
       "tag": "Venue Locations and Capacities",
       "patterns": [
-        "What were the locations and capacities of the 2022 FIFA World Cup stadiums?"
+        "What were the locations and capacities of the 2022 FIFA World Cup stadiums?",
+        "What were the locations of stadiums?",
+        "What were the capacities of stadiums?",
+        "Al_Bayt Stadium in Al_Khor",
+        "Lusail Stadium",
+        "Ahmad bin Ali Stadium",
+        "Education City",
+        "Khalifa International",
+        "Al_Thumama Stadium",
+        "Stadium 974",
+        "Al_Janoub Stadium in Al_Wakrah"
       ],
       "responses": [
         "The 2022 FIFA World Cup stadiums and their capacities were: Al Bayt Stadium in Al Khor (68,895), Lusail Stadium in Lusail (88,966), Ahmad bin Ali Stadium in Al Rayyan (45,032), Education City Stadium (44,667), Khalifa International Stadium (45,857), Al Thumama Stadium in Doha (44,400), Stadium 974 (44,089), and Al Janoub Stadium in Al Wakrah (44,325)."
@@ -866,25 +910,20 @@
     {
       "tag": "Base Camps Purpose",
       "patterns": [
-        "What were the base camps used for in the World Cup?"
+        "What were the base camps used for in the World Cup?",
+        "What were the base camps",
+        "Base Camps"
       ],
       "responses": [
         "Base camps were used by the 32 national squads to stay and train before and during the World Cup tournament."
       ]
     },
     {
-      "tag": "Announcement of Base Camps",
-      "patterns": [
-        "When did FIFA announce the hotels and training sites for each participating team?"
-      ],
-      "responses": [
-        "FIFA announced the hotels and training sites for each participating team in July 2022."
-      ]
-    },
-    {
       "tag": "Compactness of the World Cup",
       "patterns": [
-        "How was this World Cup more compact compared to previous editions?"
+        "How was this World Cup more compact compared to previous editions?",
+        "Compactness of the World Cup",
+        "the most compact World Cup"
       ],
       "responses": [
         "This World Cup was the most compact since the inaugural edition in 1930, with 24 of the 32 teams being within a 10 km radius of each other, primarily concentrated within the Doha area."
@@ -893,7 +932,9 @@
     {
       "tag": "Unique Aspect of 2022 World Cup",
       "patterns": [
-        "What was unique about this World Cup in terms of team travel?"
+        "What was unique about this World Cup in terms of team travel?",
+        "Unique Aspect of team travel",
+        "team travel"
       ],
       "responses": [
         "It was the first Cup since 1930 where players did not need to take flights to matches and could remain at the same training base throughout the entire tournament."
@@ -902,7 +943,15 @@
     {
       "tag": "Argentina's Base Camp",
       "patterns": [
-        "What were Argentina's hotel and training site for the World Cup?"
+        "What were Argentina's hotel and training site for the World Cup?",
+        "Argentina's Base Camp",
+        "Argentina's Base",
+        "Base Camp of Argentina",
+        "Base of Argentina",
+        "Argentina's Camp",
+        "Camp of Argentina",
+        "Qatar University Hostel",
+        "Qatar University Training"
       ],
       "responses": [
         "Argentina's team stayed at Qatar University Hostel 1 and trained at Qatar University Training Site 3."
@@ -911,7 +960,13 @@
     {
       "tag": "Australia's Base Camp",
       "patterns": [
-        "What were Australia's hotel and training site for the World Cup?"
+        "What were Australia's hotel and training site for the World Cup?",
+        "Australia's Base Camp",
+        "Australia's Base",
+        "Base Camp of Australia",
+        "Base of Australia",
+        "Australia's Camp",
+        "Camp of Australia"
       ],
       "responses": [
         "Australia's team stayed at New Aspire Academy Athlete Accommodation and trained at Aspire Zone Training Facilities 5."
@@ -920,7 +975,13 @@
     {
       "tag": "Belgium's Base Camp",
       "patterns": [
-        "What were Belgium's hotel and training site for the World Cup?"
+        "What were Belgium's hotel and training site for the World Cup?",
+        "Belgium's Base Camp",
+        "Belgium's Base",
+        "Base Camp of Belgium",
+        "Base of Belgium",
+        "Belgium's Camp",
+        "Camp of Belgium"
       ],
       "responses": [
         "Belgium's team stayed at Hilton Salwa Beach Resort and Villas and trained at Salwa Training Site."
@@ -929,7 +990,13 @@
     {
       "tag": "Brazil's Base Camp",
       "patterns": [
-        "What were Brazil's hotel and training site for the World Cup?"
+        "What were Brazil's hotel and training site for the World Cup?",
+        "Brazil's Base Camp",
+        "Brazil's Base",
+        "Base Camp of Brazil",
+        "Base of Brazil",
+        "Brazil's Camp",
+        "Camp of Brazil"
       ],
       "responses": [
         "Brazil's team stayed at The Westin Doha Hotel and Spa and trained at Al Arabi SC Stadium."
@@ -938,7 +1005,13 @@
     {
       "tag": "Cameroon's Base Camp",
       "patterns": [
-        "What were Cameroon's hotel and training site for the World Cup?"
+        "What were Cameroon's hotel and training site for the World Cup?",
+        "Cameroon's Base Camp",
+        "Cameroon's Base",
+        "Base Camp of Cameroon",
+        "Base of Cameroon",
+        "Cameroon's Camp",
+        "Camp of Cameroon"
       ],
       "responses": [
         "Cameroon's team stayed at Banyan Tree Doha at La Cigale Mushaireb and trained at Al Sailiya SC Stadium."
@@ -947,7 +1020,13 @@
     {
       "tag": "Canada's Base Camp",
       "patterns": [
-        "What were Canada's hotel and training site for the World Cup?"
+        "What were Canada's hotel and training site for the World Cup?",
+        "Canada's Base Camp",
+        "Canada's Base",
+        "Base Camp of Canada",
+        "Base of Canada",
+        "Canada's Camp",
+        "Camp of Canada"
       ],
       "responses": [
         "Canada's team stayed at Century Marina Hotel Lusail and trained at Umm Salal SC Training Facilities."
@@ -956,7 +1035,13 @@
     {
       "tag": "Costa Rica's Base Camp",
       "patterns": [
-        "What were Costa Rica's hotel and training site for the World Cup?"
+        "What were Costa Rica's hotel and training site for the World Cup?",
+        "Costa Rica's Base Camp",
+        "Costa Rica's Base",
+        "Base Camp of Costa Rica",
+        "Base of Costa Rica",
+        "Costa Rica's Camp",
+        "Camp of Costa Rica"
       ],
       "responses": [
         "Costa Rica's team stayed at dusitD2 Salwa Doha and trained at Al Ahli SC Stadium."
@@ -965,7 +1050,13 @@
     {
       "tag": "Croatia's Base Camp",
       "patterns": [
-        "What were Croatia's hotel and training site for the World Cup?"
+        "What were Croatia's hotel and training site for the World Cup?",
+        "Croatia's Base Camp",
+        "Croatia's Base",
+        "Base Camp of Croatia",
+        "Base of Croatia",
+        "Croatia's Camp",
+        "Camp of Croatia"
       ],
       "responses": [
         "Croatia's team stayed at Hilton Doha and trained at Al Ersal Training Site 3."
@@ -974,7 +1065,13 @@
     {
       "tag": "Denmark's Base Camp",
       "patterns": [
-        "What were Denmark's hotel and training site for the World Cup?"
+        "What were Denmark's hotel and training site for the World Cup?",
+        "Denmark's Base Camp",
+        "Denmark's Base",
+        "Base Camp of Denmark",
+        "Base of Denmark",
+        "Denmark's Camp",
+        "Camp of Denmark"
       ],
       "responses": [
         "Denmark's team stayed at Retaj Salwa Resort & SPA and trained at Al Sailiya SC 2."
@@ -983,7 +1080,13 @@
     {
       "tag": "Ecuador's Base Camp",
       "patterns": [
-        "What were Ecuador's hotel and training site for the World Cup?"
+        "What were Ecuador's hotel and training site for the World Cup?",
+        "Ecuador's Base Camp",
+        "Ecuador's Base",        
+        "Base Camp of Ecuador",
+        "Base of Ecuador",
+        "Ecuador's Camp",
+        "Camp of Ecuador"
       ],
       "responses": [
         "Ecuador's team stayed at Hyatt Regency Oryx Doha and trained at Mesaimeer SC Training Facilities."
