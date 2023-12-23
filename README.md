@@ -1,4 +1,6 @@
-# Guide to work with the chatbot
+# Guide to working with the chatbot
+
+0. Use Google Sheets to check your questions. Current tab is Rules3
 
 1. To launch the chatbot, execute the "chatbot.py" script.
 
