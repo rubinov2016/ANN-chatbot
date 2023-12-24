@@ -41,7 +41,7 @@ def find_and_create_replacements(data):
     return replacements
 
 replacements = find_and_create_replacements(intents)
-output_file = 'replacements.json'  # Replace with your desired file path
+output_file = 'replacements.json'
 # Save the replacements to the JSON file
 with open(output_file, 'w') as file:
     json.dump(replacements, file, indent=4)
