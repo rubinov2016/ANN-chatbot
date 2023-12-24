@@ -1,12 +1,16 @@
 # Guide to working with the chatbot
 
-0. Use Google Sheets to check your questions. Current tab is Rules3
+1. Use Google Sheets to get your questions. 
+    "Rules3" - Current tab with Responsible person
+    "Rules Updated" - automatically filled tab with latest changes from the all group members
+    Use convert_json.py to download/upload your changes
+    The easiest way is to use just functions merge_json and comment json files that you don't need
 
-1. To launch the chatbot, execute the "chatbot.py" script.
+2. To launch the chatbot, execute the "chatbot.py" script.
 
-2. The chatbot will display the intent tag and its corresponding probability, like this: {"intent": "Netherlands", "probability": "0.998"}. This means that the intent is "Netherlands," and the probability is 0.998.
+3. The chatbot will display the intent tag and its corresponding probability, like this: {"intent": "Netherlands", "probability": "0.998"}. This means that the intent is "Netherlands," and the probability is 0.998.
 
-3. How to improve accuracy? If the probability is low and the intent tag is incorrect, follow these steps:
+4. How to improve accuracy? If the probability is low and the intent tag is incorrect, follow these steps:
 
 ![image](https://github.com/rubinov2016/ANN-chatbot/assets/24795926/a823ce3d-6f7f-4192-98fa-7942d417d0a5)
 
