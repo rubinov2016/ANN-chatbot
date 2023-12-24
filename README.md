@@ -1,10 +1,12 @@
 # Guide to working with the chatbot
 
 1. Use Google Sheets to get your questions. 
-    "Rules3" - Current tab with Responsible person
-    "Rules Updated" - automatically filled tab with latest changes from the all group members
-    Use convert_json.py to download/upload your changes
-    The easiest way is to use just functions merge_json and comment json files that you don't need
+    - "Rules3",  Current tab with Responsible person
+    - "Rules Updated" automatically filled tab with latest changes from the all group members
+    
+    - Use convert_json.py to download/upload your changes
+    
+    - The easiest way is to use just functions merge_json and comment json files that you don't need
 
 2. To launch the chatbot, execute the "chatbot.py" script.
 
