@@ -1,12 +1,9 @@
 # Guide to working with the chatbot
 
 1. Use Google Sheets to get your questions. 
-    - "Rules3",  Current tab with Responsible person
-    - "Rules Updated" automatically filled tab with latest changes from the all group members
-    
-    - Use convert_json.py to download/upload your changes
-    
-    - The easiest way is to use just functions merge_json and comment json files that you don't need
+    - "Rules3", the current tab with Responsible person
+    - "Rules Updated" automatically filled tab with latest changes from the all group members    
+    - if you finish your patterns, please send them to Ivan
 
 2. To launch the chatbot, execute the "chatbot.py" script.
 
@@ -20,7 +17,7 @@
 Modify the "intents.json" file and add the same question to the "patterns" section of the corresponding intent tag. For example
 ![image](https://github.com/rubinov2016/ANN-chatbot/assets/24795926/34bd5aa9-81bf-40ef-bd93-cdcedccda09c)
 
-3.2. Then, retrain the chatbot by:
+3.2. Then, re-train the chatbot by:
     Running "training.py"
     Running "chatbot.py"
 
