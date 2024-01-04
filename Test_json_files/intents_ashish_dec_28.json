@@ -1,0 +1,499 @@
+{
+  "intents": [
+    {
+      "tag": "group_a",
+      "patterns": [
+        "group a standing, postion of a table"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "group b standing, postion of b table"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "group c standing, position of c table"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "group d standing, position of d table"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "group e standing,  position of e table"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "group f standing, position of f table"
+      ],
+      "responses": [
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "group g standing, position of g table"
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "group h standing, position of f table"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "hello, hi, hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today;"
+      ]
+    },
+    {
+      "tag": "winner",
+      "patterns": [
+        "won world cup qatar 2022, who came first, crown the champion"
+      ],
+      "responses": [
+        "it was an event in Qatar 2022 where  Argentina held the first position"
+      ]
+    },
+    {
+      "tag": "host",
+      "patterns": [
+        "who held   world cup 2022,which country organised world cup qatar, country hosted event world cup 2022"
+      ],
+      "responses": [
+        "World Cup 2022 was hosted by Qatar"
+      ]
+    },
+    {
+      "tag": "stadium_names",
+      "patterns": [
+        "names of the stadium world cup 2022, stadium names that hosted the football match qatar world cup"
+      ],
+      "responses": [
+        "There are 8 stadium used for world cup 2022 qatar. These are the stadium that hosted the football matches: Al-Bayt Stadium, AI-Daayen Stadium, Al-Khalifa International Stadium, Al-Rayyan Stadium, Al-Thumama Stadium, Education City Stadium, Lusail Iconic Stadium (Final venue), Ras Abu Aboud Stadium"
+      ]
+    },
+    {
+      "tag": "practicipation",
+      "patterns": [
+        "amount of teams participated on world cup 2022, number of the participating team qatar world cup"
+      ],
+      "responses": [
+        "There are 32 team participated on world cup 2022"
+      ]
+    },
+    {
+      "tag": "asia",
+      "patterns": [
+        "teams from asia,  team qualified from asian continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Asia: Qatar, Iran, south korea, saudi arabia, japan, australia"
+      ]
+    },
+    {
+      "tag": "africa",
+      "patterns": [
+        "teams from africa,qualified from African continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon"
+      ]
+    },
+    {
+      "tag": "Europe",
+      "patterns": [
+        "teams from europe,team qualified european continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Crotia, Spain, serbia, england, netherland, switzerland, portugal, poland, wales"
+      ]
+    },
+    {
+      "tag": "south_america",
+      "patterns": [
+        "teams from south America, team qualified south american continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay,"
+      ]
+    },
+    {
+      "tag": "north_america",
+      "patterns": [
+        "teams from north america, qualified north american continent"
+      ],
+      "responses": [
+        "The qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "scoreline of final of world cup 2022, the result of the final"
+      ],
+      "responses": [
+        "The winner of the wold cup is Argentina, Argentina 3-3 France-- ( Argentina win 4-2 on penalties)"
+      ]
+    },
+    {
+      "tag": "man_of_the _match",
+      "patterns": [
+        "best player of tournament ,man of the match,who is the Player of tournament, result of messi lionel"
+      ],
+      "responses": [
+        "Messi (Argentina)won the man of the match, and won the golden ball and names FIFAs men best player of the Tournament."
+      ]
+    },
+    {
+      "tag": "golden_boot",
+      "patterns": [
+        "achieved top goal scorer of tournament, won the  boot winner,  highest goals scored, kylian mbappe"
+      ],
+      "responses": [
+        "Kylian Mbappe (France) won the 2022 FiFA World cup Golden boot scoring the total of eight (8) goals."
+      ]
+    },
+    {
+      "tag": "golden_gloves",
+      "patterns": [
+        "won the  glove winner,won best keeper "
+      ],
+      "responses": [
+        "Emiliano Martinez (Argentina) has been awarded the Golden Glove after helping Argentina win the 2022 FIFA World Cup in Qatar. He saved penalty kicks "
+      ]
+    },
+    {
+      "tag": "eucodor_qatar",
+      "patterns": [
+        " result of ecuador, result of qatar"
+      ],
+      "responses": [
+        "This team played the group stage of 'group A', please type ' group a' to see standing  "
+      ]
+    },
+    {
+      "tag": "iran_wales",
+      "patterns": [
+        "  result of iran , result of wales"
+      ],
+      "responses": [
+        "This team played the group stage of 'group B', please type ' group b' to see standing  "
+      ]
+    },
+    {
+      "tag": "mexico_saudi",
+      "patterns": [
+        " result of mexico, result of saudi arabia"
+      ],
+      "responses": [
+        "This team played the group stage of 'group C', please type 'group c' to see standing  "
+      ]
+    },
+    {
+      "tag": "tunisia_denmark",
+      "patterns": [
+        " result of tunisia, result of denmark"
+      ],
+      "responses": [
+        "This team played the group stage of 'group D', please type 'group d' to see standing  "
+      ]
+    },
+    {
+      "tag": "germany_costarica",
+      "patterns": [
+        " result of germany, result of costa rica"
+      ],
+      "responses": [
+        "This team played the group stage of 'group E', please type ' group e' to see standing  "
+      ]
+    },
+    {
+      "tag": "belgium_canada",
+      "patterns": [
+        "result of belgium, result of canada"
+      ],
+      "responses": [
+        "This team played the group stage of 'group F', please type ' group f ' to see standing  "
+      ]
+    },
+    {
+      "tag": "cameroon_serbia",
+      "patterns": [
+        "result of cameroon, result of serbia"
+      ],
+      "responses": [
+        "This team played the group stage of 'group G', please type ' group g'to see standing  "
+      ]
+    },
+    {
+      "tag": "uruguay_ghana",
+      "patterns": [
+        "result for uruguay, result for ghana"
+      ],
+      "responses": [
+        "This team played the group stage of 'group H', please type ' group h' to see standing  "
+      ]
+    },
+    {
+      "tag": "last_16_teams",
+      "patterns": [
+        "result of usa, result of germany, result of switzerland, result of poland, result of senegal , result of japan, result of south korea"
+      ],
+      "responses": [
+        "This team played the round of Last 16 (16 team) World cup 2022 after getting qualification from their respective Group. Only Top 2 qualify from Group"
+      ]
+    },
+    {
+      "tag": "quatar_final_teams",
+      "patterns": [
+        "results of brazil, result of netherland, result of england,result of portugal"
+      ],
+      "responses": [
+        "This team played the Quatar final (8 team) of  the World cup 2022 after beating their opponents from Last 16."
+      ]
+    },
+    {
+      "tag": "semi_final_teams",
+      "patterns": [
+        "results of croatia, result of morocco"
+      ],
+      "responses": [
+        "This team played the semi final (4 team) of the World cup 2022 after beating their team in Quatar final"
+      ]
+    },
+    {
+      "tag": "final_runnerup",
+      "patterns": [
+        "result of france , result of finalist, teams played final, silver medal medalist"
+      ],
+      "responses": [
+        "Argentina played France in final. France came close to winning however the defending champion was deafeated and became runner up."
+      ]
+    },
+    {
+      "tag": "final_winner",
+      "patterns": [
+        "result for argentina, champion of world, gold medal medalist,"
+      ],
+      "responses": [
+        "This team beating the finalist crown the raining champion of World cup 2022 Qatar after deafeating the tough opponent in France created most exciting Final."
+      ]
+    },
+    {
+      "tag": "format",
+      "patterns": [
+        "tell me the format of world cup, how does it work, tell me ways to qualify, knock out starts"
+      ],
+      "responses": [
+        "8 groups plays in their respective Groups, top 2 qualify, then Knockout round starts of last-16. 16 team plays and winner head to Quatar final and winner goes to Semi final and winner plays Final and Winner is Crown champion of the world. if want to know point system, please type 'point system.'"
+      ]
+    },
+    {
+      "tag": "Schedule Change",
+      "patterns": [
+        "why was the 2022 fifa world cup not held in June and July as usual?,why was there a change in an event of world cup 2022?,theory behind the world cup  being held in winter of november and december, which month was world Cup event was oranganised?, can you share me a little fun fact about world cup 2022?"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup was not held in June and July, as is typical, due to Qatar's intense summer heat and high humidity. Instead, it was played in November and December."
+      ]
+    },
+    {
+      "tag": "Start date",
+      "patterns": [
+        "when did the group stage of the 2022 world cup begin?,which was the first match or game of the world cup 2022?, which was the opening game or match of the world cup 2022?, which was the first game or match "
+      ],
+      "responses": [
+        "The group stage of the 2022 World Cup was initially set to begin on 21 November, but was moved to 20 November, between  Qatar vs Ecuador making it a start date."
+      ]
+    },
+    {
+      "tag": "Final Date",
+      "patterns": [
+        "when was the final of the 2022 world cup played?,where was the world cup 2022 played?,where was the world cup 2022 played?, what is the name of the stadium was used to host the final of the world cup"
+      ],
+      "responses": [
+        "The final of the 2022 World Cup was played on 18 December 2022, which is also Qatar's National Day, at Lusail Stadium."
+      ]
+    },
+    {
+      "tag": "Group_Venues_4groups",
+      "patterns": [
+        "which stadiums hosted groups a, b, e, and f matchesor games in the 2022 world cup, which stadium oraganised  a, b, e, and f games or matches, which stadium welcomed  a, b, e, and f games or matches"
+      ],
+      "responses": [
+        "Groups A, B, E, and F in the 2022 World Cup were hosted at Al Bayt Stadium, Khalifa International Stadium, Al Thumama Stadium, and Ahmad bin Ali Stadium. "
+      ]
+    },
+    {
+      "tag": "Group_Venues_4groups_2",
+      "patterns": [
+        "which stadiums welcomed the groups c, d, g, and h in the 2022 world Cup, which stadium hosted  a, b, e, and f games or matches,which stadium oraganised  a, b, e, and f games or matches"
+      ],
+      "responses": [
+        "Groups C, D, G, and H in the 2022 World Cup were hosted at Lusail Stadium, Stadium 974, Education City Stadium, and Al Janoub Stadium."
+      ]
+    },
+    {
+      "tag": "Venue_Confirmation",
+      "patterns": [
+        "when were the group stage venue and kick off times for the 2022 world Cup confirmed, when was the worldup start date and kick off was given the green light"
+      ],
+      "responses": [
+        "The group stage venue and kick-off times for the 2022 World Cup were confirmed on 1 April 2022, following the draw."
+      ]
+    },
+    {
+      "tag": "Prize_Announcement",
+      "patterns": [
+        "when did fifa announce the prizes for the world cup 2022 price pool, annoucement of the total price pool"
+      ],
+      "responses": [
+        "FIFA announced the prizes for the 2022 World Cup in April 2022."
+      ]
+    },
+    {
+      "tag": "minimum_prize_money",
+      "patterns": [
+        "how much did each qualified team receive for preparation costs?,what was the minimum amount of prize money each team received?, what was the minimum price pool"
+      ],
+      "responses": [
+        "Each qualified team for the 2022 World Cup received 1.5 million  USD before the competition to cover preparation costs.Each team participating in the 2022 World Cup received at least $9 million in prize money."
+      ]
+    },
+    {
+      "tag": "total_prize_pool",
+      "patterns": [
+        "what was the total prize pool for the world Cup 2022,how did the 2022 world cup prize pool compare to the previous tournament, was the price pool has an increament or increase"
+      ],
+      "responses": [
+        "The total prize pool for the 2022 World Cup was 440 million USD. The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament."
+      ]
+    },
+    {
+      "tag": "Runners_up_prize",
+      "patterns": [
+        "how much did the runners-up of the 2022 world Cup receive?, how much diid the runner up earned, money got by the runners up"
+      ],
+      "responses": [
+        "The runners-up of the 2022 World Cup received 30 million USD."
+      ]
+    },
+    {
+      "tag": "third_place_prize",
+      "patterns": [
+        "how much did the team in third place at the 2022 world cup receive? 3rd place price pool"
+      ],
+      "responses": [
+        "The team in third place at the 2022 World Cup received 27 million USD."
+      ]
+    },
+    {
+      "tag": "fourth_place_prize",
+      "patterns": [
+        "how much did the team in fourth place at the 2022 world Cup receive? 4th place price pool"
+      ],
+      "responses": [
+        "The team in fourth place at the 2022 World Cup received 25 million USD."
+      ]
+    },
+    {
+      "tag": "quarter_finals_prize",
+      "patterns": [
+        "how much did each team in the quarter-finals (5th to 8th place) of the  world Cup 2022 receive or earned, 5 to 8 or quatar final price pool"
+      ],
+      "responses": [
+        "Each team in the quarter-finals (5th to 8th place) of the 2022 World Cup received 17 million USD."
+      ]
+    },
+    {
+      "tag": "group_stage_prize",
+      "patterns": [
+        "how much did each team in the group stage (17th to 32nd place) of the world Cup 2022 receive or earned, 17 to 32 or quatar final price pool"
+      ],
+      "responses": [
+        "Each team in the group stage (17th to 32nd place) of the 2022 World Cup received 9 million USD."
+      ]
+    },
+    {
+      "tag": "total_teams_prize _distribution",
+      "patterns": [
+        "how was the total prize of 440 million usd distributed among the 32 teams?, what was the price distribution of world cup 2022"
+      ],
+      "responses": [
+        "The total prize of 440 million USD was distributed among the 32 teams with varying amounts depending on their final standing in the tournament, ranging from 9 million USD for group stage teams to 42 million USD for the champions."
+      ]
+    },
+    {
+      "tag": "substitution_rules",
+      "patterns": [
+        "what were the new substitution rules in the tournament?what was the new rule regarding concussion substitutions in the tournament? "
+      ],
+      "responses": [
+        "In the tournament, teams could make up to five substitutions in normal time, and an additional substitution in extra time. The tournament was the first World Cup to feature concussion substitutions, allowing each team to use a maximum of one concussion substitute during a match, which did not count towards the team's quota of regular substitutions."
+      ]
+    },
+    {
+      "tag": "first_concussion_substitute",
+      "patterns": [
+        "who was the first player to be replaced by a dedicated concussion substitute in this world cup?"
+      ],
+      "responses": [
+        "Iranian goalkeeper Alireza Beiranvand was the first player to be replaced by a dedicated concussion substitute in this World Cup, after suffering a concussion in the opening match against England."
+      ]
+    },
+    {
+      "tag": "bidding_start",
+      "patterns": [
+        "when did the bidding procedure of 2022 fifa world cups begin?"
+      ],
+      "responses": [
+        "The bidding procedure to host the 2018 and 2022 FIFA World Cups began in January 2009.National associations had until 2 February 2009 to register their interest in hosting the 2018 and 2022 FIFA World Cups."
+      ]
+    },
+    {
+      "tag": "registration_deadline",
+      "patterns": [
+        "what was the deadline for national associations to register interest in hosting the world cups?"
+      ],
+      "responses": [
+        "The bidding procedure to host the 2018 and 2022 FIFA World Cups began in January 2009.National associations had until 2 February 2009 to register their interest in hosting the 2018 and 2022 FIFA World Cups."
+      ]
+    }
+  ]
+}

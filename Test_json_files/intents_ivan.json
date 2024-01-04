@@ -576,7 +576,11 @@
         "Qatar University Training",
         "Argentina's Camp",
         "Argentina's Base",
-        "Base Camp of Argentina"
+        "Base Camp of Argentina",
+        "Argentina",
+        "Argentinian",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Argentina's team stayed at Qatar University Hostel 1 and trained at Qatar University Training Site 3."
@@ -591,7 +595,11 @@
         "Australia's Base Camp",
         "What were Australia's hotel and training site for the World Cup?",
         "Base of Australia",
-        "Camp of Australia"
+        "Camp of Australia",
+        "Australia",
+        "Australian",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Australia's team stayed at New Aspire Academy Athlete Accommodation and trained at Aspire Zone Training Facilities 5."
@@ -606,7 +614,11 @@
         "Base Camp of Belgium",
         "Belgium's Base Camp",
         "Belgium's Camp",
-        "What were Belgium's hotel and training site for the World Cup?"
+        "What were Belgium's hotel and training site for the World Cup?",
+        "Belgium",
+        "Belgian",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Belgium's team stayed at Hilton Salwa Beach Resort and Villas and trained at Salwa Training Site."
@@ -630,7 +642,11 @@
         "Brazil's Base Camp",
         "Camp of Brazil",
         "Base Camp of Brazil",
-        "Base of Brazil"
+        "Base of Brazil",
+        "Brazil",
+        "Brazilian",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Brazil's team stayed at The Westin Doha Hotel and Spa and trained at Al Arabi SC Stadium."
@@ -645,7 +661,11 @@
         "Base Camp of Cameroon",
         "Cameroon's Base Camp",
         "Camp of Cameroon",
-        "Cameroon's Base"
+        "Cameroon's Base",
+        "Cameroon",
+        "Cameroonian",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Cameroon's team stayed at Banyan Tree Doha at La Cigale Mushaireb and trained at Al Sailiya SC Stadium."
@@ -660,7 +680,11 @@
         "Canada's Camp",
         "Camp of Canada",
         "Canada's Base Camp",
-        "Canada's Base"
+        "Canada's Base",
+        "Canada",
+        "Base",
+        "Camp",
+        "Canadian"
       ],
       "responses": [
         "Canada's team stayed at Century Marina Hotel Lusail and trained at Umm Salal SC Training Facilities."
@@ -675,7 +699,10 @@
         "Costa Rica's Base Camp",
         "Base Camp of Costa Rica",
         "Camp of Costa Rica",
-        "What were Costa Rica's hotel and training site for the World Cup?"
+        "What were Costa Rica's hotel and training site for the World Cup?",
+        "Costa Rica",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Costa Rica's team stayed at dusitD2 Salwa Doha and trained at Al Ahli SC Stadium."
@@ -690,7 +717,10 @@
         "Base Camp of Croatia",
         "Croatia's Base",
         "Base of Croatia",
-        "Camp of Croatia"
+        "Camp of Croatia",
+        "Croatia",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Croatia's team stayed at Hilton Doha and trained at Al Ersal Training Site 3."
@@ -705,7 +735,11 @@
         "What were Denmark's hotel and training site for the World Cup?",
         "Camp of Denmark",
         "Base of Denmark",
-        "Base Camp of Denmark"
+        "Base Camp of Denmark",
+        "Denmark",
+        "Danish",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Denmark's team stayed at Retaj Salwa Resort & SPA and trained at Al Sailiya SC 2."
@@ -720,7 +754,11 @@
         "Base Camp of Ecuador",
         "What were Ecuador's hotel and training site for the World Cup?",
         "Ecuador's Camp",
-        "Ecuador's Base Camp"
+        "Ecuador's Base Camp",
+        "Ecuador",
+        "Ecuadorian",
+        "Base",
+        "Camp"
       ],
       "responses": [
         "Ecuador's team stayed at Hyatt Regency Oryx Doha and trained at Mesaimeer SC Training Facilities."
@@ -729,16 +767,28 @@
     {
       "tag": "Qualification Process",
       "patterns": [
-        "How did FIFA's continental confederations organize qualification for the 2022 World Cup?"
+        "How did FIFA's continental confederations organize qualification for the 2022 World Cup?",
+        "How did FIFA's continental confederations organize qualification",
+        "How did continental confederations organize qualification",
+        "Qualification",
+        "Continental confederations",
+        "Organize qualification",
+        "Qualification Process"
       ],
       "responses": [
-        "FIFA's six continental confederations organized their own qualifying competitions for the 2022 World Cup, and all 211 FIFA member associations were eligible to enter qualification."
+        "FIFA's six continental confederations organized their own qualifying competitions and all 211 FIFA member associations were eligible to enter qualification."
       ]
     },
     {
       "tag": "Qatar's Qualification",
       "patterns": [
-        "How did Qatar qualify for the 2022 World Cup?"
+        "How did Qatar qualify for the 2022 World Cup?",
+        "Qatar's Qualification",
+        "Qatar",
+        "Qualification",
+        "Host Qualification",
+        "Automatically qualified",
+        "Automatic qualification"
       ],
       "responses": [
         "Qatar, as the host nation, automatically qualified for the tournament but also participated in the Asian qualifying stage, which doubled as qualification for the 2023 AFC Asian Cup."
@@ -747,7 +797,10 @@
     {
       "tag": "Qatar's Impact on Asian Qualification",
       "patterns": [
-        "How did Qatar's participation in the Asian qualifiers affect other teams?"
+        "How did Qatar's participation in the Asian qualifiers affect other teams?",
+        "Qatar's Impact on Asian Qualification",
+        "Qatar",
+        "Asian Qualification"
       ],
       "responses": [
         "Since Qatar reached the final stage as winners in their group, Lebanon, the fifth-best second-place team, advanced instead."
@@ -756,7 +809,13 @@
     {
       "tag": "France's Qualification",
       "patterns": [
-        "How did France qualify for the 2022 World Cup?"
+        "How did France qualify for the 2022 World Cup?",
+        "How did France qualify",
+        "France's Qualification",
+        "France",
+        "Qualification",
+        "Automatically qualified",
+        "Automatic qualification"
       ],
       "responses": [
         "France, the reigning World Cup champions, qualified for the event through European qualification."
@@ -765,7 +824,20 @@
     {
       "tag": "Withdrawals Due to COVID-19",
       "patterns": [
-        "Which teams withdrew from their continental qualifications due to COVID-19?"
+        "Which teams withdrew from their continental qualifications due to COVID-19?",
+        "Which teams withdrew from their continental qualifications",
+        "COVID-19",
+        "Covid",
+        "coronavirus",
+        "withdrew",
+        "withdrawal",
+        "American Samoa",
+        "Samoa withdrew",
+        "North Korea",
+        "Vanuatu",
+        "Cook Islands",
+        "travel restrictions",
+        "Pull out"
       ],
       "responses": [
         "North Korea withdrew from the AFC qualifying round, while both American Samoa and Samoa withdrew from the OFC qualification, and Vanuatu and Cook Islands also withdrew due to COVID-19 outbreaks and travel restrictions."
@@ -774,7 +846,15 @@
     {
       "tag": "Tonga's Withdrawal",
       "patterns": [
-        "Why did Tonga withdraw from World Cup qualification?"
+        "Why did Tonga withdraw from World Cup qualification?",
+        "Tonga's Withdrawal",
+        "Tonga",
+        "Withdrawal",
+        "withdrew",
+        "pull out",
+        "Tonga pull out",
+        "volcanic eruption",
+        "tsunami"
       ],
       "responses": [
         "Tonga withdrew from World Cup qualification after the 2022 Hunga Tonga\u2013Hunga Ha'apai eruption and tsunami."
@@ -783,7 +863,18 @@
     {
       "tag": "Teams Returning to the World Cup",
       "patterns": [
-        "Which teams returned to the 2022 World Cup after missing the 2018 tournament?"
+        "Which teams returned to the 2022 World Cup after missing the 2018 tournament?",
+        "Teams Returning",
+        "Teams Returned",
+        "teams",
+        "Returned",
+        "returning",
+        "missing the 2018 tournament",
+        "missing the 2018",
+        "missing 2018 tournament",
+        "missed the 2018 tournament",
+        "missed the 2018",
+        "missed 2018 tournament"
       ],
       "responses": [
         "The Netherlands, Ecuador, Ghana, Cameroon, and the United States returned to the 2022 World Cup after missing the 2018 tournament."
@@ -792,7 +883,10 @@
     {
       "tag": "Canada's Return",
       "patterns": [
-        "When was Canada's last World Cup appearance before 2022?"
+        "When was Canada's last World Cup appearance before 2022?",
+        "Canada's Return",
+        "Canada",
+        "Return"
       ],
       "responses": [
         "Canada returned to the World Cup after 36 years, their last appearance being in 1986."
@@ -801,7 +895,13 @@
     {
       "tag": "Wales' Participation",
       "patterns": [
-        "What was notable about Wales' participation in the 2022 World Cup?"
+        "What was notable about Wales' participation in the 2022 World Cup?",
+        "What was notable about Wales",
+        "Wales' Participation",
+        "Wales",
+        "Participation",
+        "the longest-ever gap",
+        "the longest gap"
       ],
       "responses": [
         "Wales made their first World Cup appearance in 64 years, the longest-ever gap for any team, with their only previous participation having been in 1958."
@@ -810,7 +910,17 @@
     {
       "tag": "Italy's Failure to Qualify",
       "patterns": [
-        "What was significant about Italy's failure to qualify for the 2022 World Cup?"
+        "What was significant about Italy's failure to qualify for the 2022 World Cup?",
+        "Italy's Failure",
+        "Italy",
+        "Failure to Qualify",
+        "Failure",
+        "Qualify",
+        "Italy's Failure to Qualify",
+        "four-time winners",
+        "failed to qualify",
+        "second successive"
+
       ],
       "responses": [
         "Italy, four-time winners, failed to qualify for a second successive World Cup for the first time in their history, losing in the qualification play-off semi-finals."
@@ -819,7 +929,13 @@
     {
       "tag": "Russia's Disqualification",
       "patterns": [
-        "Why was Russia disqualified from the 2022 World Cup?"
+        "Why was Russia disqualified from the 2022 World Cup?",
+        "Why was Russia disqualified",
+        "Russia disqualified",
+        "Russia",
+        "Russian",
+        "disqualified",
+        "disqualification"
       ],
       "responses": [
         "Russia was disqualified from competing in the 2022 World Cup due to the Russian invasion of Ukraine."
@@ -828,16 +944,28 @@
     {
       "tag": "Chile's and Nigeria's Non-Qualification",
       "patterns": [
-        "What was notable about Chile and Nigeria not qualifying for the 2022 World Cup?"
+        "What was notable about Chile and Nigeria not qualifying for the 2022 World Cup?",
+        "What was notable about Chile and Nigeria not qualifying?",
+        "Chile's and Nigeria's Non-Qualification",
+        "Chile",
+        "Nigeria",
+        "Chilean",
+        "Nigerian",
+        "Non-Qualification",
+        "not qualifying"
       ],
       "responses": [
-        "Chile, the 2015 and 2016 Copa Am\u00e9rica winners, failed to qualify for the second consecutive time, and Nigeria was defeated by Ghana in the CAF final playoff round, having qualified for the previous three World Cups."
+        "Chile, the 2015 and 2016 Copa America winners, failed to qualify for the second consecutive time, and Nigeria was defeated by Ghana in the CAF final playoff round, having qualified for the previous three World Cups."
       ]
     },
     {
       "tag": "Lowest Ranked Qualifier",
       "patterns": [
-        "Which was the lowest ranked team to qualify for the 2022 World Cup?"
+        "Which was the lowest ranked team to qualify for the 2022 World Cup?",
+        "Lowest Ranked Qualifier",
+        "Lowest Ranked",
+        "Lowest Rank",
+        "Ghana"
       ],
       "responses": [
         "Ghana was the lowest ranked team to qualify for the 2022 World Cup, ranked 61st."
@@ -846,34 +974,41 @@
     {
       "tag": "Qualified Teams by Region",
       "patterns": [
-        "Which teams qualified for the 2022 World Cup, listed by region?"
+        "Which teams qualified for the 2022 World Cup, listed by region?",
+        "Qualified Teams by Region",
+        "Teams by Region",
+        "CONMEBOL",
+        "AFC",
+        "CAF",
+        "CONCACAF",
+        "UEFA"
       ],
       "responses": [
-        "The qualified teams were: from AFC - Australia, Iran, Japan, Qatar (hosts), Saudi Arabia, South Korea from CAF - Cameroon, Ghana, Morocco, Senegal, Tunisia from CONCACAF - Canada, Costa Rica, Mexico, United States from CONMEBOL - Argentina, Brazil, Ecuador, Uruguay and from UEFA - Belgium, Croatia, Denmark, England, France, Germany, Netherlands, Poland, Portugal, Serbia, Spain, Switzerland, Wales. No teams from OFC qualified."
+        "The qualified teams were: from AFC - Australia, Iran, Japan, Qatar (hosts), Saudi Arabia, South Korea; from CAF - Cameroon, Ghana, Morocco, Senegal, Tunisia; from CONCACAF - Canada, Costa Rica, Mexico, United States; from CONMEBOL - Argentina, Brazil, Ecuador, Uruguay; and from UEFA - Belgium, Croatia, Denmark, England, France, Germany, Netherlands, Poland, Portugal, Serbia, Spain, Switzerland, Wales. No teams from OFC qualified."
       ]
     },
     {
       "tag": "Provisional Squad Size",
       "patterns": [
-        "What was the maximum size of the provisional squad teams could name before the World Cup?"
+        "What was the maximum size of the provisional squad teams could name before the World Cup?",
+        "Provisional Squad Size",
+        "Provisional",
+        "Squad Size",
+        "team size",
+        "Before the World Cup"
       ],
       "responses": [
         "Before the World Cup, teams named a provisional squad of up to 55 players."
       ]
     },
     {
-      "tag": "Provisional Squad Deadline",
-      "patterns": [
-        "When were teams required to submit their 55-player roster to FIFA?"
-      ],
-      "responses": [
-        "Teams were required to have their 55-player roster submitted to FIFA by 21 October."
-      ]
-    },
-    {
       "tag": "Final Squad Deadline",
       "patterns": [
-        "By when were teams required to name their final squads?"
+        "By when were teams required to name their final squads?",
+        "Final Squad Deadline",
+        "Final Squad",
+        "Deadline",
+        "13 November"
       ],
       "responses": [
         "Teams were required to name their final squads by 13 November."
@@ -882,7 +1017,10 @@
     {
       "tag": "Final Squad Size Increase",
       "patterns": [
-        "What was the increase in final squad size for the 2022 World Cup compared to 2018?"
+        "What was the increase in final squad size for the 2022 World Cup compared to 2018?",
+        "Final Squad Size Increase",
+        "26 players",
+        "23 players"
       ],
       "responses": [
         "In August 2022, FIFA increased the final squad size to 26 players, up from 23 players at the 2018 edition."
@@ -891,7 +1029,12 @@
     {
       "tag": "Teams with Fewer Players",
       "patterns": [
-        "Which teams chose fewer than 26 players for their final squads?"
+        "Which teams chose fewer than 26 players for their final squads?",
+        "Teams with Fewer Players",
+        "25 players",
+        "less than 26 players",
+        "fewer than 26 players",
+        "26 players less"
       ],
       "responses": [
         "All teams had a total of 26 players in their final squads except for France and Iran, who chose 25 players."
@@ -900,25 +1043,28 @@
     {
       "tag": "Final Draw Location",
       "patterns": [
-        "Where was the final draw for the 2022 World Cup held?"
+        "Where was the final draw for the 2022 World Cup held?",
+        "Where was the final draw?",
+        "final draw",
+        "final tournament draw",
+        "Location",
+        "when",
+        "Doha Exhibition",
+        "Date",
+        "Final Draw Date"
       ],
       "responses": [
-        "The final draw was held at the Doha Exhibition and Convention Center in Doha, Qatar."
+        "The final draw was held at the Doha Exhibition and Convention Center in Doha on 1 April 2022"
       ]
     },
-    {
-      "tag": "Final Draw Date and Time",
-      "patterns": [
-        "When was the final draw for the 2022 World Cup held?"
-      ],
-      "responses": [
-        "The final draw took place on 1 April 2022 at 19:00 AST."
-      ]
-    },
+
     {
       "tag": "Unknown Teams at Time of Draw",
       "patterns": [
-        "Which teams were not known at the time of the final draw?"
+        "Which teams were not known at the time of the final draw?",
+        "Which teams were not known at the date of the final draw?",
+        "Unknown Teams",
+        "Unknown Teams at date of Draw"
       ],
       "responses": [
         "The two winners of the inter-confederation play-offs and the winner of the Path A of the UEFA play-offs were not known at the time of the draw."
@@ -927,16 +1073,28 @@
     {
       "tag": "Draw Hosts and Assistants",
       "patterns": [
-        "Who hosted and assisted with the final draw for the 2022 World Cup?"
+        "Who hosted and assisted with the final draw for the 2022 World Cup?",
+        "Who hosted and assisted with the final draw?",
+        "Draw Hosts",
+        "Draw Assistants",
+        "final draw",
+        "Carli Lloyd",
+        "Jermaine Jenas",
+        "Samantha Johnson",
+        "Lothar Matthaus",
+        "Cafu"
       ],
       "responses": [
-        "The draw was led by Carli Lloyd, Jermaine Jenas, and Samantha Johnson, and assisted by football legends such as Cafu, Lothar Matth\u00e4us, and others."
+        "The draw was led by Carli Lloyd, Jermaine Jenas, and Samantha Johnson, and assisted by football legends such as Cafu, Lothar Matthaus, and others."
       ]
     },
     {
       "tag": "Draw Pots Basis",
       "patterns": [
-        "On what basis were teams allocated into pots for the draw?"
+        "On what basis were teams allocated into pots for the draw?",
+        "Draw Pots Basis",
+        "Draw Pots",
+        "four pots"
       ],
       "responses": [
         "The 32 teams were allocated into four pots based on the FIFA Men's World Rankings as of 31 March 2022."
@@ -945,7 +1103,12 @@
     {
       "tag": "Pot 1 Composition",
       "patterns": [
-        "Which teams were in Pot 1 for the draw?"
+        "Which teams were in Pot 1 for the draw?",
+        "Pot 1 Composition",
+        "Pot_1",
+        "1_Pot",
+        "first_Pot",
+        "Composition"
       ],
       "responses": [
         "Pot 1 contained host Qatar and the best seven teams: Brazil, Belgium, France, Argentina, England, Spain, and Portugal."
@@ -954,25 +1117,28 @@
     {
       "tag": "Draw Constraints",
       "patterns": [
-        "What were the constraints in drawing teams from the same confederation?"
+        "What were the constraints in drawing teams from the same confederation?",
+        "Draw Constraints",
+        "Constraints",
+        "not be drawn into the same group"
+
       ],
       "responses": [
         "Teams from the same confederation could not be drawn into the same group, except for UEFA teams, where there was at least one but no more than two per group."
       ]
     },
-    {
-      "tag": "Draw Process",
-      "patterns": [
-        "How was the draw process conducted?"
-      ],
-      "responses": [
-        "The draw started with Pot 1 and ended with Pot 4, with each team selected then allocated into the first available group alphabetically, and their position within the group drawn next."
-      ]
-    },
+
     {
       "tag": "Netherlands Performance",
       "patterns": [
-        "How did the Netherlands perform in the group stage?"
+        "How did the Netherlands perform in the group stage?",
+        "Netherlands Performance",
+        "Netherlands",
+        "Performance",
+        "Outcome",
+        "final standing",
+        "group_stage",
+        "their group"
       ],
       "responses": [
         "The Netherlands finished first in their group with 7 points, winning 2 matches and drawing 1."
@@ -981,7 +1147,14 @@
     {
       "tag": "Senegal's Final Standing",
       "patterns": [
-        "What was Senegal's final standing in the group stage?"
+        "What was Senegal's final standing in the group stage?",
+        "Senegal Performance",
+        "Senegal",
+        "Performance",
+        "Outcome",
+        "final standing",
+        "group_stage",
+        "their group"
       ],
       "responses": [
         "Senegal finished second in their group with 6 points, winning 2 matches and losing 1."
@@ -1015,7 +1188,7 @@
       ]
     },
     {
-      "tag": "USA's Final Group Position",
+      "tag": "USA's Final Group Position====IVAN======",
       "patterns": [
         "What was the United States' final position in the group stage?"
       ],

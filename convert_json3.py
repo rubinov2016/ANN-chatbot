@@ -109,11 +109,13 @@ def upload_json(credentials_name, sheet_name, worksheet_name, json_path):
 if __name__ == "__main__":
     credentials_name = 'keys/chatbot-solent-79013b82a47d.json'
     sheet_name = 'ChatbotSolent'
-    worksheet_name = 'Rules3'
+    worksheet_name = 'Rules'
     worksheet_name_upload = 'Rules_uploaded'
-    json_path_google = 'downloaded.json'
+    json_path_google = 'Test_json_files/intents_ivan.json'
+    #json_path_google ='intents_ashish_dec_28.json'
     json_path_initial = 'intents.json'
-    json_path_merged = 'merged.json'
-    download_json(credentials_name=credentials_name, sheet_name=sheet_name, worksheet_name=worksheet_name, json_path=json_path_google)
-    merge_json_data(json_path_1 =json_path_google, json_path_2=json_path_initial, json_path_merged=json_path_merged)
+    #json_path_merged = 'merged.json'
+    json_path_merged = 'intents.json'
+    #download_json(credentials_name=credentials_name, sheet_name=sheet_name, worksheet_name=worksheet_name, json_path=json_path_google)
+    #merge_json_data(json_path_1 =json_path_google, json_path_2=json_path_initial, json_path_merged=json_path_merged)
     upload_json(credentials_name=credentials_name, sheet_name=sheet_name,worksheet_name=worksheet_name_upload, json_path=json_path_merged)
