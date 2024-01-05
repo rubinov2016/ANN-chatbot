@@ -23,13 +23,13 @@ for intent in intents["intents"]:
     intent["patterns"] = [pattern.lower() for pattern in intent["patterns"]]
 #end of Ivan addition 1
 
+#Ivan addition 2
 def find_and_create_replacements(data):
     replacements = {}
     for intent in data["intents"]:
         # Iterate through the patterns in each intent
         for pattern in intent["patterns"]:
             words = pattern.split()  # Split the pattern into words
-
             # Process the words in the pattern
             for word in words:
                 # Check if the word contains underscores
@@ -37,7 +37,6 @@ def find_and_create_replacements(data):
                     # Split the word into parts by underscores
                     parts = word.split('_')
                     replacements[f"{parts[0]} {parts[1]}"] = word
-
     return replacements
 
 replacements = find_and_create_replacements(intents)
@@ -46,7 +45,7 @@ output_file = 'replacements.json'
 with open(output_file, 'w') as file:
     json.dump(replacements, file, indent=4)
 
-#end of Ivan addition
+#end of Ivan addition 2
 
 words = []
 classes = []
@@ -70,7 +69,9 @@ for intent in intents['intents']:
 # print(documents)
 
 stop_words = set(stopwords.words('english'))
-words = [lemmatizer.lemmatize(word) for word in words if word not in ignore_letters]
+
+words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ignore_letters]
+#words = [lemmatizer.lemmatize(word) for word in words if word not in ignore_letters]
 words = sorted(set(words))
 
 classes = sorted(set(classes))
@@ -81,7 +82,7 @@ pickle.dump(classes, open('classes.pkl', 'wb'))
 training = []
 output_empty = [0] * len(classes)
 for document in documents:
-    bag=[]
+    bag = []
     word_patterns = document[0]
     word_patterns = [lemmatizer.lemmatize(word.lower()) for word in word_patterns]
     for word in words:
@@ -102,7 +103,7 @@ train_x = list(training[:, 0])
 train_y = list(training[:, 1])
 
 model = Sequential()
-model.add(Dense(128, input_shape=(len(train_x[0]),),activation='relu'))
+model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))

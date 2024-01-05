@@ -1,6 +1,129 @@
 {
   "intents": [
     {
+      "tag": "group_a",
+      "patterns": [
+        "Qatar",
+        "The standing",
+        "Ecuador",
+        "a_group",
+        "Senegal",
+        "group_a standing",
+        "Netherlands",
+        "group_a"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "USA",
+        "Wales",
+        "the standing",
+        "group_b",
+        "Iran",
+        "England",
+        "group_b standing"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "group_c",
+        "the standing",
+        "Poland",
+        "group_c standing",
+        "Argentina",
+        "Mexico",
+        "Saudi Arabia"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "the standing",
+        "Tunisia",
+        "France",
+        "group_d",
+        "Denmark",
+        "Australia",
+        "group d standing"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "Costa Rica",
+        "the standing",
+        "Japan",
+        "Germany",
+        "group e standing",
+        "group_e",
+        "Spain"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "the standing",
+        "Morocco",
+        "teams",
+        "Canada",
+        "Belgium",
+        "group_f",
+        "Croatia",
+        "group_f standing",
+        "standing"
+      ],
+      "responses": [
+        "Group standing for Group F: 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "the standing",
+        "group_g",
+        "Cameroon Serbia",
+        "Brazil",
+        "group_g standing",
+        "Switzerland"
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "the standing",
+        "Korea republic",
+        "Korea",
+        "group_h",
+        "Portugal",
+        "group_h standing",
+        "Uruguay",
+        "Ghana"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
+      ]
+    },
+    {
       "tag": "greet",
       "patterns": [
         "hi",
@@ -9,6 +132,166 @@
       ],
       "responses": [
         "Hello! How can I help you today"
+      ]
+    },
+    {
+      "tag": "asia",
+      "patterns": [
+        "the qualified Asian countries",
+        "the team from Asian continent",
+        "the qualified countries from Asian continent",
+        "team from Asia",
+        "the qualified countries from Asia",
+        "qualified countries from Asian continent",
+        "the teams from Asia",
+        "country from Asian continent",
+        "country from Asia",
+        "team from Asian continent",
+        "qualified countries from Asia",
+        "the Asia country",
+        "teams from Asia",
+        "the team from Asia",
+        "the Asian teams",
+        "Asian countries",
+        "the country from Asian continent",
+        "countries from Asia",
+        "qualified Asian countries",
+        "teams from asia,  team qualified from asian continent",
+        "Asian team",
+        "the countries from Asia",
+        "the Asian countries",
+        "Asian teams",
+        "the country from Asia",
+        "Asia country",
+        "the Asian team"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Asia: Qatar, Iran, South Korea, Saudi Arabia, Japan"
+      ]
+    },
+    {
+      "tag": "africa",
+      "patterns": [
+        "qualified African countries",
+        "country from Africa",
+        "the team from Africa",
+        "the African teams",
+        "the country from Africa",
+        "country from African continent",
+        "team from African continent",
+        "teams from africa,qualified from African continent",
+        "the qualified countries from Africa",
+        "African teams",
+        "Africa country",
+        "the qualified countries from African continent",
+        "African team",
+        "the African countries",
+        "qualified countries from African continent",
+        "teams from Africa",
+        "African countries",
+        "the Africa country",
+        "team from Africa",
+        "qualified countries from Africa",
+        "countries from Africa",
+        "the team from African continent",
+        "the African team",
+        "the countries from Africa",
+        "the teams from Africa",
+        "the country from African continent",
+        "the qualified African countries"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon"
+      ]
+    },
+    {
+      "tag": "Europe",
+      "patterns": [
+        "country from European continent",
+        "country from Europe",
+        "the team from European continent",
+        "team from European continent",
+        "team from Europe",
+        "the European team",
+        "European teams",
+        "Europe country",
+        "the European country",
+        "the qualified countries from European continent",
+        "teams from europe,team qualified european continent",
+        "the country from European continent",
+        "the European countries",
+        "qualified European countries",
+        "the teams from Europe",
+        "the country from Europe",
+        "the qualified countries from Europe",
+        "the European teams",
+        "qualified countries from Europe",
+        "the countries from Europe",
+        "countries from Europe",
+        "teams from Europe",
+        "the qualified European countries",
+        "qualified countries from European continent",
+        "European countries",
+        "the team from Europe",
+        "European team"
+      ],
+      "responses": [
+        "The qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Croatia, Spain, Serbia, England, Netherlands, Switzerland, Portugal, Poland, wWles"
+      ]
+    },
+    {
+      "tag": "South_America",
+      "patterns": [
+        "the country from South_America",
+        "the South_American team",
+        "the qualified countries from South_America",
+        "the qualified South_American countries",
+        "the country from South_American continent",
+        "the team from South_America",
+        "the team from South_American continent",
+        "the South_America country",
+        "the qualified countries from South_American continent",
+        "the countries from South_America",
+        "the South_American countries",
+        "the South_American teams",
+        "the teams from South_America"
+      ],
+      "responses": [
+        "The qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay"
+      ]
+    },
+    {
+      "tag": "North_America",
+      "patterns": [
+        "teams from North_America",
+        "North_America country",
+        "the country from North_America",
+        "team from North_America",
+        "the North_America country",
+        "qualified countries from North_American continent",
+        "the teams from North_America",
+        "qualified countries from North_America",
+        "team from North_American continent",
+        "the North_American teams",
+        "the country from North_American continent",
+        "North_American teams",
+        "the countries from North_America",
+        "countries from North_America",
+        "the qualified North_American countries",
+        "the team from North_America",
+        "the qualified countries from North_America",
+        "country from North_American continent",
+        "country from North_America",
+        "the North_American countries",
+        "North_American countries",
+        "North_American team",
+        "the qualified countries from North_American continent",
+        "qualified North_American countries",
+        "the team from North_American continent",
+        "the North_American team"
+      ],
+      "responses": [
+        "The qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica"
       ]
     },
     {

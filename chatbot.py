@@ -22,7 +22,8 @@ model = load_model('chatbot_model.keras')
 #Clean up the sentences
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
+    # sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
+    sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 
 #Converts the sentences into a bag of words
@@ -49,6 +50,7 @@ def predict_class(sentence):
         results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     # end of Ivan addition 2
 
+    # sort by strength of probability
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
     for r in results:
@@ -63,8 +65,10 @@ def get_response(intents_list, intents_json):
             if i['tag'] == tag:
                 result = random.choice(i['responses'])
                 break
+    #Ivan addition
     except IndexError:
         result = "I don't know"
+    # end of Ivan addition
     return result
 
 print("COM727 Chatbot is here!")
@@ -76,13 +80,14 @@ import socket
 computer_name = socket.gethostname()
 file_name = f"{computer_name}_chat_log.txt"
 
-
 import re
+
 
 json_file = 'replacements.json'
 # Load the JSON file as a dictionary
 with open(json_file, 'r') as file:
     replacements = json.load(file)
+
 
 def replace_words(text, replacements):
     for key, value in replacements.items():
@@ -92,29 +97,86 @@ def replace_words(text, replacements):
 # end of Ivan addition 3
 
 
-while True:
-    ints =[]
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    message = input("You: ")
-    #Ivan addition 4
-    message = message.lower()
-    if message == 'exit':
-        break
-    num_words = len(message.split())
-    if num_words >= 3 or message in ["hello", "hi", "hey"]:
-        message = replace_words(message, replacements)
-        ints = predict_class(message)
-        res = get_response(ints, intents)
-        res = res + "          " + json.dumps(ints)
+import tkinter as tk
+
+def send_message():
+    message = message_entry.get()
+    if message.lower() == 'exit':
+        root.quit()
     else:
-        res = "Your question is too short, can you restate it?"
-    log_data = {
-        "timestamp": timestamp,
-        "input_message": message,
-        "output_response": res
-    }
-    with open(file_name, "a", encoding="utf-8") as log_file:
-        json.dump(log_data, log_file, ensure_ascii=False)
-        log_file.write('\n')  # Add a newline to separate entries
-    #end of  Ivan addition 4
-    print(res)
+        ints = []
+        response = ''
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        num_words = len(message.split())
+        if num_words >= 3 or message in ["hello", "hi", "hey"]:
+            message = replace_words(message, replacements)
+            ints = predict_class(message)
+            response = get_response(ints, intents)
+            if show_details:
+                response = response + "          " + json.dumps(ints)
+        else:
+            response = "Your question is too short, can you restate it?"
+        log_data = {
+            "timestamp": timestamp,
+            "input_message": message,
+            "output_response": response
+        }
+        with open(file_name, "a", encoding="utf-8") as log_file:
+            json.dump(log_data, log_file, ensure_ascii=False)
+            log_file.write('\n')
+        chat_history.config(state=tk.NORMAL)
+        chat_history.insert(tk.END, "You: " + message + "\n")
+        chat_history.insert(tk.END, "Bot: " + response + "\n")
+        chat_history.config(state=tk.DISABLED)
+        message_entry.delete(0, tk.END)
+
+def on_enter(event):
+    send_message()
+
+show_details = True
+# Set up the Tkinter window
+root = tk.Tk()
+root.title("COM727 Chatbot")
+
+# Create the chat history text area
+chat_history = tk.Text(root, state=tk.DISABLED)
+chat_history.pack(pady=15)
+
+# Create the user input entry box
+message_entry = tk.Entry(root, width=50)
+message_entry.pack(pady=15)
+message_entry.bind("<Return>", on_enter)  # Bind 'Enter' key to on_enter function
+
+# Create the send button
+send_button = tk.Button(root, text="Send", command=send_message)
+send_button.pack(pady=15)
+
+# Start the Tkinter main loop
+root.mainloop()
+
+# while True:
+#     ints =[]
+#     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#     message = input("You: ")
+#     #Ivan addition 4
+#     message = message.lower()
+#     if message == 'exit':
+#         break
+#     num_words = len(message.split())
+#     if num_words >= 3 or message in ["hello", "hi", "hey"]:
+#         message = replace_words(message, replacements)
+#         ints = predict_class(message)
+#         res = get_response(ints, intents)
+#         res = res + "          " + json.dumps(ints)
+#     else:
+#         res = "Your question is too short, can you restate it?"
+#     log_data = {
+#         "timestamp": timestamp,
+#         "input_message": message,
+#         "output_response": res
+#     }
+#     with open(file_name, "a", encoding="utf-8") as log_file:
+#         json.dump(log_data, log_file, ensure_ascii=False)
+#         log_file.write('\n')  # Add a newline to separate entries
+#     #end of  Ivan addition 4
+#     print(res)

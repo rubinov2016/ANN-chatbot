@@ -537,3 +537,26 @@
 {"timestamp": "2024-01-04 20:56:29", "input_message": "total number of teams", "output_response": "A total of 32 teams participated in the 2022 FIFA World Cup.          [{\"intent\": \"Teams\", \"probability\": \"0.9999411\"}]"}
 {"timestamp": "2024-01-04 20:57:12", "input_message": "the winner who", "output_response": "Argentina won the 2022 FIFA World Cup.          [{\"intent\": \"Winner\", \"probability\": \"0.9961075\"}]"}
 {"timestamp": "2024-01-04 20:57:23", "input_message": "last match what", "output_response": "Argentina defeated France in the final of the 2022 FIFA World Cup.          [{\"intent\": \"Final Match\", \"probability\": \"0.9337047\"}]"}
+{"timestamp": "2024-01-05 17:20:24", "input_message": "hi", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-05 17:20:29", "input_message": "hello", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-05 17:21:13", "input_message": "hi", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-05 17:23:44", "input_message": "hi", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-05 17:23:48", "input_message": "world cup 2022", "output_response": "The 2022 FIFA World Cup was the 22nd FIFA World Cup. It took place in Qatar from 20 November to 18 December 2022. It was the first World Cup to be held in the Arab world and Muslim world          [{\"intent\": \"2022 FIFA World Cup\", \"probability\": \"0.90378374\"}]"}
+{"timestamp": "2024-01-05 17:24:00", "input_message": "hello", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-05 17:27:47", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9993654\"}]"}
+{"timestamp": "2024-01-05 17:47:32", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9993654\"}]"}
+{"timestamp": "2024-01-05 17:47:56", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice.          [{\"intent\": \"Golden Ball Winner\", \"probability\": \"0.98344296\"}]"}
+{"timestamp": "2024-01-05 17:51:40", "input_message": "", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-05 17:52:49", "input_message": "test", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-05 17:52:57", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice.          [{\"intent\": \"Golden Ball Winner\", \"probability\": \"0.98344296\"}]"}
+{"timestamp": "2024-01-05 17:57:37", "input_message": "hello", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9991084\"}]"}
+{"timestamp": "2024-01-05 17:57:46", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice.          [{\"intent\": \"Golden Ball Winner\", \"probability\": \"0.98344296\"}]"}
+{"timestamp": "2024-01-05 17:58:16", "input_message": "", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-05 17:59:30", "input_message": "", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-05 18:00:51", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice.          [{\"intent\": \"Golden Ball Winner\", \"probability\": \"0.98344296\"}]"}
+{"timestamp": "2024-01-05 18:02:29", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice.          [{\"intent\": \"Golden Ball Winner\", \"probability\": \"0.98344296\"}]"}
+{"timestamp": "2024-01-05 18:02:58", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice."}
+{"timestamp": "2024-01-05 18:04:41", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice.          [{\"intent\": \"Golden Ball Winner\", \"probability\": \"0.98344296\"}]"}
+{"timestamp": "2024-01-05 18:04:42", "input_message": "", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-05 18:04:42", "input_message": "", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-05 18:04:48", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9993654\"}]"}
