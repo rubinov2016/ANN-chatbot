@@ -100,12 +100,12 @@ def replace_words(text, replacements):
 import tkinter as tk
 
 def send_message():
+    ints = []
+    response = ''
     message = message_entry.get()
     if message.lower() == 'exit':
         root.quit()
     else:
-        ints = []
-        response = ''
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         num_words = len(message.split())
         if num_words >= 3 or message in ["hello", "hi", "hey"]:
@@ -133,6 +133,7 @@ def send_message():
 def on_enter(event):
     send_message()
 
+
 show_details = True
 # Set up the Tkinter window
 root = tk.Tk()
@@ -153,30 +154,3 @@ send_button.pack(pady=15)
 
 # Start the Tkinter main loop
 root.mainloop()
-
-# while True:
-#     ints =[]
-#     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-#     message = input("You: ")
-#     #Ivan addition 4
-#     message = message.lower()
-#     if message == 'exit':
-#         break
-#     num_words = len(message.split())
-#     if num_words >= 3 or message in ["hello", "hi", "hey"]:
-#         message = replace_words(message, replacements)
-#         ints = predict_class(message)
-#         res = get_response(ints, intents)
-#         res = res + "          " + json.dumps(ints)
-#     else:
-#         res = "Your question is too short, can you restate it?"
-#     log_data = {
-#         "timestamp": timestamp,
-#         "input_message": message,
-#         "output_response": res
-#     }
-#     with open(file_name, "a", encoding="utf-8") as log_file:
-#         json.dump(log_data, log_file, ensure_ascii=False)
-#         log_file.write('\n')  # Add a newline to separate entries
-#     #end of  Ivan addition 4
-#     print(res)

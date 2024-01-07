@@ -1,0 +1,243 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today"
+      ]
+    },
+    {
+      "tag": "Total Goals and Average",
+      "patterns": [
+        "How many total goals were scored",
+        "Number of goals",
+        "Total Goals and Average",
+        "Average goals per match",
+        "How many total goals were scored in the 2022 World Cup, and what was the average per match?",
+        "Was the 2022 World Cup the highest-scoring"
+      ],
+      "responses": [
+        "There were 172 goals scored in 64 matches, averaging 2.69 goals per match."
+      ]
+    },
+    {
+      "tag": "Record Goals",
+      "patterns": [
+        "Was the 2022 World Cup the highest-scoring in terms of goals?",
+        "highest-scoring World Cup"
+      ],
+      "responses": [
+        "The 2022 World Cup had the most goals scored at a World Cup, with a total of 172."
+      ]
+    },
+    {
+      "tag": "Top Scorer",
+      "patterns": [
+        "Mpappe player",
+        "goals",
+        "Kylian Mbappe",
+        "Who was the top goal scorer in the 2022 World Cup and how many goals did they score?",
+        "eight goals",
+        "Who was the top goal scorer",
+        "8 goals",
+        "Kylian Mbappe player"
+      ],
+      "responses": [
+        "Kylian Mbappe of France was the top goal scorer with 8 goals."
+      ]
+    },
+    {
+      "tag": "Second Highest Scorer",
+      "patterns": [
+        "7 goals",
+        "Who scored the second-highest number of goals in the 2022 World Cup?",
+        "goals",
+        "Lionel Messi",
+        "seven goals",
+        "Who scored the second-highest number of goals",
+        "Second Highest Scorer",
+        "second-highest number of goals"
+      ],
+      "responses": [
+        "Lionel Messi of Argentina scored the second-highest number of goals with 7."
+      ]
+    },
+    {
+      "tag": "4 Goal Scorers",
+      "patterns": [
+        "Julian Alvarez",
+        "scored four goals",
+        "Which players scored 4 goals",
+        "Olivier Giroud",
+        "four goals",
+        "4 goals",
+        "scored 4 goals",
+        "4 Goal Scorers",
+        "Which players scored 4 goals in the 2022 World Cup?"
+      ],
+      "responses": [
+        "Julian Alvarez of Argentina and Olivier Giroud of France each scored 4 goals."
+      ]
+    },
+    {
+      "tag": "3 Goal Scorers",
+      "patterns": [
+        "scored 3 goals",
+        "3 Goal Scorers",
+        "Cody Gakpo",
+        "3 goals",
+        "Which players scored 3 goals in the 2022 World Cup?",
+        "Which players scored 3 goals",
+        "Alvaro Morata",
+        "Goncalo Ramos",
+        "Bukayo Saka",
+        "scored three goals",
+        "three goals",
+        "Marcus Rashford",
+        "Enner Valencia"
+      ],
+      "responses": [
+        "Players who scored 3 goals were Richarlison of Brazil, Enner Valencia of Ecuador, Marcus Rashford and Bukayo Saka of England, Cody Gakpo of the Netherlands, Goncalo Ramos of Portugal, and Alvaro Morata of Spain."
+      ]
+    },
+    {
+      "tag": "Golden Ball Winner",
+      "patterns": [
+        "Golden Ball",
+        "Who won the Golden Ball award at the 2022 FIFA World Cup?",
+        "Golden Ball award",
+        "Lionel Messi",
+        "best player"
+      ],
+      "responses": [
+        "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice."
+      ]
+    },
+    {
+      "tag": "Silver and Bronze Ball Winners",
+      "patterns": [
+        "Who won the Silver and Bronze Ball awards?",
+        "Luka Modric",
+        "Bronze Ball",
+        "Silver Ball"
+      ],
+      "responses": [
+        "Kylian Mbappe of France won the Silver Ball, and Luka Modric of Croatia won the Bronze Ball."
+      ]
+    },
+    {
+      "tag": "Golden Boot Winner",
+      "patterns": [
+        "Who won the Golden Boot award at the 2022 World Cup?",
+        "Golden Boot",
+        "Golden Boot Winner"
+      ],
+      "responses": [
+        "Kylian Mbappe of France won the Golden Boot award, scoring 8 goals and providing 2 assists."
+      ]
+    },
+    {
+      "tag": "Silver and Bronze Boot Winners",
+      "patterns": [
+        "Who were the Silver and Bronze Boot winners?",
+        "Silver Boot",
+        "Bronze Boot"
+      ],
+      "responses": [
+        "Lionel Messi of Argentina won the Silver Boot with 7 goals and 3 assists, and Olivier Giroud of France won the Bronze Boot with 4 goals."
+      ]
+    },
+    {
+      "tag": "Golden Glove Winner",
+      "patterns": [
+        "Golden Glove Winner",
+        "Golden Glove",
+        "Who won the Golden Glove award in the tournament?",
+        "Emiliano Martinez"
+      ],
+      "responses": [
+        "Emiliano Martinez of Argentina won the Golden Glove award for best goalkeeper."
+      ]
+    },
+    {
+      "tag": "FIFA Young Player Award",
+      "patterns": [
+        "Young Player",
+        "Who received the FIFA Young Player Award?",
+        "Young Player Award",
+        "Enzo Fernandez"
+      ],
+      "responses": [
+        "Enzo Fernandez of Argentina received the FIFA Young Player Award."
+      ]
+    },
+    {
+      "tag": "FIFA Fair Play Trophy",
+      "patterns": [
+        "Which team won the FIFA Fair Play Trophy?",
+        "Fair Play Trophy",
+        "England Fair Play"
+      ],
+      "responses": [
+        "England won the FIFA Fair Play Trophy."
+      ]
+    },
+    {
+      "tag": "Best Goal Award",
+      "patterns": [
+        "Which goal was voted as the best in the tournament by FIFA.com users?",
+        "Best Goal Award",
+        "Best Goal",
+        "Richarlison"
+      ],
+      "responses": [
+        "Brazil's Richarlison's second goal in the group stage match against Serbia was voted as the tournament's best goal."
+      ]
+    },
+    {
+      "tag": "Official Match Ball",
+      "patterns": [
+        "Al Rihla",
+        "Official Match Ball",
+        "When was the official match ball Al Rihla unveiled and what does its name mean?",
+        "What inspired the design of Al Rihla, and what is unique about its construction?",
+        "Al Rihla Design",
+        "water-based glues",
+        "Design of Al Rihla",
+        "Electronic Sensors",
+        "What technology is integrated into Al Rihla?"
+      ],
+      "responses": [
+        "The official match ball, Al Rihla. In Arabic, Al-Rihla means the journey. Al Rihla has internal electronic sensors, allowing detection of its speed and position"
+      ]
+    },
+    {
+      "tag": "Soundtrack Songs and Artists",
+      "patterns": [
+        "Soundtrack Songs",
+        "Myriam Fares",
+        "Soundtrack Songs and Artists",
+        "What are some of the songs and artists featured in the official World Cup soundtrack?",
+        "Trinidad Cardona",
+        "What are some of the songs?",
+        "AISHA Arhbo",
+        "Artists",
+        "Hayya",
+        "The World Is Yours",
+        "What are some of the songs and artists?",
+        "Songs",
+        "Hayya Hayya",
+        "What is unique about the FIFA World Cup 2022 official soundtrack?",
+        "official soundtrack"
+      ],
+      "responses": [
+        "The soundtrack includes Hayya Hayya (Better Together) by Trinidad Cardona, Davido, and AISHA Arhbo by Gims and Ozuna The World Is Yours to Take by Lil Baby Light The Sky by Nora Fatehi, Manal, Rahma Riad, and Balqees Tukoh Taka by Nicki Minaj, Maluma, and Myriam Fares and Dreamers by Jungkook of BTS."
+      ]
+    }
+  ]
+}

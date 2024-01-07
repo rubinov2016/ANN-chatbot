@@ -55,10 +55,8 @@ ignore_letters=['?','!','.','/','@']
 for intent in intents['intents']:
     for pattern in intent['patterns']:
         word_list = nltk.word_tokenize(pattern)
-        # Ivan  addition 2
         pos_tags = nltk.pos_tag(word_list)
         #print(pos_tags)
-        # end of Ivan addition 2
         words.extend(word_list)
         documents.append((word_list,intent['tag']))
         if intent['tag'] not in classes:
@@ -75,9 +73,9 @@ words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ign
 words = sorted(set(words))
 
 classes = sorted(set(classes))
-
 pickle.dump(words, open('words.pkl', 'wb'))
 pickle.dump(classes, open('classes.pkl', 'wb'))
+
 
 training = []
 output_empty = [0] * len(classes)

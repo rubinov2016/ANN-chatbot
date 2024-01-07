@@ -560,3 +560,11 @@
 {"timestamp": "2024-01-05 18:04:42", "input_message": "", "output_response": "Your question is too short, can you restate it?"}
 {"timestamp": "2024-01-05 18:04:42", "input_message": "", "output_response": "Your question is too short, can you restate it?"}
 {"timestamp": "2024-01-05 18:04:48", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9993654\"}]"}
+{"timestamp": "2024-01-05 18:16:33", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9994948\"}]"}
+{"timestamp": "2024-01-06 19:07:07", "input_message": "hello", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9993413\"}]"}
+{"timestamp": "2024-01-06 19:07:23", "input_message": "what are the best part of world cup?", "output_response": "Qatari officials, including the organizing CEO Nasser Al Khater, disputed the estimated cost of over $220 billion, stating that the true cost was around $8 billion.          [{\"intent\": \"Hosting Cost\", \"probability\": \"0.30374864\"}]"}
+{"timestamp": "2024-01-06 19:07:42", "input_message": "favourites before match", "output_response": "Before the World Cup, teams named a provisional squad of up to 55 players.          [{\"intent\": \"Provisional Squad Size\", \"probability\": \"0.66941935\"}]"}
+{"timestamp": "2024-01-06 19:08:07", "input_message": "favorites teams ever", "output_response": "A total of 32 teams participated in the 2022 FIFA World Cup.          [{\"intent\": \"Teams\", \"probability\": \"0.12367173\"}]"}
+{"timestamp": "2024-01-06 19:15:09", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.99984443\"}]"}
+{"timestamp": "2024-01-06 19:15:22", "input_message": "favorites teams before", "output_response": "Traditional football powerhouses such as Brazil, Germany, Argentina, and Spain are among the favorites, but surprises are always possible in football.          [{\"intent\": \"Team Favourites\", \"probability\": \"0.5696439\"}]"}
+{"timestamp": "2024-01-07 18:57:27", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.99984443\"}]"}

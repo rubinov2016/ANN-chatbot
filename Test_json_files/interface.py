@@ -1,9 +1,8 @@
 import tkinter as tk
 from tkinter import simpledialog
 
-# Function to handle user input and generate a response (dummy function for demonstration)
+# Function to generate a response
 def get_response(input_string):
-    # Replace this with the logic of your chatbot
     return "You said: " + input_string
 
 # Function to handle sending message
