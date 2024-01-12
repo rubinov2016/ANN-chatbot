@@ -568,3 +568,23 @@
 {"timestamp": "2024-01-06 19:15:09", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.99984443\"}]"}
 {"timestamp": "2024-01-06 19:15:22", "input_message": "favorites teams before", "output_response": "Traditional football powerhouses such as Brazil, Germany, Argentina, and Spain are among the favorites, but surprises are always possible in football.          [{\"intent\": \"Team Favourites\", \"probability\": \"0.5696439\"}]"}
 {"timestamp": "2024-01-07 18:57:27", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.99984443\"}]"}
+{"timestamp": "2024-01-07 19:28:35", "input_message": "hello", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9997155\"}]"}
+{"timestamp": "2024-01-07 22:54:29", "input_message": "hello", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.9997155\"}]"}
+{"timestamp": "2024-01-07 23:18:57", "input_message": "hello", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.999172\"}]"}
+{"timestamp": "2024-01-09 13:19:38", "input_message": "Which country hosted the 2022 FIFA World Cup?", "output_response": "The champion of FIFA World Cup 2022 was Argentina.          [{\"intent\": \"World Cup 2022 Champion\", \"probability\": \"0.35464984\"}]"}
+{"timestamp": "2024-01-09 13:20:08", "input_message": "How many teams competed in the 2022 World Cup?", "output_response": "A total of 32 teams participated in the 2022 FIFA World Cup.          [{\"intent\": \"Teams\", \"probability\": \"0.1802199\"}]"}
+{"timestamp": "2024-01-09 13:20:31", "input_message": "What was unique about the timing of the 2022 World Cup?", "output_response": "The 2022 FIFA World Cup was held from the 20th of November to the 18th of December in 2022.          [{\"intent\": \"Date\", \"probability\": \"0.17487259\"}]"}
+{"timestamp": "2024-01-09 13:21:02", "input_message": "Which team won the 2022 FIFA World Cup?", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-09 13:21:30", "input_message": "Who won the Golden Boot award in the 2022 World Cup?", "output_response": "Kylian Mbappe of France won the Golden Boot award, scoring 8 goals and providing 2 assists.          [{\"intent\": \"Golden Boot Winner\", \"probability\": \"0.9976986\"}]"}
+{"timestamp": "2024-01-09 13:27:14", "input_message": "hi", "output_response": "Hello! How can I help you today          [{\"intent\": \"greet\", \"probability\": \"0.99264693\"}]"}
+{"timestamp": "2024-01-09 13:30:39", "input_message": "How many goals were scored through set-pieces?", "output_response": "There were 172 goals scored in 64 matches, averaging 2.69 goals per match.          [{\"intent\": \"Total Goals and Average\", \"probability\": \"0.6722248\"}]"}
+{"timestamp": "2024-01-09 13:31:23", "input_message": "Which country made its World Cup debut in 2022?", "output_response": "Qatar were the only team making their debut in the FIFA World Cup          [{\"intent\": \"Teams Debut\", \"probability\": \"0.99984777\"}]"}
+{"timestamp": "2024-01-09 13:32:11", "input_message": "Who was the oldest player in the 2022 World Cup?", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice.          [{\"intent\": \"Golden Ball Winner\", \"probability\": \"0.15778714\"}]"}
+{"timestamp": "2024-01-11 12:23:45", "input_message": "hello!", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-11 12:23:53", "input_message": "what is wrong?", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-11 12:24:09", "input_message": "world cup golden", "output_response": "Emiliano Martinez (Argentina) has been awarded the Golden Glove after helping Argentina win the 2022 FIFA World Cup in Qatar. He saved penalty kicks           [{\"intent\": \"golden_gloves\", \"probability\": \"0.13019787\"}]"}
+{"timestamp": "2024-01-11 12:25:36", "input_message": "what is diffirent", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-11 12:26:35", "input_message": "Messi is great", "output_response": "I don't know          []"}
+{"timestamp": "2024-01-11 12:33:23", "input_message": "hhhhhhhhhhhh", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-12 09:49:27", "input_message": "hello?", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-12 09:49:31", "input_message": "hi", "output_response": "Hello! How can I help you today;"}

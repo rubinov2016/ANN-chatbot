@@ -1,0 +1,472 @@
+{
+  "intents": [
+    {
+      "tag": "group a",
+      "patterns": [
+        "group a ,standing postion of a table",
+        " a table ",
+        "table a",
+        "standing a",
+        "group stage  result of ecuador",
+        "group stage result of qatar",
+        "group stage result of netherlands",
+        "group results of senegal",
+        "group a result and score",
+        "group a"
+      ],
+      "responses": [
+        "Group standing for Group A: \n1. Netherlands\n2. Senegal,\n3. Ecuador\n4. Qatar\nGroup A results and score\nMatch: Qatar 0-2 Ecuador (Enner Valencia 16\u2019, 31\u2019)\nMatch: Senegal 0-2 Netherlands (Cody Gakpo 84', Davy Klaassen 90+9')\nMatch: Qatar (Md Muntari 78') 1-3 Senegal (Boulaye Dia 41', Famara Diedhio 48', B Dieng 84')\nMatch: Netherlands (Cody Gakpo 6') 1-1 Ecuador (Enner Valencia 49')\nMatch: Ecuador (Mois\u00e9s Caicedo 67') 1-2 Senegal (Ismaila Sarr 44', Kalidou Koulibaly 70')\nMatch: Netherlands (Cody Gakpo 26', Frenkie de Jong 49') 2-0 Qatar\n"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "group b standing",
+        "postion of b table",
+        " b table ",
+        "table b",
+        "standing b",
+        "group standing for group b",
+        "group stage of england",
+        "group stage of usa",
+        "group stage of ir iran group stage of wales",
+        "group b results and scores"
+      ],
+      "responses": [
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales Group B results and scores\nMatch: England (Jude Bellingham 35', Bukayo Saka 43', 62', Raheem Sterling 45+1, Marcus Rashford 71', Jack Grealish 90+1') 6-2 Iran (Mehdi Taremi 65', 90+13')\nMatch: USA (Timothy Weah 36') 1-1 Wales (Gareth Bale 82')\nMatch: Wales 0-2 Iran (Rouzbeh Cheshmi (90+8', Ramin Rezaeian (90+11')\nMatch: England 0-0 USA\nMatch: Wales 0-3 England (Marcus Rashford 50', 68', Phil Foden 51')  \nMatch: Iran 0-1 USA (Christian Pulisic 38')\n"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "group c standing",
+        "position of c table",
+        " c table ",
+        "table c",
+        "standing c",
+        " group d",
+        "group stage result of france",
+        "group stage result  of australia",
+        "group stage result of tunisia",
+        "group stage result of denmark",
+        "group c results and scores"
+      ],
+      "responses": [
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia Group C results and scores\nMatch: Argentina (Lionel Messi 10') 1-2 Saudi Arabia (Saleh Alshehri 48', Salem Aldawsari 53')\nMatch: Mexico 0-0 Poland\nMatch: Poland (Piotr Zielinski 39', Robert Lewandowski 82') 2-0 Saudi Arabia\nMatch: Argentina (Lionel Messi 64', Enzo Fernandez 87') 2-0 Mexico\nMatch: Poland 0-2 Argentina (Alexis Mac Allister 46', Julian Alvarez 67')\nMatch: Saudi Arabia (Salem Aldawsari 90+5') 1-2 Mexico (Henry Martin Mex 47', Luis Chavez 52')"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "group d standing",
+        "position of d table",
+        "d table ",
+        "table d",
+        "standing d Group standing for group stage of group d",
+        "group stage of france",
+        "group stage of australia",
+        "group stage of tunisia",
+        "group stage of denmark",
+        "group d results and scores"
+      ],
+      "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark Group D results and scores\nMatch: Denmark 0-0 Tunisia\nMatch: France (Adrien Rabiot 27', Olivier Giroud 32', 71', Kylian Mbappe 68') 4-1 Australia (Craig Goodwin 9')\nMatch: Tunisia 0-1 Australia (Mitchell Duke 23')\nMatch: France (Kylian Mbappe 61', 86') 2-1 Denmark (Andreas Christensen 68')\nMatch: Australia (Mathew Leckie 60') 1-0 Denmark\nMatch: Tunisia (Wahbi Khazri 58') 1-0 France"
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "group e standing",
+        " position of e table",
+        " e table ",
+        "table e",
+        "standing e",
+        "group stage results of japan",
+        "group stage of spain",
+        "group stage of Germany",
+        "group of costa rica",
+        "group e results",
+        "scores of group e\n"
+      ],
+      "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica Group E results and scores\n\nMatch: Germany (Ikay Gundogan 33') 1-2 Japan (Ritsu Doan 75', Takuma Asano 83')\n\nMatch: Spain (Dani Olmo 11', Marco Asensio 21', Ferran Torres 31', 54', Gavi 74', Carlos Soler 90', Alvaro Morata 90+2') 7-0 Costa Rica\n\nMatch: Japan 0-1 Costa Rica (Keysher Fuller 81')\n\nMatch: Spain (Alvaro Morata 62') 1-1 Germany (Niclas Fullkrug 83')\n\nMatch: Japan (Ritsu Doan 48', Ao Tanaka 51') 2-1 Spain (Alvaro Morata 11')\n\nMatch: Costa Rica (Yeltsin Tejeda 58', Manuel Neuer (OG) 70') 2-4 Germany (Serge Gnabry 10', Kai Havertz 73', 85', Niclas Fullkrug 89')"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "group f standing",
+        "position of f table",
+        " f table ",
+        "table f",
+        "standing f"
+      ],
+      "responses": [
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada, Group F results and scores\nMatch: Morocco 0-0 Croatia\nMatch: Belgium (Michy Batshuayi 44') 1-0 Canada\nMatch: Belgium 0-2 Morocco (Abdelhamid Sabiri 73', Zakaria Aboukhlal 90+2')\nMatch: Croatia (Andrej Kramaric 36', 70', Marko Livaja 44', Lovro Majer 90+4') 4-1 Canada (Alphonso Davies 2')\nMatch: Croatia 0-0 Belgium\nMatch: Canada (Nayef Aguerd OG 40') 1-2 Morocco (Hakim Ziyech 4', Youssef En-Nesyri 23')"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "group g standing",
+        "position of g table",
+        " g table ",
+        "table g",
+        "standing g",
+        "group standing",
+        "Group g",
+        "group stage result of Brazil",
+        "group stage result of  switzerland",
+        "group stage result of cameroon",
+        "group stage result of serbia",
+        "group g results and scores",
+        ""
+      ],
+      "responses": [
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia, Group G results and scores\nMatch: Switzerland (Breel Embolo 48') 1-0 Cameroon\nMatch: Brazil (Richarlison 62', 73') 2-0 Serbia\nMatch: Cameroon (Jean-Charles Castelletto 29', Vincent Aboubakar 63', Eric Choupo-Moting 66') 3-3 Serbia (Strahinja Pavlovic 45+1', Sergej Milinkovic-Savic 45+3', Aleksandar Mitrovic 53')\nMatch: Brazil (Casemiro 83') 1-0 Switzerland\nMatch: Serbia (Aleksandar Mitrovic 26', Dusan Vlahovic 35') 2-3 Switzerland (Xherdan Shaqiri 20', Breel Embolo 44', Remo Freuler 48')\nMatch: Cameroon (Vincent Aboubakar 90+2') 1-0 Brazil"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "group h standing",
+        "position of f table",
+        "a table ",
+        "table a",
+        "standing a",
+        " Group h",
+        "group stage position of Portugal",
+        "group stage position korea republic",
+        "group stage position  uruguay",
+        "group stage position ghana",
+        "goals  and score grouph h",
+        "result of group h",
+        "date of group h"
+      ],
+      "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana, Group H results and scores\nMatch: Uruguay 0-0 South Korea\nMatch: Portugal (Cristiano Ronaldo 65', Joao Felix 78', Rafael Lobo 80') 3-2 Ghana (Andre Ayew 73', Osman Bukari 89')\nMatch: South Korea (Cho Gue-sung 58', 61') 2-3 Ghana (Mohammed Salisu 24', Mohammed Kudus 34', 68')\nMatch: Portugal (Bruno Fernandes 54', 90+3') 2-0 Uruguay\nMatch: Ghana 0-2 Uruguay (Giorgian de Arrascaeta 26', 32')\nMatch: South Korea (Kim Young-gwon 27', Hwang Hee-chan 90+1') 2-1 Portugal (Ricardo Horta 5')\n* Top two teams from each group make the Round of 16\n"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey"
+      ],
+      "responses": [
+        "Hello! How can I help you today;"
+      ]
+    },
+    {
+      "tag": "host",
+      "patterns": [
+        "who held  world cup 2022",
+        "host the world cup",
+        "which country organised world cup qatar",
+        "country hosted event world cup 2022",
+        "first time host",
+        "middle east"
+      ],
+      "responses": [
+        "World cup 2022 was the first time event has went to middleeast and a was hosted by Qatar."
+      ]
+    },
+    {
+      "tag": "stadium_names",
+      "patterns": [
+        "names of the stadium world cup 2022",
+        "stadium names",
+        "total stadium "
+      ],
+      "responses": [
+        "There are 8 stadium used for world cup 2022 qatar. These are the stadium that hosted the football matches: Al-Bayt Stadium, AI-Daayen Stadium, Al-Khalifa International Stadium, Al-Rayyan Stadium, Al-Thumama Stadium, Education City Stadium, Lusail Iconic Stadium (Final venue), Ras Abu Aboud Stadium"
+      ]
+    },
+    {
+      "tag": "practicipation",
+      "patterns": [
+        "amount of teams participated on world cup 2022",
+        "number of the participating team qatar world cup",
+        "total team challenging",
+        "total team",
+        "total participation",
+        "participation number,teams from asia",
+        " team qualified from asian continent",
+        "asian teams",
+        "total number of asia team,teams from africa,qualified from african continent",
+        "african teams",
+        "total number of african team",
+        "teams from europe,team qualified european continent",
+        "european teams",
+        "total number of europe team",
+        "teams from south America",
+        "team qualified south american continent",
+        "south american teams",
+        "total number of south american team",
+        "teams from north america",
+        "qualified north american continent",
+        "north american teams",
+        "total number of north american team"
+      ],
+      "responses": [
+        "There were 32 teams participating in the 2022 World cup 2022. \nThe qualified countries from the continent of Asia: Qatar, Iran, south korea, saudi arabia, japan, australia\nThe qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon\nThe qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Croatia, Spain, serbia, england, netherland, switzerland, portugal, poland, wales\nThe qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay,\nThe qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica\n\n"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "scoreline of final of world cup 2022",
+        "the result of the final",
+        "won the world cup ",
+        "who came first",
+        "crown the champion",
+        "who won the final",
+        "winner of the final",
+        "winner of the world cup 2022"
+      ],
+      "responses": [
+        "The winner of the world cup is Argentina, Argentina 3-3 France-- ( Argentina win 4-2 on penalties)"
+      ]
+    },
+    {
+      "tag": "man_of_the _match",
+      "patterns": [
+        "best player of tournament ,man of the match,who is the Player of tournament",
+        "result of messi lionel",
+        "golden ball",
+        "golden ball winner",
+        ""
+      ],
+      "responses": [
+        "Messi (Argentina)won the man of the match, and won the golden ball and names FIFAs men best player of the Tournament."
+      ]
+    },
+    {
+      "tag": "golden_boot",
+      "patterns": [
+        "achieved top goal scorer of tournament",
+        "  boot winner",
+        " highest goals scored",
+        "kylian mbappe",
+        "who won the golden boot",
+        "silver ball,silver ball winner"
+      ],
+      "responses": [
+        "Kylian Mbappe (France) won the 2022 FiFA World cup Golden boot and silver ball and score the total of eight (8) goals."
+      ]
+    },
+    {
+      "tag": "golden_gloves",
+      "patterns": [
+        "won the golden glove winner,won best keeper",
+        "winner of golden gloves",
+        " golden gloves"
+      ],
+      "responses": [
+        "Emiliano Martinez (Argentina) has been awarded the Golden Glove after helping Argentina win the 2022 FIFA World Cup in Qatar. He saved penalty kicks "
+      ]
+    },
+    {
+      "tag": "bronze_ball",
+      "patterns": [
+        "who won the bronze ball",
+        "bronze ball,winner of bronze ball"
+      ],
+      "responses": [
+        "Luka Mordic won the bronze ball"
+      ]
+    },
+    {
+      "tag": "last_16_teams",
+      "patterns": [
+        "last 16  stage result of usa",
+        "knock out stage results for usa,far till usa went",
+        "stage usa went till",
+        "last 16 result of stage germany",
+        "far till germany went",
+        "stage germany went till,knockout results for germany",
+        "far switzerland till went",
+        "stage switzerland went till,knock out results for switzerland,last result of switzerland",
+        "far poland till went",
+        "stage poland went till,knocout result of poland",
+        "last 16 results for poland,last 16 result of senegal ,far senegal till went",
+        "stage senegal went till,knock out results for senegal",
+        "far japan till went",
+        "stage japan went till,last 16 result of japan",
+        "knock out result for japan,far south korea till went",
+        "stage south korea went tilllast result of south korea,knock out results for south korea",
+        "last 16 result for brazil ",
+        "last 16 results for netherlands",
+        "last 16 result for england",
+        "last 16 result of portugal",
+        "last 16 result of croatia"
+      ],
+      "responses": [
+        "Round of 16 results\nDecember 3, Saturday\nNetherlands (Memphis Depay 10', Daley Blind 45+1', Denzel Dumfries 81') 3-1 USA (Haji Wright 76')\nDecember 4, Sunday\nArgentina (Lionel Messi 35', Julian Alvarez 57') 2-1 Australia (Enzo Fernandez OG 77')\nFrance (Olivier Giroud 44', Kylian Mbappe 74', 90+1') 3-1 Poland (Robert Lewandowski 90+9')\nDecember 5, Monday\nEngland (Jordan Henderson 38', Harry Kane 45+3', Bukayo Saka 57') 3-0 Senegal\nJapan (Daizen Maeda 43') 1(1)-1(3) Croatia (Ivan Perisic 55') - penalties\nDecember 6, Tuesday\nBrazil (Vinicius Jr 7', Neymar 13', Richarlison 29', Paqueta 36') 4-1 South Korea (Palik Seung-ho 76')\nMorocco 0(3)-0(0) vs Spain - penalties\nDecember 7, Wednesday\nPortugal (Gon\u00e7alo Ramos 17\u2019, 51\u2019, 67\u2019, Pepe 33\u2019, Rapha\u00ebl Guerreiro 55\u2019, Rafael Le\u00e3o 90+2\u2019) 6-1 Switzerland (Manuel Akanji 58')"
+      ]
+    },
+    {
+      "tag": "quatar_final_teams",
+      "patterns": [
+        "quatar final  results of brazil,knock out stage for brazil",
+        "quatar final result of qatar final ",
+        " quatar final  result for netherlands",
+        "knockout result for netherlands",
+        "quatar final result of england,knock out stage of england",
+        "quatar final result portugal,knockout results of protugal",
+        "quatar final result of world cup,quatar final",
+        "quatar final teams",
+        "quatar final result of coratia",
+        "quatar final of croatia,quatar",
+        "who palyed quatar final",
+        "when was quatar final game played",
+        "quatar final results of argentina",
+        "quatar final results of france",
+        "who were goal scorer in quatar final",
+        "quatar final goal scorers",
+        "goals scored in quatar final",
+        "date for quatar final",
+        "quatars",
+        "quatar finals date"
+      ],
+      "responses": [
+        "Quarter-final 1: December 9, Friday\nCroatia (Bruno Petkovi\u0107 116\u2019) 1(4)-1(2) Brazil (Neymar 105+1\u2019) - penalties\nQuarter-final 2: December 10, Saturday\nNetherlands (Wout Weghorst 83\u2019, 90+11\u2019) 2(3)-2(4) Argentina (Nahuel Molina 35\u2019, Lionel Messi 73\u2019(P)) - penalties\nQuarter-final 3: December 10, Saturday\nMorocco (Youssef En-Nesyri 42') 1-0 Portugal\nQuarter-final 4: December 11, Sunday\nEngland (Harry Kane 54\u2019(P)) 1-2 France (Aur\u00e9lien Tchouam\u00e9ni 17\u2019, Olivier Giroud 78\u2019)"
+      ]
+    },
+    {
+      "tag": "semi_final_teams",
+      "patterns": [
+        "semi final result of croatia",
+        "semi final of morocco",
+        "goal scored in semifinal",
+        "who scored the goals in semi final",
+        "semi final results of france",
+        "semi final results of argentina",
+        "how many goal was scored in semi final",
+        "who played semis",
+        "semi final date",
+        "semis"
+      ],
+      "responses": [
+        "This team played the semi final (4 team) of the World cup 2022 after beating their team in Quatar finalSemi-final 1: December 14, Wednesday\nArgentina (Lionel Messi 34\u2019(P), Julian Alvarez 39\u2019, 69\u2019) 3-0 Croatia\nSemi-final 2: December 15, Thursday\nFrance (Theo Hern\u00e1ndez 5\u2019, Randal Kolo Muani 79\u2019) 2-0 Morocco"
+      ]
+    },
+    {
+      "tag": "final_2_runnerup",
+      "patterns": [
+        " teams played play off",
+        "bronze medal medalist",
+        "third-place playoff result\n world cup results of croatia",
+        "result of morocco",
+        "who became third",
+        "knock out results of croatia",
+        "knock out result of morocco",
+        "2 nd runner up",
+        "second runner up",
+        "rank of croatia",
+        "rank of morocco",
+        "third position and fourth position",
+        "rank 3",
+        "rank 4",
+        "rank third",
+        "rank fourth"
+      ],
+      "responses": [
+        "Third-place playoff result\n3rd place playoff: December 17, Saturday\nCroatia (Josko Gvardiol 7', Mislav Orsic 42') 2-1 Morocco (Achraf Dari 9')\nCroatia won the bronze medal\n"
+      ]
+    },
+    {
+      "tag": "final_winner",
+      "patterns": [
+        "result for argentina",
+        "champion of world",
+        "gold medal medalist",
+        " result for finalist ,result of france ",
+        "result of finalist",
+        "teams played final",
+        "silver medal medalist",
+        "finalist of world cup",
+        "first runners up ",
+        "who played final",
+        "final game",
+        "who won the world cup",
+        "final winner",
+        "first position",
+        "second position",
+        "rank 1",
+        "rank 2",
+        "rank one",
+        "rank two"
+      ],
+      "responses": [
+        "Argentina played France and  beat the finalist to be crown as the raining champion of World cup 2022 Qatar after deafeating the tough opponent in France(1 st runner Up) created most exciting Final. Final result\nFinal: December 18, Sunday\nArgentina (Lionel Messi 23' (P), 108', Angel Di Mar\u00eda 36') 3(4)-3(2) France (Kylian Mbappe 80' (P), 81', 118' (P)) - penalties"
+      ]
+    },
+    {
+      "tag": "format",
+      "patterns": [
+        "tell me the format of world cup",
+        "how does it work",
+        "tell me ways to qualify",
+        "knock out starts",
+        "how is world cup played,what is world cup 2022"
+      ],
+      "responses": [
+        "It is the football event comes every other 4 year, where around the world complete. each team of 4 is distributed in 8 groups plays in their respective Groups, top 2 qualify, then Knockout round starts of last-16. 16 team plays and winner head to Quatar final and winner goes to Semi final and winner plays Final and Winner is Crown champion of the world."
+      ]
+    },
+    {
+      "tag": "total_prize_pool",
+      "patterns": [
+        "what was the total prize pool for the world cup 2022",
+        "2022 world cup prize pool compare to the previous tournament",
+        "was the price pool has an increament in price increase in price pool",
+        "prize pool",
+        "price",
+        "money earned",
+        "total cost",
+        "pize pool for 1st",
+        "prize pool for 3 rd",
+        "price pool for 4 th",
+        "What was the total prize pool for the world cup,the 2022 world cup prize pool compare to the previous tournament,how much did the champions of  receive,much money did the runners-up up receive,prizepool of runner up",
+        "much did the team in third place at the receive",
+        "team in fourth place at the  receive",
+        "each team in the quarter-finals (5th\u20138th place) of the receive,much did each team in the group stage (17th\u201332nd place) of the 2022 World Cup receive?",
+        "the total prize  distributed among the 32 teams",
+        "money won by 4 th place",
+        "money won by 3 rd place",
+        "money won by 1st place",
+        "money won by 2 nd place",
+        "frist place prize pool",
+        "second place price pool",
+        "3rd place price pool",
+        "4 the place price pool\n"
+      ],
+      "responses": [
+        "FIFA announced the prizes for the 2022 World Cup in April 2022.\nEach qualified team for the 2022 World Cup received $1.5 million before the competition to cover preparation costs.Each team participating in the 2022 World Cup received at least $9 million in prize money.\nEach qualified team for the 2022 World Cup received $1.5 million before the competition to cover preparation costs.Each team participating in the 2022 World Cup received at least $9 million in prize money.\nThe total prize pool for the 2022 World Cup was $440 million. The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament.\nThe total prize pool for the 2022 World Cup was $440 million. The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament.\nThe champions of the 2022 World Cup received $42 million.\nThe runners-up of the 2022 World Cup received $30 million.\nThe team in third place at the 2022 World Cup received $27 million.\nThe team in fourth place at the 2022 World Cup received $25 million.\nEach team in the quarter-finals (5th\u20138th place) of the 2022 World Cup received $17 million.\nEach team in the group stage (17th\u201332nd place) of the 2022 World Cup received $9 million.\nThe total prize of $440 million was distributed among the 32 teams with varying amounts depending on their final standing in the tournament, ranging from $9 million for group stage teams to $42 million for the champions.\n"
+      ]
+    },
+    {
+      "tag": "mascot",
+      "patterns": [
+        "When was the tournament's official mascot unveiled and what is its name?",
+        "the mascot",
+        "mascot",
+        "La'eeb"
+      ],
+      "responses": [
+        "The official mascot of the tournament is La'eeb. La'eeb is an Arabic word meaning super-skilled player"
+      ]
+    },
+    {
+      "tag": "Schedule Change",
+      "patterns": [
+        "why was the 2022 FIFA World Cup not held in June and July as usual?,Why was there a change in an event of World Cup 2022?held in winter of November and December,Which month was World Cup event was oranganised? schedule change,"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup was not held in June and July, as is typical, due to Qatar's intense summer heat and high humidity. Instead, it was played in November and December."
+      ]
+    }
+  ]
+}

@@ -20,8 +20,8 @@ def download_json(credentials_name, sheet_name, worksheet_name, json_path):
     for row in data[1:]:
         intent = {
             "tag": row[1],
-            "patterns": row[2].split(";"),  # Assuming patterns are comma-separated
-            "responses": row[3].split(";")  # Assuming responses are comma-separated
+            "patterns": row[2].split(";"),
+            "responses": row[3].split(";")
         }
         json_data["intents"].append(intent)
 
@@ -37,19 +37,18 @@ def load_json(filename):
     with open(filename, 'r') as file:
         return json.load(file)
 
-def load_and_format_json(filename):
-    import json
-    with open(filename, 'r') as file:
-        json_data = json.load(file)
 
+def load_and_format_json(filename):
+    json_data = load_json(filename)
     formatted_data = []
     for intent in json_data["intents"]:
         tag = intent["tag"]
         patterns = '; '.join(intent["patterns"])
         responses = '; '.join(intent["responses"])
         formatted_data.append([tag, patterns, responses])
-
     return formatted_data
+
+
 def merge_json_data(json_path_1, json_path_2, json_path_merged):
     import json
     json_data_1 = load_json(json_path_1)
@@ -84,6 +83,7 @@ def merge_json_data(json_path_1, json_path_2, json_path_merged):
     with open(json_path_merged, "w") as file:
         json.dump(merged_json, file, indent=2)
 
+
 def upload_json(credentials_name, sheet_name, worksheet_name, json_path):
     import gspread
     import json
@@ -111,11 +111,9 @@ if __name__ == "__main__":
     sheet_name = 'ChatbotSolent'
     worksheet_name = 'Rules'
     worksheet_name_upload = 'Rules_uploaded'
-    json_path_google = 'intents_casper.json'
-    # json_path_google ='intents_ashish_dec_28.json'
+    json_path_google = 'intents_ash4.json'
     json_path_initial = 'intents.json'
     json_path_merged = 'merged.json'
-    # json_path_merged = 'intents.json'
-    # download_json(credentials_name=credentials_name, sheet_name=sheet_name, worksheet_name=worksheet_name, json_path=json_path_google)
-    merge_json_data(json_path_1 =json_path_google, json_path_2=json_path_initial, json_path_merged=json_path_merged)
-    # upload_json(credentials_name=credentials_name, sheet_name=sheet_name,worksheet_name=worksheet_name_upload, json_path=json_path_merged)
+    #download_json(credentials_name=credentials_name, sheet_name=sheet_name, worksheet_name=worksheet_name, json_path=json_path_google)
+    merge_json_data(json_path_1=json_path_google, json_path_2=json_path_initial, json_path_merged=json_path_merged)
+    #upload_json(credentials_name=credentials_name, sheet_name=sheet_name,worksheet_name=worksheet_name_upload, json_path=json_path_merged)

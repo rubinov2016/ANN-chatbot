@@ -1,4 +1,3 @@
-from flask import Flask, render_template, request, jsonify
 import random
 import json
 import pickle
@@ -7,12 +6,11 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
-
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('../intents.json').read())
 
-words = pickle.load(open('words.pkl', 'rb'))
-classes = pickle.load(open('classes.pkl', 'rb'))
+words = pickle.load(open('../words.pkl', 'rb'))
+classes = pickle.load(open('../classes.pkl', 'rb'))
 model = load_model('chatbot_model.keras')
 
 #Clean up the sentences
@@ -54,29 +52,12 @@ def get_response(intents_list, intents_json):
     except IndexError:
         result = "I don't know"
     return result
+def chat(user_input):
+    try:
+        intents_list = predict_class(user_input)
+        bot_response = get_response(intents_list, intents)
+        return f"You: {user_input}\nBot: {bot_response}\n\n"
+    except Exception as e:
+        return f"An error occurred: {str(e)}\n"
 
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/send_message', methods=['POST'])
-def send_message():
-    user_input = request.form['user_input']
-
-    # Your chatbot logic goes here
-    # For simplicity, let's assume the bot responds with a hardcoded message
-    ints = predict_class(user_input)
-    bot_response = get_response(ints, intents)
-    return jsonify({'user_message': user_input, 'bot_message': bot_response})
-
-if __name__ == '__main__':
-    app.run(debug=True)
-    # while True:
-    #     message = input("You: ")
-    #     ints = predict_class(message)
-    #     res = get_response(ints, intents)
-    #     print(res)
-
+ 

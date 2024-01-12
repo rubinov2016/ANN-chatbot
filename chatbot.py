@@ -97,60 +97,66 @@ def replace_words(text, replacements):
 # end of Ivan addition 3
 
 
-import tkinter as tk
-
 def send_message():
-    ints = []
-    response = ''
-    message = message_entry.get()
-    if message.lower() == 'exit':
-        root.quit()
-    else:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        num_words = len(message.split())
-        if num_words >= 3 or message in ["hello", "hi", "hey"]:
-            message = replace_words(message, replacements)
-            ints = predict_class(message)
-            response = get_response(ints, intents)
-            if show_details:
-                response = response + "          " + json.dumps(ints)
+    try:
+        message = message_entry.get()
+        if message.lower() == 'exit':
+            root.quit()
         else:
-            response = "Your question is too short, can you restate it?"
-        log_data = {
-            "timestamp": timestamp,
-            "input_message": message,
-            "output_response": response
-        }
-        with open(file_name, "a", encoding="utf-8") as log_file:
-            json.dump(log_data, log_file, ensure_ascii=False)
-            log_file.write('\n')
-        chat_history.config(state=tk.NORMAL)
-        chat_history.insert(tk.END, "You: " + message + "\n")
-        chat_history.insert(tk.END, "Bot: " + response + "\n")
-        chat_history.config(state=tk.DISABLED)
-        message_entry.delete(0, tk.END)
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            num_words = len(message.split())
+            if num_words >= 3 or message in ["hello", "hi", "hey"]:
+                message = replace_words(message, replacements)
+                ints = predict_class(message)
+                response = get_response(ints, intents)
+                if show_details:
+                    response = response + "          " + json.dumps(ints)
+            else:
+                response = "Your question is too short, can you restate it?"
+            log_data = {
+                "timestamp": timestamp,
+                "input_message": message,
+                "output_response": response
+            }
 
-def on_enter(event):
-    send_message()
+            # Display conversation in the text widget
+            conversation_text = f"{timestamp} - You: {message}\n com728: {response}\n\n"
+            text_widget.insert(tk.END, conversation_text)
 
+            # Save conversation log to a file
+            with open(file_name, 'a') as log_file:
+                log_file.write(json.dumps(log_data) + '\n')
 
-show_details = True
-# Set up the Tkinter window
+            # Clear the message entry
+            message_entry.delete(0, tk.END)
+
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
+import tkinter as tk
+from tkinter import scrolledtext
+# GUI setup
 root = tk.Tk()
-root.title("COM727 Chatbot")
+root.title("World cup 2022")
 
-# Create the chat history text area
-chat_history = tk.Text(root, state=tk.DISABLED)
-chat_history.pack(pady=15)
-
-# Create the user input entry box
+# Create and configure the message entry widget
 message_entry = tk.Entry(root, width=50)
-message_entry.pack(pady=15)
-message_entry.bind("<Return>", on_enter)  # Bind 'Enter' key to on_enter function
+message_entry.grid(row=1, column=0, padx=10, pady=10)
 
-# Create the send button
+# Create a button to send messages
 send_button = tk.Button(root, text="Send", command=send_message)
-send_button.pack(pady=15)
+send_button.grid(row=1, column=1, padx=10, pady=10)
+# ready for the user to type their next message.
+message_entry.focus()
+#enter button sends the message
+message_entry.bind('<Return>', lambda event=None: send_message())
 
-# Start the Tkinter main loop
+# Create a scrolled text widget to display the conversation
+text_widget = scrolledtext.ScrolledText(root, width=80, height=20, wrap=tk.WORD)
+text_widget.grid(row=0, column=0, padx=10, pady=10, columnspan=2)
+
+# Set show_details to True if you want to display additional details
+show_details = False
+
+# Run the GUI
 root.mainloop()

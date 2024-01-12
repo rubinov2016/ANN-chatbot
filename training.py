@@ -44,7 +44,6 @@ output_file = 'replacements.json'
 # Save the replacements to the JSON file
 with open(output_file, 'w') as file:
     json.dump(replacements, file, indent=4)
-
 #end of Ivan addition 2
 
 words = []
@@ -62,9 +61,6 @@ for intent in intents['intents']:
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
 
-# print(words)
-# print(classes)
-# print(documents)
 
 stop_words = set(stopwords.words('english'))
 
@@ -88,11 +84,6 @@ for document in documents:
     output_row = list(output_empty)
     output_row[classes.index(document[1])] = 1
     training.append([bag, output_row])
-    # print(document)
-    # print(word_patterns)
-    # print(bag)
-    # print(output_row)
-# print(training)
 
 random.shuffle(training)
 training = np.array(training, dtype=object)
@@ -113,4 +104,4 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 
 hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
 model.save('chatbot_model.keras', hist)
-#print('Done')
+print('Done')
