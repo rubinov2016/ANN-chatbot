@@ -1,4 +1,5 @@
 
+# Download json from Google Sheet
 def download_json(credentials_name, sheet_name, worksheet_name, json_path):
     import gspread
     import json
@@ -37,7 +38,7 @@ def load_json(filename):
     with open(filename, 'r') as file:
         return json.load(file)
 
-
+# Load json file and parse it by delimiter ';'
 def load_and_format_json(filename):
     json_data = load_json(filename)
     formatted_data = []
@@ -49,6 +50,7 @@ def load_and_format_json(filename):
     return formatted_data
 
 
+# Merge two json files
 def merge_json_data(json_path_1, json_path_2, json_path_merged):
     import json
     json_data_1 = load_json(json_path_1)
@@ -84,6 +86,7 @@ def merge_json_data(json_path_1, json_path_2, json_path_merged):
         json.dump(merged_json, file, indent=2)
 
 
+# Upload json file in  Google Sheet
 def upload_json(credentials_name, sheet_name, worksheet_name, json_path):
     import gspread
     import json
@@ -114,6 +117,7 @@ if __name__ == "__main__":
     json_path_google = 'intents_ash4.json'
     json_path_initial = 'intents.json'
     json_path_merged = 'merged.json'
-    #download_json(credentials_name=credentials_name, sheet_name=sheet_name, worksheet_name=worksheet_name, json_path=json_path_google)
+    # Comment functions that you don't need to run
+    download_json(credentials_name=credentials_name, sheet_name=sheet_name, worksheet_name=worksheet_name, json_path=json_path_google)
     merge_json_data(json_path_1=json_path_google, json_path_2=json_path_initial, json_path_merged=json_path_merged)
-    #upload_json(credentials_name=credentials_name, sheet_name=sheet_name,worksheet_name=worksheet_name_upload, json_path=json_path_merged)
+    upload_json(credentials_name=credentials_name, sheet_name=sheet_name,worksheet_name=worksheet_name_upload, json_path=json_path_merged)

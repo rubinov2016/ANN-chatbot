@@ -5,15 +5,16 @@ import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
+import re
+
 
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 
-#Ivan addition 1
-#Lower case
+# Own addition 1. Lower case
 for intent in intents["intents"]:
     intent["patterns"] = [pattern.lower() for pattern in intent["patterns"]]
-#end of Ivan addition 1
+# end of Own addition 1
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -22,11 +23,11 @@ model = load_model('chatbot_model.keras')
 #Clean up the sentences
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
-    # sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
+    # Own addition 2. Lower case
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 
-#Converts the sentences into a bag of words
+#Convert the sentences into a bag of words
 def bag_of_words(sentence):
     sentence_words = clean_up_sentence(sentence)
     # print(sentence_words)
@@ -42,13 +43,14 @@ def predict_class(sentence):
     bow = bag_of_words(sentence) #bow: Bag Of Words, feed the data into the neural network
     res = model.predict(np.array([bow]))[0] #res: result. [0] as index 0
     # ERROR_THRESHOLD = 0.25
-    # Ivan addition 2
+    # Own addition 3. Increase an error threshold to 0.5. Needs to test it, it might be changed
     ERROR_THRESHOLD = 0.5
     results = [[i,r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    # Own addition 4. Decrease an error threshold for debugging
     while results == [] and ERROR_THRESHOLD > 0.1:
         ERROR_THRESHOLD -= 0.01
         results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    # end of Ivan addition 2
+    # end of own addition 4
 
     # sort by strength of probability
     results.sort(key=lambda x: x[1], reverse=True)
@@ -65,24 +67,22 @@ def get_response(intents_list, intents_json):
             if i['tag'] == tag:
                 result = random.choice(i['responses'])
                 break
-    #Ivan addition
+    # Own addition 5. Handle exception
     except IndexError:
         result = "I don't know"
-    # end of Ivan addition
+    # end of Own addition 5
     return result
 
 print("COM727 Chatbot is here!")
 
-# Ivan addition 3
+# Own addition 6. Logs all chatbot history
 import time
 from datetime import datetime
 import socket
 computer_name = socket.gethostname()
 file_name = f"{computer_name}_chat_log.txt"
 
-import re
-
-
+# Load replacement.json to change underscored words from dataset (readme.md)
 json_file = 'replacements.json'
 # Load the JSON file as a dictionary
 with open(json_file, 'r') as file:
@@ -94,9 +94,9 @@ def replace_words(text, replacements):
         pattern = r'\b' + re.escape(key) + r'\b'
         text = re.sub(pattern, value, text)
     return text
-# end of Ivan addition 3
+# end of Own addition 6
 
-
+# Own addition 7. Main interface
 def send_message():
     try:
         message = message_entry.get()
@@ -160,3 +160,5 @@ show_details = False
 
 # Run the GUI
 root.mainloop()
+
+# end of Own addition 7

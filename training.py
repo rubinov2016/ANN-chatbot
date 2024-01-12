@@ -17,13 +17,13 @@ nltk.download('stopwords')
 lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open('intents.json').read())
-#Lower case
-#Ivan addition 1
+
+# Own addition 1. Lower case
 for intent in intents["intents"]:
     intent["patterns"] = [pattern.lower() for pattern in intent["patterns"]]
-#end of Ivan addition 1
+# end of own  addition 1
 
-#Ivan addition 2
+# Own addition 2. Create a dictionary for words with underscore (readme.md)
 def find_and_create_replacements(data):
     replacements = {}
     for intent in data["intents"]:
@@ -44,7 +44,7 @@ output_file = 'replacements.json'
 # Save the replacements to the JSON file
 with open(output_file, 'w') as file:
     json.dump(replacements, file, indent=4)
-#end of Ivan addition 2
+# end of Own addition 2
 
 words = []
 classes = []
@@ -64,8 +64,9 @@ for intent in intents['intents']:
 
 stop_words = set(stopwords.words('english'))
 
+# Own addition 3. Lower case
 words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ignore_letters]
-#words = [lemmatizer.lemmatize(word) for word in words if word not in ignore_letters]
+# end of Own addition 3
 words = sorted(set(words))
 
 classes = sorted(set(classes))
