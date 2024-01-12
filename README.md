@@ -3,7 +3,7 @@
 1. Use Google Sheets to get your questions. 
     - "Rules3", the current tab with Responsible person
     - "Rules Updated" automatically filled tab with latest changes from the all group members    
-    - if you finish your patterns, please send them to Ivan
+    - if you finish your patterns, please send your modified json to Group
 
 2. To launch the chatbot, execute the "chatbot.py" script.
 
