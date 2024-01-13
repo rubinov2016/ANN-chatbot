@@ -136,7 +136,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 # Set show_details to True if you want to display additional details
-show_details = False
+show_details = True
 # GUI setup
 root = tk.Tk()
 root.title("World cup 2022")

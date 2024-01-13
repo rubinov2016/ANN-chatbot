@@ -1,7 +1,8 @@
 # Guide to working with the chatbot
 
 
-1. Run chatbot through chatbot.bat
+1. Run chatbot through chatbot.bat. 
+    To switch on logging, set "show_details = True" in chatbot.py
 
 2. Use Google Sheets to get your questions. 
     - "Rules3", the current tab with Responsible person
