@@ -588,3 +588,6 @@
 {"timestamp": "2024-01-11 12:33:23", "input_message": "hhhhhhhhhhhh", "output_response": "Your question is too short, can you restate it?"}
 {"timestamp": "2024-01-12 09:49:27", "input_message": "hello?", "output_response": "Your question is too short, can you restate it?"}
 {"timestamp": "2024-01-12 09:49:31", "input_message": "hi", "output_response": "Hello! How can I help you today;"}
+{"timestamp": "2024-01-13 17:59:41", "input_message": "Hello", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-13 17:59:56", "input_message": "Hello guys", "output_response": "Your question is too short, can you restate it?"}
+{"timestamp": "2024-01-13 18:00:06", "input_message": "best player ever", "output_response": "Lionel Messi of Argentina won the Golden Ball award, becoming the first player to win it twice."}

@@ -30,8 +30,6 @@ def clean_up_sentence(sentence):
 #Convert the sentences into a bag of words
 def bag_of_words(sentence):
     sentence_words = clean_up_sentence(sentence)
-    # print(sentence_words)
-    # print(sentence)
     bag = [0] * len(words)
     for w in sentence_words:
         for i, word in enumerate(words):
@@ -39,12 +37,14 @@ def bag_of_words(sentence):
                 bag[i] = 1
     return np.array(bag)
 
+
 def predict_class(sentence):
     bow = bag_of_words(sentence) #bow: Bag Of Words, feed the data into the neural network
     res = model.predict(np.array([bow]))[0] #res: result. [0] as index 0
-    # ERROR_THRESHOLD = 0.25
-    # Own addition 3. Increase an error threshold to 0.5. Needs to test it, it might be changed
+    # Own addition 3. Increased an error threshold to 0.5.
     ERROR_THRESHOLD = 0.5
+    # end of Own addition 4
+
     results = [[i,r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     # Own addition 4. Decrease an error threshold for debugging
     while results == [] and ERROR_THRESHOLD > 0.1:
@@ -67,16 +67,15 @@ def get_response(intents_list, intents_json):
             if i['tag'] == tag:
                 result = random.choice(i['responses'])
                 break
-    # Own addition 5. Handle exception
+    # Own addition 5. Handle an exception
     except IndexError:
-        result = "I don't know"
+        result = "I don't know. Please rephrase your question"
     # end of Own addition 5
     return result
 
 print("COM727 Chatbot is here!")
 
 # Own addition 6. Logs all chatbot history
-import time
 from datetime import datetime
 import socket
 computer_name = socket.gethostname()
@@ -105,7 +104,7 @@ def send_message():
         else:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             num_words = len(message.split())
-            if num_words >= 3 or message in ["hello", "hi", "hey"]:
+            if num_words >= 3 or message in ["hello", "hi", "hey", "hello!", "hi!", "hey!"]:
                 message = replace_words(message, replacements)
                 ints = predict_class(message)
                 response = get_response(ints, intents)
@@ -135,6 +134,9 @@ def send_message():
 
 import tkinter as tk
 from tkinter import scrolledtext
+
+# Set show_details to True if you want to display additional details
+show_details = False
 # GUI setup
 root = tk.Tk()
 root.title("World cup 2022")
@@ -154,9 +156,6 @@ message_entry.bind('<Return>', lambda event=None: send_message())
 # Create a scrolled text widget to display the conversation
 text_widget = scrolledtext.ScrolledText(root, width=80, height=20, wrap=tk.WORD)
 text_widget.grid(row=0, column=0, padx=10, pady=10, columnspan=2)
-
-# Set show_details to True if you want to display additional details
-show_details = False
 
 # Run the GUI
 root.mainloop()

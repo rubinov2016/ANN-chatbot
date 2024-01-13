@@ -8,6 +8,7 @@ from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from keras.optimizers.legacy import SGD
+
 # from tensorflow.keras.optimizer import SGD
 
 nltk.download('punkt')
@@ -24,11 +25,11 @@ for intent in intents["intents"]:
 # end of own  addition 1
 
 # Own addition 2. Create a dictionary for words with underscore (readme.md)
-def find_and_create_replacements(data):
+def find_and_create_replacements(data, key_intents, key_patterns):
     replacements = {}
-    for intent in data["intents"]:
+    for intent in data[key_intents]:
         # Iterate through the patterns in each intent
-        for pattern in intent["patterns"]:
+        for pattern in intent[key_patterns]:
             words = pattern.split()  # Split the pattern into words
             # Process the words in the pattern
             for word in words:
@@ -39,7 +40,8 @@ def find_and_create_replacements(data):
                     replacements[f"{parts[0]} {parts[1]}"] = word
     return replacements
 
-replacements = find_and_create_replacements(intents)
+
+replacements = find_and_create_replacements(data=intents, key_intents='intents', key_patterns='patterns')
 output_file = 'replacements.json'
 # Save the replacements to the JSON file
 with open(output_file, 'w') as file:
@@ -49,21 +51,18 @@ with open(output_file, 'w') as file:
 words = []
 classes = []
 documents = []
-ignore_letters=['?','!','.','/','@']
+ignore_letters = ['?', '!', '.', '/', '@']
 
 for intent in intents['intents']:
     for pattern in intent['patterns']:
         word_list = nltk.word_tokenize(pattern)
         pos_tags = nltk.pos_tag(word_list)
-        #print(pos_tags)
         words.extend(word_list)
-        documents.append((word_list,intent['tag']))
+        documents.append((word_list, intent['tag']))
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
 
-
 stop_words = set(stopwords.words('english'))
-
 # Own addition 3. Lower case
 words = [lemmatizer.lemmatize(word.lower()) for word in words if word not in ignore_letters]
 # end of Own addition 3
@@ -72,7 +71,6 @@ words = sorted(set(words))
 classes = sorted(set(classes))
 pickle.dump(words, open('words.pkl', 'wb'))
 pickle.dump(classes, open('classes.pkl', 'wb'))
-
 
 training = []
 output_empty = [0] * len(classes)
@@ -100,9 +98,10 @@ model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 # gradient_descent_v2.
 sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-#model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
 model.save('chatbot_model.keras', hist)
 print('Done')
+
+# model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
