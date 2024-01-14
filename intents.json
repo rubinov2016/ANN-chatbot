@@ -148,7 +148,6 @@
     {
       "tag": "group_g",
       "patterns": [
-        "",
         "group stage result of Brazil",
         "Cameroon Serbia",
         "group_g",
@@ -289,7 +288,6 @@
     {
       "tag": "man_of_the _match",
       "patterns": [
-        "",
         "golden ball",
         "best player of tournament ,man of the match,who is the Player of tournament",
         "result of messi lionel",
@@ -801,6 +799,7 @@
         "total number of teams",
         "Number of teams",
         "the number of teams",
+        "How many teams",
         "How many teams participated in the 2022 FIFA World Cup?"
       ],
       "responses": [
@@ -3058,6 +3057,8 @@
         "Total Goals and Average",
         "Number of goals",
         "Was the 2022 World Cup the highest-scoring",
+        "How many total goals",
+        "How many goals",
         "How many total goals were scored in the 2022 World Cup, and what was the average per match?",
         "Average goals per match",
         "How many total goals were scored"

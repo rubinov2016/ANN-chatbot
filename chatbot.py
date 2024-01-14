@@ -6,7 +6,8 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 import re
-
+import tkinter as tk
+from tkinter import scrolledtext
 
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
@@ -46,10 +47,11 @@ def predict_class(sentence):
     # end of Own addition 4
 
     results = [[i,r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    # Own addition 4. Decrease an error threshold for debugging
-    while results == [] and ERROR_THRESHOLD > 0.1:
-        ERROR_THRESHOLD -= 0.01
-        results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    # Own addition 4. Decrease the error threshold for debugging
+    if decrease_error_threshold:
+        while results == [] and ERROR_THRESHOLD > 0.1:
+            ERROR_THRESHOLD -= 0.01
+            results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     # end of own addition 4
 
     # sort by strength of probability
@@ -57,6 +59,7 @@ def predict_class(sentence):
     return_list = []
     for r in results:
         return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
+    print(return_list)
     return return_list
 
 def get_response(intents_list, intents_json):
@@ -96,15 +99,15 @@ def replace_words(text, replacements):
 # end of Own addition 6
 
 # Own addition 7. Main interface
-def send_message():
+def send_response():
     try:
-        message = message_entry.get()
+        message = user_entry.get()
         if message.lower() == 'exit':
             root.quit()
         else:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             num_words = len(message.split())
-            if num_words >= 3 or message in ["hello", "hi", "hey", "hello!", "hi!", "hey!"]:
+            if num_words >= 3 or message.lower() in ["hello", "hi", "hey", "hello!", "hi!", "hey!"]:
                 message = replace_words(message, replacements)
                 ints = predict_class(message)
                 response = get_response(ints, intents)
@@ -119,43 +122,49 @@ def send_message():
             }
 
             # Display conversation in the text widget
-            conversation_text = f"{timestamp} - You: {message}\n com728: {response}\n\n"
-            text_widget.insert(tk.END, conversation_text)
+            conversation_text = f"{timestamp} - You: {message}\n com727: {response}\n\n"
+            conversation.insert(tk.END, conversation_text)
 
             # Save conversation log to a file
-            with open(file_name, 'a') as log_file:
-                log_file.write(json.dumps(log_data) + '\n')
+            if show_details:
+                with open(file_name, 'a') as log_file:
+                    log_file.write(json.dumps(log_data) + '\n')
 
             # Clear the message entry
-            message_entry.delete(0, tk.END)
+            user_entry.delete(0, tk.END)
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
-import tkinter as tk
-from tkinter import scrolledtext
+
+# Create the main window or root window
+root = tk.Tk()
+root.title("World Cup 2022")
+
+# Entry widget with width of 50 characters where the user can type messages
+user_entry = tk.Entry(root, width=90)
+user_entry.grid(row=1, column=0, padx=12, pady=12)
+
+# Create button Send
+send_button = tk.Button(root, text="SEND", command=send_response, font=("Helvetica", 14))
+send_button.grid(row=1, column=1, padx=12, pady=12)
+# ready for the user to type their next message.
+user_entry.focus()
+# Enter button invoke sending the message
+user_entry.bind('<Return>', lambda event=None: send_response())
+
+# Create a scrolled text widget to display the conversation
+conversation = scrolledtext.ScrolledText(root, width=90, height=20, wrap=tk.WORD)
+conversation.grid(row=0, column=0, padx=12, pady=12, columnspan=2)
+
+# Create the greeting message
+greeting = "Welcome to Code Avengers! Ask me about World Cup 2022"
+conversation.insert(tk.END, f" com727: {greeting}\n\n")
+conversation.see(tk.END)
 
 # Set show_details to True if you want to display additional details
 show_details = True
-# GUI setup
-root = tk.Tk()
-root.title("World cup 2022")
-
-# Create and configure the message entry widget
-message_entry = tk.Entry(root, width=50)
-message_entry.grid(row=1, column=0, padx=10, pady=10)
-
-# Create a button to send messages
-send_button = tk.Button(root, text="Send", command=send_message)
-send_button.grid(row=1, column=1, padx=10, pady=10)
-# ready for the user to type their next message.
-message_entry.focus()
-#enter button sends the message
-message_entry.bind('<Return>', lambda event=None: send_message())
-
-# Create a scrolled text widget to display the conversation
-text_widget = scrolledtext.ScrolledText(root, width=80, height=20, wrap=tk.WORD)
-text_widget.grid(row=0, column=0, padx=10, pady=10, columnspan=2)
+decrease_error_threshold = False
 
 # Run the GUI
 root.mainloop()

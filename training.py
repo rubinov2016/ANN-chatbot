@@ -7,6 +7,8 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
+#from keras.layers import Conv1D, GlobalMaxPooling1D
+#from keras.layers import LSTM
 from keras.optimizers.legacy import SGD
 
 # from tensorflow.keras.optimizer import SGD
@@ -92,6 +94,10 @@ train_y = list(training[:, 1])
 
 model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+#model.add(Conv1D(128, 5, activation='relu', input_shape=(len(train_x[0]), 1)))
+#model.add(GlobalMaxPooling1D())
+#model.add(LSTM(128, input_shape=(len(train_x[0]), 1), activation='relu'))
+
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
