@@ -59,7 +59,6 @@ def predict_class(sentence):
     return_list = []
     for r in results:
         return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
-    print(return_list)
     return return_list
 
 def get_response(intents_list, intents_json):
@@ -97,6 +96,7 @@ def replace_words(text, replacements):
         text = re.sub(pattern, value, text)
     return text
 # end of Own addition 6
+
 
 # Own addition 7. Main interface
 def send_response():
@@ -141,14 +141,14 @@ def send_response():
 root = tk.Tk()
 root.title("World Cup 2022")
 
-# Entry widget with width of 50 characters where the user can type messages
+# Entry field where the user can type messages
 user_entry = tk.Entry(root, width=90)
 user_entry.grid(row=1, column=0, padx=12, pady=12)
 
 # Create button Send
 send_button = tk.Button(root, text="SEND", command=send_response, font=("Helvetica", 14))
 send_button.grid(row=1, column=1, padx=12, pady=12)
-# ready for the user to type their next message.
+
 user_entry.focus()
 # Enter button invoke sending the message
 user_entry.bind('<Return>', lambda event=None: send_response())
@@ -166,7 +166,7 @@ conversation.see(tk.END)
 show_details = True
 decrease_error_threshold = False
 
-# Run the GUI
+# Run the interface
 root.mainloop()
 
 # end of Own addition 7

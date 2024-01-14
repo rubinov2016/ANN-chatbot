@@ -1,0 +1,162 @@
+{
+    "intents": [
+      {
+        "tag": "Winner",
+        "patterns": [
+            "Who won",
+            "Who won the 2022 FIFA World Cup?",
+            "the winner",
+            "world cup 2022 champion",
+            "who was the champion",
+            "world cup champion",
+            "which country was the champion"
+        ],
+        "responses": [
+             "Argentina won, and became the champions of 2022 FIFA World Cup."
+        ]
+      },
+      {
+        "tag": "Venue Locations and Capacities",
+        "patterns": [
+          "What were the capacities of stadiums?",
+          "Education City",
+          "Al_Thumama Stadium",
+          "Lusail Stadium",
+          "Al_Janoub Stadium in Al_Wakrah",
+          "What were the locations of stadiums?",
+          "Stadium 974",
+          "Ahmad bin Ali Stadium",
+          "Khalifa International",
+          "What were the locations and capacities of the 2022 FIFA World Cup stadiums?",
+          "Al_Bayt Stadium in Al_Khor",
+          "lusail stadium seating capacity",
+          "lusail stadium capacity",
+          "biggest stadium capacity",
+          "largest stadium capacity",
+          "What is the seating capacity of Lusail Iconic Stadium, the venue for the World Cup 2022 final?"
+        ],
+        "responses": [
+          "The 2022 FIFA World Cup stadiums and their capacities were: Al Bayt Stadium in Al Khor (68,895), Lusail Iconic Stadium, which hosted the final, has a seating capacity of around 88,966 spectators, Ahmad bin Ali Stadium in Al Rayyan (45,032), Education City Stadium (44,667), Khalifa International Stadium (45,857), Al Thumama Stadium in Doha (44,400), Stadium 974 (44,089), and Al Janoub Stadium in Al Wakrah (44,325)."
+        ]
+      },
+      {
+        "tag": "Teams Debut",
+        "patterns": [
+            "Are there any news teams making their debut in the World Cup 2022?",
+            "Team debut",
+            "debuting",
+            "any teams debuting",
+            "debuting teams",
+            "news on team debut",
+            "team debut news",
+            "Are there any news teams making their debut in the World Cup 2022?"
+        ],
+        "responses": [
+          "Qatar were the only team making their debut in the FIFA World Cup."
+        ]
+      },
+      {
+        "tag": "World Cup Date",
+        "patterns": [
+            "What is the significance of hosting the World Cup in Qatar in November-December?",
+            "world cup 2022 date importance",
+            "world cup 2022 date significance",
+            "november-december significance",
+            "why november-december significant",
+            "importance of november-december date",
+            "significance behind the date",
+            "why november-december"
+        ],
+        "responses": [
+            "It was made to avoid the extreme heat of the Qatari summer, providing a more comfortable playing environment."
+        ]
+      },
+      {
+        "tag": "Qatar World Cup Host",
+        "patterns": [
+            "how many times Qatar hosted",
+            "is this Qatar first time hosting",
+            "how many times Qatar hosted tournament",
+            "How many times has Qatar hosted the World Cup?"
+        ],
+        "responses": [
+          "The 2022 World Cup in Qatar will be the first time the country has hosted the tournament."
+        ]
+      },
+      {
+        "tag": "Team Favourites",
+        "patterns": [
+            "team favourites",
+            "what teams were the favourites to win",
+            "team favourites to win",
+            "what were the favourite teams to win",
+            "teams favourite",
+            "Which teams are considered favorites to win the World Cup 2022?"
+        ],
+        "responses": [
+          "Traditional football powerhouses such as Brazil, Germany, Argentina, and Spain are among the favorites, but surprises are always possible in football."
+        ]
+      },
+      {
+        "tag": "Qualification Rounds Top Scorer",
+        "patterns": [
+            "top scorer qualification",
+            "top scorer qualification rounds",
+            "who scored the most goals in qualification rounds",
+            "qualificaiton rounds who scored the most",
+            "Who is the top scorer in the qualification rounds for the World Cup 2022?"
+        ],
+        "responses": [
+            "The top scorer in the qualification rounds varies by region. Players like Robert Lewandowski (Poland), Lionel Messi (Argentina), and Cristiano Ronaldo (Portugal) were among the leading scorers."
+        ]
+      },
+      {
+        "tag": "Total Amount Of Matches",
+        "patterns": [
+            "total amount of matches",
+            "how many matches in total",
+            "full amount of matches",
+            "matches in total",
+            "all matches",
+            "How many matches will be played in total during the World Cup 2022?"
+        ],
+        "responses": [
+          "There was a total of 64 matches played in the World Cup 2022."
+        ]
+      },
+      {
+        "tag": "COVID-19 Protocols",
+        "patterns": [
+            "covid-19 protocols",
+            "covid protocols",
+            "what were the covid-19 protocols",
+            "covid testing measures",
+            "covid protocols in place",
+            "covid protocols",
+            "covid safety protocols",
+            "are there any covid safety protocols",
+            "are there any covid safety guidelines",
+            "covid guidelines",
+            "Were there any specific COVID-19 protocols in place for the World Cup 2022?"
+        ],
+        "responses": [
+          "COVID-19 protocols took place to ensure the safety of players, officials, and spectators. These included testing, social distancing measures, and other health and safety guidelines."
+        ]
+      },
+      {
+        "tag": "World Cup 2022 Slogan",
+        "patterns": [
+            "world cup 2022 slogan",
+            "what was the slogan",
+            "now is all slogan",
+            "fifa slogan",
+            "slogan of the world cup",
+            "now is all",
+            "What is the slogan of FIFA World Cup 2022?"
+        ],
+        "responses": [
+            "The slogan for the FIFA World Cup 2022 is 'Now is All'."
+        ]
+      }
+    ]
+  }
