@@ -38,8 +38,7 @@
         "position of b table"
       ],
       "responses": [
-        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales Group B results and scores\nMatch: England (Jude Bellingham 35', Bukayo Saka 43', 62', Raheem Sterling 45+1, Marcus Rashford 71', Jack Grealish 90+1') 6-2 Iran (Mehdi Taremi 65', 90+13')\nMatch: USA (Timothy Weah 36') 1-1 Wales (Gareth Bale 82')\nMatch: Wales 0-2 Iran (Rouzbeh Cheshmi (90+8', Ramin Rezaeian (90+11')\nMatch: England 0-0 USA\nMatch: Wales 0-3 England (Marcus Rashford 50', 68', Phil Foden 51')  \nMatch: Iran 0-1 USA (Christian Pulisic 38')\n",
-        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales Group B results and scores\nMatch: England (Jude Bellingham 35', Bukayo Saka 43', 62', Raheem Sterling 45+1, Marcus Rashford 71', Jack Grealish 90+1') 6-2 Iran (Mehdi Taremi 65', 90+13')\nMatch: USA (Timothy Weah 36') 1-1 Wales (Gareth Bale 82')\nMatch: Wales 0-2 Iran (Rouzbeh Cheshmi (90+8', Ramin Rezaeian (90+11')\nMatch: England 0-0 USA\nMatch: Wales 0-3 England (Marcus Rashford 50', 68', Phil Foden 51')  \nMatch: Iran 0-1 USA (Christian Pulisic 38')\n"
       ]
     },
     {
@@ -65,7 +64,6 @@
         "Saudi Arabia"
       ],
       "responses": [
-        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia",
         "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia Group C results and scores\nMatch: Argentina (Lionel Messi 10') 1-2 Saudi Arabia (Saleh Alshehri 48', Salem Aldawsari 53')\nMatch: Mexico 0-0 Poland\nMatch: Poland (Piotr Zielinski 39', Robert Lewandowski 82') 2-0 Saudi Arabia\nMatch: Argentina (Lionel Messi 64', Enzo Fernandez 87') 2-0 Mexico\nMatch: Poland 0-2 Argentina (Alexis Mac Allister 46', Julian Alvarez 67')\nMatch: Saudi Arabia (Salem Aldawsari 90+5') 1-2 Mexico (Henry Martin Mex 47', Luis Chavez 52')"
       ]
     },
@@ -90,8 +88,7 @@
         "d table "
       ],
       "responses": [
-        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark Group D results and scores\nMatch: Denmark 0-0 Tunisia\nMatch: France (Adrien Rabiot 27', Olivier Giroud 32', 71', Kylian Mbappe 68') 4-1 Australia (Craig Goodwin 9')\nMatch: Tunisia 0-1 Australia (Mitchell Duke 23')\nMatch: France (Kylian Mbappe 61', 86') 2-1 Denmark (Andreas Christensen 68')\nMatch: Australia (Mathew Leckie 60') 1-0 Denmark\nMatch: Tunisia (Wahbi Khazri 58') 1-0 France",
-        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark Group D results and scores\nMatch: Denmark 0-0 Tunisia\nMatch: France (Adrien Rabiot 27', Olivier Giroud 32', 71', Kylian Mbappe 68') 4-1 Australia (Craig Goodwin 9')\nMatch: Tunisia 0-1 Australia (Mitchell Duke 23')\nMatch: France (Kylian Mbappe 61', 86') 2-1 Denmark (Andreas Christensen 68')\nMatch: Australia (Mathew Leckie 60') 1-0 Denmark\nMatch: Tunisia (Wahbi Khazri 58') 1-0 France"
       ]
     },
     {
@@ -116,7 +113,6 @@
         "Costa Rica"
       ],
       "responses": [
-        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica",
         "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica Group E results and scores\n\nMatch: Germany (Ikay Gundogan 33') 1-2 Japan (Ritsu Doan 75', Takuma Asano 83')\n\nMatch: Spain (Dani Olmo 11', Marco Asensio 21', Ferran Torres 31', 54', Gavi 74', Carlos Soler 90', Alvaro Morata 90+2') 7-0 Costa Rica\n\nMatch: Japan 0-1 Costa Rica (Keysher Fuller 81')\n\nMatch: Spain (Alvaro Morata 62') 1-1 Germany (Niclas Fullkrug 83')\n\nMatch: Japan (Ritsu Doan 48', Ao Tanaka 51') 2-1 Spain (Alvaro Morata 11')\n\nMatch: Costa Rica (Yeltsin Tejeda 58', Manuel Neuer (OG) 70') 2-4 Germany (Serge Gnabry 10', Kai Havertz 73', 85', Niclas Fullkrug 89')"
       ]
     },
@@ -139,8 +135,7 @@
         "Morocco"
       ],
       "responses": [
-        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada, Group F results and scores\nMatch: Morocco 0-0 Croatia\nMatch: Belgium (Michy Batshuayi 44') 1-0 Canada\nMatch: Belgium 0-2 Morocco (Abdelhamid Sabiri 73', Zakaria Aboukhlal 90+2')\nMatch: Croatia (Andrej Kramaric 36', 70', Marko Livaja 44', Lovro Majer 90+4') 4-1 Canada (Alphonso Davies 2')\nMatch: Croatia 0-0 Belgium\nMatch: Canada (Nayef Aguerd OG 40') 1-2 Morocco (Hakim Ziyech 4', Youssef En-Nesyri 23')",
-        "Group standing for Group F: 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada, Group F results and scores\nMatch: Morocco 0-0 Croatia\nMatch: Belgium (Michy Batshuayi 44') 1-0 Canada\nMatch: Belgium 0-2 Morocco (Abdelhamid Sabiri 73', Zakaria Aboukhlal 90+2')\nMatch: Croatia (Andrej Kramaric 36', 70', Marko Livaja 44', Lovro Majer 90+4') 4-1 Canada (Alphonso Davies 2')\nMatch: Croatia 0-0 Belgium\nMatch: Canada (Nayef Aguerd OG 40') 1-2 Morocco (Hakim Ziyech 4', Youssef En-Nesyri 23')"
       ]
     },
     {
@@ -166,8 +161,7 @@
         "position of g table"
       ],
       "responses": [
-        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia, Group G results and scores\nMatch: Switzerland (Breel Embolo 48') 1-0 Cameroon\nMatch: Brazil (Richarlison 62', 73') 2-0 Serbia\nMatch: Cameroon (Jean-Charles Castelletto 29', Vincent Aboubakar 63', Eric Choupo-Moting 66') 3-3 Serbia (Strahinja Pavlovic 45+1', Sergej Milinkovic-Savic 45+3', Aleksandar Mitrovic 53')\nMatch: Brazil (Casemiro 83') 1-0 Switzerland\nMatch: Serbia (Aleksandar Mitrovic 26', Dusan Vlahovic 35') 2-3 Switzerland (Xherdan Shaqiri 20', Breel Embolo 44', Remo Freuler 48')\nMatch: Cameroon (Vincent Aboubakar 90+2') 1-0 Brazil",
-        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia, Group G results and scores\nMatch: Switzerland (Breel Embolo 48') 1-0 Cameroon\nMatch: Brazil (Richarlison 62', 73') 2-0 Serbia\nMatch: Cameroon (Jean-Charles Castelletto 29', Vincent Aboubakar 63', Eric Choupo-Moting 66') 3-3 Serbia (Strahinja Pavlovic 45+1', Sergej Milinkovic-Savic 45+3', Aleksandar Mitrovic 53')\nMatch: Brazil (Casemiro 83') 1-0 Switzerland\nMatch: Serbia (Aleksandar Mitrovic 26', Dusan Vlahovic 35') 2-3 Switzerland (Xherdan Shaqiri 20', Breel Embolo 44', Remo Freuler 48')\nMatch: Cameroon (Vincent Aboubakar 90+2') 1-0 Brazil"
       ]
     },
     {
@@ -196,7 +190,6 @@
         " Group h"
       ],
       "responses": [
-        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana",
         "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana, Group H results and scores\nMatch: Uruguay 0-0 South Korea\nMatch: Portugal (Cristiano Ronaldo 65', Joao Felix 78', Rafael Lobo 80') 3-2 Ghana (Andre Ayew 73', Osman Bukari 89')\nMatch: South Korea (Cho Gue-sung 58', 61') 2-3 Ghana (Mohammed Salisu 24', Mohammed Kudus 34', 68')\nMatch: Portugal (Bruno Fernandes 54', 90+3') 2-0 Uruguay\nMatch: Ghana 0-2 Uruguay (Giorgian de Arrascaeta 26', 32')\nMatch: South Korea (Kim Young-gwon 27', Hwang Hee-chan 90+1') 2-1 Portugal (Ricardo Horta 5')\n* Top two teams from each group make the Round of 16\n"
       ]
     },
@@ -573,7 +566,10 @@
     {
       "tag": "last_8_teams",
       "patterns": [
-        "8_teams"
+        "8_teams",
+        "eight_teams",
+        "Last 8 teams",
+        "Last eight teams"
       ],
       "responses": [
         "Last 8 teams were: Netherlands,Argentina,France,England,Croatia,Brazil,Morocco,Portugal"
@@ -583,7 +579,9 @@
       "tag": "quarter_final_teams",
       "patterns": [
         "quarter final teams",
-        "4_teams"
+        "4_teams",
+        "four_teams",
+        "Last 4 teams"
       ],
       "responses": [
         "Last 4 teams were: Argentina, Croatia, France, Morocco."
@@ -597,7 +595,8 @@
         "tell me the format of world cup",
         "how does it work",
         "tell me ways to qualify",
-        "tell me the format of world cup, how does it work, tell me ways to qualify, knock out starts"
+        "tell me the format of world cup, how does it work, tell me ways to qualify, knock out starts",
+        "format"
       ],
       "responses": [
         "8 groups plays in their respective Groups, top 2 qualify, then Knockout round starts of last-16. 16 team plays and winner head to Quatar final and winner goes to Semi final and winner plays Final and Winner is Crown champion of the world. if want to know point system, please type 'point system.'",
@@ -620,6 +619,7 @@
         "moved to 20 November",
         "which was the first match or game of the world cup 2022?",
         "Start date",
+        "Start_date",
         "first_match"
       ],
       "responses": [
@@ -664,9 +664,12 @@
     {
       "tag": "Runners_up_prize",
       "patterns": [
-        " how much diid the runner up earned",
+        "how much did the runner up earned",
         "how much did the runners-up of the 2022 world cup receive?",
-        " money got by the runners up"
+        "money got by the runners up",
+        "runners up",
+        "money",
+        "prize"
       ],
       "responses": [
         "The runners-up of the 2022 World Cup received 30 million USD."
@@ -675,7 +678,10 @@
     {
       "tag": "third_place_prize",
       "patterns": [
-        "how much did the team in third place at the 2022 world cup receive? 3rd place price pool"
+        "how much did the team in third place at the 2022 world cup receive? 3rd place price pool",
+        "third place",
+        "money",
+        "prize"
       ],
       "responses": [
         "The team in third place at the 2022 World Cup received 27 million USD."
@@ -684,7 +690,10 @@
     {
       "tag": "fourth_place_prize",
       "patterns": [
-        "how much did the team in fourth place at the 2022 world Cup receive? 4th place price pool"
+        "how much did the team in fourth place at the 2022 world Cup receive? 4th place price pool",
+        "fourth place",
+        "money",
+        "prize"
       ],
       "responses": [
         "The team in fourth place at the 2022 World Cup received 25 million USD."
@@ -693,8 +702,11 @@
     {
       "tag": "quarter_finals_prize",
       "patterns": [
-        " 5 to 8 or quatar final price pool",
-        "how much did each team in the quarter-finals (5th to 8th place) of the  world Cup 2022 receive or earned"
+        " 5 to 8 or quarter final price pool",
+        "how much did each team in the quarter-finals (5th to 8th place) of the  world Cup 2022 receive or earned",
+        "quarter final",
+        "money",
+        "prize"
       ],
       "responses": [
         "Each team in the quarter-finals (5th to 8th place) of the 2022 World Cup received 17 million USD."
@@ -704,7 +716,10 @@
       "tag": "group_stage_prize",
       "patterns": [
         "how much did each team in the group stage (17th to 32nd place) of the world Cup 2022 receive or earned",
-        " 17 to 32 or quatar final price pool"
+        " 17 to 32 or quarter final price pool",
+        "quarter final",
+        "money",
+        "prize"
       ],
       "responses": [
         "Each team in the group stage (17th to 32nd place) of the 2022 World Cup received 9 million USD."
@@ -714,7 +729,10 @@
       "tag": "total_teams_prize _distribution",
       "patterns": [
         "how was the total prize of 440 million usd distributed among the 32 teams?",
-        " what was the price distribution of world cup 2022"
+        "what was the price distribution of world cup 2022",
+        "total",
+        "money",
+        "prize"
       ],
       "responses": [
         "The total prize of 440 million USD was distributed among the 32 teams with varying amounts depending on their final standing in the tournament, ranging from 9 million USD for group stage teams to 42 million USD for the champions."
@@ -723,7 +741,10 @@
     {
       "tag": "substitution_rules",
       "patterns": [
-        "what were the new substitution rules in the tournament?what was the new rule regarding concussion substitutions in the tournament? "
+        "what were the new substitution rules in the tournament?what was the new rule regarding concussion substitutions in the tournament? ",
+        "substitution_rules",
+        "substitution rules",
+        "new_rules"
       ],
       "responses": [
         "In the tournament, teams could make up to five substitutions in normal time, and an additional substitution in extra time. The tournament was the first World Cup to feature concussion substitutions, allowing each team to use a maximum of one concussion substitute during a match, which did not count towards the team's quota of regular substitutions."
@@ -732,7 +753,9 @@
     {
       "tag": "first_concussion_substitute",
       "patterns": [
-        "who was the first player to be replaced by a dedicated concussion substitute in this world cup?"
+        "who was the first player to be replaced by a dedicated concussion substitute in this world cup?",
+        "first_concussion_substitute",
+        "first concussion substitute"
       ],
       "responses": [
         "Iranian goalkeeper Alireza Beiranvand was the first player to be replaced by a dedicated concussion substitute in this World Cup, after suffering a concussion in the opening match against England."
@@ -760,7 +783,8 @@
     {
       "tag": "Impact on Leagues",
       "patterns": [
-        "How did the 2022 World Cup schedule affect domestic football leagues?"
+        "How did the 2022 World Cup schedule affect domestic football leagues?",
+        "Impact on Leagues"
       ],
       "responses": [
         "The 2022 World Cup being held in November and December required many domestic football leagues, including major European leagues, to incorporate extended breaks in their schedules to accommodate the World Cup."
@@ -769,7 +793,13 @@
     {
       "tag": "European Competitions",
       "patterns": [
-        "How did major European football competitions adjust their schedules for the 2022 World Cup?"
+        "How did major European football competitions adjust their schedules for the 2022 World Cup?",
+        "European football",
+        "European competitions",
+        "European football competitions",
+        "adjust",
+        "change",
+        "schedule"
       ],
       "responses": [
         "Major European football competitions scheduled their group matches to be played before the World Cup to avoid playing these matches in the following year."
@@ -778,7 +808,8 @@
     {
       "tag": "Schedule Confirmation",
       "patterns": [
-        "When was the match schedule for the 2022 World Cup confirmed by FIFA?"
+        "When was the match schedule for the 2022 World Cup confirmed by FIFA?",
+        "Schedule Confirmation"
       ],
       "responses": [
         "FIFA confirmed the match schedule for the 2022 World Cup in July 2020."
@@ -787,7 +818,11 @@
     {
       "tag": "Group Stage Start",
       "patterns": [
-        "When did the group stage of the 2022 World Cup begin?"
+        "When did the group stage of the 2022 World Cup begin?",
+        "Group Stage Start",
+        "Group_Stage",
+        "Start",
+        "First"
       ],
       "responses": [
         "The group stage of the 2022 World Cup was initially set to begin on 21 November, but the Qatar vs Ecuador game was moved to 20 November, making that the start date."
@@ -797,9 +832,11 @@
       "tag": "Final Date",
       "patterns": [
         "when was the final of the 2022 world cup played?",
-        " what is the name of the stadium was used to host the final of the world cup",
+        "hat is the name of the stadium was used to host the final of the world cup",
         "where was the world cup 2022 played?",
-        "When was the final of the 2022 World Cup played?"
+        "When was the final of the 2022 World Cup played?",
+        "Final Date",
+        "Final_Date"
       ],
       "responses": [
         "The final of the 2022 World Cup was played on 18 December 2022, which is also Qatar's National Day, at Lusail Stadium."
@@ -808,17 +845,23 @@
     {
       "tag": "Group Stage Venues",
       "patterns": [
-        "Which stadiums hosted Groups A, B, E, and F in the 2022 World Cup?"
+        "Which stadiums hosted Groups A, B, E, and F in the 2022 World Cup?",
+        "Group Stage Venues",
+        "Which_stadiums",
+        "Group_A",
+        "Group_B",
+        "Group_E",
+        "Group_F"
       ],
       "responses": [
-        "Groups A, B, E, and F in the 2022 World Cup were hosted at Al Bayt Stadium, Khalifa International Stadium, Al Thumama Stadium, and Ahmad bin Ali Stadium. Groups C, D, G, and H in the 2022 World Cup were hosted at Lusail Stadium, Stadium 974, Education City Stadium, and Al Janoub Stadium.",
-        "Groups A, B, E, and F in the 2022 World Cup were hosted at Al Bayt Stadium, Khalifa International Stadium, Al Thumama Stadium, and Ahmad bin Ali Stadium."
+        "Groups A, B, E, and F in the 2022 World Cup were hosted at Al Bayt Stadium, Khalifa International Stadium, Al Thumama Stadium, and Ahmad bin Ali Stadium. Groups C, D, G, and H in the 2022 World Cup were hosted at Lusail Stadium, Stadium 974, Education City Stadium, and Al Janoub Stadium."
       ]
     },
     {
       "tag": "Additional Group Stage Venues",
       "patterns": [
-        "Which stadiums hosted Groups C, D, G, and H in the 2022 World Cup?"
+        "Which stadiums hosted Groups C, D, G, and H in the 2022 World Cup?",
+        "Additional Group Stage Venues"
       ],
       "responses": [
         "Groups C, D, G, and H in the 2022 World Cup were hosted at Lusail Stadium, Stadium 974, Education City Stadium, and Al Janoub Stadium."
@@ -827,7 +870,12 @@
     {
       "tag": "Venue Confirmation",
       "patterns": [
-        "When were the group stage venue and kick-off times for the 2022 World Cup confirmed?"
+        "When were the group stage venue and kick-off times for the 2022 World Cup confirmed?",
+        "Venue Confirmation",
+        "Stadium Confirmation",
+        "Stadium",
+        "Confirmation",
+        "Venue"
       ],
       "responses": [
         "The group stage venue and kick-off times for the 2022 World Cup were confirmed on 1 April 2022, following the draw."
@@ -836,7 +884,10 @@
     {
       "tag": "Prize Announcement",
       "patterns": [
-        "When did FIFA announce the prizes for the 2022 World Cup?"
+        "When did FIFA announce the prizes for the 2022 World Cup?",
+        "Prize",
+        "Announcement",
+        "When"
       ],
       "responses": [
         "FIFA announced the prizes for the 2022 World Cup in April 2022."
@@ -845,7 +896,10 @@
     {
       "tag": "Preparation Costs",
       "patterns": [
-        "How much did each qualified team receive for preparation costs?"
+        "How much did each qualified team receive for preparation costs?",
+        "Preparation Costs",
+        "Preparation",
+        "Costs"
       ],
       "responses": [
         "Each qualified team for the 2022 World Cup received $1.5 million before the competition to cover preparation costs."
@@ -854,7 +908,10 @@
     {
       "tag": "Minimum Prize Money",
       "patterns": [
-        "What was the minimum amount of prize money each team received?"
+        "What was the minimum amount of prize money each team received?",
+        "Minimum Prize Money",
+        "Minimum",
+        "Prize Money"
       ],
       "responses": [
         "Each team participating in the 2022 World Cup received at least $9 million in prize money."
@@ -863,7 +920,10 @@
     {
       "tag": "Total Prize Pool",
       "patterns": [
-        "What was the total prize pool for the 2022 World Cup?"
+        "What was the total prize pool for the 2022 World Cup?",
+        "Total Prize Pool",
+        "Total",
+        "Prize_Pool"
       ],
       "responses": [
         "The total prize pool for the 2022 World Cup was $440 million."
@@ -872,7 +932,10 @@
     {
       "tag": "Prize Pool Comparison",
       "patterns": [
-        "How did the 2022 World Cup prize pool compare to the previous tournament?"
+        "How did the 2022 World Cup prize pool compare to the previous tournament?",
+        "Prize Pool Comparison",
+        "Prize Pool",
+        "Comparison"
       ],
       "responses": [
         "The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament."
@@ -881,7 +944,12 @@
     {
       "tag": "Champions Prize",
       "patterns": [
-        "How much did the champions of the 2022 World Cup receive?"
+        "How much did the champions of the 2022 World Cup receive?",
+        "Champions Prize",
+        "Champion Prize",
+        "Champion",
+        "Winner",
+        "Prize"
       ],
       "responses": [
         "The champions of the 2022 World Cup received $42 million."
@@ -890,7 +958,8 @@
     {
       "tag": "Runners-up Prize",
       "patterns": [
-        "How much did the runners-up of the 2022 World Cup receive?"
+        "How much did the runners-up of the 2022 World Cup receive?",
+        "Runners-up Prize"
       ],
       "responses": [
         "The runners-up of the 2022 World Cup received $30 million."
@@ -899,7 +968,8 @@
     {
       "tag": "Third Place Prize",
       "patterns": [
-        "How much did the team in third place at the 2022 World Cup receive?"
+        "How much did the team in third place at the 2022 World Cup receive?",
+        "Third Place Prize"
       ],
       "responses": [
         "The team in third place at the 2022 World Cup received $27 million."
@@ -908,7 +978,8 @@
     {
       "tag": "Fourth Place Prize",
       "patterns": [
-        "How much did the team in fourth place at the 2022 World Cup receive?"
+        "How much did the team in fourth place at the 2022 World Cup receive?",
+        "Fourth Place Prize"
       ],
       "responses": [
         "The team in fourth place at the 2022 World Cup received $25 million."
@@ -917,7 +988,8 @@
     {
       "tag": "Quarter-finals Prize",
       "patterns": [
-        "How much did each team in the quarter-finals (5th\u20138th place) of the 2022 World Cup receive?"
+        "How much did each team in the quarter-finals (5th\u20138th place) of the 2022 World Cup receive?",
+        "Quarter-finals Prize"
       ],
       "responses": [
         "Each team in the quarter-finals (5th\u20138th place) of the 2022 World Cup received $17 million."
@@ -926,7 +998,8 @@
     {
       "tag": "Group Stage Prize",
       "patterns": [
-        "How much did each team in the group stage (17th\u201332nd place) of the 2022 World Cup receive?"
+        "How much did each team in the group stage (17th\u201332nd place) of the 2022 World Cup receive?",
+        "Group Stage Prize"
       ],
       "responses": [
         "Each team in the group stage (17th\u201332nd place) of the 2022 World Cup received $9 million."
@@ -935,7 +1008,8 @@
     {
       "tag": "Total Teams Prize Distribution",
       "patterns": [
-        "How was the total prize of $440 million distributed among the 32 teams?"
+        "How was the total prize of $440 million distributed among the 32 teams?",
+        "Total Teams Prize Distribution"
       ],
       "responses": [
         "The total prize of $440 million was distributed among the 32 teams with varying amounts depending on their final standing in the tournament, ranging from $9 million for group stage teams to $42 million for the champions."
@@ -944,7 +1018,8 @@
     {
       "tag": "Substitution Rules",
       "patterns": [
-        "What were the new substitution rules in the tournament?"
+        "What were the new substitution rules in the tournament?",
+        "Substitution Rules"
       ],
       "responses": [
         "In the tournament, teams could make up to five substitutions in normal time, and an additional substitution in extra time."
@@ -953,7 +1028,8 @@
     {
       "tag": "Concussion Substitutions",
       "patterns": [
-        "What was the new rule regarding concussion substitutions in the tournament?"
+        "What was the new rule regarding concussion substitutions in the tournament?",
+        "Concussion Substitutions"
       ],
       "responses": [
         "The tournament was the first World Cup to feature concussion substitutions, allowing each team to use a maximum of one concussion substitute during a match, which did not count towards the team's quota of regular substitutions."
@@ -962,7 +1038,8 @@
     {
       "tag": "First Concussion Substitute",
       "patterns": [
-        "Who was the first player to be replaced by a dedicated concussion substitute in this World Cup?"
+        "Who was the first player to be replaced by a dedicated concussion substitute in this World Cup?",
+        "First Concussion Substitute"
       ],
       "responses": [
         "Iranian goalkeeper Alireza Beiranvand was the first player to be replaced by a dedicated concussion substitute in this World Cup, after suffering a concussion in the opening match against England."
@@ -971,7 +1048,10 @@
     {
       "tag": "Bidding Start",
       "patterns": [
-        "When did the bidding procedure for the 2018 and 2022 FIFA World Cups begin?"
+        "When did the bidding procedure for the 2018 and 2022 FIFA World Cups begin?",
+        "Bidding Start",
+        "Bidding procedure",
+        "January 2009"
       ],
       "responses": [
         "The bidding procedure to host the 2018 and 2022 FIFA World Cups began in January 2009."
@@ -980,7 +1060,10 @@
     {
       "tag": "Registration Deadline",
       "patterns": [
-        "What was the deadline for national associations to register interest in hosting the World Cups?"
+        "What was the deadline for national associations to register interest in hosting the World Cups?",
+        "Registration Deadline",
+        "Registration",
+        "Deadline"
       ],
       "responses": [
         "National associations had until 2 February 2009 to register their interest in hosting the 2018 and 2022 FIFA World Cups."
@@ -989,7 +1072,9 @@
     {
       "tag": "Initial 2018 Bids",
       "patterns": [
-        "How many initial bids were there for the 2018 FIFA World Cup?"
+        "How many initial bids were there for the 2018 FIFA World Cup?",
+        "Initial 2018 Bids",
+        "Initial_Bids"
       ],
       "responses": [
         "Initially, there were 11 bids for the 2018 FIFA World Cup."
@@ -998,7 +1083,14 @@
     {
       "tag": "Withdrawn and Rejected Bids",
       "patterns": [
-        "Which countries withdrew or had their bids rejected for the 2018 FIFA World Cup?"
+        "Which countries withdrew or had their bids rejected for the 2018 FIFA World Cup?",
+        "Withdrawn and Rejected Bids",
+        "Rejected and Withdrawn Bids",
+        "Withdrawn Bids",
+        "Rejected Bids",
+        "Mexico's bid",
+        "Indonesia",
+        "bid"
       ],
       "responses": [
         "Mexico withdrew its bid for the 2018 FIFA World Cup, and Indonesia's bid was rejected by FIFA."
@@ -1057,7 +1149,8 @@
         "Criticism of Qatar Hosting",
         "Why was the decision to host the 2022 World Cup in Qatar criticized?",
         "Criticism of Hosting",
-        "Criticism of Qatar"
+        "Criticism of Qatar",
+        "Criticism"
       ],
       "responses": [
         "The decision to host the 2022 World Cup in Qatar was criticized due to it being graded as having high operational risk and being part of the FIFA corruption scandals."
@@ -1112,7 +1205,10 @@
     {
       "tag": "Initial Venue Proposal",
       "patterns": [
-        "When were the first five proposed venues for the World Cup unveiled?"
+        "When were the first five proposed venues for the World Cup unveiled?",
+        "Initial Venue Proposal",
+        "Initial Venue",
+        "Proposal"
       ],
       "responses": [
         "The first five proposed venues for the World Cup were unveiled at the beginning of March 2010."
@@ -1122,7 +1218,10 @@
       "tag": "Stadium Design Criteria",
       "patterns": [
         "What criteria were the World Cup stadiums intended to meet?",
-        "Stadium Design Criteria"
+        "Stadium Design Criteria",
+        "Stadium Design",
+        "What criteria",
+        "stadiums"
       ],
       "responses": [
         "The World Cup stadiums in Qatar were intended to reflect the country's history and culture, with designs meeting criteria of legacy, comfort, accessibility, and sustainability."
@@ -1266,7 +1365,10 @@
     {
       "tag": "Announcement of Base Camps",
       "patterns": [
-        "When did FIFA announce the hotels and training sites for each participating team?"
+        "When did FIFA announce the hotels and training sites for each participating team?",
+        "Announcement of Base Camps",
+        "Announcement",
+        "Base Camps"
       ],
       "responses": [
         "FIFA announced the hotels and training sites for each participating team in July 2022."
@@ -3443,6 +3545,265 @@
       "responses": [
         "The official mascot of the tournament is La'eeb. La'eeb is an Arabic word meaning super-skilled player"
       ]
-    }
+    },
+    {
+  "tag": "world_cup_2022",
+  "patterns": [
+    "How many stadiums were used for the 2022 World Cup?",
+    "Stadiums in 2022 World Cup",
+    "Venue count in 2022 World Cup",
+    "Number of stadiums in Qatar World Cup",
+    "How_many_stadiums"
+  ],
+  "responses": [
+    "A total of 8 stadiums were used for the 2022 World Cup."
+  ]
+},
+{
+  "tag": "young_player_award",
+  "patterns": [
+    "Which player won the Young Player Award in 2022?",
+    "2022 World Cup Young Player Award winner",
+    "Best young player in Qatar World Cup",
+    "young_player_award"
+  ],
+  "responses": [
+    "The Young Player Award in the 2022 World Cup was won by Enzo Fernandez."
+  ]
+},
+{
+  "tag": "oldest_player",
+  "patterns": [
+    "Who was the oldest player in the 2022 World Cup?",
+    "Oldest participant in Qatar World Cup",
+    "Age of the oldest player in 2022 World Cup",
+    "oldest_player"
+  ],
+  "responses": [
+    "The oldest player in the 2022 World Cup was Atiba Hutchinson from Canada at the age of 39y 288d."
+  ]
+},
+{
+  "tag": "most_assists",
+  "patterns": [
+    "Which player had the most assists in the tournament?",
+    "2022 World Cup assist leader",
+    "Player with most assists in Qatar World Cup",
+    "most_assists"
+  ],
+  "responses": [
+    "B. Fernandes had the most assists in the 2022 World Cup with 3 assists."
+  ]
+},
+{
+  "tag": "highest_scoring_game",
+  "patterns": [
+    "What was the highest scoring game of the 2022 World Cup?",
+    "Most goals in a match in Qatar World Cup",
+    "Top-scoring game in 2022 World Cup",
+    "highest_scoring_game"
+  ],
+  "responses": [
+    "The highest scoring game of the 2022 World Cup had a total of 7 goals, Spain won 7:0 over Costa Rica."
+  ]
+},
+{
+  "tag": "first_goal",
+  "patterns": [
+    "Who scored the first goal of the 2022 World Cup?",
+    "Opening goal scorer in Qatar World Cup",
+    "First goal in 2022 World Cup",
+    "first_goal"
+  ],
+  "responses": [
+    "Enner Valencia of Ecuador scored the first goal of the 2022 World Cup."
+  ]
+},
+{
+  "tag": "best_defense",
+  "patterns": [
+    "Which team had the best defense in the tournament?",
+    "2022 World Cup best defensive team",
+    "Top defensive team in Qatar World Cup",
+    "best_defense"
+  ],
+  "responses": [
+    "The team with the best defense in the 2022 World Cup was Morocco."
+  ]
+},
+{
+  "tag": "red_cards",
+  "patterns": [
+    "How many red cards were issued during the 2022 World Cup?",
+    "Red cards in Qatar World Cup",
+    "Total ejections in 2022 World Cup",
+    "red_cards"
+  ],
+  "responses": [
+    "A total of 4 red cards were issued during the 2022 World Cup."
+  ]
+},
+{
+  "tag": "biggest_surprise",
+  "patterns": [
+    "Which team was the biggest surprise of the 2022 World Cup?",
+    "2022 World Cup surprise team",
+    "Unexpected success in Qatar World Cup",
+    "biggest_surprise"
+  ],
+  "responses": [
+    "The biggest surprise of the tournament, arguably, came on the third day in group play. Saudi Arabia shocked Argentina 2-1 in one of the greatest World Cup upsets ever."
+  ]
+},
+{
+  "tag": "hat_trick",
+  "patterns": [
+    "Did any player score a hat-trick in the 2022 World Cup?",
+    "Hat-trick in Qatar World Cup",
+    "2022 World Cup hat-trick scorer",
+    "hat_trick"
+  ],
+  "responses": [
+    "Yes, France's Kylian Mbappe scored a hat-trick in the 2022 World Cup."
+  ]
+},
+{
+  "tag": "total_goals",
+  "patterns": [
+    "How many goals were scored in total during the tournament?",
+    "Total goals in Qatar World Cup",
+    "2022 World Cup goal count"
+  ],
+  "responses": [
+    "A total of [Total Goals] goals were scored during the 2022 World Cup."
+  ]
+},
+{
+  "tag": "winning_team_captain",
+  "patterns": [
+    "Who was the captain of the winning team?",
+    "Captain of 2022 World Cup champions",
+    "Winning team's captain in Qatar World Cup",
+    "winning_team",
+    "captain"
+  ],
+  "responses": [
+    "Lionel Messi was the captain of the winning team in the 2022 World Cup."
+  ]
+},
+    {
+  "tag": "goalless_draws",
+  "patterns": [
+    "Were there any goalless draws in the tournament?",
+    "2022 World Cup goalless matches",
+    "No goals in Qatar World Cup",
+    "goalless_draws"
+  ],
+  "responses": [
+    "Yes, there were six goalless draws in the 2022 World Cup."
+  ]
+},
+{
+  "tag": "possession_record",
+  "patterns": [
+    "Which team had the most possession in a single game?",
+    "2022 World Cup possession record",
+    "Highest possession team in Qatar World Cup"
+  ],
+  "responses": [
+    "Spain had the record 81.8% possession against Costa Rica in a single game during the 2022 World Cup."
+  ]
+},
+{
+  "tag": "matches_played",
+  "patterns": [
+    "How many matches did the winning team play during the tournament?",
+    "Games played by champions in Qatar World Cup",
+    "Winning team's match count in 2022 World Cup",
+    "How many matches",
+    "the winning team"
+  ],
+  "responses": [
+    "The winning team played a total of 7 matches during the tournament."
+  ]
+},
+{
+  "tag": "final_match_referee",
+  "patterns": [
+    "Which referee officiated the final match?",
+    "Referee in Qatar World Cup final",
+    "2022 World Cup final match official",
+    "final_match",
+    "referee"
+  ],
+  "responses": [
+    "Louis Baert officiated the final match of the 2022 World Cup."
+  ]
+},
+{
+  "tag": "fastest_player",
+  "patterns": [
+    "Which player was the fastest on the field during the 2022 World Cup?",
+    "Fastest sprinter in Qatar World Cup",
+    "2022 World Cup speed record"
+  ],
+  "responses": [
+    "Kamaldeen Sulemana, Ghana was the fastest player on the field during the 2022 World Cup."
+  ]
+},
+{
+  "tag": "yellow_cards",
+  "patterns": [
+    "How many yellow cards were issued throughout the tournament?",
+    "Yellow cards in Qatar World Cup",
+    "2022 World Cup caution count"
+  ],
+  "responses": [
+    "A total of 214 yellow cards were issued throughout the 2022 World Cup."
+  ]
+},
+    {
+  "tag": "most_attended_match",
+  "patterns": [
+    "What was the most attended match of the tournament?",
+    "Largest crowd in Qatar World Cup",
+    "2022 World Cup highest attendance game"
+  ],
+  "responses": [
+    "The most attended match of the 2022 World Cup had a crowd of 88,103 spectators and took place between Brazil and Serbia."
+  ]
+},
+{
+  "tag": "female_referees",
+  "patterns": [
+    "Female referees in Qatar World Cup",
+    "2022 World Cup women referees"
+  ],
+  "responses": [
+    "Stephanie Frappart, Yamashita Yoshimi and Salima Mukansanga are among the 36 referees selected for the tournament."
+  ]
+},
+{
+  "tag": "average_attendance_per_match",
+  "patterns": [
+    "What was the average attendance per match?",
+    "Average crowd size in Qatar World Cup",
+    "2022 World Cup attendance statistics"
+  ],
+  "responses": [
+    "The average attendance per match in the 2022 World Cup was 53,191 spectators."
+  ]
+},
+{
+  "tag": "largest_fan_attendance",
+  "patterns": [
+    "Which country had the largest number of fans attending?",
+    "Most supported nation in Qatar World Cup",
+    "Country with the highest fan presence in 2022 World Cup"
+  ],
+  "responses": [
+    "Qatar had the largest number of fans attending the 2022 World Cup, creating a vibrant atmosphere in the stadiums."
+  ]
+}
   ]
 }
