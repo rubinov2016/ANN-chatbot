@@ -115,6 +115,7 @@ def send_response():
             # Display conversation in the text widget
             conversation_text = f"{timestamp} - You: {message}\n com727: {response}\n\n"
             conversation.insert(tk.END, conversation_text)
+            conversation.see(tk.END)
 
             # Save conversation log to a file
             if show_details:

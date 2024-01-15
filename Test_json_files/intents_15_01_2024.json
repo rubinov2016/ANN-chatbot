@@ -1,169 +1,748 @@
 {
   "intents": [
     {
-      "tag": "group_a",
+      "tag": "Winner",
       "patterns": [
-        "The standing",
-        "group_a",
-        "Senegal",
-        "group_a standing",
-        "a_group",
-        "Netherlands",
-        "Qatar",
-        "Ecuador"
+        "world cup champion",
+        "which country was the champion",
+        "world cup 2022 champion",
+        "Who won",
+        "Who won the 2022 FIFA World Cup?",
+        "who was the champion",
+        "the winner",
+        "Winner"
       ],
       "responses": [
-        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
+        "Argentina won the 2022 FIFA World Cup.",
+        "Argentina won, and became the champions of 2022 FIFA World Cup."
+      ]
+    },
+    {
+      "tag": "Venue Locations and Capacities",
+      "patterns": [
+        "biggest stadium capacity",
+        "What is the seating capacity of Lusail Iconic Stadium, the venue for the World Cup 2022 final?",
+        "Stadium 974",
+        "lusail stadium capacity",
+        "Khalifa International",
+        "Al_Thumama Stadium",
+        "Lusail Stadium",
+        "Education City",
+        "largest stadium capacity",
+        "Al_Bayt Stadium in Al_Khor",
+        "What were the locations and capacities of the 2022 FIFA World Cup stadiums?",
+        "Ahmad bin Ali Stadium",
+        "What were the capacities of stadiums?",
+        "What were the locations of stadiums?",
+        "lusail stadium seating capacity",
+        "Al_Janoub Stadium in Al_Wakrah"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup stadiums and their capacities were: Al Bayt Stadium in Al Khor (68,895), Lusail Stadium in Lusail (88,966), Ahmad bin Ali Stadium in Al Rayyan (45,032), Education City Stadium (44,667), Khalifa International Stadium (45,857), Al Thumama Stadium in Doha (44,400), Stadium 974 (44,089), and Al Janoub Stadium in Al Wakrah (44,325).",
+        "The 2022 FIFA World Cup stadiums and their capacities were: Al Bayt Stadium in Al Khor (68,895), Lusail Iconic Stadium, which hosted the final, has a seating capacity of around 88,966 spectators, Ahmad bin Ali Stadium in Al Rayyan (45,032), Education City Stadium (44,667), Khalifa International Stadium (45,857), Al Thumama Stadium in Doha (44,400), Stadium 974 (44,089), and Al Janoub Stadium in Al Wakrah (44,325)."
+      ]
+    },
+    {
+      "tag": "Teams Debut",
+      "patterns": [
+        "Teams Debut",
+        "debuting",
+        "any teams debuting",
+        "Team debut",
+        "Are there any news teams making their debut in the World Cup 2022?",
+        "Debut",
+        "news on team debut",
+        "team debut news",
+        "debuting teams"
+      ],
+      "responses": [
+        "Qatar were the only team making their debut in the FIFA World Cup."
+      ]
+    },
+    {
+      "tag": "World Cup Date",
+      "patterns": [
+        "significance behind the date",
+        "world cup 2022 date significance",
+        "november-december significance",
+        "why november-december significant",
+        "why november-december",
+        "importance of november-december date",
+        "What is the significance of hosting the World Cup in Qatar in November-December?",
+        "world cup 2022 date importance",
+        "november and december",
+        "november to december"
+      ],
+      "responses": [
+        "It was made to avoid the extreme heat of the Qatari summer, providing a more comfortable playing environment."
+      ]
+    },
+    {
+      "tag": "Qatar World Cup Host",
+      "patterns": [
+        "how many times Qatar hosted",
+        "how many times Qatar hosted tournament",
+        "is this Qatar first time hosting",
+        "How many times has Qatar hosted the World Cup?"
+      ],
+      "responses": [
+        "The 2022 World Cup in Qatar will be the first time the country has hosted the tournament."
+      ]
+    },
+    {
+      "tag": "Team Favourites",
+      "patterns": [
+        "what teams were the favourites to win",
+        "team favourites",
+        "Which teams are considered favorites to win the World Cup 2022?",
+        "what were the favourite teams to win",
+        "teams favourite",
+        "team favourites to win"
+      ],
+      "responses": [
+        "Traditional football powerhouses such as Brazil, Germany, Argentina, and Spain are among the favorites, but surprises are always possible in football."
+      ]
+    },
+    {
+      "tag": "Qualification Rounds Top Scorer",
+      "patterns": [
+        "top scorer qualification",
+        "who scored the most goals in qualification rounds",
+        "Who is the top scorer in the qualification rounds for the World Cup 2022?",
+        "top scorer qualification rounds",
+        "qualification rounds who scored the most"
+      ],
+      "responses": [
+        "The top scorer in the qualification rounds varies by region. Players like Robert Lewandowski (Poland), Lionel Messi (Argentina), and Cristiano Ronaldo (Portugal) were among the leading scorers."
+      ]
+    },
+    {
+      "tag": "Total Amount Of Matches",
+      "patterns": [
+        "all matches",
+        "total amount of matches",
+        "How many matches will be played in total during the World Cup 2022?",
+        "full amount of matches",
+        "matches in total",
+        "how many matches in total"
+      ],
+      "responses": [
+        "There was a total of 64 matches played in the World Cup 2022."
+      ]
+    },
+    {
+      "tag": "COVID-19 Protocols",
+      "patterns": [
+        "covid-19 protocols",
+        "covid testing measures",
+        "what were the covid-19 protocols",
+        "Were there any specific COVID-19 protocols in place for the World Cup 2022?",
+        "covid guidelines",
+        "covid protocols",
+        "are there any covid safety guidelines",
+        "covid safety protocols",
+        "are there any covid safety protocols",
+        "covid protocols in place",
+        "covid-19",
+        "covid"
+      ],
+      "responses": [
+        "COVID-19 protocols took place to ensure the safety of players, officials, and spectators. These included testing, social distancing measures, and other health and safety guidelines."
+      ]
+    },
+    {
+      "tag": "World Cup 2022 Slogan",
+      "patterns": [
+        "slogan of the world cup",
+        "What is the slogan of FIFA World Cup 2022?",
+        "now is all",
+        "what was the slogan",
+        "world cup 2022 slogan",
+        "now is all slogan",
+        "fifa slogan",
+        "slogan"
+      ],
+      "responses": [
+        "The slogan for the FIFA World Cup 2022 is \"Now is All\"",
+        "The slogan for the FIFA World Cup 2022 is 'Now is All'."
+      ]
+    },
+    {
+      "tag": "group a",
+      "patterns": [
+        "group stage  result of ecuador",
+        "group stage result of netherlands",
+        "group stage result of qatar",
+        "table a",
+        " a table ",
+        "group a result and score",
+        "group results of senegal",
+        "standing a",
+        "group a",
+        "group a ,standing postion of a table"
+      ],
+      "responses": [
+        "Group standing for Group A: \n1. Netherlands\n2. Senegal,\n3. Ecuador\n4. Qatar\nGroup A results and score\nMatch: Qatar 0-2 Ecuador (Enner Valencia 16\u2019, 31\u2019)\nMatch: Senegal 0-2 Netherlands (Cody Gakpo 84', Davy Klaassen 90+9')\nMatch: Qatar (Md Muntari 78') 1-3 Senegal (Boulaye Dia 41', Famara Diedhio 48', B Dieng 84')\nMatch: Netherlands (Cody Gakpo 6') 1-1 Ecuador (Enner Valencia 49')\nMatch: Ecuador (Mois\u00e9s Caicedo 67') 1-2 Senegal (Ismaila Sarr 44', Kalidou Koulibaly 70')\nMatch: Netherlands (Cody Gakpo 26', Frenkie de Jong 49') 2-0 Qatar\n"
       ]
     },
     {
       "tag": "group_b",
       "patterns": [
-        "England",
+        "table b",
+        "group b results and scores",
         "group_b",
-        "Iran",
-        "the standing",
-        "Wales",
         "group_b standing",
-        "USA"
+        "England",
+        "position of b table",
+        "the standing",
+        " b table ",
+        "USA",
+        "group standing for group b",
+        "Iran",
+        "group stage of usa",
+        "group b standing",
+        "group stage of england",
+        "standing b",
+        "group stage of ir iran group stage of wales",
+        "Wales"
       ],
       "responses": [
-        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales"
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales",
+        "Group standing for Group B: 1. England, 2. USA 3. IR Iran 4. Wales Group B results and scores\nMatch: England (Jude Bellingham 35', Bukayo Saka 43', 62', Raheem Sterling 45+1, Marcus Rashford 71', Jack Grealish 90+1') 6-2 Iran (Mehdi Taremi 65', 90+13')\nMatch: USA (Timothy Weah 36') 1-1 Wales (Gareth Bale 82')\nMatch: Wales 0-2 Iran (Rouzbeh Cheshmi (90+8', Ramin Rezaeian (90+11')\nMatch: England 0-0 USA\nMatch: Wales 0-3 England (Marcus Rashford 50', 68', Phil Foden 51')  \nMatch: Iran 0-1 USA (Christian Pulisic 38')\n"
       ]
     },
     {
       "tag": "group_c",
       "patterns": [
-        "group_c",
-        "Mexico",
-        "Argentina",
-        "the standing",
+        "Poland",
+        "group c results and scores",
+        "group c standing",
         "Saudi Arabia",
+        " group d",
+        "group stage result of tunisia",
+        "Mexico",
+        "the standing",
+        "group_c",
         "group_c standing",
-        "Poland"
+        "group stage result of denmark",
+        "Argentina",
+        "c table",
+        "group stage result  of australia",
+        "group stage result of france",
+        "table c",
+        "standing c",
+        "position of c table"
       ],
       "responses": [
-        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia"
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia",
+        "Group standing for Group C: 1. Argentina, 2. Poland, 3. Mexico, 4. Saudi Arabia Group C results and scores\nMatch: Argentina (Lionel Messi 10') 1-2 Saudi Arabia (Saleh Alshehri 48', Salem Aldawsari 53')\nMatch: Mexico 0-0 Poland\nMatch: Poland (Piotr Zielinski 39', Robert Lewandowski 82') 2-0 Saudi Arabia\nMatch: Argentina (Lionel Messi 64', Enzo Fernandez 87') 2-0 Mexico\nMatch: Poland 0-2 Argentina (Alexis Mac Allister 46', Julian Alvarez 67')\nMatch: Saudi Arabia (Salem Aldawsari 90+5') 1-2 Mexico (Henry Martin Mex 47', Luis Chavez 52')"
       ]
     },
     {
       "tag": "group_d",
       "patterns": [
+        "group stage of australia",
         "France",
-        "group d standing",
-        "the standing",
-        "Australia",
-        "Denmark",
+        "group d results and scores",
+        "position of d table",
         "group_d",
+        "group d standing",
+        "group stage of france",
+        "the standing",
+        "table d",
+        "standing d Group standing for group stage of group d",
+        "Australia",
+        "group stage of denmark",
+        "group stage of tunisia",
+        "Denmark",
+        "d table ",
         "Tunisia"
       ],
       "responses": [
+        "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark Group D results and scores\nMatch: Denmark 0-0 Tunisia\nMatch: France (Adrien Rabiot 27', Olivier Giroud 32', 71', Kylian Mbappe 68') 4-1 Australia (Craig Goodwin 9')\nMatch: Tunisia 0-1 Australia (Mitchell Duke 23')\nMatch: France (Kylian Mbappe 61', 86') 2-1 Denmark (Andreas Christensen 68')\nMatch: Australia (Mathew Leckie 60') 1-0 Denmark\nMatch: Tunisia (Wahbi Khazri 58') 1-0 France",
         "Group standing for Group D : 1. France, 2. Australia, 3. Tunisia, 4. Denmark"
       ]
     },
     {
       "tag": "group_e",
       "patterns": [
-        "group_e",
-        "Costa Rica",
+        "group e results",
+        "standing e",
         "the standing",
         "group e standing",
-        "Japan",
+        "Costa Rica",
+        " position of e table",
+        "group stage of Germany",
         "Germany",
-        "Spain"
+        "group stage of spain",
+        "Spain",
+        "scores of group e\n",
+        "group_e",
+        "group of costa rica",
+        "table e",
+        " e table ",
+        "group stage results of japan",
+        "Japan"
       ],
       "responses": [
+        "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica Group E results and scores\n\nMatch: Germany (Ikay Gundogan 33') 1-2 Japan (Ritsu Doan 75', Takuma Asano 83')\n\nMatch: Spain (Dani Olmo 11', Marco Asensio 21', Ferran Torres 31', 54', Gavi 74', Carlos Soler 90', Alvaro Morata 90+2') 7-0 Costa Rica\n\nMatch: Japan 0-1 Costa Rica (Keysher Fuller 81')\n\nMatch: Spain (Alvaro Morata 62') 1-1 Germany (Niclas Fullkrug 83')\n\nMatch: Japan (Ritsu Doan 48', Ao Tanaka 51') 2-1 Spain (Alvaro Morata 11')\n\nMatch: Costa Rica (Yeltsin Tejeda 58', Manuel Neuer (OG) 70') 2-4 Germany (Serge Gnabry 10', Kai Havertz 73', 85', Niclas Fullkrug 89')",
         "Group standing for Group E: 1. Japan, 2.Spain, 3.Germany, 4.Costa Rica"
       ]
     },
     {
       "tag": "group_f",
       "patterns": [
-        "Canada",
-        "Morocco",
-        "the standing",
-        "group_f",
-        "Belgium",
         "standing",
+        "table f",
+        "standing f",
+        "Canada",
+        "the standing",
+        "group f standing",
+        "group_f",
+        "position of f table",
         "Croatia",
+        "group_f standing",
+        "Belgium",
+        " f table ",
         "teams",
-        "group_f standing"
+        "Morocco"
       ],
       "responses": [
-        "Group standing for Group F: 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada"
+        "Group standing for Group F: 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada",
+        "Group standing for Group F : 1. Morocco, 2. Croatia, 3. Belgium, 4. Canada, Group F results and scores\nMatch: Morocco 0-0 Croatia\nMatch: Belgium (Michy Batshuayi 44') 1-0 Canada\nMatch: Belgium 0-2 Morocco (Abdelhamid Sabiri 73', Zakaria Aboukhlal 90+2')\nMatch: Croatia (Andrej Kramaric 36', 70', Marko Livaja 44', Lovro Majer 90+4') 4-1 Canada (Alphonso Davies 2')\nMatch: Croatia 0-0 Belgium\nMatch: Canada (Nayef Aguerd OG 40') 1-2 Morocco (Hakim Ziyech 4', Youssef En-Nesyri 23')"
       ]
     },
     {
       "tag": "group_g",
       "patterns": [
-        "group_g standing",
-        "Switzerland",
+        "group stage result of serbia",
+        "group stage result of cameroon",
+        "group g standing",
+        "group_g",
         "Brazil",
         "the standing",
-        "group_g",
-        "Cameroon Serbia"
+        " g table ",
+        "standing g",
+        "group_g standing",
+        "position of g table",
+        "group stage result of  switzerland",
+        "Switzerland",
+        "group standing",
+        "table g",
+        "group g results and scores",
+        "Group g",
+        "Cameroon Serbia",
+        "group stage result of Brazil"
       ],
       "responses": [
-        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia"
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia",
+        "Group standing Group G: 1. Brazil, 2. Switzerland, 3. Cameroon, 4. Serbia, Group G results and scores\nMatch: Switzerland (Breel Embolo 48') 1-0 Cameroon\nMatch: Brazil (Richarlison 62', 73') 2-0 Serbia\nMatch: Cameroon (Jean-Charles Castelletto 29', Vincent Aboubakar 63', Eric Choupo-Moting 66') 3-3 Serbia (Strahinja Pavlovic 45+1', Sergej Milinkovic-Savic 45+3', Aleksandar Mitrovic 53')\nMatch: Brazil (Casemiro 83') 1-0 Switzerland\nMatch: Serbia (Aleksandar Mitrovic 26', Dusan Vlahovic 35') 2-3 Switzerland (Xherdan Shaqiri 20', Breel Embolo 44', Remo Freuler 48')\nMatch: Cameroon (Vincent Aboubakar 90+2') 1-0 Brazil"
       ]
     },
     {
       "tag": "group_h",
       "patterns": [
-        "Korea republic",
         "Korea",
-        "the standing",
-        "group_h",
+        "group stage position ghana",
         "Ghana",
-        "group_h standing",
+        " Group h",
+        "the standing",
+        "group stage position of Portugal",
+        "Uruguay",
+        "goals  and score grouph h",
+        "group_h",
+        "Korea republic",
+        "group h standing",
+        "position of f table",
+        "date of group h",
         "Portugal",
-        "Uruguay"
+        "table a",
+        "group_h standing",
+        "group stage position korea republic",
+        "group stage position  uruguay",
+        "standing a",
+        "result of group h",
+        "a table "
       ],
       "responses": [
+        "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana, Group H results and scores\nMatch: Uruguay 0-0 South Korea\nMatch: Portugal (Cristiano Ronaldo 65', Joao Felix 78', Rafael Lobo 80') 3-2 Ghana (Andre Ayew 73', Osman Bukari 89')\nMatch: South Korea (Cho Gue-sung 58', 61') 2-3 Ghana (Mohammed Salisu 24', Mohammed Kudus 34', 68')\nMatch: Portugal (Bruno Fernandes 54', 90+3') 2-0 Uruguay\nMatch: Ghana 0-2 Uruguay (Giorgian de Arrascaeta 26', 32')\nMatch: South Korea (Kim Young-gwon 27', Hwang Hee-chan 90+1') 2-1 Portugal (Ricardo Horta 5')\n* Top two teams from each group make the Round of 16\n",
         "Group standing for Group H: 1. Portugal, 2. Korea Republic, 3. Uruguay, 4. Ghana"
       ]
     },
     {
       "tag": "greet",
       "patterns": [
-        "hey",
+        "hi",
         "hello",
-        "hi"
+        "hey"
       ],
       "responses": [
-        "Hello! How can I help you today"
+        "Hello! How can I help you today",
+        "Hello! How can I help you today;"
+      ]
+    },
+    {
+      "tag": "host",
+      "patterns": [
+        "first time host",
+        "who held  world cup 2022",
+        "which country organised world cup qatar",
+        "country hosted event world cup 2022",
+        "middle east",
+        "host the world cup"
+      ],
+      "responses": [
+        "World cup 2022 was the first time event has went to middleeast and a was hosted by Qatar."
+      ]
+    },
+    {
+      "tag": "stadium_names",
+      "patterns": [
+        "stadium names",
+        "total stadium ",
+        "names of the stadium world cup 2022"
+      ],
+      "responses": [
+        "There are 8 stadium used for world cup 2022 qatar. These are the stadium that hosted the football matches: Al-Bayt Stadium, AI-Daayen Stadium, Al-Khalifa International Stadium, Al-Rayyan Stadium, Al-Thumama Stadium, Education City Stadium, Lusail Iconic Stadium (Final venue), Ras Abu Aboud Stadium"
+      ]
+    },
+    {
+      "tag": "practicipation",
+      "patterns": [
+        "european teams",
+        "total team",
+        "north american teams",
+        "total number of south american team",
+        "teams from north america",
+        "african teams",
+        "participation number,teams from asia",
+        "total number of african team",
+        "number of the participating team qatar world cup",
+        "total number of europe team",
+        "team qualified south american continent",
+        "teams from south America",
+        "total participation",
+        "asian teams",
+        "total number of asia team,teams from africa,qualified from african continent",
+        "total number of north american team",
+        "qualified north american continent",
+        " team qualified from asian continent",
+        "south american teams",
+        "teams from europe,team qualified european continent",
+        "amount of teams participated on world cup 2022",
+        "total team challenging"
+      ],
+      "responses": [
+        "There were 32 teams participating in the 2022 World cup 2022. \nThe qualified countries from the continent of Asia: Qatar, Iran, south korea, saudi arabia, japan, australia\nThe qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon\nThe qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Croatia, Spain, serbia, england, netherland, switzerland, portugal, poland, wales\nThe qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay,\nThe qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica\n\n"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "who came first",
+        "scoreline of final of world cup 2022",
+        "winner of the world cup 2022",
+        "won the world cup ",
+        "the result of the final",
+        "crown the champion",
+        "who won the final",
+        "winner of the final"
+      ],
+      "responses": [
+        "The winner of the world cup is Argentina, Argentina 3-3 France-- ( Argentina win 4-2 on penalties)"
+      ]
+    },
+    {
+      "tag": "man_of_the _match",
+      "patterns": [
+        "golden ball",
+        "result of messi lionel",
+        "best player of tournament ,man of the match,who is the Player of tournament",
+        "golden ball winner"
+      ],
+      "responses": [
+        "Messi (Argentina)won the man of the match, and won the golden ball and names FIFAs men best player of the Tournament."
+      ]
+    },
+    {
+      "tag": "golden_boot",
+      "patterns": [
+        "who won the golden boot",
+        "  boot winner",
+        "kylian mbappe",
+        "achieved top goal scorer of tournament",
+        "silver ball,silver ball winner",
+        " highest goals scored"
+      ],
+      "responses": [
+        "Kylian Mbappe (France) won the 2022 FiFA World cup Golden boot and silver ball and score the total of eight (8) goals."
+      ]
+    },
+    {
+      "tag": "bronze_ball",
+      "patterns": [
+        "bronze ball,winner of bronze ball",
+        "who won the bronze ball"
+      ],
+      "responses": [
+        "Luka Mordic won the bronze ball"
+      ]
+    },
+    {
+      "tag": "last_16_teams",
+      "patterns": [
+        "stage south korea went tilllast result of south korea,knock out results for south korea",
+        "last_16_teams",
+        "last 16 result for brazil ",
+        "last 16 result of portugal",
+        "last 16 result of croatia",
+        "last 16 results for poland,last 16 result of senegal ,far senegal till went",
+        "last 16  stage result of usa",
+        "knock out result for japan,far south korea till went",
+        "last 16 results for netherlands",
+        "far till germany went",
+        "knock out stage results for usa,far till usa went",
+        "last 16 result of stage germany",
+        "last 16 result for england",
+        "stage germany went till,knockout results for germany",
+        "far poland till went",
+        "stage poland went till,knocout result of poland",
+        "stage usa went till",
+        "stage japan went till,last 16 result of japan",
+        "far japan till went",
+        "stage switzerland went till,knock out results for switzerland,last result of switzerland",
+        "far switzerland till went",
+        "stage senegal went till,knock out results for senegal"
+      ],
+      "responses": [
+        "Last 16 teams were: Group A: Netherlands, Senegal\nGroup B: England, USA\nGroup C: Argentina, Poland\nGroup D: France, Australia\nGroup E: Japan, Spain\nGroup F: Morocco, Croatia\nGroup G: Brazil, Switzerland\nGroup H: Portugal, South Korea",
+        "Round of 16 results\nDecember 3, Saturday\nNetherlands (Memphis Depay 10', Daley Blind 45+1', Denzel Dumfries 81') 3-1 USA (Haji Wright 76')\nDecember 4, Sunday\nArgentina (Lionel Messi 35', Julian Alvarez 57') 2-1 Australia (Enzo Fernandez OG 77')\nFrance (Olivier Giroud 44', Kylian Mbappe 74', 90+1') 3-1 Poland (Robert Lewandowski 90+9')\nDecember 5, Monday\nEngland (Jordan Henderson 38', Harry Kane 45+3', Bukayo Saka 57') 3-0 Senegal\nJapan (Daizen Maeda 43') 1(1)-1(3) Croatia (Ivan Perisic 55') - penalties\nDecember 6, Tuesday\nBrazil (Vinicius Jr 7', Neymar 13', Richarlison 29', Paqueta 36') 4-1 South Korea (Palik Seung-ho 76')\nMorocco 0(3)-0(0) vs Spain - penalties\nDecember 7, Wednesday\nPortugal (Gon\u00e7alo Ramos 17\u2019, 51\u2019, 67\u2019, Pepe 33\u2019, Rapha\u00ebl Guerreiro 55\u2019, Rafael Le\u00e3o 90+2\u2019) 6-1 Switzerland (Manuel Akanji 58')"
+      ]
+    },
+    {
+      "tag": "quatar_final_teams",
+      "patterns": [
+        "quatar final  results of brazil,knock out stage for brazil",
+        "date for quatar final",
+        "goals scored in quatar final",
+        "quatar final result of qatar final ",
+        "who palyed quatar final",
+        "quatar final result portugal,knockout results of protugal",
+        "who were goal scorer in quatar final",
+        "quatar finals date",
+        "quatar final result of world cup,quatar final",
+        "quatars",
+        "when was quatar final game played",
+        " quatar final  result for netherlands",
+        "quatar final goal scorers",
+        "quatar final results of argentina",
+        "knockout result for netherlands",
+        "quatar final results of france",
+        "quatar final result of england,knock out stage of england",
+        "quatar final of croatia,quatar",
+        "quatar final result of coratia",
+        "quatar final teams"
+      ],
+      "responses": [
+        "Quarter-final 1: December 9, Friday\nCroatia (Bruno Petkovi\u0107 116\u2019) 1(4)-1(2) Brazil (Neymar 105+1\u2019) - penalties\nQuarter-final 2: December 10, Saturday\nNetherlands (Wout Weghorst 83\u2019, 90+11\u2019) 2(3)-2(4) Argentina (Nahuel Molina 35\u2019, Lionel Messi 73\u2019(P)) - penalties\nQuarter-final 3: December 10, Saturday\nMorocco (Youssef En-Nesyri 42') 1-0 Portugal\nQuarter-final 4: December 11, Sunday\nEngland (Harry Kane 54\u2019(P)) 1-2 France (Aur\u00e9lien Tchouam\u00e9ni 17\u2019, Olivier Giroud 78\u2019)"
+      ]
+    },
+    {
+      "tag": "semi_final_teams",
+      "patterns": [
+        "semi final results of argentina",
+        "semis",
+        "semi final result of croatia",
+        "who scored the goals in semi final",
+        "who played semis",
+        "semi final of morocco",
+        "how many goal was scored in semi final",
+        "semi final date",
+        "semi final results of france",
+        "goal scored in semifinal"
+      ],
+      "responses": [
+        "This team played the semi final (4 team) of the World cup 2022 after beating their team in Quatar finalSemi-final 1: December 14, Wednesday\nArgentina (Lionel Messi 34\u2019(P), Julian Alvarez 39\u2019, 69\u2019) 3-0 Croatia\nSemi-final 2: December 15, Thursday\nFrance (Theo Hern\u00e1ndez 5\u2019, Randal Kolo Muani 79\u2019) 2-0 Morocco"
+      ]
+    },
+    {
+      "tag": "final_2_runnerup",
+      "patterns": [
+        "knock out result of morocco",
+        "rank third",
+        " teams played play off",
+        "third-place playoff result\n world cup results of croatia",
+        "knock out results of croatia",
+        "bronze medal medalist",
+        "who became third",
+        "rank 3",
+        "rank of morocco",
+        "second runner up",
+        "rank of croatia",
+        "rank fourth",
+        "2 nd runner up",
+        "third position and fourth position",
+        "result of morocco",
+        "rank 4"
+      ],
+      "responses": [
+        "Third-place playoff result\n3rd place playoff: December 17, Saturday\nCroatia (Josko Gvardiol 7', Mislav Orsic 42') 2-1 Morocco (Achraf Dari 9')\nCroatia won the bronze medal\n"
+      ]
+    },
+    {
+      "tag": "final_winner",
+      "patterns": [
+        "finalist of world cup",
+        " result for finalist ,result of france ",
+        "first runners up ",
+        "gold medal medalist",
+        "teams played final",
+        "final winner",
+        "result for argentina",
+        "final game",
+        "rank one",
+        "rank 1",
+        "who played final",
+        "second position",
+        "champion of world",
+        "result of finalist",
+        "silver medal medalist",
+        "rank 2",
+        "who won the world cup",
+        "rank two",
+        "first position"
+      ],
+      "responses": [
+        "Argentina played France and  beat the finalist to be crown as the raining champion of World cup 2022 Qatar after deafeating the tough opponent in France(1 st runner Up) created most exciting Final. Final result\nFinal: December 18, Sunday\nArgentina (Lionel Messi 23' (P), 108', Angel Di Mar\u00eda 36') 3(4)-3(2) France (Kylian Mbappe 80' (P), 81', 118' (P)) - penalties"
+      ]
+    },
+    {
+      "tag": "format",
+      "patterns": [
+        "tell me ways to qualify",
+        "tell me the format of world cup",
+        "knock out starts",
+        "how is world cup played,what is world cup 2022",
+        "tell me the format of world cup, how does it work, tell me ways to qualify, knock out starts",
+        "how does it work"
+      ],
+      "responses": [
+        "8 groups plays in their respective Groups, top 2 qualify, then Knockout round starts of last-16. 16 team plays and winner head to Quatar final and winner goes to Semi final and winner plays Final and Winner is Crown champion of the world. if want to know point system, please type 'point system.'",
+        "It is the football event comes every other 4 year, where around the world complete. each team of 4 is distributed in 8 groups plays in their respective Groups, top 2 qualify, then Knockout round starts of last-16. 16 team plays and winner head to Quatar final and winner goes to Semi final and winner plays Final and Winner is Crown champion of the world."
+      ]
+    },
+    {
+      "tag": "total_prize_pool",
+      "patterns": [
+        "team in fourth place at the  receive",
+        "pize pool for 1st",
+        "how did the 2022 world cup prize pool compare to the previous tournament",
+        "money won by 2 nd place",
+        "money earned",
+        "2022 world cup prize pool compare to the previous tournament",
+        "each team in the quarter-finals (5th\u20138th place) of the receive,much did each team in the group stage (17th\u201332nd place) of the 2022 World Cup receive?",
+        "money won by 3 rd place",
+        "the total prize  distributed among the 32 teams",
+        "3rd place price pool",
+        "was the price pool has an increament in price increase in price pool",
+        "What was the total prize pool for the world cup,the 2022 world cup prize pool compare to the previous tournament,how much did the champions of  receive,much money did the runners-up up receive,prizepool of runner up",
+        "prize pool",
+        "prize pool for 3 rd",
+        "price",
+        "price pool for 4 th",
+        "what was the total prize pool for the world Cup 2022",
+        "4 the place price pool\n",
+        "money won by 1st place",
+        "frist place prize pool",
+        "much did the team in third place at the receive",
+        "money won by 4 th place",
+        "total cost",
+        "second place price pool",
+        " was the price pool has an increament or increase",
+        "what was the total prize pool for the world cup 2022"
+      ],
+      "responses": [
+        "The total prize pool for the 2022 World Cup was 440 million USD. The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament.",
+        "FIFA announced the prizes for the 2022 World Cup in April 2022.\nEach qualified team for the 2022 World Cup received $1.5 million before the competition to cover preparation costs.Each team participating in the 2022 World Cup received at least $9 million in prize money.\nEach qualified team for the 2022 World Cup received $1.5 million before the competition to cover preparation costs.Each team participating in the 2022 World Cup received at least $9 million in prize money.\nThe total prize pool for the 2022 World Cup was $440 million. The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament.\nThe total prize pool for the 2022 World Cup was $440 million. The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament.\nThe champions of the 2022 World Cup received $42 million.\nThe runners-up of the 2022 World Cup received $30 million.\nThe team in third place at the 2022 World Cup received $27 million.\nThe team in fourth place at the 2022 World Cup received $25 million.\nEach team in the quarter-finals (5th\u20138th place) of the 2022 World Cup received $17 million.\nEach team in the group stage (17th\u201332nd place) of the 2022 World Cup received $9 million.\nThe total prize of $440 million was distributed among the 32 teams with varying amounts depending on their final standing in the tournament, ranging from $9 million for group stage teams to $42 million for the champions.\n"
+      ]
+    },
+    {
+      "tag": "mascot",
+      "patterns": [
+        "the mascot",
+        "When was the tournament's official mascot unveiled and what is its name?",
+        "mascot",
+        "La'eeb"
+      ],
+      "responses": [
+        "The official mascot of the tournament is La'eeb. La'eeb is an Arabic word meaning super-skilled player"
+      ]
+    },
+    {
+      "tag": "Schedule Change",
+      "patterns": [
+        "theory behind the world cup  being held in winter of november and december",
+        "which month was world Cup event was organised?",
+        "can you share me a little fun fact about world cup 2022?",
+        "why was the 2022 FIFA World Cup not held in June and July as usual?,Why was there a change in an event of World Cup 2022?held in winter of November and December,Which month was World Cup event was oranganised? schedule change,",
+        "event was organised",
+        "why was there a change in an event",
+        "why was there a change in an event of world cup 2022?",
+        "Why was the 2022 FIFA World Cup not held in June and July as usual?",
+        "Test 888",
+        "why was the 2022 fifa world cup not held in June and July as usual?",
+        "Schedule Change"
+      ],
+      "responses": [
+        "The 2022 FIFA World Cup was not held in June and July, as is typical, due to Qatar's intense summer heat and high humidity. Instead, it was played in November and December."
+      ]
+    },
+    {
+      "tag": "group_a",
+      "patterns": [
+        "Senegal",
+        "Ecuador",
+        "group_a standing",
+        "Qatar",
+        "The standing",
+        "Netherlands",
+        "a_group",
+        "group_a"
+      ],
+      "responses": [
+        "Group standing for Group A: 1. Netherlands, 2. Senegal, 3. Ecuador, 4. Qatar"
       ]
     },
     {
       "tag": "asia",
       "patterns": [
+        "Asian countries",
+        "qualified countries from Asia",
+        "team from Asian continent",
+        "teams from Asia",
+        "teams from asia,  team qualified from asian continent",
+        "countries from Asia",
         "the team from Asian continent",
-        "qualified Asian countries",
-        "the Asian countries",
-        "the teams from Asia",
-        "Asia country",
+        "country from Asia",
+        "the team from Asia",
+        "the qualified countries from Asian continent",
         "the Asian teams",
         "the country from Asian continent",
-        "the team from Asia",
-        "team from Asia",
-        "the Asian team",
-        "countries from Asia",
-        "the country from Asia",
-        "qualified countries from Asia",
-        "Asian teams",
-        "Asian team",
-        "country from Asia",
-        "team from Asian continent",
-        "qualified countries from Asian continent",
-        "Asian countries",
-        "the countries from Asia",
-        "the qualified countries from Asian continent",
+        "the qualified Asian countries",
         "country from Asian continent",
-        "teams from asia,  team qualified from asian continent",
-        "the Asia country",
+        "Asia country",
+        "team from Asia",
         "the qualified countries from Asia",
-        "teams from Asia",
-        "the qualified Asian countries"
+        "the Asia country",
+        "qualified Asian countries",
+        "the country from Asia",
+        "Asian team",
+        "the Asian countries",
+        "the countries from Asia",
+        "the teams from Asia",
+        "Asian teams",
+        "the Asian team",
+        "qualified countries from Asian continent"
       ],
       "responses": [
         "The qualified countries from the continent of Asia: Qatar, Iran, South Korea, Saudi Arabia, Japan"
@@ -172,33 +751,33 @@
     {
       "tag": "africa",
       "patterns": [
-        "the qualified countries from African continent",
-        "the team from African continent",
-        "teams from Africa",
-        "the African team",
-        "the qualified countries from Africa",
-        "the team from Africa",
-        "country from African continent",
-        "the African teams",
-        "African teams",
         "qualified countries from Africa",
+        "the qualified African countries",
+        "team from Africa",
+        "teams from africa,qualified from African continent",
+        "country from Africa",
+        "the qualified countries from African continent",
+        "the Africa country",
+        "African teams",
+        "the countries from Africa",
+        "the African teams",
+        "country from African continent",
         "the African countries",
         "qualified countries from African continent",
-        "country from Africa",
-        "the qualified African countries",
-        "the teams from Africa",
-        "African team",
-        "the country from African continent",
-        "team from Africa",
-        "the Africa country",
-        "African countries",
-        "qualified African countries",
+        "the team from Africa",
         "the country from Africa",
-        "the countries from Africa",
-        "countries from Africa",
+        "the teams from Africa",
+        "the country from African continent",
+        "African countries",
         "team from African continent",
+        "qualified African countries",
         "Africa country",
-        "teams from africa,qualified from African continent"
+        "the African team",
+        "African team",
+        "the team from African continent",
+        "teams from Africa",
+        "the qualified countries from Africa",
+        "countries from Africa"
       ],
       "responses": [
         "The qualified countries from the continent of Africa: Ghana, Senegal, Tunisia, Morocco, Cameroon"
@@ -207,33 +786,33 @@
     {
       "tag": "Europe",
       "patterns": [
-        "the team from European continent",
-        "European teams",
-        "team from Europe",
-        "the European country",
-        "qualified European countries",
-        "the country from European continent",
-        "the qualified European countries",
-        "country from Europe",
-        "the European teams",
-        "the country from Europe",
-        "European countries",
-        "the qualified countries from Europe",
-        "teams from europe,team qualified european continent",
-        "the European team",
+        "the teams from Europe",
+        "the qualified countries from European continent",
         "qualified countries from Europe",
         "countries from Europe",
         "European team",
-        "Europe country",
-        "the European countries",
-        "the countries from Europe",
-        "the qualified countries from European continent",
-        "team from European continent",
+        "the European team",
+        "the qualified European countries",
         "the team from Europe",
         "country from European continent",
+        "the country from Europe",
+        "team from Europe",
+        "qualified European countries",
+        "the European countries",
+        "team from European continent",
+        "European countries",
         "teams from Europe",
+        "the team from European continent",
+        "the qualified countries from Europe",
+        "Europe country",
+        "European teams",
+        "the country from European continent",
+        "the European teams",
+        "teams from europe,team qualified european continent",
+        "country from Europe",
         "qualified countries from European continent",
-        "the teams from Europe"
+        "the European country",
+        "the countries from Europe"
       ],
       "responses": [
         "The qualified countries from the continent of Europe: Germany, Denmark, France, Belgium, Croatia, Spain, Serbia, England, Netherlands, Switzerland, Portugal, Poland, wWles"
@@ -242,19 +821,19 @@
     {
       "tag": "South_America",
       "patterns": [
+        "the team from South_America",
+        "the teams from South_America",
+        "the qualified countries from South_America",
         "the qualified South_American countries",
-        "the South_America country",
         "the countries from South_America",
-        "the South_American team",
         "the team from South_American continent",
+        "the country from South_American continent",
+        "the South_American team",
+        "the South_America country",
         "the qualified countries from South_American continent",
         "the South_American countries",
-        "the qualified countries from South_America",
-        "the team from South_America",
-        "the country from South_America",
         "the South_American teams",
-        "the teams from South_America",
-        "the country from South_American continent"
+        "the country from South_America"
       ],
       "responses": [
         "The qualified countries from the continent of South America: Brazil, Argentina, Ecuador, Uruguay"
@@ -263,32 +842,32 @@
     {
       "tag": "North_America",
       "patterns": [
-        "the North_American countries",
-        "country from North_American continent",
-        "the team from North_American continent",
-        "North_American team",
-        "the North_America country",
-        "the qualified countries from North_American continent",
+        "country from North_America",
+        "the North_American teams",
+        "the qualified countries from North_America",
         "North_American countries",
         "the country from North_American continent",
-        "qualified countries from North_America",
-        "the team from North_America",
-        "the countries from North_America",
-        "countries from North_America",
-        "team from North_America",
         "the country from North_America",
+        "qualified countries from North_America",
+        "qualified North_American countries",
+        "the team from North_American continent",
+        "country from North_American continent",
+        "the qualified countries from North_American continent",
+        "the North_American team",
+        "the North_America country",
+        "the qualified North_American countries",
+        "the teams from North_America",
+        "North_American team",
+        "North_America country",
+        "the countries from North_America",
+        "team from North_American continent",
         "teams from North_America",
         "North_American teams",
-        "the North_American teams",
-        "the qualified North_American countries",
-        "the qualified countries from North_America",
-        "team from North_American continent",
-        "country from North_America",
-        "qualified North_American countries",
         "qualified countries from North_American continent",
-        "North_America country",
-        "the teams from North_America",
-        "the North_American team"
+        "the team from North_America",
+        "the North_American countries",
+        "team from North_America",
+        "countries from North_America"
       ],
       "responses": [
         "The qualified countries from the continent of North America: Canada, USA, Mexico, Costa Rica"
@@ -297,14 +876,11 @@
     {
       "tag": "2022 FIFA World Cup",
       "patterns": [
-        "2022 FIFA World Cup",
-        "World Cup Qatar",
         "2022 World Cup",
         "World Cup 2022",
-        "World Cup in Qatar",
-        "host the world cup",
-        "organise the world cup"
-        
+        "2022 FIFA World Cup",
+        "World Cup Qatar",
+        "World Cup in Qatar"
       ],
       "responses": [
         "The 2022 FIFA World Cup was the 22nd FIFA World Cup. It took place in Qatar from 20 November to 18 December 2022. It was the first World Cup to be held in the Arab world and Muslim world"
@@ -314,10 +890,10 @@
       "tag": "Senegal",
       "patterns": [
         "Senegal performance",
-        "Senegal games",
-        "Senegal",
         "the Senegal results",
+        "Senegal",
         "Senegal results",
+        "Senegal games",
         "the Senegal games"
       ],
       "responses": [
@@ -327,11 +903,11 @@
     {
       "tag": "Netherlands",
       "patterns": [
-        "the Netherlands results",
         "the Netherlands games",
+        "the Netherlands results",
         "Netherlands performance",
-        "Netherlands results",
-        "Netherlands"
+        "Netherlands",
+        "Netherlands results"
       ],
       "responses": [
         "Group A: Senegal Netherlands 0-2; Ecuador Netherlands 1-1; Netherlands Qatar 2-0. Knockout stage: Netherlands USA 3-1, Netherlands Argentina 2-2 (3-4)"
@@ -352,9 +928,9 @@
       "tag": "Location",
       "patterns": [
         "Home country",
-        "Location",
+        "Where was the 2022 FIFA World Cup held?",
         "Located",
-        "Where was the 2022 FIFA World Cup held?"
+        "Location"
       ],
       "responses": [
         "The 2022 FIFA World Cup was held in Qatar"
@@ -363,11 +939,11 @@
     {
       "tag": "Significance",
       "patterns": [
-        "significant location",
         "What was significant about the location of the 2022 FIFA World Cup?",
-        "What was significant about the location",
         "What was significant",
-        "Significance"
+        "What was significant about the location",
+        "Significance",
+        "significant location"
       ],
       "responses": [
         "The 2022 FIFA World Cup was significant for being the first World Cup to be held in the Arab and Muslim world, and it was the second World Cup held entirely in Asia."
@@ -376,33 +952,23 @@
     {
       "tag": "Teams",
       "patterns": [
+        "How many teams participated in the 2022 FIFA World Cup?",
         "total number of teams",
         "the number of teams",
-        "Number of teams",
-        "How many teams participated in the 2022 FIFA World Cup?"
+        "How many teams",
+        "Number of teams"
       ],
       "responses": [
         "A total of 32 teams participated in the 2022 FIFA World Cup."
       ]
     },
     {
-      "tag": "Winner",
-      "patterns": [
-        "Who won",
-        "Who won the 2022 FIFA World Cup?",
-        "the winner"
-      ],
-      "responses": [
-        "Argentina won the 2022 FIFA World Cup."
-      ]
-    },
-    {
       "tag": "Argentina's Titles",
       "patterns": [
-        "Argentina Titles",
+        "How many World Cup titles has Argentina won as of 2022?",
         "Argentina",
-        "Titles",
-        "How many World Cup titles has Argentina won as of 2022?"
+        "Argentina Titles",
+        "Titles"
       ],
       "responses": [
         "As of 2022, Argentina has won three World Cup titles."
@@ -411,8 +977,8 @@
     {
       "tag": "Historic Achievement",
       "patterns": [
-        "hat-trick in final",
         "Historic Achievement",
+        "hat-trick in final",
         "Who was the first player to score a hat-trick in a World Cup final since 1966?"
       ],
       "responses": [
@@ -422,9 +988,9 @@
     {
       "tag": "Controversies",
       "patterns": [
-        "What criticisms were raised against hosting the World Cup in Qatar?",
+        "criticisms",
         "Controversies",
-        "criticisms"
+        "What criticisms were raised against hosting the World Cup in Qatar?"
       ],
       "responses": [
         "The choice to host the World Cup in Qatar attracted significant criticism due to concerns over the country's treatment of migrant workers, women, and members of the LGBT community, as well as issues related to Qatar's climate, lack of a strong football culture, scheduling changes, and allegations of bribery and corruption."
@@ -433,10 +999,10 @@
     {
       "tag": "Defending Champions",
       "patterns": [
-        "defending champions",
         "Who were the defending champions in the 2022 FIFA World Cup?",
-        "defending",
-        "the defending champions"
+        "the defending champions",
+        "defending champions",
+        "defending"
       ],
       "responses": [
         "The defending champions in the 2022 FIFA World Cup were France, who had won the 2018 FIFA World Cup."
@@ -445,23 +1011,13 @@
     {
       "tag": "Mascot",
       "patterns": [
-        "When was the tournament's official mascot unveiled and what is its name?",
         "the mascot",
         "La'eeb",
-        "mascot"
+        "mascot",
+        "When was the tournament's official mascot unveiled and what is its name?"
       ],
       "responses": [
         "The official mascot of the tournament is La'eeb. La'eeb is an Arabic word meaning super-skilled player"
-      ]
-    },
-    {
-      "tag": "last_16_teams",
-      "patterns": [
-        "last_16_teams",
-        "played last 16"
-      ],
-      "responses": [
-        "Last 16 teams were: Group A: Netherlands, Senegal\nGroup B: England, USA\nGroup C: Argentina, Poland\nGroup D: France, Australia\nGroup E: Japan, Spain\nGroup F: Morocco, Croatia\nGroup G: Brazil, Switzerland\nGroup H: Portugal, South Korea"
       ]
     },
     {
@@ -476,53 +1032,33 @@
     {
       "tag": "quarter_final_teams",
       "patterns": [
-        "quarter final teams",
-        "4_teams"
+        "4_teams",
+        "quarter final teams"
       ],
       "responses": [
         "Last 4 teams were: Argentina, Croatia, France, Morocco."
       ]
     },
     {
-      "tag": "format",
-      "patterns": [
-        "tell me the format of world cup, how does it work, tell me ways to qualify, knock out starts"
-      ],
-      "responses": [
-        "8 groups plays in their respective Groups, top 2 qualify, then Knockout round starts of last-16. 16 team plays and winner head to Quatar final and winner goes to Semi final and winner plays Final and Winner is Crown champion of the world. if want to know point system, please type 'point system.'"
-      ]
-    },
-    {
       "tag": "Start date",
       "patterns": [
+        "making it a start date",
         "The group stage was initially set",
-        "first_match",
         "first_game",
         "opening_game",
-        "which was the first match or game of the world cup 2022?",
         "Start date",
-        "which was the opening game or match of the world cup 2022?",
         "when did the group stage of the 2022 world cup begin?",
+        "which was the opening game or match of the world cup 2022?",
+        "first_match",
+        "which was the first match or game of the world cup 2022?",
         "moved to 20 November",
         "which was the first game or match",
         "when",
-        "making it a start date",
         "which was the first match or game?",
         "which date"
       ],
       "responses": [
         "The group stage of the 2022 World Cup was initially set to begin on 21 November, but was moved to 20 November, between  Qatar vs Ecuador making it a start date."
-      ]
-    },
-    {
-      "tag": "total_prize_pool",
-      "patterns": [
-        "what was the total prize pool for the world Cup 2022",
-        "how did the 2022 world cup prize pool compare to the previous tournament",
-        " was the price pool has an increament or increase"
-      ],
-      "responses": [
-        "The total prize pool for the 2022 World Cup was 440 million USD. The prize pool for the 2022 World Cup was $40 million greater than the prize pool of the previous tournament."
       ]
     },
     {
@@ -567,8 +1103,8 @@
     {
       "tag": "group_stage_prize",
       "patterns": [
-        " 17 to 32 or quatar final price pool",
-        "how much did each team in the group stage (17th to 32nd place) of the world Cup 2022 receive or earned"
+        "how much did each team in the group stage (17th to 32nd place) of the world Cup 2022 receive or earned",
+        " 17 to 32 or quatar final price pool"
       ],
       "responses": [
         "Each team in the group stage (17th to 32nd place) of the 2022 World Cup received 9 million USD."
@@ -577,8 +1113,8 @@
     {
       "tag": "total_teams_prize _distribution",
       "patterns": [
-        " what was the price distribution of world cup 2022",
-        "how was the total prize of 440 million usd distributed among the 32 teams?"
+        "how was the total prize of 440 million usd distributed among the 32 teams?",
+        " what was the price distribution of world cup 2022"
       ],
       "responses": [
         "The total prize of 440 million USD was distributed among the 32 teams with varying amounts depending on their final standing in the tournament, ranging from 9 million USD for group stage teams to 42 million USD for the champions."
@@ -600,24 +1136,6 @@
       ],
       "responses": [
         "Iranian goalkeeper Alireza Beiranvand was the first player to be replaced by a dedicated concussion substitute in this World Cup, after suffering a concussion in the opening match against England."
-      ]
-    },
-    {
-      "tag": "Schedule Change",
-      "patterns": [
-        "Test 888",
-        "theory behind the world cup  being held in winter of november and december",
-        "why was there a change in an event",
-        "Schedule Change",
-        "event was organised",
-        "Why was the 2022 FIFA World Cup not held in June and July as usual?",
-        "can you share me a little fun fact about world cup 2022?",
-        "why was the 2022 fifa world cup not held in June and July as usual?",
-        "why was there a change in an event of world cup 2022?",
-        "which month was world Cup event was organised?"
-      ],
-      "responses": [
-        "The 2022 FIFA World Cup was not held in June and July, as is typical, due to Qatar's intense summer heat and high humidity. Instead, it was played in November and December."
       ]
     },
     {
@@ -661,8 +1179,8 @@
       "patterns": [
         "When was the final of the 2022 World Cup played?",
         "when was the final of the 2022 world cup played?",
-        " what is the name of the stadium was used to host the final of the world cup",
-        "where was the world cup 2022 played?"
+        "where was the world cup 2022 played?",
+        " what is the name of the stadium was used to host the final of the world cup"
       ],
       "responses": [
         "The final of the 2022 World Cup was played on 18 December 2022, which is also Qatar's National Day, at Lusail Stadium."
@@ -870,10 +1388,10 @@
     {
       "tag": "2022 Contention",
       "patterns": [
-        "Why were UEFA members no longer in contention to host the 2022 FIFA World Cup?",
         "UEFA members no contention",
         "2022 Contention",
-        "2022 Competition"
+        "2022 Competition",
+        "Why were UEFA members no longer in contention to host the 2022 FIFA World Cup?"
       ],
       "responses": [
         "After UEFA was guaranteed to host the 2018 event, members of UEFA were no longer in contention to host the 2022 FIFA World Cup."
@@ -882,10 +1400,10 @@
     {
       "tag": "2022 Bids",
       "patterns": [
-        "Which countries contention to host",
-        "Australia, Japan, Qatar, South Korea, and the USA",
+        "Australia, Japan, Qatar, South Korea, and the United States",
         "Which countries remained in contention to host the 2022 FIFA World Cup?",
-        "Australia, Japan, Qatar, South Korea, and the United States"
+        "Australia, Japan, Qatar, South Korea, and the USA",
+        "Which countries contention to host"
       ],
       "responses": [
         "The countries remaining in contention to host the 2022 FIFA World Cup were Australia, Japan, Qatar, South Korea, and the United States."
@@ -894,10 +1412,10 @@
     {
       "tag": "Host Selection Date",
       "patterns": [
-        "When did the FIFA Executive Committee vote to select the hosts?",
-        "Host Selection Date",
+        "When did the FIFA Executive Committee vote to select the hosts of the 2018 and 2022 World Cups?",
         "Selection Date",
-        "When did the FIFA Executive Committee vote to select the hosts of the 2018 and 2022 World Cups?"
+        "Host Selection Date",
+        "When did the FIFA Executive Committee vote to select the hosts?"
       ],
       "responses": [
         "The 22-member FIFA Executive Committee convened on 2 December 2010 to vote to select the hosts of both tournaments."
@@ -906,9 +1424,9 @@
     {
       "tag": "Suspended Members",
       "patterns": [
-        "Suspended Members",
         "two FIFA executive committee members suspended",
-        "Why were two FIFA executive committee members suspended before the vote?"
+        "Why were two FIFA executive committee members suspended before the vote?",
+        "Suspended Members"
       ],
       "responses": [
         "Two FIFA executive committee members were suspended before the vote in relation to allegations of corruption regarding their votes."
@@ -917,9 +1435,9 @@
     {
       "tag": "Criticism of Qatar Hosting",
       "patterns": [
+        "Criticism of Qatar Hosting",
         "Why was the decision to host the 2022 World Cup in Qatar criticized?",
         "Criticism of Hosting",
-        "Criticism of Qatar Hosting",
         "Criticism of Qatar"
       ],
       "responses": [
@@ -929,11 +1447,11 @@
     {
       "tag": "Voting Patterns",
       "patterns": [
-        "World Cup voting?",
-        "2022 FIFA World Cup bidding?",
         "World Cup bidding?",
-        "What were the voting patterns for the 2022 FIFA World Cup bidding?",
-        "Qatar voting?"
+        "Qatar voting?",
+        "2022 FIFA World Cup bidding?",
+        "World Cup voting?",
+        "What were the voting patterns for the 2022 FIFA World Cup bidding?"
       ],
       "responses": [
         "In the 2022 FIFA World Cup bidding, Qatar received 11 votes in the first round, 10 in the second, 11 in the third, and 14 in the fourth, winning the bid. The United States, South Korea, Japan, and Australia received various numbers of votes across the rounds, with Qatar ultimately being selected."
@@ -942,10 +1460,10 @@
     {
       "tag": "Hosting Cost",
       "patterns": [
-        "What was the estimated cost of hosting the World Cup?",
         "Price of the World Cup?",
-        "Who disputed the estimated cost of the World Cup and what was their claim?",
-        "Cost Dispute"
+        "Cost Dispute",
+        "What was the estimated cost of hosting the World Cup?",
+        "Who disputed the estimated cost of the World Cup and what was their claim?"
       ],
       "responses": [
         "Qatari officials, including the organizing CEO Nasser Al Khater, disputed the estimated cost of over $220 billion, stating that the true cost was around $8 billion."
@@ -963,10 +1481,10 @@
     {
       "tag": "New Venues",
       "patterns": [
-        "How many new stadiums were built specifically for the 2022 FIFA World Cup?",
-        "new stadiums",
+        "Number of new stadiums",
         "How many new stadiums were built",
-        "Number of new stadiums"
+        "How many new stadiums were built specifically for the 2022 FIFA World Cup?",
+        "new stadiums"
       ],
       "responses": [
         "Six of the eight venues, including the Lusail Stadium which hosted the final, were new stadiums built specifically for the 2022 FIFA World Cup."
@@ -984,8 +1502,8 @@
     {
       "tag": "Stadium Design Criteria",
       "patterns": [
-        "Stadium Design Criteria",
-        "What criteria were the World Cup stadiums intended to meet?"
+        "What criteria were the World Cup stadiums intended to meet?",
+        "Stadium Design Criteria"
       ],
       "responses": [
         "The World Cup stadiums in Qatar were intended to reflect the country's history and culture, with designs meeting criteria of legacy, comfort, accessibility, and sustainability."
@@ -994,10 +1512,10 @@
     {
       "tag": "Cooling Systems",
       "patterns": [
-        "combat heat",
-        "reducing temperatures",
         "Cooling Systems",
-        "What feature did the stadiums have to combat heat?"
+        "reducing temperatures",
+        "What feature did the stadiums have to combat heat?",
+        "combat heat"
       ],
       "responses": [
         "The stadiums were equipped with cooling systems aimed at reducing temperatures within the stadium by up to 20 \u00b0C (36 \u00b0F)."
@@ -1007,8 +1525,8 @@
       "tag": "Sustainability Features",
       "patterns": [
         "sustainability of the stadiums",
-        "Sustainability Features",
-        "How did Qatar market the sustainability of the stadiums?"
+        "How did Qatar market the sustainability of the stadiums?",
+        "Sustainability Features"
       ],
       "responses": [
         "The stadiums were marketed as zero waste, with plans for the upper tiers to be disassembled after the World Cup and donated to countries with less developed sports infrastructure."
@@ -1018,10 +1536,10 @@
       "tag": "Stadium Architects",
       "patterns": [
         "Stadium Architects",
-        "Stadium designers",
-        "Albert Speer & Partners",
         "Who designed the five initial stadium projects?",
-        "German architectural firm"
+        "Stadium designers",
+        "German architectural firm",
+        "Albert Speer & Partners"
       ],
       "responses": [
         "All of the five initial stadium projects were designed by the German architectural firm Albert Speer & Partners."
@@ -1030,11 +1548,11 @@
     {
       "tag": "Indoor Stadiums",
       "patterns": [
-        "Al_Bayt",
-        "Indoor Stadiums",
-        "Which were the indoor stadiums?",
         "Al_Wakrah",
-        "Which were the indoor stadiums used in the World Cup?"
+        "Indoor Stadiums",
+        "Which were the indoor stadiums used in the World Cup?",
+        "Which were the indoor stadiums?",
+        "Al_Bayt"
       ],
       "responses": [
         "The Al Bayt and Al Wakrah stadiums were the only indoor stadiums among the eight used for the World Cup."
@@ -1043,9 +1561,9 @@
     {
       "tag": "Venue Reduction Proposal",
       "patterns": [
-        "Reduced number of stadiums",
         "Venue Reduction Proposal",
-        "What did Qatar request regarding the number of stadiums in 2013?"
+        "What did Qatar request regarding the number of stadiums in 2013?",
+        "Reduced number of stadiums"
       ],
       "responses": [
         "In 2013, Qatar requested FIFA approve a smaller number of stadiums due to growing costs, proposing to cut the number to eight or nine from the twelve originally planned."
@@ -1055,8 +1573,8 @@
       "tag": "Final Number of Stadiums",
       "patterns": [
         "How many stadiums were used?",
-        "Final Number of Stadiums",
-        "How many stadiums were ultimately used for the World Cup?"
+        "How many stadiums were ultimately used for the World Cup?",
+        "Final Number of Stadiums"
       ],
       "responses": [
         "Eight stadiums were ultimately used for the World Cup, all located in or near Doha with the exception of Al Khor."
@@ -1067,11 +1585,11 @@
       "patterns": [
         "What is unique about Stadium 974?",
         "temporary stadium",
+        "974",
+        "974 Stadium",
+        "Stadium_974",
         "Ras Abu Aboud",
         "using shipping containers",
-        "974 Stadium",
-        "974",
-        "Stadium_974",
         "constructed using shipping containers"
       ],
       "responses": [
@@ -1091,30 +1609,11 @@
       ]
     },
     {
-      "tag": "Venue Locations and Capacities",
-      "patterns": [
-        "Khalifa International",
-        "Al_Thumama Stadium",
-        "Al_Bayt Stadium in Al_Khor",
-        "Education City",
-        "Al_Janoub Stadium in Al_Wakrah",
-        "Ahmad bin Ali Stadium",
-        "What were the locations of stadiums?",
-        "What were the capacities of stadiums?",
-        "What were the locations and capacities of the 2022 FIFA World Cup stadiums?",
-        "Stadium 974",
-        "Lusail Stadium"
-      ],
-      "responses": [
-        "The 2022 FIFA World Cup stadiums and their capacities were: Al Bayt Stadium in Al Khor (68,895), Lusail Stadium in Lusail (88,966), Ahmad bin Ali Stadium in Al Rayyan (45,032), Education City Stadium (44,667), Khalifa International Stadium (45,857), Al Thumama Stadium in Doha (44,400), Stadium 974 (44,089), and Al Janoub Stadium in Al Wakrah (44,325)."
-      ]
-    },
-    {
       "tag": "Base Camps Purpose",
       "patterns": [
-        "What were the base camps",
+        "Base Camps",
         "What were the base camps used for in the World Cup?",
-        "Base Camps"
+        "What were the base camps"
       ],
       "responses": [
         "Base camps were used by the 32 national squads to stay and train before and during the World Cup tournament."
@@ -1132,8 +1631,8 @@
     {
       "tag": "Compactness of the World Cup",
       "patterns": [
-        "the most compact World Cup",
         "How was this World Cup more compact compared to previous editions?",
+        "the most compact World Cup",
         "Compactness of the World Cup"
       ],
       "responses": [
@@ -1143,9 +1642,9 @@
     {
       "tag": "Unique Aspect of 2022 World Cup",
       "patterns": [
-        "Unique Aspect of team travel",
         "What was unique about this World Cup in terms of team travel?",
-        "team travel"
+        "team travel",
+        "Unique Aspect of team travel"
       ],
       "responses": [
         "It was the first Cup since 1930 where players did not need to take flights to matches and could remain at the same training base throughout the entire tournament."
@@ -1154,19 +1653,19 @@
     {
       "tag": "Argentina's Base Camp",
       "patterns": [
-        "Argentina's Camp",
+        "Base",
+        "Argentinian",
+        "What were Argentina's hotel and training site for the World Cup?",
+        "Qatar University Hostel",
         "Base Camp of Argentina",
         "Argentina",
-        "Base of Argentina",
-        "Qatar University Training",
-        "Argentinian",
-        "Camp",
-        "What were Argentina's hotel and training site for the World Cup?",
         "Argentina's Base",
-        "Base",
-        "Qatar University Hostel",
+        "Camp",
+        "Qatar University Training",
         "Camp of Argentina",
-        "Argentina's Base Camp"
+        "Argentina's Camp",
+        "Argentina's Base Camp",
+        "Base of Argentina"
       ],
       "responses": [
         "Argentina's team stayed at Qatar University Hostel 1 and trained at Qatar University Training Site 3."
@@ -1175,17 +1674,17 @@
     {
       "tag": "Australia's Base Camp",
       "patterns": [
-        "Australian",
-        "Camp",
-        "Australia's Base",
-        "Australia's Base Camp",
-        "Camp of Australia",
-        "Australia",
-        "Base of Australia",
+        "What were Australia's hotel and training site for the World Cup?",
         "Base",
-        "Australia's Camp",
+        "Australian",
+        "Australia",
+        "Australia's Base",
+        "Camp of Australia",
         "Base Camp of Australia",
-        "What were Australia's hotel and training site for the World Cup?"
+        "Camp",
+        "Base of Australia",
+        "Australia's Base Camp",
+        "Australia's Camp"
       ],
       "responses": [
         "Australia's team stayed at New Aspire Academy Athlete Accommodation and trained at Aspire Zone Training Facilities 5."
@@ -1194,17 +1693,17 @@
     {
       "tag": "Belgium's Base Camp",
       "patterns": [
-        "Base Camp of Belgium",
-        "Base of Belgium",
-        "Belgium's Base Camp",
-        "Belgian",
-        "Camp",
-        "Camp of Belgium",
-        "Belgium",
-        "What were Belgium's hotel and training site for the World Cup?",
         "Base",
+        "Camp of Belgium",
+        "Belgium's Base Camp",
         "Belgium's Base",
-        "Belgium's Camp"
+        "Belgium's Camp",
+        "What were Belgium's hotel and training site for the World Cup?",
+        "Belgian",
+        "Base Camp of Belgium",
+        "Camp",
+        "Belgium",
+        "Base of Belgium"
       ],
       "responses": [
         "Belgium's team stayed at Hilton Salwa Beach Resort and Villas and trained at Salwa Training Site."
@@ -1222,17 +1721,17 @@
     {
       "tag": "Brazil's Base Camp",
       "patterns": [
-        "Brazil's Base",
-        "Base of Brazil",
-        "Camp",
-        "Brazil's Camp",
-        "Brazil",
-        "Brazil's Base Camp",
-        "Base Camp of Brazil",
-        "What were Brazil's hotel and training site for the World Cup?",
         "Base",
+        "Brazil",
+        "Base of Brazil",
+        "Brazil's Base",
+        "Brazilian",
+        "What were Brazil's hotel and training site for the World Cup?",
         "Camp of Brazil",
-        "Brazilian"
+        "Camp",
+        "Base Camp of Brazil",
+        "Brazil's Camp",
+        "Brazil's Base Camp"
       ],
       "responses": [
         "Brazil's team stayed at The Westin Doha Hotel and Spa and trained at Al Arabi SC Stadium."
@@ -1242,16 +1741,16 @@
       "tag": "Cameroon's Base Camp",
       "patterns": [
         "Cameroon's Base",
-        "Camp",
-        "Cameroonian",
-        "Base of Cameroon",
-        "Base Camp of Cameroon",
+        "Cameroon",
+        "Base",
         "Cameroon's Camp",
         "Cameroon's Base Camp",
+        "Base of Cameroon",
+        "Base Camp of Cameroon",
+        "Cameroonian",
         "Camp of Cameroon",
-        "Base",
         "What were Cameroon's hotel and training site for the World Cup?",
-        "Cameroon"
+        "Camp"
       ],
       "responses": [
         "Cameroon's team stayed at Banyan Tree Doha at La Cigale Mushaireb and trained at Al Sailiya SC Stadium."
@@ -1260,17 +1759,17 @@
     {
       "tag": "Canada's Base Camp",
       "patterns": [
+        "Canada's Camp",
         "Canada",
+        "Base",
+        "Camp of Canada",
+        "Canada's Base Camp",
         "Base of Canada",
         "Camp",
         "Base Camp of Canada",
-        "Canada's Base Camp",
-        "Canada's Base",
+        "Canadian",
         "What were Canada's hotel and training site for the World Cup?",
-        "Camp of Canada",
-        "Canada's Camp",
-        "Base",
-        "Canadian"
+        "Canada's Base"
       ],
       "responses": [
         "Canada's team stayed at Century Marina Hotel Lusail and trained at Umm Salal SC Training Facilities."
@@ -1279,15 +1778,15 @@
     {
       "tag": "Costa Rica's Base Camp",
       "patterns": [
+        "Base",
+        "Costa Rica's Base",
+        "Costa Rica",
+        "Base of Costa Rica",
+        "Camp",
+        "Costa Rica's Base Camp",
         "Camp of Costa Rica",
         "Base Camp of Costa Rica",
         "What were Costa Rica's hotel and training site for the World Cup?",
-        "Camp",
-        "Costa Rica",
-        "Base of Costa Rica",
-        "Costa Rica's Base",
-        "Costa Rica's Base Camp",
-        "Base",
         "Costa Rica's Camp"
       ],
       "responses": [
@@ -1297,16 +1796,16 @@
     {
       "tag": "Croatia's Base Camp",
       "patterns": [
-        "Camp of Croatia",
-        "Croatia's Base",
-        "Camp",
-        "Croatia's Base Camp",
-        "Base of Croatia",
-        "Base Camp of Croatia",
-        "Croatia's Camp",
         "Base",
+        "What were Croatia's hotel and training site for the World Cup?",
+        "Croatia's Camp",
+        "Camp of Croatia",
+        "Base of Croatia",
+        "Camp",
+        "Base Camp of Croatia",
+        "Croatia's Base Camp",
         "Croatia",
-        "What were Croatia's hotel and training site for the World Cup?"
+        "Croatia's Base"
       ],
       "responses": [
         "Croatia's team stayed at Hilton Doha and trained at Al Ersal Training Site 3."
@@ -1315,17 +1814,17 @@
     {
       "tag": "Denmark's Base Camp",
       "patterns": [
-        "Danish",
-        "What were Denmark's hotel and training site for the World Cup?",
-        "Base Camp of Denmark",
-        "Camp",
-        "Base of Denmark",
+        "Base",
+        "Denmark's Base",
         "Camp of Denmark",
         "Denmark's Base Camp",
-        "Denmark's Base",
+        "Base Camp of Denmark",
+        "Camp",
         "Denmark",
-        "Base",
-        "Denmark's Camp"
+        "Base of Denmark",
+        "Denmark's Camp",
+        "What were Denmark's hotel and training site for the World Cup?",
+        "Danish"
       ],
       "responses": [
         "Denmark's team stayed at Retaj Salwa Resort & SPA and trained at Al Sailiya SC 2."
@@ -1334,17 +1833,17 @@
     {
       "tag": "Ecuador's Base Camp",
       "patterns": [
-        "Base Camp of Ecuador",
-        "Ecuador's Base Camp",
-        "Camp of Ecuador",
-        "Camp",
-        "Base of Ecuador",
         "Ecuador's Camp",
-        "Base",
-        "What were Ecuador's hotel and training site for the World Cup?",
         "Ecuadorian",
+        "Base Camp of Ecuador",
+        "Base",
+        "Ecuador's Base Camp",
         "Ecuador's Base",
-        "Ecuador"
+        "Ecuador",
+        "Camp",
+        "What were Ecuador's hotel and training site for the World Cup?",
+        "Camp of Ecuador",
+        "Base of Ecuador"
       ],
       "responses": [
         "Ecuador's team stayed at Hyatt Regency Oryx Doha and trained at Mesaimeer SC Training Facilities."
@@ -1353,13 +1852,13 @@
     {
       "tag": "Qualification Process",
       "patterns": [
-        "Qualification",
         "Organize qualification",
-        "Continental confederations",
-        "How did continental confederations organize qualification",
-        "How did FIFA's continental confederations organize qualification",
+        "Qualification",
         "How did FIFA's continental confederations organize qualification for the 2022 World Cup?",
-        "Qualification Process"
+        "Continental confederations",
+        "How did FIFA's continental confederations organize qualification",
+        "Qualification Process",
+        "How did continental confederations organize qualification"
       ],
       "responses": [
         "FIFA's six continental confederations organized their own qualifying competitions and all 211 FIFA member associations were eligible to enter qualification."
@@ -1369,12 +1868,12 @@
       "tag": "Qatar's Qualification",
       "patterns": [
         "Automatic qualification",
-        "Automatically qualified",
         "Qatar's Qualification",
-        "How did Qatar qualify for the 2022 World Cup?",
         "Qualification",
+        "How did Qatar qualify for the 2022 World Cup?",
         "Qatar",
-        "Host Qualification"
+        "Host Qualification",
+        "Automatically qualified"
       ],
       "responses": [
         "Qatar, as the host nation, automatically qualified for the tournament but also participated in the Asian qualifying stage, which doubled as qualification for the 2023 AFC Asian Cup."
@@ -1383,10 +1882,10 @@
     {
       "tag": "Qatar's Impact on Asian Qualification",
       "patterns": [
-        "Qatar",
         "How did Qatar's participation in the Asian qualifiers affect other teams?",
+        "Asian Qualification",
         "Qatar's Impact on Asian Qualification",
-        "Asian Qualification"
+        "Qatar"
       ],
       "responses": [
         "Since Qatar reached the final stage as winners in their group, Lebanon, the fifth-best second-place team, advanced instead."
@@ -1396,12 +1895,12 @@
       "tag": "France's Qualification",
       "patterns": [
         "Automatic qualification",
-        "Automatically qualified",
-        "France's Qualification",
-        "How did France qualify",
+        "France",
         "Qualification",
-        "How did France qualify for the 2022 World Cup?",
-        "France"
+        "Automatically qualified",
+        "How did France qualify",
+        "France's Qualification",
+        "How did France qualify for the 2022 World Cup?"
       ],
       "responses": [
         "France, the reigning World Cup champions, qualified for the event through European qualification."
@@ -1410,20 +1909,20 @@
     {
       "tag": "Withdrawals Due to COVID-19",
       "patterns": [
+        "withdrawal",
+        "American Samoa",
+        "Which teams withdrew from their continental qualifications due to COVID-19?",
+        "travel restrictions",
+        "Vanuatu",
+        "Cook Islands",
         "withdrew",
         "Covid",
-        "Pull out",
-        "Cook Islands",
-        "Which teams withdrew from their continental qualifications due to COVID-19?",
-        "Vanuatu",
-        "North Korea",
-        "travel restrictions",
-        "American Samoa",
-        "coronavirus",
-        "COVID-19",
-        "withdrawal",
+        "Which teams withdrew from their continental qualifications",
         "Samoa withdrew",
-        "Which teams withdrew from their continental qualifications"
+        "North Korea",
+        "COVID-19",
+        "Pull out",
+        "coronavirus"
       ],
       "responses": [
         "North Korea withdrew from the AFC qualifying round, while both American Samoa and Samoa withdrew from the OFC qualification, and Vanuatu and Cook Islands also withdrew due to COVID-19 outbreaks and travel restrictions."
@@ -1432,15 +1931,15 @@
     {
       "tag": "Tonga's Withdrawal",
       "patterns": [
-        "Tonga pull out",
+        "pull out",
         "withdrew",
+        "Tonga pull out",
         "Why did Tonga withdraw from World Cup qualification?",
-        "tsunami",
         "Tonga",
-        "Withdrawal",
         "volcanic eruption",
         "Tonga's Withdrawal",
-        "pull out"
+        "Withdrawal",
+        "tsunami"
       ],
       "responses": [
         "Tonga withdrew from World Cup qualification after the 2022 Hunga Tonga\u2013Hunga Ha'apai eruption and tsunami."
@@ -1449,18 +1948,18 @@
     {
       "tag": "Teams Returning to the World Cup",
       "patterns": [
-        "missed 2018 tournament",
-        "Returned",
-        "Teams Returning",
-        "missed the 2018 tournament",
         "missing 2018 tournament",
         "Which teams returned to the 2022 World Cup after missing the 2018 tournament?",
+        "missed the 2018",
         "returning",
-        "Teams Returned",
-        "missing the 2018",
+        "Returned",
+        "missed the 2018 tournament",
         "missing the 2018 tournament",
-        "teams",
-        "missed the 2018"
+        "Teams Returning",
+        "missed 2018 tournament",
+        "missing the 2018",
+        "Teams Returned",
+        "teams"
       ],
       "responses": [
         "The Netherlands, Ecuador, Ghana, Cameroon, and the United States returned to the 2022 World Cup after missing the 2018 tournament."
@@ -1470,9 +1969,9 @@
       "tag": "Canada's Return",
       "patterns": [
         "Return",
-        "Canada",
+        "Canada's Return",
         "When was Canada's last World Cup appearance before 2022?",
-        "Canada's Return"
+        "Canada"
       ],
       "responses": [
         "Canada returned to the World Cup after 36 years, their last appearance being in 1986."
@@ -1481,13 +1980,13 @@
     {
       "tag": "Wales' Participation",
       "patterns": [
-        "the longest-ever gap",
-        "the longest gap",
-        "What was notable about Wales",
-        "Wales",
         "Wales' Participation",
+        "the longest gap",
         "What was notable about Wales' participation in the 2022 World Cup?",
-        "Participation"
+        "Wales",
+        "Participation",
+        "the longest-ever gap",
+        "What was notable about Wales"
       ],
       "responses": [
         "Wales made their first World Cup appearance in 64 years, the longest-ever gap for any team, with their only previous participation having been in 1958."
@@ -1496,16 +1995,16 @@
     {
       "tag": "Italy's Failure to Qualify",
       "patterns": [
-        "Qualify",
-        "What was significant about Italy's failure to qualify for the 2022 World Cup?",
-        "Italy",
         "Failure",
+        "Qualify",
+        "Italy",
+        "What was significant about Italy's failure to qualify for the 2022 World Cup?",
+        "four-time winners",
+        "Italy's Failure to Qualify",
+        "Italy's Failure",
         "failed to qualify",
         "Failure to Qualify",
-        "Italy's Failure",
-        "Italy's Failure to Qualify",
-        "second successive",
-        "four-time winners"
+        "second successive"
       ],
       "responses": [
         "Italy, four-time winners, failed to qualify for a second successive World Cup for the first time in their history, losing in the qualification play-off semi-finals."
@@ -1514,13 +2013,13 @@
     {
       "tag": "Russia's Disqualification",
       "patterns": [
+        "disqualified",
         "Why was Russia disqualified from the 2022 World Cup?",
-        "disqualification",
-        "Why was Russia disqualified",
-        "Russia disqualified",
-        "Russian",
         "Russia",
-        "disqualified"
+        "Russian",
+        "Russia disqualified",
+        "disqualification",
+        "Why was Russia disqualified"
       ],
       "responses": [
         "Russia was disqualified from competing in the 2022 World Cup due to the Russian invasion of Ukraine."
@@ -1530,14 +2029,14 @@
       "tag": "Chile's and Nigeria's Non-Qualification",
       "patterns": [
         "Chilean",
-        "Nigeria",
+        "Chile",
         "not qualifying",
+        "Chile's and Nigeria's Non-Qualification",
         "What was notable about Chile and Nigeria not qualifying?",
+        "Nigeria",
         "Nigerian",
         "Non-Qualification",
-        "Chile's and Nigeria's Non-Qualification",
-        "What was notable about Chile and Nigeria not qualifying for the 2022 World Cup?",
-        "Chile"
+        "What was notable about Chile and Nigeria not qualifying for the 2022 World Cup?"
       ],
       "responses": [
         "Chile, the 2015 and 2016 Copa America winners, failed to qualify for the second consecutive time, and Nigeria was defeated by Ghana in the CAF final playoff round, having qualified for the previous three World Cups."
@@ -1547,8 +2046,8 @@
       "tag": "Lowest Ranked Qualifier",
       "patterns": [
         "Which was the lowest ranked team to qualify for the 2022 World Cup?",
-        "Lowest Ranked",
         "Lowest Rank",
+        "Lowest Ranked",
         "Ghana",
         "Lowest Ranked Qualifier"
       ],
@@ -1559,14 +2058,14 @@
     {
       "tag": "Qualified Teams by Region",
       "patterns": [
-        "UEFA",
-        "Qualified Teams by Region",
-        "CAF",
-        "Which teams qualified for the 2022 World Cup, listed by region?",
         "CONCACAF",
-        "AFC",
+        "Which teams qualified for the 2022 World Cup, listed by region?",
+        "CAF",
         "CONMEBOL",
-        "Teams by Region"
+        "UEFA",
+        "Teams by Region",
+        "Qualified Teams by Region",
+        "AFC"
       ],
       "responses": [
         "The qualified teams were: from AFC - Australia, Iran, Japan, Qatar (hosts), Saudi Arabia, South Korea; from CAF - Cameroon, Ghana, Morocco, Senegal, Tunisia; from CONCACAF - Canada, Costa Rica, Mexico, United States; from CONMEBOL - Argentina, Brazil, Ecuador, Uruguay; and from UEFA - Belgium, Croatia, Denmark, England, France, Germany, Netherlands, Poland, Portugal, Serbia, Spain, Switzerland, Wales. No teams from OFC qualified."
@@ -1575,12 +2074,12 @@
     {
       "tag": "Provisional Squad Size",
       "patterns": [
-        "team size",
-        "Squad Size",
         "Before the World Cup",
-        "Provisional",
+        "Provisional Squad Size",
+        "Squad Size",
         "What was the maximum size of the provisional squad teams could name before the World Cup?",
-        "Provisional Squad Size"
+        "Provisional",
+        "team size"
       ],
       "responses": [
         "Before the World Cup, teams named a provisional squad of up to 55 players."
@@ -1589,11 +2088,11 @@
     {
       "tag": "Final Squad Deadline",
       "patterns": [
-        "13 November",
-        "Final Squad",
-        "Final Squad Deadline",
+        "By when were teams required to name their final squads?",
         "Deadline",
-        "By when were teams required to name their final squads?"
+        "Final Squad Deadline",
+        "Final Squad",
+        "13 November"
       ],
       "responses": [
         "Teams were required to name their final squads by 13 November."
@@ -1603,8 +2102,8 @@
       "tag": "Final Squad Size Increase",
       "patterns": [
         "26 players",
-        "Final Squad Size Increase",
         "What was the increase in final squad size for the 2022 World Cup compared to 2018?",
+        "Final Squad Size Increase",
         "23 players"
       ],
       "responses": [
@@ -1614,12 +2113,12 @@
     {
       "tag": "Teams with Fewer Players",
       "patterns": [
-        "fewer than 26 players",
-        "26 players less",
-        "25 players",
-        "Which teams chose fewer than 26 players for their final squads?",
         "Teams with Fewer Players",
-        "less than 26 players"
+        "fewer than 26 players",
+        "25 players",
+        "less than 26 players",
+        "Which teams chose fewer than 26 players for their final squads?",
+        "26 players less"
       ],
       "responses": [
         "All teams had a total of 26 players in their final squads except for France and Iran, who chose 25 players."
@@ -1628,15 +2127,15 @@
     {
       "tag": "Final Draw Location",
       "patterns": [
-        "Where was the final draw?",
-        "Where was the final draw for the 2022 World Cup held?",
-        "Final Draw Date",
         "final tournament draw",
-        "Date",
+        "Where was the final draw for the 2022 World Cup held?",
         "final draw",
+        "Date",
+        "Where was the final draw?",
         "when",
-        "Doha Exhibition",
-        "Location"
+        "Location",
+        "Final Draw Date",
+        "Doha Exhibition"
       ],
       "responses": [
         "The final draw was held at the Doha Exhibition and Convention Center in Doha on 1 April 2022"
@@ -1645,10 +2144,10 @@
     {
       "tag": "Unknown Teams at Time of Draw",
       "patterns": [
-        "Unknown Teams at date of Draw",
         "Which teams were not known at the date of the final draw?",
         "Unknown Teams",
-        "Which teams were not known at the time of the final draw?"
+        "Which teams were not known at the time of the final draw?",
+        "Unknown Teams at date of Draw"
       ],
       "responses": [
         "The two winners of the inter-confederation play-offs and the winner of the Path A of the UEFA play-offs were not known at the time of the draw."
@@ -1657,16 +2156,16 @@
     {
       "tag": "Draw Hosts and Assistants",
       "patterns": [
-        "Lothar Matthaus",
-        "Carli Lloyd",
-        "Cafu",
-        "Draw Assistants",
-        "Who hosted and assisted with the final draw for the 2022 World Cup?",
-        "Samantha Johnson",
         "Draw Hosts",
+        "Carli Lloyd",
         "final draw",
+        "Lothar Matthaus",
+        "Cafu",
+        "Samantha Johnson",
         "Who hosted and assisted with the final draw?",
-        "Jermaine Jenas"
+        "Who hosted and assisted with the final draw for the 2022 World Cup?",
+        "Jermaine Jenas",
+        "Draw Assistants"
       ],
       "responses": [
         "The draw was led by Carli Lloyd, Jermaine Jenas, and Samantha Johnson, and assisted by football legends such as Cafu, Lothar Matthaus, and others."
@@ -1675,10 +2174,10 @@
     {
       "tag": "Draw Pots Basis",
       "patterns": [
-        "four pots",
+        "On what basis were teams allocated into pots for the draw?",
         "Draw Pots",
-        "Draw Pots Basis",
-        "On what basis were teams allocated into pots for the draw?"
+        "four pots",
+        "Draw Pots Basis"
       ],
       "responses": [
         "The 32 teams were allocated into four pots based on the FIFA Men's World Rankings as of 31 March 2022."
@@ -1687,12 +2186,12 @@
     {
       "tag": "Pot 1 Composition",
       "patterns": [
-        "Composition",
-        "Pot 1 Composition",
-        "1_Pot",
-        "first_Pot",
         "Which teams were in Pot 1 for the draw?",
-        "Pot_1"
+        "first_Pot",
+        "Composition",
+        "Pot_1",
+        "Pot 1 Composition",
+        "1_Pot"
       ],
       "responses": [
         "Pot 1 contained host Qatar and the best seven teams: Brazil, Belgium, France, Argentina, England, Spain, and Portugal."
@@ -1701,10 +2200,10 @@
     {
       "tag": "Draw Constraints",
       "patterns": [
-        "Draw Constraints",
-        "Constraints",
+        "What were the constraints in drawing teams from the same confederation?",
         "not be drawn into the same group",
-        "What were the constraints in drawing teams from the same confederation?"
+        "Draw Constraints",
+        "Constraints"
       ],
       "responses": [
         "Teams from the same confederation could not be drawn into the same group, except for UEFA teams, where there was at least one but no more than two per group."
@@ -1713,20 +2212,20 @@
     {
       "tag": "Netherlands Performance",
       "patterns": [
-        "Dutch",
+        "Performance",
+        "Netherlands Performance",
+        "How did the Netherlands perform in the group stage?",
+        "final standing",
         "group_stage",
         "Dutch team",
         "Netherlands national football team",
-        "Netherlands Performance",
-        "Netherlands team",
-        "How did the Netherlands perform in the group stage?",
-        "Outcome",
-        "The Netherlands national football team",
         "Netherlands's Final Standing",
-        "Netherlands",
         "their group",
-        "final standing",
-        "Performance"
+        "Netherlands team",
+        "Netherlands",
+        "Dutch",
+        "The Netherlands national football team",
+        "Outcome"
       ],
       "responses": [
         "The Netherlands finished first in their group with 7 points, winning 2 matches and drawing 1."
@@ -1735,19 +2234,19 @@
     {
       "tag": "Senegal's Final Standing",
       "patterns": [
-        "group_stage",
-        "Senegal team",
-        "Senegal",
-        "their group",
-        "The Senegal national football team",
-        "Senegal's Final Standing",
-        "Outcome",
-        "Senegal national football team",
-        "Senegal Performance",
-        "Senegalese",
-        "What was Senegal's final standing in the group stage?",
         "final standing",
-        "Performance"
+        "group_stage",
+        "Senegal Performance",
+        "Senegal",
+        "Senegalese",
+        "Senegal team",
+        "Senegal's Final Standing",
+        "their group",
+        "Performance",
+        "The Senegal national football team",
+        "What was Senegal's final standing in the group stage?",
+        "Outcome",
+        "Senegal national football team"
       ],
       "responses": [
         "Senegal finished second in their group with 6 points, winning 2 matches and losing 1."
@@ -1756,21 +2255,21 @@
     {
       "tag": "Ecuador's Group Stage Outcome",
       "patterns": [
-        "group_stage",
-        "Ecuador Final Standing",
-        "Ecuador Performance",
-        "The Ecuador national football team",
-        "Ecuador national football team",
         "How did Ecuador fare in the group stage?",
-        "Outcome",
-        "Ecuador's Final Standing",
-        "Performance",
-        "Ecuador team",
-        "What was Ecuador's final standing in the group stage?",
         "Ecuadorian",
-        "their group",
+        "Ecuador's Final Standing",
+        "Ecuador Final Standing",
+        "final standing",
+        "Ecuador national football team",
+        "The Ecuador national football team",
+        "group_stage",
         "Ecuador",
-        "final standing"
+        "What was Ecuador's final standing in the group stage?",
+        "their group",
+        "Ecuador team",
+        "Performance",
+        "Outcome",
+        "Ecuador Performance"
       ],
       "responses": [
         "Ecuador finished third in their group with 4 points, winning 1 match, drawing 1, and losing 1."
@@ -1779,20 +2278,20 @@
     {
       "tag": "Qatar's Performance",
       "patterns": [
-        "Qatar's Final Standing",
+        "Qatar team",
+        "What was Qatar's final standing in the group stage?",
+        "final standing",
+        "Qatar national football team",
         "group_stage",
         "Qatar Performance",
-        "Qatar national football team",
-        "Qatar team",
-        "Outcome",
-        "What was Qatar's final standing in the group stage?",
-        "Qatar Final Standing",
-        "The Qatar national football team",
-        "Qatar",
         "How did Qatar perform in the 2022 World Cup group stage?",
+        "The Qatar national football team",
         "their group",
-        "final standing",
-        "Performance"
+        "Qatar's Final Standing",
+        "Qatar",
+        "Performance",
+        "Qatar Final Standing",
+        "Outcome"
       ],
       "responses": [
         "Host nation Qatar finished last in their group, losing all 3 matches."
@@ -1801,20 +2300,20 @@
     {
       "tag": "England's Group Performance",
       "patterns": [
-        "group_stage",
-        "How did England perform in their group stage?",
+        "What was England's final standing in the group stage?",
         "England's Final Standing",
         "England",
-        "England Performance",
-        "The England national football team",
-        "England national football team",
-        "English",
-        "Outcome",
-        "What was England's final standing in the group stage?",
-        "English team",
-        "their group",
         "final standing",
-        "Performance"
+        "England national football team",
+        "group_stage",
+        "The England national football team",
+        "English team",
+        "English",
+        "their group",
+        "Performance",
+        "How did England perform in their group stage?",
+        "Outcome",
+        "England Performance"
       ],
       "responses": [
         "England finished first in their group with 7 points, winning 2 matches and drawing 1."
@@ -1823,23 +2322,23 @@
     {
       "tag": "USA's Final Group Position",
       "patterns": [
-        "group_stage",
-        "United States Final Standing",
-        "USA national football team",
-        "United States's Final Standing",
-        "What was the United States' final position in the group stage?",
-        "the USA",
-        "their group",
-        "The USA national football team",
-        "How did United States perform in the 2022 World Cup group stage?",
-        "Outcome",
-        "United States Performance",
-        "What was United States's final standing in the group stage?",
-        "USA team",
-        "USA",
         "United States",
+        "USA team",
+        "What was United States's final standing in the group stage?",
         "final standing",
-        "Performance"
+        "United States Final Standing",
+        "group_stage",
+        "the USA",
+        "USA",
+        "What was the United States' final position in the group stage?",
+        "How did United States perform in the 2022 World Cup group stage?",
+        "The USA national football team",
+        "United States Performance",
+        "their group",
+        "Performance",
+        "USA national football team",
+        "Outcome",
+        "United States's Final Standing"
       ],
       "responses": [
         "The United States finished second in their group with 5 points, winning 1 match and drawing 2."
@@ -1848,22 +2347,22 @@
     {
       "tag": "Iran's Outcome in Group Stage",
       "patterns": [
-        "group_stage",
+        "Iran's Final Standing",
         "How did Iran perform in the 2022 World Cup group stage?",
-        "Iran Performance",
-        "Iranian team",
+        "What was Iran's final standing in the group stage?",
+        "final standing",
+        "Iran national football team",
+        "Iranian",
+        "group_stage",
         "Iran",
         "The Iran national football team",
-        "Iran Final Standing",
+        "Iran Performance",
         "Outcome",
-        "Iranian",
-        "Iran national football team",
-        "Performance",
-        "Iran's Final Standing",
-        "What was Iran's final standing in the group stage?",
         "their group",
+        "Performance",
+        "Iranian team",
         "How did Iran perform in the group stage?",
-        "final standing"
+        "Iran Final Standing"
       ],
       "responses": [
         "Iran finished third in their group with 3 points, winning 1 match and losing 2."
@@ -1872,22 +2371,22 @@
     {
       "tag": "Wales' Performance",
       "patterns": [
-        "group_stage",
-        "Welsh team",
-        "Wales national football team",
-        "The Wales national football team",
+        "How did Wales perform in the 2022 World Cup group stage?",
         "Wales's Final Standing",
-        "Wales",
+        "final standing",
+        "Wales Performance",
+        "group_stage",
+        "How did Wales fare in their World Cup group?",
         "their group",
         "Welsh",
-        "Wales Performance",
-        "Outcome",
-        "How did Wales fare in their World Cup group?",
         "Performance",
-        "How did Wales perform in the 2022 World Cup group stage?",
         "Wales Final Standing",
+        "The Wales national football team",
+        "Wales national football team",
+        "Outcome",
         "What was Wales's final standing in the group stage?",
-        "final standing"
+        "Welsh team",
+        "Wales"
       ],
       "responses": [
         "Wales finished last in their group with 1 point, drawing 1 match and losing 2."
@@ -1896,22 +2395,22 @@
     {
       "tag": "Argentina's Group Stage Results",
       "patterns": [
-        "Argentina's Final Standing",
-        "Argentina Final Standing",
-        "group_stage",
-        "The Argentina national football team",
-        "Argentina",
-        "Argentinian team",
-        "Argentinian",
-        "final standing",
-        "Outcome",
-        "Argentina national football team",
-        "Performance",
-        "What were Argentina's results in the group stage?",
-        "Argentina Performance",
-        "their group",
         "How did Argentina perform in the 2022 World Cup group stage?",
-        "What was Argentina's final standing in the group stage?"
+        "Performance",
+        "Argentina national football team",
+        "final standing",
+        "What were Argentina's results in the group stage?",
+        "Argentinian",
+        "group_stage",
+        "Argentina's Final Standing",
+        "Argentina",
+        "The Argentina national football team",
+        "Argentinian team",
+        "What was Argentina's final standing in the group stage?",
+        "their group",
+        "Argentina Performance",
+        "Outcome",
+        "Argentina Final Standing"
       ],
       "responses": [
         "Argentina finished first in their group with 6 points, winning 2 matches and losing 1."
@@ -1920,22 +2419,22 @@
     {
       "tag": "Poland's Group Stage Performance",
       "patterns": [
-        "group_stage",
-        "Poland Performance",
-        "Polish team",
-        "How did Poland perform in the group stage?",
-        "The Poland national football team",
-        "Polish",
-        "Poland national football team",
-        "Poland Final Standing",
-        "Outcome",
-        "What was Poland's final standing in the group stage?",
-        "Performance",
         "Poland",
+        "Poland Performance",
+        "Poland national football team",
+        "final standing",
         "How did Poland perform in the 2022 World Cup group stage?",
+        "The Poland national football team",
+        "group_stage",
+        "What was Poland's final standing in the group stage?",
+        "Poland Final Standing",
+        "How did Poland perform in the group stage?",
         "their group",
+        "Polish team",
+        "Performance",
         "Poland's Final Standing",
-        "final standing"
+        "Polish",
+        "Outcome"
       ],
       "responses": [
         "Poland finished second in their group with 4 points, winning 1 match, drawing 1, and losing 1."
@@ -1944,21 +2443,21 @@
     {
       "tag": "Mexico's Final Standing",
       "patterns": [
-        "Mexican",
-        "group_stage",
-        "Mexico",
-        "Mexico Final Standing",
-        "Mexico Performance",
-        "their group",
-        "Mexican team",
-        "What was Mexico's final standing in the group stage?",
-        "Outcome",
-        "Mexico's Final Standing",
-        "The Mexico national football team",
         "Mexico national football team",
-        "How did Mexico perform in the 2022 World Cup group stage?",
+        "The Mexico national football team",
+        "Mexico",
         "final standing",
-        "Performance"
+        "group_stage",
+        "Mexico Performance",
+        "Mexican",
+        "Mexican team",
+        "their group",
+        "Mexico Final Standing",
+        "Performance",
+        "What was Mexico's final standing in the group stage?",
+        "How did Mexico perform in the 2022 World Cup group stage?",
+        "Outcome",
+        "Mexico's Final Standing"
       ],
       "responses": [
         "Mexico finished third in their group with 4 points, winning 1 match, drawing 1, and losing 1."
@@ -1967,22 +2466,22 @@
     {
       "tag": "Saudi Arabia's Performance",
       "patterns": [
-        "group_stage",
-        "How did Saudi Arabia perform in the 2022 World Cup group stage?",
-        "How did Saudi Arabia perform in their group?",
         "Saudi Arabian team",
-        "The Saudi Arabia national football team",
-        "What was Saudi Arabia's final standing in the group stage?",
-        "Saudi Arabia's Final Standing",
-        "Outcome",
         "Saudi Arabia",
-        "Saudi Arabia Performance",
-        "Performance",
-        "Saudi Arabian",
-        "Saudi Arabia national football team",
-        "their group",
+        "Saudi Arabia Final Standing",
         "final standing",
-        "Saudi Arabia Final Standing"
+        "Saudi Arabia national football team",
+        "Saudi Arabian",
+        "group_stage",
+        "What was Saudi Arabia's final standing in the group stage?",
+        "The Saudi Arabia national football team",
+        "How did Saudi Arabia perform in their group?",
+        "their group",
+        "Performance",
+        "Saudi Arabia Performance",
+        "How did Saudi Arabia perform in the 2022 World Cup group stage?",
+        "Outcome",
+        "Saudi Arabia's Final Standing"
       ],
       "responses": [
         "Saudi Arabia finished last in their group with 3 points, winning 1 match and losing 2."
@@ -1991,17 +2490,17 @@
     {
       "tag": "Qatar vs Ecuador",
       "patterns": [
-        "Ecuador against Qatar",
-        "Ecuador won against Qatar",
-        "Ecuador and Qatar",
+        "Qatar and Ecuador",
         "Ecuador won 2-0 against Qatar",
-        "Qatar against Ecuador",
         "Ecuador vs Qatar",
         "Qatar vs Ecuador",
-        "What was the result and goal scorers in the Qatar vs Ecuador match?",
-        "Qatar and Ecuador",
+        "Ecuador",
+        "Ecuador against Qatar",
         "Qatar",
-        "Ecuador"
+        "What was the result and goal scorers in the Qatar vs Ecuador match?",
+        "Ecuador won against Qatar",
+        "Ecuador and Qatar",
+        "Qatar against Ecuador"
       ],
       "responses": [
         "Ecuador won 2-0 against Qatar. Goals were scored by Valencia at 16' (penalty) and 31'."
@@ -2010,17 +2509,17 @@
     {
       "tag": "Senegal vs Netherlands",
       "patterns": [
-        "Netherlands won against Senegal",
         "Senegal against Netherlands",
-        "Senegal",
-        "Netherlands against Senegal",
-        "Senegal vs Netherlands",
-        "Netherlands vs Senegal",
-        "Netherlands won 2-0 against Senegal",
         "Netherlands and Senegal",
+        "Senegal",
+        "Netherlands vs Senegal",
+        "Ecuador",
+        "Senegal vs Netherlands",
         "What was the result and goal scorers in the Senegal vs Netherlands match?",
         "Senegal and Netherlands",
-        "Ecuador"
+        "Netherlands won 2-0 against Senegal",
+        "Netherlands won against Senegal",
+        "Netherlands against Senegal"
       ],
       "responses": [
         "Netherlands won 2-0 against Senegal. Goals were scored by Gakpo at 84' and Klaassen at 90+9'."
@@ -2029,17 +2528,17 @@
     {
       "tag": "Qatar vs Senegal",
       "patterns": [
-        "Senegal",
-        "Senegal vs Qatar",
-        "Qatar and Senegal",
-        "Senegal against Qatar",
+        "Senegal and Qatar",
         "What was the result and goal scorers in the Qatar vs Senegal match?",
+        "Senegal",
         "Senegal won 3-1 against Qatar",
-        "Qatar",
         "Senegal won against Qatar",
+        "Qatar and Senegal",
         "Qatar vs Senegal",
+        "Senegal vs Qatar",
+        "Qatar",
         "Qatar against Senegal",
-        "Senegal and Qatar"
+        "Senegal against Qatar"
       ],
       "responses": [
         "Senegal won 3-1 against Qatar. Goals were scored by Muntari at 78' for Qatar, and Dia at 41', Di\u00e9dhiou at 48', and B. Dieng at 84' for Senegal."
@@ -2048,15 +2547,15 @@
     {
       "tag": "Netherlands vs Ecuador",
       "patterns": [
-        "Ecuador and Netherlands",
-        "Netherlands and Ecuador",
-        "Ecuador",
-        "What was the result and goal scorers in the Netherlands vs Ecuador match?",
-        "Ecuador vs Netherlands",
-        "Ecuador against Netherlands",
         "Netherlands vs Ecuador",
+        "Ecuador and Netherlands",
+        "Ecuador",
+        "Netherlands against Ecuador",
+        "What was the result and goal scorers in the Netherlands vs Ecuador match?",
         "Netherlands",
-        "Netherlands against Ecuador"
+        "Ecuador against Netherlands",
+        "Netherlands and Ecuador",
+        "Ecuador vs Netherlands"
       ],
       "responses": [
         "The match between Netherlands and Ecuador ended in a 1-1 draw. Goals were scored by Gakpo at 6' for Netherlands and Valencia at 49' for Ecuador."
@@ -2066,14 +2565,14 @@
       "tag": "Ecuador vs Senegal",
       "patterns": [
         "Senegal",
+        "Ecuador",
         "Senegal against Ecuador",
-        "Senegal and Ecuador",
-        "Ecuador vs Senegal",
-        "Ecuador and Senegal",
-        "What was the result and goal scorers in the Ecuador vs Senegal match?",
-        "Senegal vs Ecuador",
         "Ecuador against Senegal",
-        "Ecuador"
+        "Senegal and Ecuador",
+        "Senegal vs Ecuador",
+        "What was the result and goal scorers in the Ecuador vs Senegal match?",
+        "Ecuador and Senegal",
+        "Ecuador vs Senegal"
       ],
       "responses": [
         "Senegal won 2-1 against Ecuador. Goals were scored by Caicedo at 67' for Ecuador, and I. Sarr at 44' (penalty) and Koulibaly at 70' for Senegal."
@@ -2082,17 +2581,17 @@
     {
       "tag": "Netherlands vs Qatar",
       "patterns": [
-        "Netherlands won 2-0 against Qatar",
-        "Netherlands vs Qatar",
-        "Netherlands won against Qatar",
-        "What was the result and goal scorers in the Netherlands vs Qatar match?",
-        "Netherlands and Qatar",
-        "Qatar vs Netherlands",
         "Qatar and Netherlands",
+        "Qatar vs Netherlands",
+        "Netherlands won 2-0 against Qatar",
+        "What was the result and goal scorers in the Netherlands vs Qatar match?",
         "Qatar against Netherlands",
         "Netherlands",
         "Qatar",
-        "Netherlands against Qatar"
+        "Netherlands against Qatar",
+        "Netherlands and Qatar",
+        "Netherlands vs Qatar",
+        "Netherlands won against Qatar"
       ],
       "responses": [
         "Netherlands won 2-0 against Qatar. Goals were scored by Gakpo at 26' and F. de Jong at 49'."
@@ -2101,17 +2600,17 @@
     {
       "tag": "England vs Iran",
       "patterns": [
-        "England",
-        "England vs Iran",
-        "Iran",
-        "What was the result and goal scorers in the England vs Iran match?",
-        "England against Iran",
-        "Iran vs England",
-        "Iran against England",
-        "England won against Iran",
-        "Iran and England",
         "England and Iran",
-        "England won 6-2 against Iran"
+        "England won 6-2 against Iran",
+        "Iran against England",
+        "England",
+        "Iran and England",
+        "England vs Iran",
+        "What was the result and goal scorers in the England vs Iran match?",
+        "Iran",
+        "Iran vs England",
+        "England against Iran",
+        "England won against Iran"
       ],
       "responses": [
         "England won 6-2 against Iran. Goals were scored by Bellingham at 35', Saka at 43' and 62', Sterling at 45+1', Rashford at 71', and Grealish at 90' for England Taremi at 65' and 90+13' (penalty) for Iran."
@@ -2120,18 +2619,18 @@
     {
       "tag": "United States vs Wales",
       "patterns": [
-        "United States and Wales ended in a draw",
-        "United States and Wales",
-        "Wales and United States",
-        "the USA",
-        "Wales",
-        "Wales against United States",
-        "What was the result and goal scorers in the United States vs Wales match?",
-        "United States against Wales",
-        "Wales vs United States",
+        "United States",
         "United States vs Wales",
+        "Wales vs United States",
+        "the USA",
+        "What was the result and goal scorers in the United States vs Wales match?",
+        "Wales and United States",
         "USA",
-        "United States"
+        "Wales against United States",
+        "United States and Wales ended in a draw",
+        "United States against Wales",
+        "United States and Wales",
+        "Wales"
       ],
       "responses": [
         "The match between United States and Wales ended in a 1-1 draw. Goals were scored by Weah at 36' for United States and Bale at 82' (penalty) for Wales."
@@ -2140,17 +2639,17 @@
     {
       "tag": "Wales vs Iran",
       "patterns": [
-        "Iran and Wales",
-        "Iran",
+        "Iran won against Wales",
+        "Iran vs Wales",
+        "Wales against Iran",
         "Iran against Wales",
         "Wales and Iran",
-        "Wales",
-        "Wales against Iran",
         "What was the result and goal scorers in the Wales vs Iran match?",
-        "Iran won against Wales",
-        "Wales vs Iran",
+        "Iran",
         "Iran won 2-0 against Wales",
-        "Iran vs Wales"
+        "Wales vs Iran",
+        "Iran and Wales",
+        "Wales"
       ],
       "responses": [
         "Iran won 2-0 against Wales. Goals were scored by Cheshmi at 90+8' and Rezaeian at 90+11'."
@@ -2159,18 +2658,18 @@
     {
       "tag": "England vs United States",
       "patterns": [
-        "England and United States",
-        "England",
+        "United States",
         "What was the result of the England vs United States match?",
         "United States vs England",
-        "England vs United States",
-        "the USA",
-        "England and United States ended in a draw",
         "United States against England",
-        "United States and England",
+        "England",
+        "England and United States ended in a draw",
         "England against United States",
+        "the USA",
         "USA",
-        "United States"
+        "United States and England",
+        "England vs United States",
+        "England and United States"
       ],
       "responses": [
         "The match between England and United States ended in a 0-0 draw."
@@ -2179,17 +2678,17 @@
     {
       "tag": "Wales vs England",
       "patterns": [
-        "England",
-        "England vs Wales",
-        "Wales and England",
-        "Wales against England",
-        "Wales",
-        "What was the result and goal scorers in the Wales vs England match?",
         "Wales vs England",
-        "England won against Wales",
+        "England and Wales",
+        "What was the result and goal scorers in the Wales vs England match?",
+        "England",
+        "Wales against England",
+        "Wales and England",
         "England against Wales",
         "England won 3-0 against Wales",
-        "England and Wales"
+        "England won against Wales",
+        "England vs Wales",
+        "Wales"
       ],
       "responses": [
         "England won 3-0 against Wales. Goals were scored by Rashford at 50' and 68' and Foden at 51'."
@@ -2198,21 +2697,21 @@
     {
       "tag": "Iran vs United States",
       "patterns": [
-        "Iran vs US",
-        "Iran vs United States",
-        "Iran",
-        "Iran and United States",
-        "the USA",
-        "United States vs Iran",
         "United States",
-        "United States and Iran",
+        "United States vs Iran",
+        "Iran vs United States",
         "United States won 1-0 against Iran",
+        "Iran against United States",
+        "Iran and United States",
+        "United States and Iran",
+        "the USA",
         "United States won against Iran",
         "Iran vs USA",
         "USA",
-        "Iran against United States",
+        "Iran",
+        "What was the result and goal scorers in the Iran vs United States match?",
         "United States against Iran",
-        "What was the result and goal scorers in the Iran vs United States match?"
+        "Iran vs US"
       ],
       "responses": [
         "United States won 1-0 against Iran. The goal was scored by Pulisic at 38'."
@@ -2221,17 +2720,17 @@
     {
       "tag": "Argentina vs Saudi Arabia",
       "patterns": [
-        "Argentina and Saudi Arabia",
-        "Argentina vs Saudi Arabia",
-        "Saudi Arabia and Argentina",
-        "Argentina against Saudi Arabia",
-        "Argentina",
-        "Saudi Arabia won against Argentina",
         "What was the result and goal scorers in the Argentina vs Saudi Arabia match?",
         "Saudi Arabia",
+        "Saudi Arabia and Argentina",
+        "Saudi Arabia won against Argentina",
         "Saudi Arabia vs Argentina",
+        "Saudi Arabia against Argentina",
+        "Argentina",
+        "Argentina and Saudi Arabia",
         "Saudi Arabia won 2-1 against Argentina",
-        "Saudi Arabia against Argentina"
+        "Argentina vs Saudi Arabia",
+        "Argentina against Saudi Arabia"
       ],
       "responses": [
         "Saudi Arabia won 2-1 against Argentina. Goals were scored by Messi at 10' (penalty) for Argentina, and Al-Shehri at 48' and S. Al-Dawsari at 53' for Saudi Arabia."
@@ -2240,15 +2739,15 @@
     {
       "tag": "Mexico vs Poland",
       "patterns": [
+        "Poland",
+        "Poland against Mexico",
+        "Mexico vs Poland",
         "Mexico and Poland",
         "Mexico",
-        "Mexico vs Poland",
         "Poland vs Mexico",
-        "Poland against Mexico",
         "Poland and Mexico",
         "Mexico and Poland ended in a draw",
         "What was the result of the Mexico vs Poland match?",
-        "Poland",
         "Mexico against Poland"
       ],
       "responses": [
@@ -2258,16 +2757,16 @@
     {
       "tag": "Poland vs Saudi Arabia",
       "patterns": [
-        "Poland won against Saudi Arabia",
-        "Poland against Saudi Arabia",
-        "Saudi Arabia vs Poland",
-        "Poland vs Saudi Arabia",
-        "Poland and Saudi Arabia",
-        "Saudi Arabia",
-        "Poland won 2-0 against Saudi Arabia",
         "Poland",
+        "Saudi Arabia",
+        "Saudi Arabia vs Poland",
+        "Poland won against Saudi Arabia",
         "Saudi Arabia against Poland",
         "What was the result and goal scorers in the Poland vs Saudi Arabia match?",
+        "Poland won 2-0 against Saudi Arabia",
+        "Poland vs Saudi Arabia",
+        "Poland against Saudi Arabia",
+        "Poland and Saudi Arabia",
         "Saudi Arabia and Poland"
       ],
       "responses": [
@@ -2277,17 +2776,17 @@
     {
       "tag": "Argentina vs Mexico",
       "patterns": [
-        "Mexico against Argentina",
+        "Argentina against Mexico",
         "Mexico",
-        "Argentina won against Mexico",
-        "Argentina",
         "Argentina won 2-0 against Mexico",
+        "Argentina won against Mexico",
         "What was the result and goal scorers in the Argentina vs Mexico match?",
+        "Argentina",
         "Argentina and Mexico",
         "Argentina vs Mexico",
-        "Mexico vs Argentina",
+        "Mexico against Argentina",
         "Mexico and Argentina",
-        "Argentina against Mexico"
+        "Mexico vs Argentina"
       ],
       "responses": [
         "Argentina won 2-0 against Mexico. Goals were scored by Messi at 64' and Fern\u00e1ndez at 87'."
@@ -2296,17 +2795,17 @@
     {
       "tag": "Poland vs Argentina",
       "patterns": [
-        "Poland and Argentina",
-        "Argentina",
-        "Argentina vs Poland",
-        "Argentina won against Poland",
-        "Argentina against Poland",
-        "Poland against Argentina",
-        "What was the result and goal scorers in the Poland vs Argentina match?",
-        "Poland vs Argentina",
-        "Argentina and Poland",
         "Poland",
-        "Argentina won 2-0 against Poland"
+        "Argentina and Poland",
+        "Argentina won 2-0 against Poland",
+        "Argentina vs Poland",
+        "Argentina",
+        "What was the result and goal scorers in the Poland vs Argentina match?",
+        "Argentina won against Poland",
+        "Poland against Argentina",
+        "Poland vs Argentina",
+        "Argentina against Poland",
+        "Poland and Argentina"
       ],
       "responses": [
         "Argentina won 2-0 against Poland. Goals were scored by Mac Allister at 46' and \u00c1lvarez at 67'."
@@ -2315,17 +2814,17 @@
     {
       "tag": "Saudi Arabia vs Mexico",
       "patterns": [
-        "Saudi Arabia vs Mexico",
-        "Mexico",
-        "Mexico and Saudi Arabia",
         "Saudi Arabia",
-        "What was the result and goal scorers in the Saudi Arabia vs Mexico match?",
-        "Saudi Arabia against Mexico",
-        "Mexico vs Saudi Arabia",
+        "Mexico",
         "Mexico against Saudi Arabia",
-        "Mexico won 2-1 against Saudi Arabia",
         "Mexico won against Saudi Arabia",
-        "Saudi Arabia and Mexico"
+        "Saudi Arabia vs Mexico",
+        "Mexico and Saudi Arabia",
+        "What was the result and goal scorers in the Saudi Arabia vs Mexico match?",
+        "Mexico vs Saudi Arabia",
+        "Saudi Arabia and Mexico",
+        "Saudi Arabia against Mexico",
+        "Mexico won 2-1 against Saudi Arabia"
       ],
       "responses": [
         "Mexico won 2-1 against Saudi Arabia. Goals were scored by Mart\u00edn at 47' and Ch\u00e1vez at 52' for Mexico, and S. Al-Dawsari at 90+5' for Saudi Arabia."
@@ -2334,20 +2833,20 @@
     {
       "tag": "Round of 16 - Netherlands vs USA",
       "patterns": [
-        "Netherlands vs USA",
-        "Netherlands won 3-1 against the United States",
-        "What was the result and who scored in the Netherlands vs United States match?",
-        "Netherlands won against the United States",
-        "Netherlands against United States",
-        "Round of 16",
-        "16 team Round",
-        "United States vs Netherlands",
         "United States",
+        "16 team Round",
+        "United States against Netherlands",
+        "Round of 16",
+        "Netherlands against United States",
         "Netherlands and United States",
+        "Netherlands won 3-1 against the United States",
+        "Netherlands won against the United States",
         "United States and Netherlands",
-        "Netherlands",
         "Netherlands vs United States",
-        "United States against Netherlands"
+        "Netherlands vs USA",
+        "What was the result and who scored in the Netherlands vs United States match?",
+        "Netherlands",
+        "United States vs Netherlands"
       ],
       "responses": [
         "Netherlands won 3-1 against the United States. Goals were scored by Depay at 10', Blind at 45+1', and Dumfries at 81' for the Netherlands Wright at 76' for the United States."
@@ -2356,19 +2855,19 @@
     {
       "tag": "Round of 16 - Argentina vs Australia",
       "patterns": [
-        "Argentina",
         "What was the result and who scored in the Argentina vs Australia match?",
-        "Round of 16",
-        "Australia against Argentina",
-        "Argentina won 2-1 against Australia",
+        "Australia vs Argentina",
+        "Argentina against Australia",
         "16 team Round",
+        "Argentina vs Australia",
+        "Round of 16",
+        "Argentina won against Australia",
         "Australia",
         "Argentina and Australia",
-        "Australia vs Argentina",
-        "Argentina won against Australia",
-        "Australia and Argentina",
-        "Argentina against Australia",
-        "Argentina vs Australia"
+        "Argentina",
+        "Argentina won 2-1 against Australia",
+        "Australia against Argentina",
+        "Australia and Argentina"
       ],
       "responses": [
         "Argentina won 2-1 against Australia. Goals were scored by Messi at 35' and \u00c1lvarez at 57' for Argentina Fern\u00e1ndez scored an own goal at 77' for Australia."
@@ -2377,19 +2876,19 @@
     {
       "tag": "Round of 16 - France vs Poland",
       "patterns": [
-        "France won 3-1 against Poland",
-        "France and Poland",
-        "France won against Poland",
-        "Round of 16",
-        "16 team Round",
-        "Poland vs France",
-        "Poland against France",
-        "What was the result and who scored in the France vs Poland match?",
-        "Poland and France",
-        "France vs Poland",
-        "France",
         "Poland",
-        "France against Poland"
+        "France",
+        "France won 3-1 against Poland",
+        "16 team Round",
+        "Round of 16",
+        "Poland vs France",
+        "France and Poland",
+        "Poland against France",
+        "Poland and France",
+        "What was the result and who scored in the France vs Poland match?",
+        "France vs Poland",
+        "France against Poland",
+        "France won against Poland"
       ],
       "responses": [
         "France won 3-1 against Poland. Goals were scored by Giroud at 44' and Mbappe at 74' and 90+1' for France Lewandowski at 90+9' (penalty) for Poland."
@@ -2398,16 +2897,16 @@
     {
       "tag": "Round of 16 - England vs Senegal",
       "patterns": [
-        "Round of 16",
-        "England won 3-0 against Senegal",
-        "England and Senegal",
         "Senegal vs England",
-        "Senegal against England",
+        "England won 3-0 against Senegal",
         "16 team Round",
-        "What was the result and who scored in the England vs Senegal match?",
-        "Senegal and England",
+        "Senegal against England",
+        "Round of 16",
         "England vs Senegal",
-        "England against Senegal"
+        "What was the result and who scored in the England vs Senegal match?",
+        "England against Senegal",
+        "England and Senegal",
+        "Senegal and England"
       ],
       "responses": [
         "England won 3-0 against Senegal. Goals were scored by Henderson at 38', Kane at 45+3', and Saka at 57' for England."
@@ -2416,20 +2915,20 @@
     {
       "tag": "Round of 16 - Japan vs Croatia (Penalties)",
       "patterns": [
-        "What was the result and who scored in the Japan vs Croatia match?",
-        "Croatia and Japan",
-        "Croatia vs Japan",
         "In penalties, Croatia won 3-1 against Japan",
-        "Round of 16",
-        "Japan against Croatia",
-        "Croatia won against Japan",
-        "16 team Round",
-        "Croatia won 3-1 against Japan",
         "Japan and Croatia",
-        "Japan",
         "Croatia against Japan",
+        "What was the result and who scored in the Japan vs Croatia match?",
+        "Croatia vs Japan",
+        "16 team Round",
+        "Round of 16",
+        "Croatia and Japan",
+        "Croatia won 3-1 against Japan",
+        "Japan against Croatia",
         "Japan vs Croatia",
-        "Croatia"
+        "Croatia won against Japan",
+        "Croatia",
+        "Japan"
       ],
       "responses": [
         "The match between Japan and Croatia ended 1-1 after extra time. Goals were scored by Maeda at 43' for Japan and Peri\u0161i\u0107 at 55' for Croatia. In penalties, Croatia won 3-1."
@@ -2439,18 +2938,18 @@
       "tag": "Round of 16 - Brazil vs South Korea",
       "patterns": [
         "Brazil vs South Korea",
-        "South Korea",
-        "South Korea vs Brazil",
-        "South Korea and Brazil",
-        "Round of 16",
         "What was the result and who scored in the Brazil vs South Korea match?",
-        "Brazil won against South Korea",
+        "South Korea against Brazil",
+        "South Korea and Brazil",
         "Brazil",
         "16 team Round",
+        "Brazil won against South Korea",
+        "Round of 16",
+        "South Korea vs Brazil",
+        "South Korea",
         "Brazil against South Korea",
-        "South Korea against Brazil",
-        "Brazil and South Korea",
-        "Brazil won 4-1 against South Korea"
+        "Brazil won 4-1 against South Korea",
+        "Brazil and South Korea"
       ],
       "responses": [
         "Brazil won 4-1 against South Korea. Goals were scored by Vin\u00edcius J\u00fanior at 7', Neymar at 13' (penalty), Richarlison at 29', and Paquet\u00e1 at 36' for Brazil Paik Seung-ho at 76' for South Korea."
@@ -2459,20 +2958,20 @@
     {
       "tag": "Round of 16 - Morocco vs Spain (Penalties)",
       "patterns": [
-        "Spain and Morocco",
-        "In the penalties Morocco won 3-0 against Spain",
-        "Morocco and Spain",
-        "Round of 16",
-        "Morocco",
-        "Spain against Morocco",
-        "What was the result of the Morocco vs Spain match and the penalty shootout outcome?",
-        "16 team Round",
-        "Morocco won against Spain",
-        "Morocco against Spain",
-        "Spain",
         "Morocco won 3-0 against Spain",
+        "16 team Round",
+        "In the penalties Morocco won 3-0 against Spain",
+        "Round of 16",
+        "What was the result of the Morocco vs Spain match and the penalty shootout outcome?",
+        "Spain and Morocco",
         "Morocco vs Spain",
-        "Spain vs Morocco"
+        "Spain vs Morocco",
+        "Spain against Morocco",
+        "Morocco against Spain",
+        "Morocco and Spain",
+        "Spain",
+        "Morocco won against Spain",
+        "Morocco"
       ],
       "responses": [
         "The match between Morocco and Spain ended 0-0 after extra time. In the penalty shootout, Morocco won 3-0."
@@ -2481,19 +2980,19 @@
     {
       "tag": "Round of 16 - Portugal vs Switzerland",
       "patterns": [
-        "Switzerland",
-        "Switzerland against Portugal",
-        "Portugal vs Switzerland",
-        "Round of 16",
-        "What was the result and who scored in the Portugal vs Switzerland match?",
-        "Switzerland vs Portugal",
         "16 team Round",
+        "Round of 16",
+        "Portugal won 6-1 against Switzerland",
+        "Switzerland vs Portugal",
+        "What was the result and who scored in the Portugal vs Switzerland match?",
+        "Switzerland",
         "Switzerland and Portugal",
         "Portugal against Switzerland",
         "Portugal and Switzerland",
-        "Portugal",
-        "Portugal won 6-1 against Switzerland",
-        "Portugal won against Switzerland"
+        "Portugal vs Switzerland",
+        "Switzerland against Portugal",
+        "Portugal won against Switzerland",
+        "Portugal"
       ],
       "responses": [
         "Portugal won 6-1 against Switzerland. Goals were scored by Ramos at 17', 51', and 67', Pepe at 33', Guerreiro at 55', and Le\u00e3o at 90+2' for Portugal Akanji at 58' for Switzerland."
@@ -2502,20 +3001,20 @@
     {
       "tag": "Quarter Finals - Croatia vs Brazil",
       "patterns": [
-        "Brazil vs Croatia",
-        "What was the result and who scored in the Croatia vs Brazil match, including penalties?",
-        "Croatia",
-        "Brazil and Croatia",
-        "Brazil against Croatia",
-        "Brazil",
-        "In penalties, Croatia won 4-2 against Brazil",
-        "Croatia vs Brazil",
-        "Quarter Final",
-        "Croatia won against Brazil",
-        "Croatia and Brazil",
-        "Croatia against Brazil",
         "Croatia won 4-2 against Brazil",
-        "Quarter Finals"
+        "Brazil against Croatia",
+        "Quarter Finals",
+        "Brazil",
+        "Croatia vs Brazil",
+        "Croatia against Brazil",
+        "Croatia",
+        "What was the result and who scored in the Croatia vs Brazil match, including penalties?",
+        "Croatia won against Brazil",
+        "In penalties, Croatia won 4-2 against Brazil",
+        "Croatia and Brazil",
+        "Brazil vs Croatia",
+        "Brazil and Croatia",
+        "Quarter Final"
       ],
       "responses": [
         "The match between Croatia vs Brazil ended 1-1 after extra time, with Petkovi\u0107 scoring at 117' for Croatia and Neymar at 105+1' for Brazil. In penalties, Croatia won 4-2."
@@ -2524,20 +3023,20 @@
     {
       "tag": "Quarter Finals - Netherlands vs Argentina",
       "patterns": [
-        "Netherlands and Argentina",
-        "In penalties, Argentina won 4-3 against Netherlands",
         "Argentina and Netherlands",
-        "Argentina won 4-3 against Netherlands",
-        "Argentina",
-        "Netherlands vs Argentina",
-        "Argentina won against Netherlands",
-        "Argentina vs Netherlands",
-        "What was the result and who scored in the Netherlands vs Argentina match, including penalties?",
-        "Quarter Final",
         "Netherlands against Argentina",
+        "Argentina vs Netherlands",
+        "Quarter Finals",
+        "Netherlands vs Argentina",
+        "In penalties, Argentina won 4-3 against Netherlands",
+        "Argentina won against Netherlands",
+        "What was the result and who scored in the Netherlands vs Argentina match, including penalties?",
+        "Argentina",
+        "Argentina won 4-3 against Netherlands",
         "Argentina against Netherlands",
         "Netherlands",
-        "Quarter Finals"
+        "Quarter Final",
+        "Netherlands and Argentina"
       ],
       "responses": [
         "The match ended 2-2 after extra time, with Weghorst scoring at 83' and 90+11' for the Netherlands Molina at 35' and Messi at 73' (penalty) for Argentina. In penalties, Argentina won 4-3."
@@ -2546,19 +3045,19 @@
     {
       "tag": "Quarter Finals - Morocco vs Portugal",
       "patterns": [
-        "Morocco against Portugal",
-        "What was the result and who scored in the Morocco vs Portugal match?",
-        "Morocco won against Portugal",
-        "Morocco won 1-0 against Portugal",
-        "Morocco",
-        "Quarter Final",
-        "Morocco vs Portugal",
-        "Portugal against Morocco",
-        "Morocco and Portugal",
         "Portugal",
-        "Portugal and Morocco",
+        "Quarter Finals",
+        "Morocco vs Portugal",
         "Portugal vs Morocco",
-        "Quarter Finals"
+        "Morocco won against Portugal",
+        "Portugal against Morocco",
+        "Morocco won 1-0 against Portugal",
+        "Morocco and Portugal",
+        "Morocco against Portugal",
+        "Morocco",
+        "Portugal and Morocco",
+        "Quarter Final",
+        "What was the result and who scored in the Morocco vs Portugal match?"
       ],
       "responses": [
         "Morocco won 1-0 against Portugal with En-Nesyri scoring at 42'."
@@ -2567,19 +3066,19 @@
     {
       "tag": "Quarter Finals - England vs France",
       "patterns": [
+        "England against France",
+        "France",
+        "France and England",
+        "Quarter Finals",
+        "What was the result and who scored in the England vs France match?",
         "England vs France",
+        "France won 2-1 against England",
+        "France against England",
         "England",
         "France vs England",
         "England and France",
-        "France won against England",
         "Quarter Final",
-        "France and England",
-        "France won 2-1 against England",
-        "England against France",
-        "France",
-        "What was the result and who scored in the England vs France match?",
-        "France against England",
-        "Quarter Finals"
+        "France won against England"
       ],
       "responses": [
         "France won 2-1 against England. Goals were scored by Tchouam\u00e9ni at 17' and Giroud at 78' for France Kane at 54' (penalty) for England."
@@ -2588,19 +3087,19 @@
     {
       "tag": "Semi Finals - Argentina vs Croatia",
       "patterns": [
-        "Argentina",
-        "Croatia vs Argentina",
-        "Argentina won against Croatia",
-        "Argentina against Croatia",
+        "Croatia against Argentina",
         "Argentina and Croatia",
-        "Croatia and Argentina",
         "What was the result and who scored in the Argentina vs Croatia match?",
+        "Croatia vs Argentina",
         "Semi Finals",
+        "Argentina",
+        "Argentina against Croatia",
         "Argentina won 3-0 against Croatia",
         "Argentina vs Croatia",
-        "Croatia",
+        "Argentina won against Croatia",
         "Semi Final",
-        "Croatia against Argentina"
+        "Croatia and Argentina",
+        "Croatia"
       ],
       "responses": [
         "Argentina won 3-0 against Croatia. Goals were scored by Messi at 34' (penalty) and \u00c1lvarez at 39' and 69'."
@@ -2609,20 +3108,20 @@
     {
       "tag": "Semi Finals - France vs Morocco",
       "patterns": [
-        "Morocco",
-        "Morocco and France",
-        "France and Morocco",
-        "What was the result in the France vs Morocco match?",
-        "Semi Finals",
-        "France won 2-0 against Morocco",
-        "Semi Final",
-        "France won against Morocco",
         "France",
-        "What was the result and who scored in the France vs Morocco match?",
-        "Morocco against France",
-        "Morocco vs France",
         "France against Morocco",
-        "France vs Morocco"
+        "Morocco vs France",
+        "Semi Finals",
+        "What was the result and who scored in the France vs Morocco match?",
+        "France and Morocco",
+        "France vs Morocco",
+        "Semi Final",
+        "What was the result in the France vs Morocco match?",
+        "Morocco and France",
+        "France won 2-0 against Morocco",
+        "Morocco against France",
+        "Morocco",
+        "France won against Morocco"
       ],
       "responses": [
         "France won 2-0 against Morocco. Goals were scored by T. Hernandez at 5' and Kolo Muani at 79'."
@@ -2631,19 +3130,19 @@
     {
       "tag": "Third Place Play-Off - Croatia vs Morocco",
       "patterns": [
-        "What was the result and who scored in the Croatia vs Morocco third place play-off match?",
-        "Morocco vs Croatia",
-        "Croatia won 2-1 against Morocco",
-        "Morocco against Croatia",
-        "Morocco",
-        "Croatia and Morocco",
-        "Croatia vs Morocco",
-        "3 Place",
-        "Croatia against Morocco",
         "Morocco and Croatia",
-        "Croatia",
+        "Morocco against Croatia",
+        "Croatia vs Morocco",
+        "Morocco vs Croatia",
         "Croatia won against Morocco",
-        "Third Place"
+        "Croatia won 2-1 against Morocco",
+        "Croatia",
+        "Croatia against Morocco",
+        "3 Place",
+        "What was the result and who scored in the Croatia vs Morocco third place play-off match?",
+        "Third Place",
+        "Croatia and Morocco",
+        "Morocco"
       ],
       "responses": [
         "Croatia won 2-1 against Morocco. Goals were scored by Gvardiol at 7' and Or\u0161i\u0107 at 42' for Croatia Dari at 9' for Morocco."
@@ -2652,27 +3151,27 @@
     {
       "tag": "Final - Argentina vs France",
       "patterns": [
+        "In the penalty shootout, Argentina won 4-2 against France",
+        "Final Score",
         "What was the result in final match",
         "Who did Argentina defeat in the final of the 2022 FIFA World Cup?",
-        "the final match",
-        "Argentina vs France",
-        "What was the score in the final match of the 2022 FIFA World Cup?",
-        "the last match",
-        "In the penalty shootout, Argentina won 4-2 against France",
-        "Argentina and France",
-        "Argentina won 4-2 against France",
-        "What was the result and who scored in the Argentina vs France final match, including penalties?",
-        "The final match",
-        "last match",
-        "final",
-        "France against Argentina",
-        "final match",
-        "Argentina won against France",
-        "France vs Argentina",
-        "France and Argentina",
-        "Final Score",
         "the final",
-        "Argentina against France"
+        "last match",
+        "Argentina vs France",
+        "final",
+        "France vs Argentina",
+        "What was the result and who scored in the Argentina vs France final match, including penalties?",
+        "the last match",
+        "the final match",
+        "What was the score in the final match of the 2022 FIFA World Cup?",
+        "Argentina against France",
+        "France and Argentina",
+        "France against Argentina",
+        "Argentina won 4-2 against France",
+        "Argentina and France",
+        "Argentina won against France",
+        "final match",
+        "The final match"
       ],
       "responses": [
         "The final match between Argentina and France ended 3-3 after extra time. Goals for Argentina were scored by Messi at 23' (penalty) and 108', and Di Mar\u00eda at 36'. For France, Mbapp\u00e9 scored at 80' (penalty), 81', and 118' (penalty). In the penalty shootout, Argentina won 4-2 with Messi, Dybala, Paredes, and Montiel scoring for Argentina, and Mbapp\u00e9 and Kolo Muani scoring for France. Coman and Tchouam\u00e9ni missed their penalties for France."
@@ -2681,11 +3180,13 @@
     {
       "tag": "Total Goals and Average",
       "patterns": [
-        "Was the 2022 World Cup the highest-scoring",
-        "Number of goals",
         "Average goals per match",
-        "How many total goals were scored in the 2022 World Cup, and what was the average per match?",
+        "How many goals",
+        "Number of goals",
         "Total Goals and Average",
+        "Was the 2022 World Cup the highest-scoring",
+        "How many total goals were scored in the 2022 World Cup, and what was the average per match?",
+        "How many total goals",
         "How many total goals were scored"
       ],
       "responses": [
@@ -2695,8 +3196,8 @@
     {
       "tag": "Record Goals",
       "patterns": [
-        "highest-scoring World Cup",
-        "Was the 2022 World Cup the highest-scoring in terms of goals?"
+        "Was the 2022 World Cup the highest-scoring in terms of goals?",
+        "highest-scoring World Cup"
       ],
       "responses": [
         "The 2022 World Cup had the most goals scored at a World Cup, with a total of 172."
@@ -2705,14 +3206,14 @@
     {
       "tag": "Top Scorer",
       "patterns": [
-        "Who was the top goal scorer",
-        "8 goals",
+        "Who was the top goal scorer in the 2022 World Cup and how many goals did they score?",
         "goals",
+        "Who was the top goal scorer",
         "eight goals",
-        "Kylian Mbappe",
+        "8 goals",
         "Mpappe player",
-        "Kylian Mbappe player",
-        "Who was the top goal scorer in the 2022 World Cup and how many goals did they score?"
+        "Kylian Mbappe",
+        "Kylian Mbappe player"
       ],
       "responses": [
         "Kylian Mbappe of France was the top goal scorer with 8 goals."
@@ -2722,13 +3223,13 @@
       "tag": "Second Highest Scorer",
       "patterns": [
         "Lionel Messi",
-        "goals",
-        "seven goals",
-        "Second Highest Scorer",
-        "7 goals",
-        "Who scored the second-highest number of goals in the 2022 World Cup?",
         "second-highest number of goals",
-        "Who scored the second-highest number of goals"
+        "7 goals",
+        "goals",
+        "Who scored the second-highest number of goals in the 2022 World Cup?",
+        "Who scored the second-highest number of goals",
+        "seven goals",
+        "Second Highest Scorer"
       ],
       "responses": [
         "Lionel Messi of Argentina scored the second-highest number of goals with 7."
@@ -2737,15 +3238,15 @@
     {
       "tag": "4 Goal Scorers",
       "patterns": [
+        "Julian Alvarez",
+        "scored 4 goals",
         "scored four goals",
         "4 goals",
+        "4 Goal Scorers",
         "Which players scored 4 goals in the 2022 World Cup?",
-        "Julian Alvarez",
-        "Which players scored 4 goals",
-        "four goals",
-        "scored 4 goals",
         "Olivier Giroud",
-        "4 Goal Scorers"
+        "four goals",
+        "Which players scored 4 goals"
       ],
       "responses": [
         "Julian Alvarez of Argentina and Olivier Giroud of France each scored 4 goals."
@@ -2754,19 +3255,19 @@
     {
       "tag": "3 Goal Scorers",
       "patterns": [
-        "Which players scored 3 goals in the 2022 World Cup?",
-        "Which players scored 3 goals",
-        "Marcus Rashford",
-        "Alvaro Morata",
-        "Cody Gakpo",
-        "Bukayo Saka",
-        "Enner Valencia",
-        "scored three goals",
-        "3 goals",
         "scored 3 goals",
+        "Goncalo Ramos",
+        "Bukayo Saka",
+        "Which players scored 3 goals in the 2022 World Cup?",
         "three goals",
-        "3 Goal Scorers",
-        "Goncalo Ramos"
+        "3 goals",
+        "scored three goals",
+        "Marcus Rashford",
+        "Enner Valencia",
+        "Which players scored 3 goals",
+        "Cody Gakpo",
+        "Alvaro Morata",
+        "3 Goal Scorers"
       ],
       "responses": [
         "Players who scored 3 goals were Richarlison of Brazil, Enner Valencia of Ecuador, Marcus Rashford and Bukayo Saka of England, Cody Gakpo of the Netherlands, Goncalo Ramos of Portugal, and Alvaro Morata of Spain."
@@ -2777,8 +3278,8 @@
       "patterns": [
         "Lionel Messi",
         "best player",
-        "Golden Ball",
         "Golden Ball award",
+        "Golden Ball",
         "Who won the Golden Ball award at the 2022 FIFA World Cup?"
       ],
       "responses": [
@@ -2788,10 +3289,10 @@
     {
       "tag": "Silver and Bronze Ball Winners",
       "patterns": [
-        "Luka Modric",
+        "Who won the Silver and Bronze Ball awards?",
         "Silver Ball",
         "Bronze Ball",
-        "Who won the Silver and Bronze Ball awards?"
+        "Luka Modric"
       ],
       "responses": [
         "Kylian Mbappe of France won the Silver Ball, and Luka Modric of Croatia won the Bronze Ball."
@@ -2800,9 +3301,9 @@
     {
       "tag": "Golden Boot Winner",
       "patterns": [
-        "Golden Boot Winner",
         "Who won the Golden Boot award at the 2022 World Cup?",
-        "Golden Boot"
+        "Golden Boot",
+        "Golden Boot Winner"
       ],
       "responses": [
         "Kylian Mbappe of France won the Golden Boot award, scoring 8 goals and providing 2 assists."
@@ -2811,9 +3312,9 @@
     {
       "tag": "Silver and Bronze Boot Winners",
       "patterns": [
+        "Who were the Silver and Bronze Boot winners?",
         "Bronze Boot",
-        "Silver Boot",
-        "Who were the Silver and Bronze Boot winners?"
+        "Silver Boot"
       ],
       "responses": [
         "Lionel Messi of Argentina won the Silver Boot with 7 goals and 3 assists, and Olivier Giroud of France won the Bronze Boot with 4 goals."
@@ -2822,10 +3323,13 @@
     {
       "tag": "Golden Glove Winner",
       "patterns": [
-        "Who won the Golden Glove award in the tournament?",
-        "Emiliano Martinez",
         "Golden Glove Winner",
-        "Golden Glove"
+        "Who won the Golden Glove award in the tournament?",
+        "Golden Glove",
+        "Emiliano Martinez",
+        "best goal-keeper",
+        "best goal keeper",
+        "the best goal-keeper"
       ],
       "responses": [
         "Emiliano Martinez of Argentina won the Golden Glove award for best goalkeeper."
@@ -2834,10 +3338,10 @@
     {
       "tag": "FIFA Young Player Award",
       "patterns": [
+        "Who received the FIFA Young Player Award?",
         "Young Player",
-        "Enzo Fernandez",
         "Young Player Award",
-        "Who received the FIFA Young Player Award?"
+        "Enzo Fernandez"
       ],
       "responses": [
         "Enzo Fernandez of Argentina received the FIFA Young Player Award."
@@ -2846,9 +3350,9 @@
     {
       "tag": "FIFA Fair Play Trophy",
       "patterns": [
-        "England Fair Play",
         "Fair Play Trophy",
-        "Which team won the FIFA Fair Play Trophy?"
+        "Which team won the FIFA Fair Play Trophy?",
+        "England Fair Play"
       ],
       "responses": [
         "England won the FIFA Fair Play Trophy."
@@ -2857,10 +3361,10 @@
     {
       "tag": "Best Goal Award",
       "patterns": [
-        "Which goal was voted as the best in the tournament by FIFA.com users?",
         "Best Goal Award",
         "Best Goal",
-        "Richarlison"
+        "Richarlison",
+        "Which goal was voted as the best in the tournament by FIFA.com users?"
       ],
       "responses": [
         "Brazil's Richarlison's second goal in the group stage match against Serbia was voted as the tournament's best goal."
@@ -2869,15 +3373,15 @@
     {
       "tag": "Official Match Ball",
       "patterns": [
-        "Official Match Ball",
-        "water-based glues",
-        "Electronic Sensors",
+        "Al Rihla",
         "When was the official match ball Al Rihla unveiled and what does its name mean?",
         "What inspired the design of Al Rihla, and what is unique about its construction?",
-        "Al Rihla Design",
-        "Al Rihla",
         "What technology is integrated into Al Rihla?",
-        "Design of Al Rihla"
+        "Al Rihla Design",
+        "Design of Al Rihla",
+        "Electronic Sensors",
+        "Official Match Ball",
+        "water-based glues"
       ],
       "responses": [
         "The official match ball, Al Rihla. In Arabic, Al-Rihla means the journey. Al Rihla has internal electronic sensors, allowing detection of its speed and position"
@@ -2886,170 +3390,50 @@
     {
       "tag": "Soundtrack Songs and Artists",
       "patterns": [
-        "Hayya",
-        "Soundtrack Songs",
-        "Soundtrack Songs and Artists",
-        "What is unique about the FIFA World Cup 2022 official soundtrack?",
-        "What are some of the songs and artists featured in the official World Cup soundtrack?",
-        "Hayya Hayya",
-        "official soundtrack",
-        "What are some of the songs and artists?",
-        "The World Is Yours",
-        "AISHA Arhbo",
-        "Artists",
         "Songs",
-        "Myriam Fares",
+        "Hayya",
+        "The World Is Yours",
+        "Hayya Hayya",
+        "Artists",
+        "AISHA Arhbo",
+        "What are some of the songs and artists?",
+        "official soundtrack",
         "What are some of the songs?",
-        "Trinidad Cardona"
+        "Soundtrack Songs",
+        "What are some of the songs and artists featured in the official World Cup soundtrack?",
+        "What is unique about the FIFA World Cup 2022 official soundtrack?",
+        "Myriam Fares",
+        "Trinidad Cardona",
+        "Soundtrack Songs and Artists"
       ],
       "responses": [
         "The soundtrack includes Hayya Hayya (Better Together) by Trinidad Cardona, Davido, and AISHA Arhbo by Gims and Ozuna The World Is Yours to Take by Lil Baby Light The Sky by Nora Fatehi, Manal, Rahma Riad, and Balqees Tukoh Taka by Nicki Minaj, Maluma, and Myriam Fares and Dreamers by Jungkook of BTS."
       ]
     },
     {
-      "tag": "Teams Debut",
-      "patterns": [
-        "news on team debut",
-        "Teams Debut",
-        "Are there any news teams making their debut in the World Cup 2022?",
-        "debuting",
-        "debuting teams",
-        "Debut",
-        "any teams debuting",
-        "Team debut",
-        "team debut news"
-      ],
-      "responses": [
-        "Qatar were the only team making their debut in the FIFA World Cup"
-      ]
-    },
-    {
-      "tag": "World Cup Date",
-      "patterns": [
-        "world cup 2022 date significance",
-        "why november-december significant",
-        "world cup 2022 date importance",
-        "november-december significance",
-        "importance of november-december date",
-        "significance behind the date",
-        "why november-december",
-        "What is the significance of hosting the World Cup in Qatar in November-December?"
-      ],
-      "responses": [
-        "It was made to avoid the extreme heat of the Qatari summer, providing a more comfortable playing environment"
-      ]
-    },
-    {
-      "tag": "Qatar World Cup Host",
-      "patterns": [
-        "How many times has Qatar hosted the World Cup?",
-        "how many times Qatar hosted",
-        "how many times Qatar hosted tournament",
-        "is this Qatar first time hosting"
-      ],
-      "responses": [
-        "The 2022 World Cup in Qatar will be the first time the country has hosted the tournament"
-      ]
-    },
-    {
-      "tag": "Team Favourites",
-      "patterns": [
-        "teams favourite",
-        "what teams were the favourites to win",
-        "what were the favourite teams to win",
-        "team favourites to win",
-        "Which teams are considered favorites to win the World Cup 2022?",
-        "team favourites"
-      ],
-      "responses": [
-        "Traditional football powerhouses such as Brazil, Germany, Argentina, and Spain are among the favorites, but surprises are always possible in football."
-      ]
-    },
-    {
-      "tag": "Qualification Rounds Top Scorer",
-      "patterns": [
-        "top scorer qualification rounds",
-        "Who is the top scorer in the qualification rounds for the World Cup 2022?",
-        "who scored the most goals in qualification rounds",
-        "qualificaiton rounds who scored the most",
-        "top scorer qualification"
-      ],
-      "responses": [
-        "The top scorer in the qualification rounds varies by region. Players like Robert Lewandowski (Poland), Lionel Messi (Argentina), and Cristiano Ronaldo (Portugal) were among the leading scorers."
-      ]
-    },
-    {
       "tag": "Seating Capacity Stadium",
       "patterns": [
-        "lusail stadium capacity",
-        "largest stadium capacity",
-        "lusail stadium seating capacity",
         "biggest stadium capacity",
-        "What is the seating capacity of Lusail Iconic Stadium, the venue for the World Cup 2022 final?"
+        "lusail stadium capacity",
+        "lusail stadium seating capacity",
+        "What is the seating capacity of Lusail Iconic Stadium, the venue for the World Cup 2022 final?",
+        "largest stadium capacity"
       ],
       "responses": [
         "Lusail Iconic Stadium, which hosted the final, has a seating capacity of around 88,966 spectators"
       ]
     },
     {
-      "tag": "Total Amount Of Matches",
-      "patterns": [
-        "total amount of matches",
-        "full amount of matches",
-        "matches in total",
-        "how many matches in total",
-        "all matches",
-        "How many matches will be played in total during the World Cup 2022?"
-      ],
-      "responses": [
-        "There was a total of 64 matches played in the World Cup 2022."
-      ]
-    },
-    {
-      "tag": "COVID-19 Protocols",
-      "patterns": [
-        "covid testing measures",
-        "covid safety protocols",
-        "what were the covid-19 protocols",
-        "covid protocols in place",
-        "covid-19 protocols",
-        "are there any covid safety guidelines",
-        "covid protocols",
-        "covid guidelines",
-        "are there any covid safety protocols",
-        "Were there any specific COVID-19 protocols in place for the World Cup 2022?"
-      ],
-      "responses": [
-        "COVID-19 protocols took place to ensure the safety of players, officials, and spectators. These included testing, social distancing measures, and other health and safety guidelines.\r\n"
-      ]
-    },
-    {
       "tag": "World Cup 2022 Champion",
       "patterns": [
-        "who was the champion",
-        "world cup 2022 champion",
+        "world cup champion",
         "which country was the champion",
+        "world cup 2022 champion",
         "Who is the champion of FIFA World Cup 2022?",
-        "world cup champion"
+        "who was the champion"
       ],
       "responses": [
         "The champion of FIFA World Cup 2022 was Argentina."
-      ]
-    },
-    {
-      "tag": "World Cup 2022 Slogan",
-      "patterns": [
-        "now is all",
-        "now is all slogan",
-        "what was the slogan",
-        "world cup 2022 slogan",
-        "What is the slogan of FIFA World Cup 2022?",
-        "fifa slogan",
-        "slogan of the world cup"
-      ],
-      "responses": [
-        "The slogan for the FIFA World Cup 2022 is \"Now is All\"",
-        "The slogan for the FIFA World Cup 2022 is 'Now is All'."
       ]
     }
   ]
