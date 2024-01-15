@@ -12,10 +12,8 @@ from tkinter import scrolledtext
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 
-# Own addition 1. Lower case
 for intent in intents["intents"]:
     intent["patterns"] = [pattern.lower() for pattern in intent["patterns"]]
-# end of Own addition 1
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
@@ -24,7 +22,6 @@ model = load_model('chatbot_model.keras')
 #Clean up the sentences
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
-    # Own addition 2. Lower case
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 
@@ -42,17 +39,14 @@ def bag_of_words(sentence):
 def predict_class(sentence):
     bow = bag_of_words(sentence) #bow: Bag Of Words, feed the data into the neural network
     res = model.predict(np.array([bow]))[0] #res: result. [0] as index 0
-    # Own addition 3. Increased an error threshold to 0.5.
-    ERROR_THRESHOLD = 0.5
-    # end of Own addition 4
 
+    ERROR_THRESHOLD = 0.5
     results = [[i,r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    # Own addition 4. Decrease the error threshold for debugging
+    # Use the flag to debugging
     if decrease_error_threshold:
         while results == [] and ERROR_THRESHOLD > 0.1:
             ERROR_THRESHOLD -= 0.01
             results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-    # end of own addition 4
 
     # sort by strength of probability
     results.sort(key=lambda x: x[1], reverse=True)
@@ -69,15 +63,15 @@ def get_response(intents_list, intents_json):
             if i['tag'] == tag:
                 result = random.choice(i['responses'])
                 break
-    # Own addition 5. Handle an exception
+    # Own addition. Handle an exception
     except IndexError:
         result = "I don't know. Please rephrase your question"
-    # end of Own addition 5
+    # end of Own addition
     return result
 
 print("COM727 Chatbot is here!")
 
-# Own addition 6. Logs all chatbot history
+# Own addition. Logs all chatbot history
 from datetime import datetime
 import socket
 computer_name = socket.gethostname()
@@ -95,10 +89,7 @@ def replace_words(text, replacements):
         pattern = r'\b' + re.escape(key) + r'\b'
         text = re.sub(pattern, value, text)
     return text
-# end of Own addition 6
 
-
-# Own addition 7. Main interface
 def send_response():
     try:
         message = user_entry.get()
@@ -158,15 +149,15 @@ conversation = scrolledtext.ScrolledText(root, width=90, height=20, wrap=tk.WORD
 conversation.grid(row=0, column=0, padx=12, pady=12, columnspan=2)
 
 # Create the greeting message
-greeting = "Welcome to Code Avengers! Ask me about World Cup 2022"
+greeting = "Welcome to Coding Avengers! Ask me about World Cup 2022"
 conversation.insert(tk.END, f" com727: {greeting}\n\n")
 conversation.see(tk.END)
 
-# Set show_details to True if you want to display additional details
-show_details = True
+# Set 'show_details' to True if you want to display additional details
+show_details = False
+# Set 'decrease_error_threshold' to True if you want to debug predicting below Threshold
 decrease_error_threshold = False
 
 # Run the interface
 root.mainloop()
 
-# end of Own addition 7
