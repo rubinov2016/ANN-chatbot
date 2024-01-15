@@ -6,8 +6,8 @@
     To switch off logging, set "show_details = False" 
 
 2. Use Google Sheets to get/send your questions. 
-    - "Rules3", the current tab with Responsible person
-    - "Rules Updated" automatically filled tab with latest changes from the all group members    
+    - "Merged", the last merged dataset
+    - "Rules_Uploaded" automatically filled tab with latest changes from the all group members    
     - Use convertor.json to download/upload/merge files. Or send your modified json to Group
 
 4. The chatbot will display the intent tag and its corresponding probability, like this: {"intent": "Netherlands", "probability": "0.998"}. This means that the intent is "Netherlands," and the probability is 0.998.
