@@ -112,9 +112,9 @@ def upload_json(credentials_name, sheet_name, worksheet_name, json_path):
 if __name__ == "__main__":
     credentials_name = 'keys/chatbot-solent-79013b82a47d.json'
     sheet_name = 'ChatbotSolent'
-    worksheet_name = 'Rules'
+    worksheet_name = 'Merged'
     worksheet_name_upload = 'Rules_uploaded'
-    json_path_google = 'Test_json_files/intents_ashish.json'
+    json_path_google = 'Test_json_files/intents_google.json'
     json_path_initial = 'intents.json'
     json_path_merged = 'intents.json'
     # Comment functions that you don't need to run

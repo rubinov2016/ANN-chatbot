@@ -1,0 +1,3906 @@
+{
+  "intents": [
+    {
+      "tag": "group_a",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "group_a",
+        " Qatar",
+        " Netherlands",
+        " a_group",
+        " Senegal",
+        " group_a standing",
+        " The standing",
+        " Ecuador"
+      ]
+    },
+    {
+      "tag": "group_b",
+      "patterns": [
+        "17"
+      ],
+      "responses": [
+        "group b standing",
+        " England",
+        " group stage of usa",
+        " Iran",
+        " group_b",
+        " USA",
+        " table b",
+        " group standing for group b",
+        " group b results and scores",
+        " group stage of ir iran group stage of wales",
+        " Wales",
+        " group_b standing",
+        " the standing",
+        " standing b",
+        "  b table ",
+        " group stage of england",
+        " position of b table"
+      ]
+    },
+    {
+      "tag": "group_c",
+      "patterns": [
+        "18"
+      ],
+      "responses": [
+        "Poland",
+        "  group d",
+        " group c results and scores",
+        " group stage result of tunisia",
+        " c table",
+        " group c standing",
+        " group stage result of denmark",
+        " group stage result  of australia",
+        " Mexico",
+        " group_c",
+        " Argentina",
+        " the standing",
+        " standing c",
+        " position of c table",
+        " group stage result of france",
+        " table c",
+        " group_c standing",
+        " Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "group_d",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        "Denmark",
+        " group_d",
+        " Tunisia",
+        " France",
+        " table d",
+        " standing d Group standing for group stage of group d",
+        " group d results and scores",
+        " position of d table",
+        " group stage of tunisia",
+        " group stage of australia",
+        " the standing",
+        " group stage of france",
+        " group d standing",
+        " group stage of denmark",
+        " Australia",
+        " d table "
+      ]
+    },
+    {
+      "tag": "group_e",
+      "patterns": [
+        "17"
+      ],
+      "responses": [
+        "group of costa rica",
+        "  position of e table",
+        " group e standing",
+        " Germany",
+        " group stage of Germany",
+        " table e",
+        " scores of group e\n",
+        " group_e",
+        " Spain",
+        " standing e",
+        " Japan",
+        " the standing",
+        " group stage of spain",
+        " group stage results of japan",
+        "  e table ",
+        " group e results",
+        " Costa Rica"
+      ]
+    },
+    {
+      "tag": "group_f",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "group_f standing",
+        " Belgium",
+        " Canada",
+        " teams",
+        " standing f",
+        " standing",
+        " position of f table",
+        "  f table ",
+        " Croatia",
+        " table f",
+        " the standing",
+        " group_f",
+        " group f standing",
+        " Morocco"
+      ]
+    },
+    {
+      "tag": "group_g",
+      "patterns": [
+        "18"
+      ],
+      "responses": [
+        "group stage result of  switzerland",
+        " group standing",
+        " table g",
+        " Cameroon Serbia",
+        " group_g standing",
+        " group_g",
+        " Switzerland",
+        " Brazil",
+        "  g table ",
+        " standing g",
+        " group g standing",
+        " the standing",
+        " Group g",
+        " group stage result of cameroon",
+        " group stage result of Brazil",
+        " group g results and scores",
+        " group stage result of serbia",
+        " position of g table"
+      ]
+    },
+    {
+      "tag": "group_h",
+      "patterns": [
+        "21"
+      ],
+      "responses": [
+        "Korea republic",
+        " Korea",
+        " standing a",
+        " date of group h",
+        " Portugal",
+        " result of group h",
+        " a table ",
+        " group stage position korea republic",
+        " group stage position  uruguay",
+        " group_h",
+        " goals  and score grouph h",
+        " group_h standing",
+        " the standing",
+        " Uruguay",
+        " group stage position ghana",
+        " position of f table",
+        " group h standing",
+        " group stage position of Portugal",
+        " table a",
+        " Ghana",
+        "  Group h"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "hey",
+        " hi",
+        " hello"
+      ]
+    },
+    {
+      "tag": "asia",
+      "patterns": [
+        "27"
+      ],
+      "responses": [
+        "the Asia country",
+        " qualified countries from Asia",
+        " teams from Asia",
+        " the qualified countries from Asia",
+        " Asian teams",
+        " Asian team",
+        " the team from Asian continent",
+        " Asia country",
+        " the qualified Asian countries",
+        " the country from Asia",
+        " the qualified countries from Asian continent",
+        " qualified countries from Asian continent",
+        " team from Asia",
+        " Asian countries",
+        " the team from Asia",
+        " the Asian teams",
+        " team from Asian continent",
+        " countries from Asia",
+        " the teams from Asia",
+        " country from Asia",
+        " the countries from Asia",
+        " the country from Asian continent",
+        " the Asian team",
+        " country from Asian continent",
+        " qualified Asian countries",
+        " the Asian countries",
+        " teams from asia,  team qualified from asian continent"
+      ]
+    },
+    {
+      "tag": "africa",
+      "patterns": [
+        "27"
+      ],
+      "responses": [
+        "qualified countries from African continent",
+        " the teams from Africa",
+        " the qualified countries from African continent",
+        " the countries from Africa",
+        " African teams",
+        " the African teams",
+        " country from African continent",
+        " qualified African countries",
+        " the qualified countries from Africa",
+        " the African countries",
+        " the Africa country",
+        " the country from Africa",
+        " team from African continent",
+        " the team from Africa",
+        " Africa country",
+        " country from Africa",
+        " teams from Africa",
+        " African countries",
+        " countries from Africa",
+        " team from Africa",
+        " teams from africa,qualified from African continent",
+        " the team from African continent",
+        " the African team",
+        " African team",
+        " the qualified African countries",
+        " qualified countries from Africa",
+        " the country from African continent"
+      ]
+    },
+    {
+      "tag": "Europe",
+      "patterns": [
+        "27"
+      ],
+      "responses": [
+        "the team from European continent",
+        " countries from Europe",
+        " the European country",
+        " European teams",
+        " the country from European continent",
+        " teams from Europe",
+        " qualified countries from Europe",
+        " the European countries",
+        " the qualified European countries",
+        " qualified countries from European continent",
+        " the countries from Europe",
+        " the qualified countries from European continent",
+        " team from European continent",
+        " country from European continent",
+        " the team from Europe",
+        " European countries",
+        " the country from Europe",
+        " country from Europe",
+        " European team",
+        " the European team",
+        " team from Europe",
+        " Europe country",
+        " the teams from Europe",
+        " teams from europe,team qualified european continent",
+        " the qualified countries from Europe",
+        " the European teams",
+        " qualified European countries"
+      ]
+    },
+    {
+      "tag": "South_America",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "the countries from South_America",
+        " the qualified countries from South_American continent",
+        " the team from South_America",
+        " the teams from South_America",
+        " the country from South_America",
+        " the country from South_American continent",
+        " the team from South_American continent",
+        " the South_American team",
+        " the South_American teams",
+        " the South_America country",
+        " the qualified countries from South_America",
+        " the South_American countries",
+        " the qualified South_American countries"
+      ]
+    },
+    {
+      "tag": "North_America",
+      "patterns": [
+        "26"
+      ],
+      "responses": [
+        "North_American team",
+        " North_American countries",
+        " the countries from North_America",
+        " the team from North_America",
+        " qualified countries from North_American continent",
+        " the country from North_American continent",
+        " the North_America country",
+        " qualified North_American countries",
+        " the country from North_America",
+        " the qualified countries from North_America",
+        " teams from North_America",
+        " the North_American countries",
+        " country from North_American continent",
+        " the teams from North_America",
+        " the qualified North_American countries",
+        " countries from North_America",
+        " North_American teams",
+        " the North_American teams",
+        " the qualified countries from North_American continent",
+        " qualified countries from North_America",
+        " the North_American team",
+        " team from North_American continent",
+        " the team from North_American continent",
+        " North_America country",
+        " country from North_America",
+        " team from North_America"
+      ]
+    },
+    {
+      "tag": "2022 FIFA World Cup",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "World Cup in Qatar",
+        " organise the world cup",
+        " World Cup Qatar",
+        " World Cup 2022",
+        " 2022 World Cup",
+        " 2022 FIFA World Cup",
+        " host the world cup"
+      ]
+    },
+    {
+      "tag": "Senegal",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "the Senegal games",
+        " Senegal results",
+        " Senegal",
+        " Senegal games",
+        " Senegal performance",
+        " the Senegal results"
+      ]
+    },
+    {
+      "tag": "Netherlands",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "the Netherlands games",
+        " Netherlands performance",
+        " the Netherlands results",
+        " Netherlands",
+        " Netherlands results"
+      ]
+    },
+    {
+      "tag": "Date",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "When was the 2022 FIFA World Cup held?",
+        " From which date was 2022 FIFA World Cup held?",
+        " Which dates 2022 FIFA World Cup held?"
+      ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Where was the 2022 FIFA World Cup held?",
+        " Home country",
+        " Located",
+        " Location"
+      ]
+    },
+    {
+      "tag": "Significance",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "significant location",
+        " What was significant about the location of the 2022 FIFA World Cup?",
+        " What was significant",
+        " What was significant about the location",
+        " Significance"
+      ]
+    },
+    {
+      "tag": "Teams",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "How many teams participated in the 2022 FIFA World Cup?",
+        " the number of teams",
+        " How many teams",
+        " Number of teams",
+        " total number of teams"
+      ]
+    },
+    {
+      "tag": "Winner",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "Who won the 2022 FIFA World Cup?",
+        " which country was the champion",
+        " the winner",
+        " world cup champion",
+        " world cup 2022 champion",
+        " Who won",
+        " Winner",
+        " who was the champion"
+      ]
+    },
+    {
+      "tag": "Argentina's Titles",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Argentina",
+        " How many World Cup titles has Argentina won as of 2022?",
+        " Argentina Titles",
+        " Titles"
+      ]
+    },
+    {
+      "tag": "Historic Achievement",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Who was the first player to score a hat-trick in a World Cup final since 1966?",
+        " hat-trick in final",
+        " Historic Achievement"
+      ]
+    },
+    {
+      "tag": "Controversies",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Controversies",
+        " criticisms",
+        " What criticisms were raised against hosting the World Cup in Qatar?"
+      ]
+    },
+    {
+      "tag": "Defending Champions",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Who were the defending champions in the 2022 FIFA World Cup?",
+        " defending",
+        " the defending champions",
+        " defending champions"
+      ]
+    },
+    {
+      "tag": "Mascot",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "When was the tournament's official mascot unveiled and what is its name?",
+        " the mascot",
+        " mascot",
+        " La'eeb"
+      ]
+    },
+    {
+      "tag": "last_16_teams",
+      "patterns": [
+        "23"
+      ],
+      "responses": [
+        "last 16 result of stage germany",
+        " far till germany went",
+        " last 16  stage result of usa",
+        " far japan till went",
+        " knock out result for japan,far south korea till went",
+        " stage switzerland went till,knock out results for switzerland,last result of switzerland",
+        " last 16 result for brazil ",
+        " last 16 result for england",
+        " stage south korea went tilllast result of south korea,knock out results for south korea",
+        " stage germany went till,knockout results for germany",
+        " stage poland went till,knocout result of poland",
+        " knock out stage results for usa,far till usa went",
+        " far switzerland till went",
+        " last 16 result of portugal",
+        " played last 16",
+        " stage usa went till",
+        " far poland till went",
+        " last 16 result of croatia",
+        " stage japan went till,last 16 result of japan",
+        " last 16 results for poland,last 16 result of senegal ,far senegal till went",
+        " last 16 results for netherlands",
+        " stage senegal went till,knock out results for senegal",
+        " last_16_teams"
+      ]
+    },
+    {
+      "tag": "last_8_teams",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "8_teams",
+        " eight_teams",
+        " Last 8 teams",
+        " Last eight teams"
+      ]
+    },
+    {
+      "tag": "quarter_final_teams",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "quarter final teams",
+        " 4_teams",
+        " four_teams",
+        " Last 4 teams"
+      ]
+    },
+    {
+      "tag": "format",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "how is world cup played,what is world cup 2022",
+        " knock out starts",
+        " tell me the format of world cup",
+        " how does it work",
+        " tell me ways to qualify",
+        " tell me the format of world cup, how does it work, tell me ways to qualify, knock out starts",
+        " format"
+      ]
+    },
+    {
+      "tag": "Start date",
+      "patterns": [
+        "15"
+      ],
+      "responses": [
+        "which was the first match or game?",
+        " first_game",
+        " when did the group stage of the 2022 world cup begin?",
+        " opening_game",
+        " which was the opening game or match of the world cup 2022?",
+        " which was the first game or match",
+        " making it a start date",
+        " when",
+        " which date",
+        " The group stage was initially set",
+        " moved to 20 November",
+        " which was the first match or game of the world cup 2022?",
+        " Start date",
+        " Start_date",
+        " first_match"
+      ]
+    },
+    {
+      "tag": "total_prize_pool",
+      "patterns": [
+        "26"
+      ],
+      "responses": [
+        "money won by 1st place",
+        " total cost",
+        " much did the team in third place at the receive",
+        " what was the total prize pool for the world cup 2022",
+        " price",
+        "  was the price pool has an increament or increase",
+        " money won by 2 nd place",
+        " 3rd place price pool",
+        " price pool for 4 th",
+        " second place price pool",
+        " team in fourth place at the  receive",
+        " 2022 world cup prize pool compare to the previous tournament",
+        " what was the total prize pool for the world Cup 2022",
+        " was the price pool has an increament in price increase in price pool",
+        " money won by 3 rd place",
+        " each team in the quarter-finals (5th\u20138th place) of the receive,much did each team in the group stage (17th\u201332nd place) of the 2022 World Cup receive?",
+        " What was the total prize pool for the world cup,the 2022 world cup prize pool compare to the previous tournament,how much did the champions of  receive,much money did the runners-up up receive,prizepool of runner up",
+        " prize pool",
+        " prize pool for 3 rd",
+        " money earned",
+        " how did the 2022 world cup prize pool compare to the previous tournament",
+        " the total prize  distributed among the 32 teams",
+        " frist place prize pool",
+        " pize pool for 1st",
+        " 4 the place price pool\n",
+        " money won by 4 th place"
+      ]
+    },
+    {
+      "tag": "Runners_up_prize",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "how much did the runner up earned",
+        " how much did the runners-up of the 2022 world cup receive?",
+        " money got by the runners up",
+        " runners up",
+        " money",
+        " prize"
+      ]
+    },
+    {
+      "tag": "third_place_prize",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "how much did the team in third place at the 2022 world cup receive? 3rd place price pool",
+        " third place",
+        " money",
+        " prize"
+      ]
+    },
+    {
+      "tag": "fourth_place_prize",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "how much did the team in fourth place at the 2022 world Cup receive? 4th place price pool",
+        " fourth place",
+        " money",
+        " prize"
+      ]
+    },
+    {
+      "tag": "quarter_finals_prize",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        " 5 to 8 or quarter final price pool",
+        " how much did each team in the quarter-finals (5th to 8th place) of the  world Cup 2022 receive or earned",
+        " quarter final",
+        " money",
+        " prize"
+      ]
+    },
+    {
+      "tag": "group_stage_prize",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "how much did each team in the group stage (17th to 32nd place) of the world Cup 2022 receive or earned",
+        "  17 to 32 or quarter final price pool",
+        " quarter final",
+        " money",
+        " prize"
+      ]
+    },
+    {
+      "tag": "total_teams_prize _distribution",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "how was the total prize of 440 million usd distributed among the 32 teams?",
+        " what was the price distribution of world cup 2022",
+        " total",
+        " money",
+        " prize"
+      ]
+    },
+    {
+      "tag": "substitution_rules",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "what were the new substitution rules in the tournament?what was the new rule regarding concussion substitutions in the tournament? ",
+        " substitution_rules",
+        " substitution rules",
+        " new_rules"
+      ]
+    },
+    {
+      "tag": "first_concussion_substitute",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "who was the first player to be replaced by a dedicated concussion substitute in this world cup?",
+        " first_concussion_substitute",
+        " first concussion substitute"
+      ]
+    },
+    {
+      "tag": "Schedule Change",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Test 888",
+        " theory behind the world cup  being held in winter of november and december",
+        " why was the 2022 fifa world cup not held in June and July as usual?",
+        " Why was the 2022 FIFA World Cup not held in June and July as usual?",
+        " event was organised",
+        " which month was world Cup event was organised?",
+        " Schedule Change",
+        " why was the 2022 FIFA World Cup not held in June and July as usual?,Why was there a change in an event of World Cup 2022?held in winter of November and December,Which month was World Cup event was oranganised? schedule change,",
+        " why was there a change in an event",
+        " can you share me a little fun fact about world cup 2022?",
+        " why was there a change in an event of world cup 2022?"
+      ]
+    },
+    {
+      "tag": "Impact on Leagues",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "How did the 2022 World Cup schedule affect domestic football leagues?",
+        " Impact on Leagues"
+      ]
+    },
+    {
+      "tag": "European Competitions",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "How did major European football competitions adjust their schedules for the 2022 World Cup?",
+        " European football",
+        " European competitions",
+        " European football competitions",
+        " adjust",
+        " change",
+        " schedule"
+      ]
+    },
+    {
+      "tag": "Schedule Confirmation",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "When was the match schedule for the 2022 World Cup confirmed by FIFA?",
+        " Schedule Confirmation"
+      ]
+    },
+    {
+      "tag": "Group Stage Start",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "When did the group stage of the 2022 World Cup begin?",
+        " Group Stage Start",
+        " Group_Stage",
+        " Start",
+        " First"
+      ]
+    },
+    {
+      "tag": "Final Date",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "when was the final of the 2022 world cup played?",
+        " hat is the name of the stadium was used to host the final of the world cup",
+        " where was the world cup 2022 played?",
+        " When was the final of the 2022 World Cup played?",
+        " Final Date",
+        " Final_Date"
+      ]
+    },
+    {
+      "tag": "Group Stage Venues",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "Which stadiums hosted Groups A, B, E, and F in the 2022 World Cup?",
+        " Group Stage Venues",
+        " Which_stadiums",
+        " Group_A",
+        " Group_B",
+        " Group_E",
+        " Group_F"
+      ]
+    },
+    {
+      "tag": "Additional Group Stage Venues",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "Which stadiums hosted Groups C, D, G, and H in the 2022 World Cup?",
+        " Additional Group Stage Venues"
+      ]
+    },
+    {
+      "tag": "Venue Confirmation",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "When were the group stage venue and kick-off times for the 2022 World Cup confirmed?",
+        " Venue Confirmation",
+        " Stadium Confirmation",
+        " Stadium",
+        " Confirmation",
+        " Venue"
+      ]
+    },
+    {
+      "tag": "Prize Announcement",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "When did FIFA announce the prizes for the 2022 World Cup?",
+        " Prize",
+        " Announcement",
+        " When"
+      ]
+    },
+    {
+      "tag": "Preparation Costs",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "How much did each qualified team receive for preparation costs?",
+        " Preparation Costs",
+        " Preparation",
+        " Costs"
+      ]
+    },
+    {
+      "tag": "Minimum Prize Money",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "What was the minimum amount of prize money each team received?",
+        " Minimum Prize Money",
+        " Minimum",
+        " Prize Money"
+      ]
+    },
+    {
+      "tag": "Total Prize Pool",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "What was the total prize pool for the 2022 World Cup?",
+        " Total Prize Pool",
+        " Total",
+        " Prize_Pool"
+      ]
+    },
+    {
+      "tag": "Prize Pool Comparison",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "How did the 2022 World Cup prize pool compare to the previous tournament?",
+        " Prize Pool Comparison",
+        " Prize Pool",
+        " Comparison"
+      ]
+    },
+    {
+      "tag": "Champions Prize",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "How much did the champions of the 2022 World Cup receive?",
+        " Champions Prize",
+        " Champion Prize",
+        " Champion",
+        " Winner",
+        " Prize"
+      ]
+    },
+    {
+      "tag": "Runners-up Prize",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "How much did the runners-up of the 2022 World Cup receive?",
+        " Runners-up Prize"
+      ]
+    },
+    {
+      "tag": "Third Place Prize",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "How much did the team in third place at the 2022 World Cup receive?",
+        " Third Place Prize"
+      ]
+    },
+    {
+      "tag": "Fourth Place Prize",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "How much did the team in fourth place at the 2022 World Cup receive?",
+        " Fourth Place Prize"
+      ]
+    },
+    {
+      "tag": "Quarter-finals Prize",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "How much did each team in the quarter-finals (5th\u20138th place) of the 2022 World Cup receive?",
+        " Quarter-finals Prize"
+      ]
+    },
+    {
+      "tag": "Group Stage Prize",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "How much did each team in the group stage (17th\u201332nd place) of the 2022 World Cup receive?",
+        " Group Stage Prize"
+      ]
+    },
+    {
+      "tag": "Total Teams Prize Distribution",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "How was the total prize of $440 million distributed among the 32 teams?",
+        " Total Teams Prize Distribution"
+      ]
+    },
+    {
+      "tag": "Substitution Rules",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "What were the new substitution rules in the tournament?",
+        " Substitution Rules"
+      ]
+    },
+    {
+      "tag": "Concussion Substitutions",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "What was the new rule regarding concussion substitutions in the tournament?",
+        " Concussion Substitutions"
+      ]
+    },
+    {
+      "tag": "First Concussion Substitute",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "Who was the first player to be replaced by a dedicated concussion substitute in this World Cup?",
+        " First Concussion Substitute"
+      ]
+    },
+    {
+      "tag": "Bidding Start",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "When did the bidding procedure for the 2018 and 2022 FIFA World Cups begin?",
+        " Bidding Start",
+        " Bidding procedure",
+        " January 2009"
+      ]
+    },
+    {
+      "tag": "Registration Deadline",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "What was the deadline for national associations to register interest in hosting the World Cups?",
+        " Registration Deadline",
+        " Registration",
+        " Deadline"
+      ]
+    },
+    {
+      "tag": "Initial 2018 Bids",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "How many initial bids were there for the 2018 FIFA World Cup?",
+        " Initial 2018 Bids",
+        " Initial_Bids"
+      ]
+    },
+    {
+      "tag": "Withdrawn and Rejected Bids",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "Which countries withdrew or had their bids rejected for the 2018 FIFA World Cup?",
+        " Withdrawn and Rejected Bids",
+        " Rejected and Withdrawn Bids",
+        " Withdrawn Bids",
+        " Rejected Bids",
+        " Mexico's bid",
+        " Indonesia",
+        " bid"
+      ]
+    },
+    {
+      "tag": "2022 Contention",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "2022 Competition",
+        " 2022 Contention",
+        " UEFA members no contention",
+        " Why were UEFA members no longer in contention to host the 2022 FIFA World Cup?"
+      ]
+    },
+    {
+      "tag": "2022 Bids",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Australia, Japan, Qatar, South Korea, and the USA",
+        " Which countries remained in contention to host the 2022 FIFA World Cup?",
+        " Which countries contention to host",
+        " Australia, Japan, Qatar, South Korea, and the United States"
+      ]
+    },
+    {
+      "tag": "Host Selection Date",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "When did the FIFA Executive Committee vote to select the hosts of the 2018 and 2022 World Cups?",
+        " Host Selection Date",
+        " When did the FIFA Executive Committee vote to select the hosts?",
+        " Selection Date"
+      ]
+    },
+    {
+      "tag": "Suspended Members",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "two FIFA executive committee members suspended",
+        " Why were two FIFA executive committee members suspended before the vote?",
+        " Suspended Members"
+      ]
+    },
+    {
+      "tag": "Criticism of Qatar Hosting",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Criticism of Qatar Hosting",
+        " Why was the decision to host the 2022 World Cup in Qatar criticized?",
+        " Criticism of Hosting",
+        " Criticism of Qatar",
+        " Criticism"
+      ]
+    },
+    {
+      "tag": "Voting Patterns",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "2022 FIFA World Cup bidding?",
+        " World Cup voting?",
+        " What were the voting patterns for the 2022 FIFA World Cup bidding?",
+        " World Cup bidding?",
+        " Qatar voting?"
+      ]
+    },
+    {
+      "tag": "Hosting Cost",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Who disputed the estimated cost of the World Cup and what was their claim?",
+        " What was the estimated cost of hosting the World Cup?",
+        " Cost Dispute",
+        " Price of the World Cup?"
+      ]
+    },
+    {
+      "tag": "Cost Dispute",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "Who disputed the estimated cost of the World Cup and what was their claim?"
+      ]
+    },
+    {
+      "tag": "New Venues",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "How many new stadiums were built",
+        " How many new stadiums were built specifically for the 2022 FIFA World Cup?",
+        " new stadiums",
+        " Number of new stadiums"
+      ]
+    },
+    {
+      "tag": "Initial Venue Proposal",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "When were the first five proposed venues for the World Cup unveiled?",
+        " Initial Venue Proposal",
+        " Initial Venue",
+        " Proposal"
+      ]
+    },
+    {
+      "tag": "Stadium Design Criteria",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "What criteria were the World Cup stadiums intended to meet?",
+        " Stadium Design Criteria",
+        " Stadium Design",
+        " What criteria",
+        " stadiums"
+      ]
+    },
+    {
+      "tag": "Cooling Systems",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "What feature did the stadiums have to combat heat?",
+        " reducing temperatures",
+        " combat heat",
+        " Cooling Systems"
+      ]
+    },
+    {
+      "tag": "Sustainability Features",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Sustainability Features",
+        " How did Qatar market the sustainability of the stadiums?",
+        " sustainability of the stadiums"
+      ]
+    },
+    {
+      "tag": "Stadium Architects",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Stadium designers",
+        " Who designed the five initial stadium projects?",
+        " German architectural firm",
+        " Albert Speer & Partners",
+        " Stadium Architects"
+      ]
+    },
+    {
+      "tag": "Indoor Stadiums",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Al_Bayt",
+        " Which were the indoor stadiums used in the World Cup?",
+        " Which were the indoor stadiums?",
+        " Indoor Stadiums",
+        " Al_Wakrah"
+      ]
+    },
+    {
+      "tag": "Venue Reduction Proposal",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Venue Reduction Proposal",
+        " Reduced number of stadiums",
+        " What did Qatar request regarding the number of stadiums in 2013?"
+      ]
+    },
+    {
+      "tag": "Final Number of Stadiums",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "How many stadiums were used?",
+        " How many stadiums were ultimately used for the World Cup?",
+        " Final Number of Stadiums"
+      ]
+    },
+    {
+      "tag": "Stadium 974",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "constructed using shipping containers",
+        " 974",
+        " What is unique about Stadium 974?",
+        " using shipping containers",
+        " 974 Stadium",
+        " temporary stadium",
+        " Ras Abu Aboud",
+        " Stadium_974"
+      ]
+    },
+    {
+      "tag": "Capacity Reduction",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Capacity Reduction",
+        " Al_Bayt Stadium",
+        " Capacity reduced",
+        " Which stadium had its capacity reduced after the tournament?"
+      ]
+    },
+    {
+      "tag": "Venue Locations and Capacities",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        "Stadium 974",
+        " largest stadium capacity",
+        " lusail stadium seating capacity",
+        " Al_Thumama Stadium",
+        " lusail stadium capacity",
+        " What is the seating capacity of Lusail Iconic Stadium, the venue for the World Cup 2022 final?",
+        " Khalifa International",
+        " biggest stadium capacity",
+        " Al_Janoub Stadium in Al_Wakrah",
+        " Lusail Stadium",
+        " What were the locations and capacities of the 2022 FIFA World Cup stadiums?",
+        " Al_Bayt Stadium in Al_Khor",
+        " Ahmad bin Ali Stadium",
+        " Education City",
+        " What were the locations of stadiums?",
+        " What were the capacities of stadiums?"
+      ]
+    },
+    {
+      "tag": "Base Camps Purpose",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "What were the base camps",
+        " What were the base camps used for in the World Cup?",
+        " Base Camps"
+      ]
+    },
+    {
+      "tag": "Announcement of Base Camps",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "When did FIFA announce the hotels and training sites for each participating team?",
+        " Announcement of Base Camps",
+        " Announcement",
+        " Base Camps"
+      ]
+    },
+    {
+      "tag": "Compactness of the World Cup",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "the most compact World Cup",
+        " How was this World Cup more compact compared to previous editions?",
+        " Compactness of the World Cup"
+      ]
+    },
+    {
+      "tag": "Unique Aspect of 2022 World Cup",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Unique Aspect of team travel",
+        " What was unique about this World Cup in terms of team travel?",
+        " team travel"
+      ]
+    },
+    {
+      "tag": "Argentina's Base Camp",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Base of Argentina",
+        " Argentina's Camp",
+        " Argentinian",
+        " Camp of Argentina",
+        " Argentina's Base",
+        " Argentina",
+        " Base Camp of Argentina",
+        " Qatar University Hostel",
+        " Camp",
+        " Base",
+        " Argentina's Base Camp",
+        " What were Argentina's hotel and training site for the World Cup?",
+        " Qatar University Training"
+      ]
+    },
+    {
+      "tag": "Australia's Base Camp",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Australia's Base Camp",
+        " Australia",
+        " Base Camp of Australia",
+        " Australia's Base",
+        " What were Australia's hotel and training site for the World Cup?",
+        " Camp of Australia",
+        " Base of Australia",
+        " Australia's Camp",
+        " Camp",
+        " Australian",
+        " Base"
+      ]
+    },
+    {
+      "tag": "Belgium's Base Camp",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Camp of Belgium",
+        " Belgium",
+        " Belgium's Base Camp",
+        " Belgium's Base",
+        " Base of Belgium",
+        " Camp",
+        " Base Camp of Belgium",
+        " What were Belgium's hotel and training site for the World Cup?",
+        " Belgium's Camp",
+        " Belgian",
+        " Base"
+      ]
+    },
+    {
+      "tag": "Round of 16 Prize",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "How much did each team in the round of 16 (9th\u201316th place) of the 2022 World Cup receive?"
+      ]
+    },
+    {
+      "tag": "Brazil's Base Camp",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Base",
+        " Brazil's Base",
+        " Brazil",
+        " Camp of Brazil",
+        " What were Brazil's hotel and training site for the World Cup?",
+        " Brazilian",
+        " Base Camp of Brazil",
+        " Brazil's Base Camp",
+        " Camp",
+        " Base of Brazil",
+        " Brazil's Camp"
+      ]
+    },
+    {
+      "tag": "Cameroon's Base Camp",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Camp of Cameroon",
+        " Cameroonian",
+        " Cameroon's Base Camp",
+        " Cameroon",
+        " Base Camp of Cameroon",
+        " What were Cameroon's hotel and training site for the World Cup?",
+        " Cameroon's Camp",
+        " Base of Cameroon",
+        " Cameroon's Base",
+        " Camp",
+        " Base"
+      ]
+    },
+    {
+      "tag": "Canada's Base Camp",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Camp of Canada",
+        " Base Camp of Canada",
+        " Canada's Base Camp",
+        " Base of Canada",
+        " Canada",
+        " What were Canada's hotel and training site for the World Cup?",
+        " Canadian",
+        " Canada's Base",
+        " Canada's Camp",
+        " Camp",
+        " Base"
+      ]
+    },
+    {
+      "tag": "Costa Rica's Base Camp",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "Camp of Costa Rica",
+        " Costa Rica's Base",
+        " What were Costa Rica's hotel and training site for the World Cup?",
+        " Base Camp of Costa Rica",
+        " Base of Costa Rica",
+        " Costa Rica's Base Camp",
+        " Camp",
+        " Costa Rica's Camp",
+        " Base",
+        " Costa Rica"
+      ]
+    },
+    {
+      "tag": "Croatia's Base Camp",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "Base of Croatia",
+        " Croatia's Base Camp",
+        " Base",
+        " Base Camp of Croatia",
+        " What were Croatia's hotel and training site for the World Cup?",
+        " Croatia's Base",
+        " Croatia's Camp",
+        " Croatia",
+        " Camp",
+        " Camp of Croatia"
+      ]
+    },
+    {
+      "tag": "Denmark's Base Camp",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Denmark",
+        " Danish",
+        " Denmark's Camp",
+        " Base of Denmark",
+        " Camp of Denmark",
+        " Denmark's Base",
+        " Base Camp of Denmark",
+        " What were Denmark's hotel and training site for the World Cup?",
+        " Camp",
+        " Base",
+        " Denmark's Base Camp"
+      ]
+    },
+    {
+      "tag": "Ecuador's Base Camp",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Ecuador's Base Camp",
+        " Camp of Ecuador",
+        " Base of Ecuador",
+        " Base Camp of Ecuador",
+        " Ecuadorian",
+        " Ecuador's Base",
+        " Ecuador's Camp",
+        " Camp",
+        " Base",
+        " What were Ecuador's hotel and training site for the World Cup?",
+        " Ecuador"
+      ]
+    },
+    {
+      "tag": "Qualification Process",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "Qualification Process",
+        " How did FIFA's continental confederations organize qualification",
+        " How did FIFA's continental confederations organize qualification for the 2022 World Cup?",
+        " How did continental confederations organize qualification",
+        " Organize qualification",
+        " Continental confederations",
+        " Qualification"
+      ]
+    },
+    {
+      "tag": "Qatar's Qualification",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "Automatically qualified",
+        " Qatar's Qualification",
+        " Qatar",
+        " Automatic qualification",
+        " Host Qualification",
+        " Qualification",
+        " How did Qatar qualify for the 2022 World Cup?"
+      ]
+    },
+    {
+      "tag": "Qatar's Impact on Asian Qualification",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Asian Qualification",
+        " Qatar",
+        " How did Qatar's participation in the Asian qualifiers affect other teams?",
+        " Qatar's Impact on Asian Qualification"
+      ]
+    },
+    {
+      "tag": "France's Qualification",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "France's Qualification",
+        " Automatically qualified",
+        " France",
+        " Automatic qualification",
+        " Qualification",
+        " How did France qualify",
+        " How did France qualify for the 2022 World Cup?"
+      ]
+    },
+    {
+      "tag": "Withdrawals Due to COVID-19",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "travel restrictions",
+        " Which teams withdrew from their continental qualifications due to COVID-19?",
+        " withdrawal",
+        " withdrew",
+        " coronavirus",
+        " Vanuatu",
+        " Samoa withdrew",
+        " Which teams withdrew from their continental qualifications",
+        " COVID-19",
+        " Covid",
+        " North Korea",
+        " Pull out",
+        " American Samoa",
+        " Cook Islands"
+      ]
+    },
+    {
+      "tag": "Tonga's Withdrawal",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "Withdrawal",
+        " tsunami",
+        " Tonga pull out",
+        " withdrew",
+        " Tonga's Withdrawal",
+        " Tonga",
+        " volcanic eruption",
+        " Why did Tonga withdraw from World Cup qualification?",
+        " pull out"
+      ]
+    },
+    {
+      "tag": "Teams Returning to the World Cup",
+      "patterns": [
+        "12"
+      ],
+      "responses": [
+        "missed the 2018",
+        " teams",
+        " missing 2018 tournament",
+        " Teams Returning",
+        " returning",
+        " missing the 2018 tournament",
+        " Returned",
+        " missed 2018 tournament",
+        " Teams Returned",
+        " missed the 2018 tournament",
+        " Which teams returned to the 2022 World Cup after missing the 2018 tournament?",
+        " missing the 2018"
+      ]
+    },
+    {
+      "tag": "Canada's Return",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Canada's Return",
+        " Return",
+        " When was Canada's last World Cup appearance before 2022?",
+        " Canada"
+      ]
+    },
+    {
+      "tag": "Wales' Participation",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "What was notable about Wales",
+        " Wales",
+        " the longest-ever gap",
+        " Participation",
+        " What was notable about Wales' participation in the 2022 World Cup?",
+        " the longest gap",
+        " Wales' Participation"
+      ]
+    },
+    {
+      "tag": "Italy's Failure to Qualify",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "Failure",
+        " Italy's Failure",
+        " Italy's Failure to Qualify",
+        " failed to qualify",
+        " Italy",
+        " Qualify",
+        " four-time winners",
+        " Failure to Qualify",
+        " second successive",
+        " What was significant about Italy's failure to qualify for the 2022 World Cup?"
+      ]
+    },
+    {
+      "tag": "Russia's Disqualification",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "Russia disqualified",
+        " Russia",
+        " Why was Russia disqualified",
+        " disqualified",
+        " Russian",
+        " disqualification",
+        " Why was Russia disqualified from the 2022 World Cup?"
+      ]
+    },
+    {
+      "tag": "Chile's and Nigeria's Non-Qualification",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "Non-Qualification",
+        " What was notable about Chile and Nigeria not qualifying?",
+        " What was notable about Chile and Nigeria not qualifying for the 2022 World Cup?",
+        " Chile's and Nigeria's Non-Qualification",
+        " Nigerian",
+        " Chilean",
+        " not qualifying",
+        " Nigeria",
+        " Chile"
+      ]
+    },
+    {
+      "tag": "Lowest Ranked Qualifier",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Lowest Ranked Qualifier",
+        " Which was the lowest ranked team to qualify for the 2022 World Cup?",
+        " Lowest Ranked",
+        " Ghana",
+        " Lowest Rank"
+      ]
+    },
+    {
+      "tag": "Qualified Teams by Region",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "Qualified Teams by Region",
+        " UEFA",
+        " AFC",
+        " CAF",
+        " CONMEBOL",
+        " Which teams qualified for the 2022 World Cup, listed by region?",
+        " CONCACAF",
+        " Teams by Region"
+      ]
+    },
+    {
+      "tag": "Provisional Squad Size",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "team size",
+        " Before the World Cup",
+        " Provisional",
+        " Provisional Squad Size",
+        " Squad Size",
+        " What was the maximum size of the provisional squad teams could name before the World Cup?"
+      ]
+    },
+    {
+      "tag": "Final Squad Deadline",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Final Squad Deadline",
+        " Final Squad",
+        " 13 November",
+        " By when were teams required to name their final squads?",
+        " Deadline"
+      ]
+    },
+    {
+      "tag": "Final Squad Size Increase",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "26 players",
+        " What was the increase in final squad size for the 2022 World Cup compared to 2018?",
+        " 23 players",
+        " Final Squad Size Increase"
+      ]
+    },
+    {
+      "tag": "Teams with Fewer Players",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "25 players",
+        " fewer than 26 players",
+        " 26 players less",
+        " Which teams chose fewer than 26 players for their final squads?",
+        " Teams with Fewer Players",
+        " less than 26 players"
+      ]
+    },
+    {
+      "tag": "Final Draw Location",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "Doha Exhibition",
+        " Final Draw Date",
+        " Where was the final draw?",
+        " Date",
+        " Location",
+        " when",
+        " final draw",
+        " Where was the final draw for the 2022 World Cup held?",
+        " final tournament draw"
+      ]
+    },
+    {
+      "tag": "Unknown Teams at Time of Draw",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Unknown Teams at date of Draw",
+        " Which teams were not known at the time of the final draw?",
+        " Which teams were not known at the date of the final draw?",
+        " Unknown Teams"
+      ]
+    },
+    {
+      "tag": "Draw Hosts and Assistants",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "Samantha Johnson",
+        " Draw Assistants",
+        " Lothar Matthaus",
+        " Who hosted and assisted with the final draw?",
+        " Cafu",
+        " final draw",
+        " Carli Lloyd",
+        " Who hosted and assisted with the final draw for the 2022 World Cup?",
+        " Draw Hosts",
+        " Jermaine Jenas"
+      ]
+    },
+    {
+      "tag": "Draw Pots Basis",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "four pots",
+        " Draw Pots",
+        " On what basis were teams allocated into pots for the draw?",
+        " Draw Pots Basis"
+      ]
+    },
+    {
+      "tag": "Pot 1 Composition",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "1_Pot",
+        " Pot 1 Composition",
+        " Pot_1",
+        " first_Pot",
+        " Composition",
+        " Which teams were in Pot 1 for the draw?"
+      ]
+    },
+    {
+      "tag": "Draw Constraints",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "not be drawn into the same group",
+        " Draw Constraints",
+        " What were the constraints in drawing teams from the same confederation?",
+        " Constraints"
+      ]
+    },
+    {
+      "tag": "Netherlands Performance",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Netherlands's Final Standing",
+        " Netherlands Performance",
+        " How did the Netherlands perform in the group stage?",
+        " Outcome",
+        " final standing",
+        " their group",
+        " Netherlands team",
+        " Netherlands",
+        " Dutch team",
+        " Performance",
+        " group_stage",
+        " Netherlands national football team",
+        " Dutch",
+        " The Netherlands national football team"
+      ]
+    },
+    {
+      "tag": "Senegal's Final Standing",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Senegal national football team",
+        " Outcome",
+        " Senegalese",
+        " their group",
+        " final standing",
+        " Senegal Performance",
+        " What was Senegal's final standing in the group stage?",
+        " Senegal team",
+        " Senegal",
+        " Performance",
+        " group_stage",
+        " Senegal's Final Standing",
+        " The Senegal national football team"
+      ]
+    },
+    {
+      "tag": "Ecuador's Group Stage Outcome",
+      "patterns": [
+        "15"
+      ],
+      "responses": [
+        "Outcome",
+        " final standing",
+        " The Ecuador national football team",
+        " How did Ecuador fare in the group stage?",
+        " their group",
+        " Ecuadorian",
+        " Performance",
+        " Ecuador Performance",
+        " Ecuador Final Standing",
+        " group_stage",
+        " Ecuador's Final Standing",
+        " Ecuador team",
+        " What was Ecuador's final standing in the group stage?",
+        " Ecuador national football team",
+        " Ecuador"
+      ]
+    },
+    {
+      "tag": "Qatar's Performance",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Qatar's Final Standing",
+        " The Qatar national football team",
+        " Outcome",
+        " final standing",
+        " their group",
+        " Qatar national football team",
+        " Qatar Final Standing",
+        " Qatar",
+        " How did Qatar perform in the 2022 World Cup group stage?",
+        " Performance",
+        " group_stage",
+        " Qatar team",
+        " What was Qatar's final standing in the group stage?",
+        " Qatar Performance"
+      ]
+    },
+    {
+      "tag": "England's Group Performance",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "How did England perform in their group stage?",
+        " England",
+        " Outcome",
+        " final standing",
+        " English",
+        " English team",
+        " their group",
+        " England's Final Standing",
+        " What was England's final standing in the group stage?",
+        " group_stage",
+        " Performance",
+        " The England national football team",
+        " England national football team",
+        " England Performance"
+      ]
+    },
+    {
+      "tag": "USA's Final Group Position",
+      "patterns": [
+        "17"
+      ],
+      "responses": [
+        "USA national football team",
+        " What was United States's final standing in the group stage?",
+        " USA",
+        " The USA national football team",
+        " the USA",
+        " Outcome",
+        " their group",
+        " final standing",
+        " How did United States perform in the 2022 World Cup group stage?",
+        " United States Final Standing",
+        " USA team",
+        " Performance",
+        " group_stage",
+        " United States's Final Standing",
+        " United States Performance",
+        " What was the United States' final position in the group stage?",
+        " United States"
+      ]
+    },
+    {
+      "tag": "Iran's Outcome in Group Stage",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        "What was Iran's final standing in the group stage?",
+        " Iran",
+        " Iran Final Standing",
+        " Outcome",
+        " final standing",
+        " their group",
+        " Iran national football team",
+        " Iran's Final Standing",
+        " Performance",
+        " group_stage",
+        " The Iran national football team",
+        " Iranian team",
+        " How did Iran perform in the group stage?",
+        " Iran Performance",
+        " Iranian",
+        " How did Iran perform in the 2022 World Cup group stage?"
+      ]
+    },
+    {
+      "tag": "Wales' Performance",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        "Wales national football team",
+        " How did Wales fare in their World Cup group?",
+        " How did Wales perform in the 2022 World Cup group stage?",
+        " Outcome",
+        " final standing",
+        " their group",
+        " Welsh",
+        " Wales Final Standing",
+        " Wales's Final Standing",
+        " Wales",
+        " Performance",
+        " group_stage",
+        " What was Wales's final standing in the group stage?",
+        " Wales Performance",
+        " The Wales national football team",
+        " Welsh team"
+      ]
+    },
+    {
+      "tag": "Argentina's Group Stage Results",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        "The Argentina national football team",
+        " Argentinian team",
+        " Argentinian",
+        " Outcome",
+        " final standing",
+        " their group",
+        " How did Argentina perform in the 2022 World Cup group stage?",
+        " What were Argentina's results in the group stage?",
+        " What was Argentina's final standing in the group stage?",
+        " Performance",
+        " group_stage",
+        " Argentina",
+        " Argentina Performance",
+        " Argentina's Final Standing",
+        " Argentina Final Standing",
+        " Argentina national football team"
+      ]
+    },
+    {
+      "tag": "Poland's Group Stage Performance",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        "Poland's Final Standing",
+        " Poland",
+        " Polish team",
+        " How did Poland perform in the 2022 World Cup group stage?",
+        " Outcome",
+        " final standing",
+        " How did Poland perform in the group stage?",
+        " their group",
+        " The Poland national football team",
+        " Poland Performance",
+        " Performance",
+        " group_stage",
+        " Poland Final Standing",
+        " Poland national football team",
+        " Polish",
+        " What was Poland's final standing in the group stage?"
+      ]
+    },
+    {
+      "tag": "Mexico's Final Standing",
+      "patterns": [
+        "15"
+      ],
+      "responses": [
+        "Mexico Performance",
+        " Mexican team",
+        " Outcome",
+        " their group",
+        " How did Mexico perform in the 2022 World Cup group stage?",
+        " Mexico Final Standing",
+        " What was Mexico's final standing in the group stage?",
+        " Mexico's Final Standing",
+        " The Mexico national football team",
+        " final standing",
+        " Mexico",
+        " Performance",
+        " group_stage",
+        " Mexican",
+        " Mexico national football team"
+      ]
+    },
+    {
+      "tag": "Saudi Arabia's Performance",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        "How did Saudi Arabia perform in their group?",
+        " Saudi Arabian team",
+        " How did Saudi Arabia perform in the 2022 World Cup group stage?",
+        " What was Saudi Arabia's final standing in the group stage?",
+        " Saudi Arabia Performance",
+        " Outcome",
+        " final standing",
+        " their group",
+        " Saudi Arabia's Final Standing",
+        " Saudi Arabia national football team",
+        " Saudi Arabian",
+        " Performance",
+        " group_stage",
+        " Saudi Arabia",
+        " Saudi Arabia Final Standing",
+        " The Saudi Arabia national football team"
+      ]
+    },
+    {
+      "tag": "Qatar vs Ecuador",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Ecuador and Qatar",
+        " What was the result and goal scorers in the Qatar vs Ecuador match?",
+        " Qatar and Ecuador",
+        " Ecuador won 2-0 against Qatar",
+        " Qatar vs Ecuador",
+        " Ecuador won against Qatar",
+        " Ecuador against Qatar",
+        " Qatar",
+        " Ecuador vs Qatar",
+        " Qatar against Ecuador",
+        " Ecuador"
+      ]
+    },
+    {
+      "tag": "Senegal vs Netherlands",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Netherlands and Senegal",
+        " Netherlands won against Senegal",
+        " Senegal vs Netherlands",
+        " Senegal",
+        " Netherlands won 2-0 against Senegal",
+        " Ecuador",
+        " Netherlands vs Senegal",
+        " Netherlands against Senegal",
+        " Senegal and Netherlands",
+        " What was the result and goal scorers in the Senegal vs Netherlands match?",
+        " Senegal against Netherlands"
+      ]
+    },
+    {
+      "tag": "Qatar vs Senegal",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Senegal against Qatar",
+        " Senegal won against Qatar",
+        " Senegal and Qatar",
+        " Senegal vs Qatar",
+        " Qatar and Senegal",
+        " Qatar",
+        " Senegal won 3-1 against Qatar",
+        " Qatar against Senegal",
+        " Senegal",
+        " Qatar vs Senegal",
+        " What was the result and goal scorers in the Qatar vs Senegal match?"
+      ]
+    },
+    {
+      "tag": "Netherlands vs Ecuador",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "Ecuador vs Netherlands",
+        " Ecuador against Netherlands",
+        " Netherlands vs Ecuador",
+        " Netherlands",
+        " What was the result and goal scorers in the Netherlands vs Ecuador match?",
+        " Netherlands and Ecuador",
+        " Ecuador and Netherlands",
+        " Netherlands against Ecuador",
+        " Ecuador"
+      ]
+    },
+    {
+      "tag": "Ecuador vs Senegal",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "Ecuador vs Senegal",
+        " Senegal against Ecuador",
+        " Senegal vs Ecuador",
+        " What was the result and goal scorers in the Ecuador vs Senegal match?",
+        " Senegal",
+        " Ecuador against Senegal",
+        " Ecuador and Senegal",
+        " Senegal and Ecuador",
+        " Ecuador"
+      ]
+    },
+    {
+      "tag": "Netherlands vs Qatar",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Qatar vs Netherlands",
+        " Netherlands vs Qatar",
+        " Qatar against Netherlands",
+        " Netherlands and Qatar",
+        " Qatar and Netherlands",
+        " Netherlands",
+        " Netherlands won 2-0 against Qatar",
+        " Netherlands won against Qatar",
+        " Qatar",
+        " Netherlands against Qatar",
+        " What was the result and goal scorers in the Netherlands vs Qatar match?"
+      ]
+    },
+    {
+      "tag": "England vs Iran",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Iran and England",
+        " England",
+        " England against Iran",
+        " Iran",
+        " England won 6-2 against Iran",
+        " England vs Iran",
+        " England and Iran",
+        " England won against Iran",
+        " What was the result and goal scorers in the England vs Iran match?",
+        " Iran against England",
+        " Iran vs England"
+      ]
+    },
+    {
+      "tag": "United States vs Wales",
+      "patterns": [
+        "12"
+      ],
+      "responses": [
+        "United States vs Wales",
+        " USA",
+        " Wales against United States",
+        " What was the result and goal scorers in the United States vs Wales match?",
+        " United States against Wales",
+        " Wales",
+        " United States and Wales ended in a draw",
+        " Wales and United States",
+        " United States and Wales",
+        " the USA",
+        " United States",
+        " Wales vs United States"
+      ]
+    },
+    {
+      "tag": "Wales vs Iran",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Iran and Wales",
+        " Wales and Iran",
+        " Wales against Iran",
+        " Iran",
+        " What was the result and goal scorers in the Wales vs Iran match?",
+        " Iran vs Wales",
+        " Iran won 2-0 against Wales",
+        " Wales",
+        " Wales vs Iran",
+        " Iran won against Wales",
+        " Iran against Wales"
+      ]
+    },
+    {
+      "tag": "England vs United States",
+      "patterns": [
+        "12"
+      ],
+      "responses": [
+        "England",
+        " USA",
+        " the USA",
+        " United States",
+        " What was the result of the England vs United States match?",
+        " England against United States",
+        " United States against England",
+        " England vs United States",
+        " United States vs England",
+        " England and United States",
+        " United States and England",
+        " England and United States ended in a draw"
+      ]
+    },
+    {
+      "tag": "Wales vs England",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "England vs Wales",
+        " England",
+        " England against Wales",
+        " England won 3-0 against Wales",
+        " What was the result and goal scorers in the Wales vs England match?",
+        " England and Wales",
+        " Wales",
+        " Wales vs England",
+        " England won against Wales",
+        " Wales against England",
+        " Wales and England"
+      ]
+    },
+    {
+      "tag": "Iran vs United States",
+      "patterns": [
+        "15"
+      ],
+      "responses": [
+        "United States vs Iran",
+        " Iran",
+        " USA",
+        " Iran and United States",
+        " United States won against Iran",
+        " United States won 1-0 against Iran",
+        " United States and Iran",
+        " Iran vs USA",
+        " What was the result and goal scorers in the Iran vs United States match?",
+        " United States against Iran",
+        " Iran against United States",
+        " the USA",
+        " United States",
+        " Iran vs US",
+        " Iran vs United States"
+      ]
+    },
+    {
+      "tag": "Argentina vs Saudi Arabia",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Argentina against Saudi Arabia",
+        " Saudi Arabia won 2-1 against Argentina",
+        " Saudi Arabia and Argentina",
+        " Argentina vs Saudi Arabia",
+        " Saudi Arabia vs Argentina",
+        " What was the result and goal scorers in the Argentina vs Saudi Arabia match?",
+        " Argentina and Saudi Arabia",
+        " Argentina",
+        " Saudi Arabia against Argentina",
+        " Saudi Arabia won against Argentina",
+        " Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "Mexico vs Poland",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "Poland",
+        " Poland vs Mexico",
+        " Mexico vs Poland",
+        " Mexico and Poland",
+        " Mexico and Poland ended in a draw",
+        " Poland and Mexico",
+        " Mexico",
+        " Mexico against Poland",
+        " Poland against Mexico",
+        " What was the result of the Mexico vs Poland match?"
+      ]
+    },
+    {
+      "tag": "Poland vs Saudi Arabia",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Poland won against Saudi Arabia",
+        " Poland",
+        " What was the result and goal scorers in the Poland vs Saudi Arabia match?",
+        " Poland won 2-0 against Saudi Arabia",
+        " Saudi Arabia vs Poland",
+        " Poland and Saudi Arabia",
+        " Saudi Arabia against Poland",
+        " Saudi Arabia",
+        " Poland vs Saudi Arabia",
+        " Saudi Arabia and Poland",
+        " Poland against Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "Argentina vs Mexico",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "What was the result and goal scorers in the Argentina vs Mexico match?",
+        " Mexico vs Argentina",
+        " Argentina won 2-0 against Mexico",
+        " Argentina won against Mexico",
+        " Argentina and Mexico",
+        " Argentina against Mexico",
+        " Mexico and Argentina",
+        " Argentina vs Mexico",
+        " Mexico",
+        " Mexico against Argentina",
+        " Argentina"
+      ]
+    },
+    {
+      "tag": "Poland vs Argentina",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Poland",
+        " Argentina and Poland",
+        " Poland against Argentina",
+        " Argentina vs Poland",
+        " Argentina against Poland",
+        " Poland vs Argentina",
+        " Argentina won against Poland",
+        " Argentina",
+        " What was the result and goal scorers in the Poland vs Argentina match?",
+        " Argentina won 2-0 against Poland",
+        " Poland and Argentina"
+      ]
+    },
+    {
+      "tag": "Saudi Arabia vs Mexico",
+      "patterns": [
+        "11"
+      ],
+      "responses": [
+        "Saudi Arabia vs Mexico",
+        " Mexico won 2-1 against Saudi Arabia",
+        " What was the result and goal scorers in the Saudi Arabia vs Mexico match?",
+        " Mexico",
+        " Mexico vs Saudi Arabia",
+        " Saudi Arabia and Mexico",
+        " Mexico against Saudi Arabia",
+        " Mexico and Saudi Arabia",
+        " Mexico won against Saudi Arabia",
+        " Saudi Arabia against Mexico",
+        " Saudi Arabia"
+      ]
+    },
+    {
+      "tag": "Round of 16 - Netherlands vs USA",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Netherlands against United States",
+        " United States and Netherlands",
+        " Netherlands won against the United States",
+        " United States against Netherlands",
+        " Netherlands vs USA",
+        " Netherlands",
+        " Round of 16",
+        " Netherlands and United States",
+        " Netherlands vs United States",
+        " United States vs Netherlands",
+        " 16 team Round",
+        " United States",
+        " Netherlands won 3-1 against the United States",
+        " What was the result and who scored in the Netherlands vs United States match?"
+      ]
+    },
+    {
+      "tag": "Round of 16 - Argentina vs Australia",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "What was the result and who scored in the Argentina vs Australia match?",
+        " Australia vs Argentina",
+        " Argentina won 2-1 against Australia",
+        " Argentina against Australia",
+        " Australia and Argentina",
+        " Argentina vs Australia",
+        " Round of 16",
+        " Australia against Argentina",
+        " Argentina",
+        " Argentina won against Australia",
+        " 16 team Round",
+        " Australia",
+        " Argentina and Australia"
+      ]
+    },
+    {
+      "tag": "Round of 16 - France vs Poland",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "What was the result and who scored in the France vs Poland match?",
+        " France won against Poland",
+        " Poland",
+        " France vs Poland",
+        " France",
+        " France and Poland",
+        " France against Poland",
+        " Round of 16",
+        " Poland and France",
+        " 16 team Round",
+        " Poland against France",
+        " Poland vs France",
+        " France won 3-1 against Poland"
+      ]
+    },
+    {
+      "tag": "Round of 16 - England vs Senegal",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "England vs Senegal",
+        " Senegal and England",
+        " England against Senegal",
+        " Senegal vs England",
+        " England and Senegal",
+        " England won 3-0 against Senegal",
+        " Round of 16",
+        " Senegal against England",
+        " What was the result and who scored in the England vs Senegal match?",
+        " 16 team Round"
+      ]
+    },
+    {
+      "tag": "Round of 16 - Japan vs Croatia (Penalties)",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Croatia against Japan",
+        " Croatia won against Japan",
+        " Japan and Croatia",
+        " Croatia vs Japan",
+        " Croatia and Japan",
+        " Japan vs Croatia",
+        " Round of 16",
+        " Japan against Croatia",
+        " Japan",
+        " Croatia",
+        " In penalties, Croatia won 3-1 against Japan",
+        " 16 team Round",
+        " Croatia won 3-1 against Japan",
+        " What was the result and who scored in the Japan vs Croatia match?"
+      ]
+    },
+    {
+      "tag": "Round of 16 - Brazil vs South Korea",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Brazil and South Korea",
+        " South Korea against Brazil",
+        " South Korea",
+        " Brazil won 4-1 against South Korea",
+        " South Korea and Brazil",
+        " Brazil vs South Korea",
+        " Brazil",
+        " Round of 16",
+        " Brazil won against South Korea",
+        " Brazil against South Korea",
+        " What was the result and who scored in the Brazil vs South Korea match?",
+        " 16 team Round",
+        " South Korea vs Brazil"
+      ]
+    },
+    {
+      "tag": "Round of 16 - Morocco vs Spain (Penalties)",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Spain against Morocco",
+        " Morocco against Spain",
+        " In the penalties Morocco won 3-0 against Spain",
+        " Morocco won against Spain",
+        " Spain and Morocco",
+        " Round of 16",
+        " Morocco and Spain",
+        " Spain",
+        " Morocco won 3-0 against Spain",
+        " What was the result of the Morocco vs Spain match and the penalty shootout outcome?",
+        " Spain vs Morocco",
+        " 16 team Round",
+        " Morocco vs Spain",
+        " Morocco"
+      ]
+    },
+    {
+      "tag": "Round of 16 - Portugal vs Switzerland",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Portugal vs Switzerland",
+        " Portugal won against Switzerland",
+        " Switzerland against Portugal",
+        " Switzerland",
+        " Round of 16",
+        " What was the result and who scored in the Portugal vs Switzerland match?",
+        " Switzerland and Portugal",
+        " Portugal",
+        " 16 team Round",
+        " Portugal won 6-1 against Switzerland",
+        " Portugal against Switzerland",
+        " Switzerland vs Portugal",
+        " Portugal and Switzerland"
+      ]
+    },
+    {
+      "tag": "Quarter Finals - Croatia vs Brazil",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Brazil against Croatia",
+        " In penalties, Croatia won 4-2 against Brazil",
+        " Croatia won against Brazil",
+        " What was the result and who scored in the Croatia vs Brazil match, including penalties?",
+        " Croatia vs Brazil",
+        " Croatia against Brazil",
+        " Croatia won 4-2 against Brazil",
+        " Quarter Final",
+        " Brazil",
+        " Croatia",
+        " Quarter Finals",
+        " Croatia and Brazil",
+        " Brazil and Croatia",
+        " Brazil vs Croatia"
+      ]
+    },
+    {
+      "tag": "Quarter Finals - Netherlands vs Argentina",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Argentina vs Netherlands",
+        " Argentina won 4-3 against Netherlands",
+        " Argentina won against Netherlands",
+        " Netherlands and Argentina",
+        " Netherlands vs Argentina",
+        " Quarter Final",
+        " Netherlands against Argentina",
+        " Netherlands",
+        " Argentina against Netherlands",
+        " In penalties, Argentina won 4-3 against Netherlands",
+        " Argentina",
+        " Quarter Finals",
+        " What was the result and who scored in the Netherlands vs Argentina match, including penalties?",
+        " Argentina and Netherlands"
+      ]
+    },
+    {
+      "tag": "Quarter Finals - Morocco vs Portugal",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Morocco and Portugal",
+        " Portugal vs Morocco",
+        " Morocco won 1-0 against Portugal",
+        " Quarter Final",
+        " Morocco won against Portugal",
+        " Morocco against Portugal",
+        " Quarter Finals",
+        " Morocco vs Portugal",
+        " Portugal",
+        " Portugal and Morocco",
+        " Portugal against Morocco",
+        " Morocco",
+        " What was the result and who scored in the Morocco vs Portugal match?"
+      ]
+    },
+    {
+      "tag": "Quarter Finals - England vs France",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "England",
+        " France won 2-1 against England",
+        " France",
+        " England and France",
+        " Quarter Final",
+        " France vs England",
+        " England against France",
+        " France won against England",
+        " What was the result and who scored in the England vs France match?",
+        " England vs France",
+        " Quarter Finals",
+        " France and England",
+        " France against England"
+      ]
+    },
+    {
+      "tag": "Semi Finals - Argentina vs Croatia",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Croatia against Argentina",
+        " Argentina and Croatia",
+        " Argentina vs Croatia",
+        " Argentina won 3-0 against Croatia",
+        " Semi Finals",
+        " Croatia",
+        " Argentina",
+        " Argentina won against Croatia",
+        " Argentina against Croatia",
+        " Croatia vs Argentina",
+        " What was the result and who scored in the Argentina vs Croatia match?",
+        " Semi Final",
+        " Croatia and Argentina"
+      ]
+    },
+    {
+      "tag": "Semi Finals - France vs Morocco",
+      "patterns": [
+        "14"
+      ],
+      "responses": [
+        "Semi Final",
+        " France won 2-0 against Morocco",
+        " Morocco vs France",
+        " France vs Morocco",
+        " France",
+        " France won against Morocco",
+        " What was the result and who scored in the France vs Morocco match?",
+        " France and Morocco",
+        " Semi Finals",
+        " France against Morocco",
+        " Morocco against France",
+        " What was the result in the France vs Morocco match?",
+        " Morocco",
+        " Morocco and France"
+      ]
+    },
+    {
+      "tag": "Third Place Play-Off - Croatia vs Morocco",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Croatia against Morocco",
+        " Third Place",
+        " Morocco vs Croatia",
+        " Morocco against Croatia",
+        " Croatia and Morocco",
+        " 3 Place",
+        " Morocco and Croatia",
+        " Croatia",
+        " What was the result and who scored in the Croatia vs Morocco third place play-off match?",
+        " Croatia won 2-1 against Morocco",
+        " Croatia vs Morocco",
+        " Croatia won against Morocco",
+        " Morocco"
+      ]
+    },
+    {
+      "tag": "Final - Argentina vs France",
+      "patterns": [
+        "21"
+      ],
+      "responses": [
+        "Argentina vs France",
+        " last match",
+        " final match",
+        " What was the score in the final match of the 2022 FIFA World Cup?",
+        " the final",
+        " What was the result in final match",
+        " The final match",
+        " Argentina against France",
+        " France vs Argentina",
+        " Argentina won against France",
+        " France and Argentina",
+        " the final match",
+        " Final Score",
+        " final",
+        " In the penalty shootout, Argentina won 4-2 against France",
+        " Who did Argentina defeat in the final of the 2022 FIFA World Cup?",
+        " the last match",
+        " Argentina won 4-2 against France",
+        " What was the result and who scored in the Argentina vs France final match, including penalties?",
+        " France against Argentina",
+        " Argentina and France"
+      ]
+    },
+    {
+      "tag": "Total Goals and Average",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "How many total goals were scored",
+        " How many goals",
+        " Number of goals",
+        " How many total goals were scored in the 2022 World Cup, and what was the average per match?",
+        " Average goals per match",
+        " How many total goals",
+        " Was the 2022 World Cup the highest-scoring",
+        " Total Goals and Average"
+      ]
+    },
+    {
+      "tag": "Record Goals",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "highest-scoring World Cup",
+        " Was the 2022 World Cup the highest-scoring in terms of goals?"
+      ]
+    },
+    {
+      "tag": "Top Scorer",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "Kylian Mbappe player",
+        " Mpappe player",
+        " 8 goals",
+        " Kylian Mbappe",
+        " Who was the top goal scorer in the 2022 World Cup and how many goals did they score?",
+        " Who was the top goal scorer",
+        " eight goals",
+        " goals"
+      ]
+    },
+    {
+      "tag": "Second Highest Scorer",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "Who scored the second-highest number of goals in the 2022 World Cup?",
+        " 7 goals",
+        " second-highest number of goals",
+        " Second Highest Scorer",
+        " Who scored the second-highest number of goals",
+        " seven goals",
+        " Lionel Messi",
+        " goals"
+      ]
+    },
+    {
+      "tag": "4 Goal Scorers",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "Olivier Giroud",
+        " Julian Alvarez",
+        " Which players scored 4 goals",
+        " 4 goals",
+        " 4 Goal Scorers",
+        " scored 4 goals",
+        " Which players scored 4 goals in the 2022 World Cup?",
+        " four goals",
+        " scored four goals"
+      ]
+    },
+    {
+      "tag": "3 Goal Scorers",
+      "patterns": [
+        "13"
+      ],
+      "responses": [
+        "Alvaro Morata",
+        " Marcus Rashford",
+        " Cody Gakpo",
+        " Which players scored 3 goals in the 2022 World Cup?",
+        " Which players scored 3 goals",
+        " 3 goals",
+        " scored 3 goals",
+        " 3 Goal Scorers",
+        " Goncalo Ramos",
+        " Enner Valencia",
+        " Bukayo Saka",
+        " scored three goals",
+        " three goals"
+      ]
+    },
+    {
+      "tag": "Golden Ball Winner",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Golden Ball award",
+        " best player",
+        " Who won the Golden Ball award at the 2022 FIFA World Cup?",
+        " Golden Ball",
+        " Lionel Messi"
+      ]
+    },
+    {
+      "tag": "Silver and Bronze Ball Winners",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Bronze Ball",
+        " Luka Modric",
+        " Who won the Silver and Bronze Ball awards?",
+        " Silver Ball"
+      ]
+    },
+    {
+      "tag": "Golden Boot Winner",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Who won the Golden Boot award at the 2022 World Cup?",
+        " Golden Boot Winner",
+        " Golden Boot"
+      ]
+    },
+    {
+      "tag": "Silver and Bronze Boot Winners",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Silver Boot",
+        " Bronze Boot",
+        " Who were the Silver and Bronze Boot winners?"
+      ]
+    },
+    {
+      "tag": "Golden Glove Winner",
+      "patterns": [
+        "7"
+      ],
+      "responses": [
+        "the best goal-keeper",
+        " Golden Glove Winner",
+        " Golden Glove",
+        " best goal-keeper",
+        " best goal keeper",
+        " Emiliano Martinez",
+        " Who won the Golden Glove award in the tournament?"
+      ]
+    },
+    {
+      "tag": "FIFA Young Player Award",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Young Player Award",
+        " Young Player",
+        " Enzo Fernandez",
+        " Who received the FIFA Young Player Award?"
+      ]
+    },
+    {
+      "tag": "FIFA Fair Play Trophy",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Which team won the FIFA Fair Play Trophy?",
+        " England Fair Play",
+        " Fair Play Trophy"
+      ]
+    },
+    {
+      "tag": "Best Goal Award",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Richarlison",
+        " Best Goal Award",
+        " Best Goal",
+        " Which goal was voted as the best in the tournament by FIFA.com users?"
+      ]
+    },
+    {
+      "tag": "Official Match Ball",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "water-based glues",
+        " When was the official match ball Al Rihla unveiled and what does its name mean?",
+        " Design of Al Rihla",
+        " Official Match Ball",
+        " Electronic Sensors",
+        " Al Rihla",
+        " What technology is integrated into Al Rihla?",
+        " Al Rihla Design",
+        " What inspired the design of Al Rihla, and what is unique about its construction?"
+      ]
+    },
+    {
+      "tag": "Soundtrack Songs and Artists",
+      "patterns": [
+        "15"
+      ],
+      "responses": [
+        "Soundtrack Songs and Artists",
+        " Myriam Fares",
+        " Artists",
+        " AISHA Arhbo",
+        " official soundtrack",
+        " Songs",
+        " Hayya Hayya",
+        " The World Is Yours",
+        " What are some of the songs?",
+        " What are some of the songs and artists featured in the official World Cup soundtrack?",
+        " What is unique about the FIFA World Cup 2022 official soundtrack?",
+        " Soundtrack Songs",
+        " Trinidad Cardona",
+        " What are some of the songs and artists?",
+        " Hayya"
+      ]
+    },
+    {
+      "tag": "Teams Debut",
+      "patterns": [
+        "9"
+      ],
+      "responses": [
+        "Are there any news teams making their debut in the World Cup 2022?",
+        " debuting teams",
+        " Debut",
+        " team debut news",
+        " any teams debuting",
+        " Team debut",
+        " debuting",
+        " Teams Debut",
+        " news on team debut"
+      ]
+    },
+    {
+      "tag": "World Cup Date",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "importance of november-december date",
+        " What is the significance of hosting the World Cup in Qatar in November-December?",
+        " world cup 2022 date significance",
+        " why november-december",
+        " november-december significance",
+        " november to december",
+        " november and december",
+        " significance behind the date",
+        " world cup 2022 date importance",
+        " why november-december significant"
+      ]
+    },
+    {
+      "tag": "Qatar World Cup Host",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "how many times Qatar hosted",
+        " is this Qatar first time hosting",
+        " how many times Qatar hosted tournament",
+        " How many times has Qatar hosted the World Cup?"
+      ]
+    },
+    {
+      "tag": "Team Favourites",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "Which teams are considered favorites to win the World Cup 2022?",
+        " what were the favourite teams to win",
+        " teams favourite",
+        " team favourites to win",
+        " what teams were the favourites to win",
+        " team favourites"
+      ]
+    },
+    {
+      "tag": "Qualification Rounds Top Scorer",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "top scorer qualification rounds",
+        " who scored the most goals in qualification rounds",
+        " qualificaiton rounds who scored the most",
+        " Who is the top scorer in the qualification rounds for the World Cup 2022?",
+        " top scorer qualification",
+        " qualification rounds who scored the most"
+      ]
+    },
+    {
+      "tag": "Seating Capacity Stadium",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "largest stadium capacity",
+        " lusail stadium seating capacity",
+        " What is the seating capacity of Lusail Iconic Stadium, the venue for the World Cup 2022 final?",
+        " biggest stadium capacity",
+        " lusail stadium capacity"
+      ]
+    },
+    {
+      "tag": "Total Amount Of Matches",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "all matches",
+        " how many matches in total",
+        " matches in total",
+        " total amount of matches",
+        " How many matches will be played in total during the World Cup 2022?",
+        " full amount of matches"
+      ]
+    },
+    {
+      "tag": "COVID-19 Protocols",
+      "patterns": [
+        "12"
+      ],
+      "responses": [
+        "covid protocols",
+        " covid-19 protocols",
+        " covid protocols in place",
+        " covid-19",
+        " Were there any specific COVID-19 protocols in place for the World Cup 2022?",
+        " covid testing measures",
+        " covid safety protocols",
+        " covid",
+        " are there any covid safety guidelines",
+        " are there any covid safety protocols",
+        " covid guidelines",
+        " what were the covid-19 protocols"
+      ]
+    },
+    {
+      "tag": "World Cup 2022 Champion",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "world cup champion",
+        " which country was the champion",
+        " world cup 2022 champion",
+        " Who is the champion of FIFA World Cup 2022?",
+        " who was the champion"
+      ]
+    },
+    {
+      "tag": "World Cup 2022 Slogan",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "What is the slogan of FIFA World Cup 2022?",
+        " world cup 2022 slogan",
+        " slogan of the world cup",
+        " what was the slogan",
+        " slogan",
+        " now is all",
+        " now is all slogan",
+        " fifa slogan"
+      ]
+    },
+    {
+      "tag": "group a",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "group a result and score",
+        " group stage  result of ecuador",
+        " group a",
+        " group stage result of qatar",
+        " group results of senegal",
+        " standing a",
+        " group a ,standing postion of a table",
+        " group stage result of netherlands",
+        " table a",
+        "  a table "
+      ]
+    },
+    {
+      "tag": "host",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "which country organised world cup qatar",
+        " middle east",
+        " host the world cup",
+        " country hosted event world cup 2022",
+        " who held  world cup 2022",
+        " first time host"
+      ]
+    },
+    {
+      "tag": "stadium_names",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "total stadium ",
+        " stadium names",
+        " names of the stadium world cup 2022"
+      ]
+    },
+    {
+      "tag": "practicipation",
+      "patterns": [
+        "22"
+      ],
+      "responses": [
+        "number of the participating team qatar world cup",
+        " asian teams",
+        " total number of asia team,teams from africa,qualified from african continent",
+        " european teams",
+        " total number of south american team",
+        " african teams",
+        " total number of europe team",
+        " north american teams",
+        " total number of north american team",
+        " south american teams",
+        "  team qualified from asian continent",
+        " team qualified south american continent",
+        " teams from south America",
+        " amount of teams participated on world cup 2022",
+        " total team",
+        " teams from north america",
+        " total participation",
+        " total team challenging",
+        " qualified north american continent",
+        " participation number,teams from asia",
+        " teams from europe,team qualified european continent",
+        " total number of african team"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "8"
+      ],
+      "responses": [
+        "the result of the final",
+        " crown the champion",
+        " winner of the world cup 2022",
+        " who won the final",
+        " scoreline of final of world cup 2022",
+        " won the world cup ",
+        " who came first",
+        " winner of the final"
+      ]
+    },
+    {
+      "tag": "man_of_the _match",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "result of messi lionel",
+        " golden ball",
+        " golden ball winner",
+        " best player of tournament ,man of the match,who is the Player of tournament"
+      ]
+    },
+    {
+      "tag": "golden_boot",
+      "patterns": [
+        "6"
+      ],
+      "responses": [
+        "  boot winner",
+        " achieved top goal scorer of tournament",
+        " silver ball,silver ball winner",
+        " who won the golden boot",
+        " kylian mbappe",
+        "  highest goals scored"
+      ]
+    },
+    {
+      "tag": "bronze_ball",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "bronze ball,winner of bronze ball",
+        " who won the bronze ball"
+      ]
+    },
+    {
+      "tag": "quatar_final_teams",
+      "patterns": [
+        "20"
+      ],
+      "responses": [
+        "quatar final of croatia,quatar",
+        " quatar final results of argentina",
+        " who were goal scorer in quatar final",
+        " quatar final  results of brazil,knock out stage for brazil",
+        " quatar final goal scorers",
+        " quatar final result of england,knock out stage of england",
+        " quatar final results of france",
+        "  quatar final  result for netherlands",
+        " quatar final teams",
+        " quatar final result of world cup,quatar final",
+        " when was quatar final game played",
+        " quatar final result portugal,knockout results of protugal",
+        " date for quatar final",
+        " who palyed quatar final",
+        " knockout result for netherlands",
+        " quatars",
+        " quatar final result of coratia",
+        " quatar final result of qatar final ",
+        " quatar finals date",
+        " goals scored in quatar final"
+      ]
+    },
+    {
+      "tag": "semi_final_teams",
+      "patterns": [
+        "10"
+      ],
+      "responses": [
+        "semi final of morocco",
+        " semi final result of croatia",
+        " goal scored in semifinal",
+        " who scored the goals in semi final",
+        " semi final results of france",
+        " who played semis",
+        " semi final results of argentina",
+        " how many goal was scored in semi final",
+        " semi final date",
+        " semis"
+      ]
+    },
+    {
+      "tag": "final_2_runnerup",
+      "patterns": [
+        "16"
+      ],
+      "responses": [
+        " teams played play off",
+        " third-place playoff result\n world cup results of croatia",
+        " rank 4",
+        " bronze medal medalist",
+        " rank of croatia",
+        " rank third",
+        " second runner up",
+        " knock out result of morocco",
+        " rank 3",
+        " rank of morocco",
+        " rank fourth",
+        " third position and fourth position",
+        " knock out results of croatia",
+        " who became third",
+        " result of morocco",
+        " 2 nd runner up"
+      ]
+    },
+    {
+      "tag": "final_winner",
+      "patterns": [
+        "19"
+      ],
+      "responses": [
+        "who played final",
+        " silver medal medalist",
+        " finalist of world cup",
+        " who won the world cup",
+        " first runners up ",
+        " result of finalist",
+        " teams played final",
+        "  result for finalist ,result of france ",
+        " gold medal medalist",
+        " result for argentina",
+        " rank one",
+        " final game",
+        " second position",
+        " final winner",
+        " rank 2",
+        " rank two",
+        " first position",
+        " rank 1",
+        " champion of world"
+      ]
+    },
+    {
+      "tag": "mascot",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "When was the tournament's official mascot unveiled and what is its name?",
+        " the mascot",
+        " mascot",
+        " La'eeb"
+      ]
+    },
+    {
+      "tag": "world_cup_2022",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "How many stadiums were used for the 2022 World Cup?",
+        " Stadiums in 2022 World Cup",
+        " Venue count in 2022 World Cup",
+        " Number of stadiums in Qatar World Cup",
+        " How_many_stadiums"
+      ]
+    },
+    {
+      "tag": "young_player_award",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Which player won the Young Player Award in 2022?",
+        " 2022 World Cup Young Player Award winner",
+        " Best young player in Qatar World Cup",
+        " young_player_award"
+      ]
+    },
+    {
+      "tag": "oldest_player",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Who was the oldest player in the 2022 World Cup?",
+        " Oldest participant in Qatar World Cup",
+        " Age of the oldest player in 2022 World Cup",
+        " oldest_player"
+      ]
+    },
+    {
+      "tag": "most_assists",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Which player had the most assists in the tournament?",
+        " 2022 World Cup assist leader",
+        " Player with most assists in Qatar World Cup",
+        " most_assists"
+      ]
+    },
+    {
+      "tag": "highest_scoring_game",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "What was the highest scoring game of the 2022 World Cup?",
+        " Most goals in a match in Qatar World Cup",
+        " Top-scoring game in 2022 World Cup",
+        " highest_scoring_game"
+      ]
+    },
+    {
+      "tag": "first_goal",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Who scored the first goal of the 2022 World Cup?",
+        " Opening goal scorer in Qatar World Cup",
+        " First goal in 2022 World Cup",
+        " first_goal"
+      ]
+    },
+    {
+      "tag": "best_defense",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Which team had the best defense in the tournament?",
+        " 2022 World Cup best defensive team",
+        " Top defensive team in Qatar World Cup",
+        " best_defense"
+      ]
+    },
+    {
+      "tag": "red_cards",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "How many red cards were issued during the 2022 World Cup?",
+        " Red cards in Qatar World Cup",
+        " Total ejections in 2022 World Cup",
+        " red_cards"
+      ]
+    },
+    {
+      "tag": "biggest_surprise",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Which team was the biggest surprise of the 2022 World Cup?",
+        " 2022 World Cup surprise team",
+        " Unexpected success in Qatar World Cup",
+        " biggest_surprise"
+      ]
+    },
+    {
+      "tag": "hat_trick",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Did any player score a hat-trick in the 2022 World Cup?",
+        " Hat-trick in Qatar World Cup",
+        " 2022 World Cup hat-trick scorer",
+        " hat_trick"
+      ]
+    },
+    {
+      "tag": "total_goals",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "How many goals were scored in total during the tournament?",
+        " Total goals in Qatar World Cup",
+        " 2022 World Cup goal count"
+      ]
+    },
+    {
+      "tag": "winning_team_captain",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Who was the captain of the winning team?",
+        " Captain of 2022 World Cup champions",
+        " Winning team's captain in Qatar World Cup",
+        " winning_team",
+        " captain"
+      ]
+    },
+    {
+      "tag": "goalless_draws",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "Were there any goalless draws in the tournament?",
+        " 2022 World Cup goalless matches",
+        " No goals in Qatar World Cup",
+        " goalless_draws"
+      ]
+    },
+    {
+      "tag": "possession_record",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Which team had the most possession in a single game?",
+        " 2022 World Cup possession record",
+        " Highest possession team in Qatar World Cup"
+      ]
+    },
+    {
+      "tag": "matches_played",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "How many matches did the winning team play during the tournament?",
+        " Games played by champions in Qatar World Cup",
+        " Winning team's match count in 2022 World Cup",
+        " How many matches",
+        " the winning team"
+      ]
+    },
+    {
+      "tag": "final_match_referee",
+      "patterns": [
+        "5"
+      ],
+      "responses": [
+        "Which referee officiated the final match?",
+        " Referee in Qatar World Cup final",
+        " 2022 World Cup final match official",
+        " final_match",
+        " referee"
+      ]
+    },
+    {
+      "tag": "fastest_player",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Which player was the fastest on the field during the 2022 World Cup?",
+        " Fastest sprinter in Qatar World Cup",
+        " 2022 World Cup speed record"
+      ]
+    },
+    {
+      "tag": "yellow_cards",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "How many yellow cards were issued throughout the tournament?",
+        " Yellow cards in Qatar World Cup",
+        " 2022 World Cup caution count"
+      ]
+    },
+    {
+      "tag": "most_attended_match",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "What was the most attended match of the tournament?",
+        " Largest crowd in Qatar World Cup",
+        " 2022 World Cup highest attendance game"
+      ]
+    },
+    {
+      "tag": "female_referees",
+      "patterns": [
+        "2"
+      ],
+      "responses": [
+        "Female referees in Qatar World Cup",
+        " 2022 World Cup women referees"
+      ]
+    },
+    {
+      "tag": "average_attendance_per_match",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "What was the average attendance per match?",
+        " Average crowd size in Qatar World Cup",
+        " 2022 World Cup attendance statistics"
+      ]
+    },
+    {
+      "tag": "largest_fan_attendance",
+      "patterns": [
+        "3"
+      ],
+      "responses": [
+        "Which country had the largest number of fans attending?",
+        " Most supported nation in Qatar World Cup",
+        " Country with the highest fan presence in 2022 World Cup"
+      ]
+    },
+    {
+      "tag": "expense",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "what is the price of the ticket"
+      ]
+    },
+    {
+      "tag": "stream",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "how many people were watching final match online in 2022 quatar football leaque?"
+      ]
+    },
+    {
+      "tag": "score_of_final",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "who scored a hat-trick in final match between argentina and france?"
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "goals",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "which team players did most of the goals in matches?"
+      ]
+    },
+    {
+      "tag": "name ",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "which was the name of mascot  for the world cup 2022?"
+      ]
+    },
+    {
+      "tag": "penalties",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "how many penalties were get by final teams?"
+      ]
+    },
+    {
+      "tag": "cards",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "which team received the most yellow cards "
+      ]
+    },
+    {
+      "tag": "fights",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "which players did most fights in world qatar 2022?"
+      ]
+    },
+    {
+      "tag": "injuries",
+      "patterns": [
+        "1"
+      ],
+      "responses": [
+        "how many players were injured in matches?"
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "won the world cup ",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Argentina has won the world cup after a gap of?"
+      ]
+    }
+  ]
+}
