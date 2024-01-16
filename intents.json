@@ -3805,113 +3805,96 @@
     "Qatar had the largest number of fans attending the 2022 World Cup, creating a vibrant atmosphere in the stadiums."
   ]
 },
-    {
+        {
       "tag": "expense",
       "patterns": [
-        "1"
+        "what is the price of the ticket"
       ],
       "responses": [
-        "what is the price of the ticket"
+        "the price of ticket is between 90 pound to 195 pound "
       ]
     },
     {
       "tag": "stream",
       "patterns": [
-        "1"
+        "how many people were watching final match online in 2022 quatar football leaque?"
       ],
       "responses": [
-        "how many people were watching final match online in 2022 quatar football leaque?"
+        "according to the online survey 1.5 billion people were watching onilne final"
       ]
     },
     {
       "tag": "score_of_final",
       "patterns": [
-        "1"
-      ],
-      "responses": [
         "who scored a hat-trick in final match between argentina and france?"
-      ]
-    },
-    {
-      "tag": "",
-      "patterns": [
-        ""
       ],
       "responses": [
-        ""
+        "kylian mbappe "
       ]
     },
     {
       "tag": "goals",
       "patterns": [
-        "1"
+        "which team players did most of the goals in matches?"
       ],
       "responses": [
-        "which team players did most of the goals in matches?"
+        "most of the goals were done by kylian mbappe."
       ]
     },
     {
       "tag": "name ",
       "patterns": [
-        "1"
+        "which was the name of mascot  for the world cup 2022?"
       ],
       "responses": [
-        "which was the name of mascot  for the world cup 2022?"
+        "the name of the mascot was La'eeb"
       ]
     },
     {
       "tag": "penalties",
       "patterns": [
-        "1"
+        "how many penalties were get by final teams?"
       ],
       "responses": [
-        "how many penalties were get by final teams?"
+        "including penalty shootouts there have been a total of 23 penalties taken at the 2022 world cup in quatar but only 14 have been scored."
       ]
     },
     {
       "tag": "cards",
       "patterns": [
-        "1"
+        "which team received the most yellow cards "
       ],
       "responses": [
-        "which team received the most yellow cards "
+        "Argentina has the most yellow cards "
       ]
     },
     {
       "tag": "fights",
       "patterns": [
-        "1"
+        "which players did most fights in world qatar 2022?"
       ],
       "responses": [
-        "which players did most fights in world qatar 2022?"
+        "nikola milenkovic and michy batshuayia were did most of the fights in world cup 2022 qatar."
       ]
     },
     {
       "tag": "injuries",
       "patterns": [
-        "1"
-      ],
-      "responses": [
         "how many players were injured in matches?"
+      ],
+      "responses": [
+        "the 417 players involved in the world cup suffered 225 injuries between november 2022 ?"
       ]
     },
     {
-      "tag": "",
+      "tag": "won the world cup",
       "patterns": [
-        ""
-      ],
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "tag": "won the world cup ",
-      "patterns": [
-        ""
-      ],
-      "responses": [
         "Argentina has won the world cup after a gap of?"
+      ],
+      "responses": [
+        "36 years"
       ]
     }
+
   ]
 }
